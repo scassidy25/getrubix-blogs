@@ -1,0 +1,27 @@
+name: Convert RSS to Markdown
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 * * 0' # weekly every Sunday at 2am UTC
+
+jobs:
+  rss_to_md:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Convert RSS to Markdown
+        uses: keiranlovett/rss-feed-to-markdown@main
+        with:
+          feed_url: 'https://www.getrubix.com/blog?format=rss'
+          template_file: 'template.md'
+          output_dir: 'content/blog'
+
+      - name: Commit blog posts
+        run: |
+          git config --local user.name "github-actions"
+          git config --local user.email "actions@github.com"
+          git add content/blog
+          git commit -m "Update blog posts from RSS" || echo "No changes"
+          git push
