@@ -54,7 +54,7 @@ But by adding the **POST** call to create a group, the call looks something like
 
 Whoa, whoa… what is this _body_ part of the call doing here? That is the information you will add to create your own group. Think about how you make a group today. You login to [https://entra.microsoft.com](https://entra.microsoft.com/) and navigate to **Groups** > **All groups** > **New group** and then enter in all the details.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1cd40063-4336-4b26-9cfc-7d82655577e4/newGroup.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1cd40063-4336-4b26-9cfc-7d82655577e4/newGroup.png)
 
 Just because we’re doing this through the Graph doesn’t mean we can skip the details. We have to construct the body.
 
@@ -177,7 +177,7 @@ onPremisesSecurityIdentifier
 
 When I look in Entra, I can see my group is there as well.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/a178205e-4381-42b2-ac9e-9093c50f51aa/postBlog2.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/a178205e-4381-42b2-ac9e-9093c50f51aa/postBlog2.png)
 
 Next steps
 ----------

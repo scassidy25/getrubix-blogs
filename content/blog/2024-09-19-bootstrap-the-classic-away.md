@@ -47,7 +47,7 @@ Remove-Item -Path $bootstrapper -Force
 
 Now that we have our script, we can configure the .intunewin package as follows:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/dc419dd5-ce3a-4878-90ea-8e3ce1fd6209/Picture1.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/dc419dd5-ce3a-4878-90ea-8e3ce1fd6209/Picture1.png)
 
 **Install command:** %windir%\\sysnative\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy bypass -file .\\teamsClassic\_BootstrapperRemoval.ps1  
 **Uninstall command:** cmd /c del "C:\\ProgramData\\YourOrg\\teams\_classic\_removal.txt"

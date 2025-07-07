@@ -19,14 +19,14 @@ I'm not going to detail how to create and assign the policy for EPM here because
 
 For now, let's assume you have a policy applied to your Windows 11 device.  On a Windows 10 PC, users can simply right-click on an application, and you can see the "Run with elevated access" option.  This will appear in the context menu once the **Elevation settings policy** is applied from Intune.  When the user selects "Run with elevated access", depending on the policy, they will either see the appropriate prompt to run the app, be prompted that they cannot run the app as elevated, or automatically have the app launch in an elevated session.  That should be the end of it.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/68e86f74-70ae-402a-9d1f-895717618890/4.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/68e86f74-70ae-402a-9d1f-895717618890/4.png)
 
 **What actually happens?**
 --------------------------
 
 So here's the issue; check out what happens when a user right-clicks on the same app in Windows 11:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/25d0a876-f295-4595-aae0-a291e73eba21/2.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/25d0a876-f295-4595-aae0-a291e73eba21/2.png)
 
 We all know the Windows 11 context menu is different by default, but the problem is more than cosmetic. 
 
@@ -37,7 +37,7 @@ The traditional "Run as administrator" option will not work, as it is not used b
 
 The actual problem is that the "Run with elevated access" option will not show in the default Windows 11 context menu.  You need to select "Show more options", and then select what we need.  If you've been in the IT field for any length of time, you're probably thinking what I'm thinking: are users going to know to click "Show more options"?
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/8bfcdfbb-1cd3-4239-9051-5a7a10b91645/3.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/8bfcdfbb-1cd3-4239-9051-5a7a10b91645/3.png)
 
 We both know the answer is _no_.
 
@@ -59,20 +59,20 @@ With these pieces in place, you can now use Autopilot to deploy a new Windows 11
 
 [View fullsize
 
-![4.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1683551017483-P93NOHYG3SEVOGQDYV6S/4.png)
+![4.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1683551017483-P93NOHYG3SEVOGQDYV6S/4.png)
 
-![4.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1683551017483-P93NOHYG3SEVOGQDYV6S/4.png)](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1683551017483-P93NOHYG3SEVOGQDYV6S/4.png)
-
-[View fullsize
-
-![5.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1683550771976-HSDT8ZEVWJ4F99WA4NNK/5.png)
-
-![5.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1683550771976-HSDT8ZEVWJ4F99WA4NNK/5.png)](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1683550771976-HSDT8ZEVWJ4F99WA4NNK/5.png)
+![4.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1683551017483-P93NOHYG3SEVOGQDYV6S/4.png)](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1683551017483-P93NOHYG3SEVOGQDYV6S/4.png)
 
 [View fullsize
 
-![6.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1683550772932-WBFY2QKC775918EBQX3P/6.png)
+![5.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1683550771976-HSDT8ZEVWJ4F99WA4NNK/5.png)
 
-![6.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1683550772932-WBFY2QKC775918EBQX3P/6.png)](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1683550772932-WBFY2QKC775918EBQX3P/6.png)
+![5.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1683550771976-HSDT8ZEVWJ4F99WA4NNK/5.png)](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1683550771976-HSDT8ZEVWJ4F99WA4NNK/5.png)
+
+[View fullsize
+
+![6.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1683550772932-WBFY2QKC775918EBQX3P/6.png)
+
+![6.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1683550772932-WBFY2QKC775918EBQX3P/6.png)](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1683550772932-WBFY2QKC775918EBQX3P/6.png)
 
 #block-yui\_3\_17\_2\_1\_1683550230151\_22994 .sqs-gallery-block-grid .sqs-gallery-design-grid { margin-right: -6px; } #block-yui\_3\_17\_2\_1\_1683550230151\_22994 .sqs-gallery-block-grid .sqs-gallery-design-grid-slide .margin-wrapper { margin-right: 6px; margin-bottom: 6px; }

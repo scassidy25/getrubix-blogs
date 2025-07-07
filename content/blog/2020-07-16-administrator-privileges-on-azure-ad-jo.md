@@ -8,7 +8,7 @@ description: " There are several settings within Azure and Intune/MEM that will 
 
 There are several settings within Azure and Intune/MEM that will dictate when users have administrative privileges. One of the primary options is to configure a setting within Autopilot – when we create an Autopilot profile, we assign it to devices that are registered in the tenant. One of the options in the profile is the “User account type” setting, which we can set to Administrator or Standard:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1594862610809-1XWEN8RMN920AN4O8EBU/image-asset.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1594862610809-1XWEN8RMN920AN4O8EBU/image-asset.png)
 
 A lot of organizations have a simple setup when it comes to Autopilot: All devices that are registered will aggregate into a dynamic group, and that dynamic group will be assigned the Autopilot profile pictured above. Here are the rules of the dynamic group which we’ll simply call “Autopilot Devices”:
 
@@ -24,7 +24,7 @@ Let’s look at another scenario – the majority of users at an organization wi
 
 In our Autopilot device list, there is a property we can add to devices called the Group Tag. In the case of the Developer team, lets mark one of the machines with the group tag “dev”.
 
-![2020-07-15 21_33_11-Administrator Privileges AADJ 1.pdf - Adobe Acrobat Reader DC.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1594863208320-FSM5AZ1OUV0U7F47SCEB/2020-07-15+21_33_11-Administrator+Privileges+AADJ+1.pdf+-+Adobe+Acrobat+Reader+DC.png)
+![2020-07-15 21_33_11-Administrator Privileges AADJ 1.pdf - Adobe Acrobat Reader DC.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1594863208320-FSM5AZ1OUV0U7F47SCEB/2020-07-15+21_33_11-Administrator+Privileges+AADJ+1.pdf+-+Adobe+Acrobat+Reader+DC.png)
 
 Alongside our “Autopilot devices” dynamic group, we can create a second dynamic group that specifically gathers devices with the “dev” Group Tag. Here is the dynamic rule, which we’ll apply to a new group called Developer Team:
 
@@ -36,11 +36,11 @@ Now that we have our second device group, which we’ll call “MDM AutoPilot �
 
 But there’s one more step – the original profile is assigned to ALL Autopilot devices. Therefore, we need to exclude our “MDM AutoPilot – Dev” device group from the original Autopilot profile. Here is what both profiles will look like in the end:
 
-![First Autopilot profile – all devices included, but dev-tagged devices are excluded](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1594863320191-OPSX2YH6ZRXV60V787YZ/2020-07-15+21_35_03-Administrator+Privileges+AADJ+1.pdf+-+Adobe+Acrobat+Reader+DC.png)
+![First Autopilot profile – all devices included, but dev-tagged devices are excluded](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1594863320191-OPSX2YH6ZRXV60V787YZ/2020-07-15+21_35_03-Administrator+Privileges+AADJ+1.pdf+-+Adobe+Acrobat+Reader+DC.png)
 
 First Autopilot profile – all devices included, but dev-tagged devices are excluded
 
-![Second Autopilot profile – only dev-tagged devices are included](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1594863417683-VE31NFZ097DALRHQ8L31/2020-07-15+21_36_28-Administrator+Privileges+AADJ+1.pdf+-+Adobe+Acrobat+Reader+DC.png)
+![Second Autopilot profile – only dev-tagged devices are included](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1594863417683-VE31NFZ097DALRHQ8L31/2020-07-15+21_36_28-Administrator+Privileges+AADJ+1.pdf+-+Adobe+Acrobat+Reader+DC.png)
 
 Second Autopilot profile – only dev-tagged devices are included
 
@@ -51,7 +51,7 @@ The above solution will work to separate Administrators and Standard users at th
 
 Navigate to portal.azure.com -> Azure Active Directory -> Devices – Device Settings. Modify the “Additional local administrators on Azure AD joined devices” setting and add the appropriate users.
 
-![2020-07-15 21_38_17-Administrator Privileges AADJ 1.pdf - Adobe Acrobat Reader DC.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1594863521138-QPFTNR37JABCHDUZY30Y/2020-07-15+21_38_17-Administrator+Privileges+AADJ+1.pdf+-+Adobe+Acrobat+Reader+DC.png)
+![2020-07-15 21_38_17-Administrator Privileges AADJ 1.pdf - Adobe Acrobat Reader DC.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1594863521138-QPFTNR37JABCHDUZY30Y/2020-07-15+21_38_17-Administrator+Privileges+AADJ+1.pdf+-+Adobe+Acrobat+Reader+DC.png)
 
 This is a global setting that will add the specified users to the Administrators group on ALL Azure AD joined machines. These users will also be Administrators on their own machines even if the Autopilot profile is set to Standard user account type. One other exception to note – all Azure Global Admins will be administrators on their machines as well, despite the Autopilot profile settings.
 
@@ -66,7 +66,7 @@ Instead of relying on the group tags, we can create a custom policy that will en
 
 Let’s take a look at how to build the custom policy. Here is the OMA-URI and the string value, which is copied from an xml document, that will need to be configured:
 
-![2020-07-15 21_40_57-Administrator Privileges AADJ 1.pdf - Adobe Acrobat Reader DC.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1594863685148-XDLKFI7FFIKK63TXSXK1/2020-07-15+21_40_57-Administrator+Privileges+AADJ+1.pdf+-+Adobe+Acrobat+Reader+DC.png)
+![2020-07-15 21_40_57-Administrator Privileges AADJ 1.pdf - Adobe Acrobat Reader DC.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1594863685148-XDLKFI7FFIKK63TXSXK1/2020-07-15+21_40_57-Administrator+Privileges+AADJ+1.pdf+-+Adobe+Acrobat+Reader+DC.png)
 
 The example above contains the full usernames – you can alternatively use the SIDs of the users within the quotation marks. While I did not include it this example, every Azure AD joined machine by default contains the Administrator account and two additional SIDs that represent the Azure Global Administrator and the Device Administrators (aka the users specified in the Azure device settings). You should include the Administrator and the two SIDs in this policy.
 

@@ -21,7 +21,7 @@ For this example, we will wrap Adobe Acrobat DC which consists of 8 files requir
 -   Unzip and place the **Intune-Win32-App-Packaging-Tool-master** folder in a directory that’s easily accessible like C:\\
     
 
-![screen-shot-2019-08-03-at-6.30.42-pm.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581034701081-NC7JXDWJI9PCH9LQDN24/screen-shot-2019-08-03-at-6.30.42-pm.png)
+![screen-shot-2019-08-03-at-6.30.42-pm.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581034701081-NC7JXDWJI9PCH9LQDN24/screen-shot-2019-08-03-at-6.30.42-pm.png)
 
 -   Open the CMD tool as **Administrator.**
     
@@ -34,12 +34,12 @@ For this example, we will wrap Adobe Acrobat DC which consists of 8 files requir
 -   Output folder (**C:\\Adobe**) **NOTE**: This example places the out file in the same folder as the installation directory, but you can choose a different location
     
 
-![screen-shot-2019-08-03-at-6.32.43-pm.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581034764746-6QLQI94STFDM64UAGRI6/screen-shot-2019-08-03-at-6.32.43-pm.png)
+![screen-shot-2019-08-03-at-6.32.43-pm.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581034764746-6QLQI94STFDM64UAGRI6/screen-shot-2019-08-03-at-6.32.43-pm.png)
 
 -   After the process completes, you will have an .Intunewin file in your output directory
     
 
-![screen-shot-2019-08-03-at-6.32.54-pm.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581034806256-CI79J10YT9NK7SCBQLK7/screen-shot-2019-08-03-at-6.32.54-pm.png)
+![screen-shot-2019-08-03-at-6.32.54-pm.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581034806256-CI79J10YT9NK7SCBQLK7/screen-shot-2019-08-03-at-6.32.54-pm.png)
 
 Now that we have our **AcroRead.msi** package, we can upload the installer to Intune for deployment.
 
@@ -48,7 +48,7 @@ Now that we have our **AcroRead.msi** package, we can upload the installer to 
 -   From the Add type dropdown, select **Windows app (Win32)**
     
 
-![screen-shot-2019-08-03-at-6.37.20-pm.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581034838882-K36SAJLJL7LPEBJD8IOU/screen-shot-2019-08-03-at-6.37.20-pm.png)
+![screen-shot-2019-08-03-at-6.37.20-pm.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581034838882-K36SAJLJL7LPEBJD8IOU/screen-shot-2019-08-03-at-6.37.20-pm.png)
 
 -   For App package file, browse to the location of the **AcroRead.Intunewin** file we created in the previous section.
     
@@ -57,14 +57,14 @@ Now that we have our **AcroRead.msi** package, we can upload the installer to 
 -   At the Program menu, enter the Install commands and Uninstall commands for the application.
     
 
-![screen-shot-2019-08-03-at-6.38.11-pm.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581034896839-K8PO6TAPUFEOSF8FUBWT/screen-shot-2019-08-03-at-6.38.11-pm.png)
+![screen-shot-2019-08-03-at-6.38.11-pm.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581034896839-K8PO6TAPUFEOSF8FUBWT/screen-shot-2019-08-03-at-6.38.11-pm.png)
 
 -   For requirements, fill out as desired. Note that the **Operating system architecture** and **Minimum operating system** are required fields
     
 -   In Detection rules, you can either manually add a rule or use a custom script. When manually adding a rule, you can choose from MSI, File or Folder, or Registry item
     
 
-![screen-shot-2019-08-03-at-6.38.42-pm.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581034994224-2BY0MUVMG3PL0HH6YWLH/screen-shot-2019-08-03-at-6.38.42-pm.png)
+![screen-shot-2019-08-03-at-6.38.42-pm.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581034994224-2BY0MUVMG3PL0HH6YWLH/screen-shot-2019-08-03-at-6.38.42-pm.png)
 
 -   After saving the application settings, you can now proceed to assign the application to the desired groups
     

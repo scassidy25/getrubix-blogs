@@ -22,9 +22,9 @@ The Issue
 
  I built the M365 App Suite, Autopilot Branding, and several other packages in the usual fashion I normally do for customers. When it came time to enroll, ESP would always time out with the Office CSP showing as ‘Not processed’.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/526e5cb7-a0b1-44e2-8eab-039134e7d0da/Picture1.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/526e5cb7-a0b1-44e2-8eab-039134e7d0da/Picture1.png)
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/d4e0eac4-11e8-41b6-954b-a48797ded651/Picture2.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/d4e0eac4-11e8-41b6-954b-a48797ded651/Picture2.png)
 
 Interestingly, if I hit try again, the ESP would actually complete about 10 seconds later and then restart the device. That’s good I guess, but definitely not the experience I want for end-users.
 
@@ -38,9 +38,9 @@ The Cause
 
  I have always used the template version of DO without issues, and I presumed that doing the catalog format would behave exactly the same. However there is one specific policy that I noticed was different regarding the expected values:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/84753bcc-6056-48ee-88a3-e1782928c756/Picture3.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/84753bcc-6056-48ee-88a3-e1782928c756/Picture3.png)
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1ba9c619-4c75-4704-bede-499ba6153fdf/Picture4.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1ba9c619-4c75-4704-bede-499ba6153fdf/Picture4.png)
 
 You would think that the settings catalog version of a policy should utilize the same CSP in the background as the corresponding template, so perhaps the settings catalog is incorrectly labelled, or perhaps it attempts its own conversion? The settings catalog would always show “success”, so the overall outcome was strange.
 

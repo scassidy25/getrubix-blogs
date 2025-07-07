@@ -6,7 +6,7 @@ author: "stevew1015@gmail.com"
 description: " "
 ---
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/29c39dd9-ff43-4bce-984f-a9c971efe2c0/Discord-logo.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/29c39dd9-ff43-4bce-984f-a9c971efe2c0/Discord-logo.png)
 
 Update:
 
@@ -26,7 +26,7 @@ Next, we wanted to offer a place for all GetRubix followers to get in touch with
 
 [
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/f6cd81fc-bc4d-49b9-a5cf-a69845a0806d/LOGO-ORNG+Alt.jpeg)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/f6cd81fc-bc4d-49b9-a5cf-a69845a0806d/LOGO-ORNG+Alt.jpeg)
 
 
 

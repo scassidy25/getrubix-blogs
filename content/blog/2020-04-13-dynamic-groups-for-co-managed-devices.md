@@ -114,7 +114,7 @@ If it ain’t broke
 
 As you can see, this isn’t all just straight graph calls. For gathering the devices, we’re using the **Microsoft.Graph.Intune** module to make the **Get-IntuneManagedDevice** call with some filtering. While we can construct our own calls to do the same thing, there’s absolutely no need since they already exist in the module. So here is where we get those devices and store the returned objects in a variable.
 
-![2020-04-12 22_53_01-● comagGroupMaker.ps1 - Visual Studio Code.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1586746435877-5S9XKWETF2UKZ3SYP8WQ/2020-04-12+22_53_01-%E2%97%8F+comagGroupMaker.ps1+-+Visual+Studio+Code.png)
+![2020-04-12 22_53_01-● comagGroupMaker.ps1 - Visual Studio Code.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1586746435877-5S9XKWETF2UKZ3SYP8WQ/2020-04-12+22_53_01-%E2%97%8F+comagGroupMaker.ps1+-+Visual+Studio+Code.png)
 
 Name your own group
 -------------------
@@ -123,7 +123,7 @@ I didn’t think anyone would get a kick out of me coming up with funny names fo
 
 The call to make the group is pretty simple. It is a **POST** call using the JSON containing our custom values to fill in the group details. It’s important to note that after the group is created, we want to return it’s object ID from Azure. This will be crucial later when adding members to the group, so we’re storing that in the **$groupID** variable.
 
-![2020-04-12 22_56_36-● comagGroupMaker.ps1 - Visual Studio Code.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1586746693046-23CRVNOEGXZ3DKQC38AI/2020-04-12+22_56_36-%E2%97%8F+comagGroupMaker.ps1+-+Visual+Studio+Code.png)
+![2020-04-12 22_56_36-● comagGroupMaker.ps1 - Visual Studio Code.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1586746693046-23CRVNOEGXZ3DKQC38AI/2020-04-12+22_56_36-%E2%97%8F+comagGroupMaker.ps1+-+Visual+Studio+Code.png)
 
 Object related trickery
 -----------------------
@@ -140,11 +140,11 @@ Devices from this node have two IDs: the **Intune Device ID** and the **Azure AD
 
 Azure AD also provides two IDs: the **Device ID** and the **Object ID**. And the **Device ID** from Azure matches the **Azure AD Device ID** from Intune.
 
-![Starting with the Azure AD Device ID from Intune…](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1586747572698-ZT19AZZKGQFH31V0NO5Y/2020-04-12+23_02_36-CLIENT7+_+Hardware+-+Microsoft+Endpoint+Manager+admin+center.png)
+![Starting with the Azure AD Device ID from Intune…](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1586747572698-ZT19AZZKGQFH31V0NO5Y/2020-04-12+23_02_36-CLIENT7+_+Hardware+-+Microsoft+Endpoint+Manager+admin+center.png)
 
 Starting with the Azure AD Device ID from Intune…
 
-![…we can follow it straight to the Object ID we need in Azure AD](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1586747595164-HPY621ZVB17K3Y3VCF4W/2020-04-12+23_03_20-Device+-+Microsoft+Azure.png)
+![…we can follow it straight to the Object ID we need in Azure AD](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1586747595164-HPY621ZVB17K3Y3VCF4W/2020-04-12+23_03_20-Device+-+Microsoft+Azure.png)
 
 …we can follow it straight to the Object ID we need in Azure AD
 
@@ -153,7 +153,7 @@ Connect the dots (or device IDs)
 
 So there’s the correlation; we just need a way to match them up. The first step is to make sure when we get the comanaged devices, we’re capturing their **Azure AD Device IDs**. Actually, it’s the only attribute about them we really need. Here’s how we did that, going back a few steps:
 
-![2020-04-12 23_16_24-● comagGroupMaker.ps1 - Visual Studio Code.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1586747803569-06WLX9EHL0TSGSVQ4M5H/2020-04-12+23_16_24-%E2%97%8F+comagGroupMaker.ps1+-+Visual+Studio+Code.png)
+![2020-04-12 23_16_24-● comagGroupMaker.ps1 - Visual Studio Code.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1586747803569-06WLX9EHL0TSGSVQ4M5H/2020-04-12+23_16_24-%E2%97%8F+comagGroupMaker.ps1+-+Visual+Studio+Code.png)
 
 Now that we have the IDs we need from Intune, we need to find the matching ID in Azure AD and then grab the device’s **Object ID**. While we’re at it, we may as well just add that ID to the group as a member since that’s the point of this insanity. To accomplish that, we’ll use a **foreach** loop with the following logic:
 
@@ -166,7 +166,7 @@ Now that we have the IDs we need from Intune, we need to find the matching ID in
 -   Invoke the graph call to place this **Object ID** into our group.
     
 
-![2020-04-12 23_23_21-● comagGroupMaker.ps1 - Visual Studio Code.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1586748222127-9V6044B5HSX58IQ2PYJA/2020-04-12+23_23_21-%E2%97%8F+comagGroupMaker.ps1+-+Visual+Studio+Code.png)
+![2020-04-12 23_23_21-● comagGroupMaker.ps1 - Visual Studio Code.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1586748222127-9V6044B5HSX58IQ2PYJA/2020-04-12+23_23_21-%E2%97%8F+comagGroupMaker.ps1+-+Visual+Studio+Code.png)
 
 And there we go! That loop should add each co-managed PC to our new group. As I said before, this came out of necessity, so feel free to tweak and clean up as you see fit.
 

@@ -10,7 +10,7 @@ When a new PC is enrolled in Autopilot, it typically gets a deployment profile a
 
 But what about existing hardware that you are manually enrolling in Autopilot?  It’s critical that once you register the PC (either with a script or the CSV file) that you shut it down and do not attempt to go through the OOBE until it receives an “Assigned” status in the MEM portal.
 
-![Screen Shot 2020-02-23 at 9.49.28 PM.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1582512802112-9I7RW3IP3KBDORSOT0HN/Screen+Shot+2020-02-23+at+9.49.28+PM.png)
+![Screen Shot 2020-02-23 at 9.49.28 PM.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1582512802112-9I7RW3IP3KBDORSOT0HN/Screen+Shot+2020-02-23+at+9.49.28+PM.png)
 
 Understanding the process (the PC)
 ----------------------------------
@@ -47,7 +47,7 @@ For existing devices, I’d like to use a recent experience I had as an example.
 
 I’ve been working with a customer that is trying to leverage Autopilot for existing machines in the field.  While these PCs are currently on Windows 7, the plan is to wipe them, update them to Windows 10 and then register them to Autopilot before enrolling in Intune.  Two weeks ago, in testing, we noticed something unusual.  Our customer was stating that these devices were booting into the standard user experience, with no sign of the custom OOBE that Autopilot provides.  Furthermore, once on the desktop, there were no signs of any Intune enrollment, policy or applications.  Here is what we saw:
 
-![SC1.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1582512937546-V1PTTGIERZYJQ5JCNISJ/SC1.png)
+![SC1.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1582512937546-V1PTTGIERZYJQ5JCNISJ/SC1.png)
 
 When we check the console, it’s clear the device is not only registered, but has a profile assigned to it.  Theoretically, this means the device should be enrolled in Intune.  But it’s absolutely not.  We know this not just because there are no profiles pushing to the device but take a look at the **Enrollment state** and the **Associated Intune device** attributes; not enrolled and no associated Intune device.
 

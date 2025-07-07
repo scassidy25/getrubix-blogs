@@ -26,7 +26,7 @@ The Microsoft Graph URL looks similar to the address for most websites. For exam
 
 Even though it might not seem like it at first, there’s a method to the madness of these URL structures. Let’s use the Intune example for a breakdown:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/e29597be-45da-45d8-8292-9279dd0b8cd8/Graph+Queries.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/e29597be-45da-45d8-8292-9279dd0b8cd8/Graph+Queries.png)
 
 From what I understand, many of you were screenshotting this from the videos anyway…
 

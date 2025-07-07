@@ -28,16 +28,16 @@ The first thing you’ll need to do is connect your Intune environment. The folk
 
 From the main screen, click **Settings > Tenants**.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/28712c6e-ff8d-4377-8640-addb69aef7f4/robopack1.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/28712c6e-ff8d-4377-8640-addb69aef7f4/robopack1.png)
 
 If it’s your first time, you won’t see anything here. In my case, I have connected Robopack to several instances of Intune, which is great if you’re an MSP (something we’ll cover in the future).  
 Either way, go ahead and select **Connect tenant** on the right side of the page.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/e6c62068-b158-4843-9980-e654a795cf4e/Robopack2.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/e6c62068-b158-4843-9980-e654a795cf4e/Robopack2.png)
 
 You’ll be prompted with the standard Microsoft sign in Window. Enter your credentials and then review the requested permissions. You’ll need to click **Accept** to proceed.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/0bbd1c6c-cac4-44f6-8421-bf6517aef7ca/Permissions+requested.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/0bbd1c6c-cac4-44f6-8421-bf6517aef7ca/Permissions+requested.png)
 
 And that’s it! Those permissions now allow Robopack to create and manage apps in your Intune environment.
 
@@ -48,4 +48,4 @@ We’re going to be covering the platform extensively throughout the year as the
 
 But now that you’ve connected the platform, start exploring! I recommend going back to the main page and browsing the **Instant apps** catalog. You’ll be really surprised what’s available to you…
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/8666e52b-7404-443d-a704-994916a38dee/SCR-20250208-jkmb.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/8666e52b-7404-443d-a704-994916a38dee/SCR-20250208-jkmb.png)

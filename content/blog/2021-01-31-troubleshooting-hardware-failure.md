@@ -8,7 +8,7 @@ description: " One common policy that can encounter issues related to hardware i
 
 One common policy that can encounter issues related to hardware is **Bitlocker encryption**. When looking at the _per-device status_ for the policy, you can click on one of the failing devices to view the **device configuration** summary. If Bitlocker is failing, select the policy and see which components have an error – the image below shows a typical failure where the encryption does not successfully complete:
 
-![bitlocker.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1612127514873-6DCTLQ382LI0TK3CSA91/bitlocker.png)
+![bitlocker.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1612127514873-6DCTLQ382LI0TK3CSA91/bitlocker.png)
 
 The BitLocker policy is supposed to automatically and silently enables BitLocker on a device - that means that BitLocker should enable successfully without presenting any UI to the end user, even when that user isn't a local Administrator on the device.
 

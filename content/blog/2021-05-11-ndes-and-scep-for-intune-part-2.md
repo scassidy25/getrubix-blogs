@@ -10,15 +10,15 @@ Before we move on to Part 2, there are two tasks I should have included in [Part
 
 First, we need to give the NDES service account permissions to request and issue certificates.  Log into the CA and launch the Certification Authority console.  Right click on the CA and click **Properties**.
 
-![Picture12.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620699811466-SCF6259FJV7A0PXWRYJY/Picture12.png)
+![Picture12.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1620699811466-SCF6259FJV7A0PXWRYJY/Picture12.png)
 
 On the “Security” tab, add the NDES account and check the boxes for **Issue and Manage Certificates** and **Request Certificates** permissions.
 
-![Picture13.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620699861464-LYFJ5XY108DI9SQEXSA2/Picture13.png)
+![Picture13.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1620699861464-LYFJ5XY108DI9SQEXSA2/Picture13.png)
 
 Head back to the NDES server.  Launch “Computer Management” and add the NDES account to the **IIS\_IUSRS** group.
 
-![Picture14.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620699887853-4OB0DAC5MKNS3OQHIBP3/Picture14.png)
+![Picture14.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1620699887853-4OB0DAC5MKNS3OQHIBP3/Picture14.png)
 
 All good?  Terrific.  On to Part 2…
 
@@ -29,15 +29,15 @@ All good?  Terrific.  On to Part 2…
 
 Log into the NDES server and launch the IIS Manager.  Navigate to the “Default Web Site” and select **Request Filtering**.
 
-![Picture15.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620699958991-E5WKMIBMP1KN1XYN8XSW/Picture15.png)
+![Picture15.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1620699958991-E5WKMIBMP1KN1XYN8XSW/Picture15.png)
 
 Click **Edit Feature Settings…**
 
-![Whatever it is, the way you tell your story online can make all the difference.](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620699977696-N0JBS252W4076VA2L0ZJ/Picture16.png)
+![Whatever it is, the way you tell your story online can make all the difference.](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1620699977696-N0JBS252W4076VA2L0ZJ/Picture16.png)
 
 Change the value for **Maximum URL length (Bytes)** and **Maximum query string (Bytes)** to 65534.
 
-![Picture17.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620699999186-ZQ9JN8FKR42YAJQM3T27/Picture17.png)
+![Picture17.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1620699999186-ZQ9JN8FKR42YAJQM3T27/Picture17.png)
 
 The requests for certs coming through the Intune connector can get quite lengthy, and we don’t want them getting stuck at the door with the bouncer.
 
@@ -56,7 +56,7 @@ To further solidify those values, open the Registry Editor on the NDES and navig
     -   Value data: 65534
         
 
-![Picture18.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620700090337-5XF99PTR016NW5ITIB4P/Picture18.png)
+![Picture18.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1620700090337-5XF99PTR016NW5ITIB4P/Picture18.png)
 
 ### **Download the Azure App Proxy connector (Azure AD)**
 
@@ -64,21 +64,21 @@ Login to Azure AD with global administrator rights at [https://aad.portal.azure.
 
 Accept the terms and download.
 
-![Picture19.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620700117345-NK7IVQKNI5AQL0TIQDWS/Picture19.png)
+![Picture19.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1620700117345-NK7IVQKNI5AQL0TIQDWS/Picture19.png)
 
 ### **Install the Azure App Proxy connector (NDES)**
 
 On the NDES server, launch the _AADApplicationProxyConnectorInstaller.msi_.  Agree to the terms and click “Install”.
 
-![Picture20.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620700155684-9KALMEM3T4PNE98KBZHV/Picture20.png)
+![Picture20.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1620700155684-9KALMEM3T4PNE98KBZHV/Picture20.png)
 
 When prompted, login with Azure AD global administrator rights.
 
-![Picture21.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620700168868-4WLKDO2AOG75GWMQDHK9/Picture21.png)
+![Picture21.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1620700168868-4WLKDO2AOG75GWMQDHK9/Picture21.png)
 
 Assuming you know the password, you should be all set.
 
-![Picture22.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620700189035-0P2ROYUWMV0RWHGBWE88/Picture22.png)
+![Picture22.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1620700189035-0P2ROYUWMV0RWHGBWE88/Picture22.png)
 
 Go ahead and close the installer.
 
@@ -86,13 +86,13 @@ Go ahead and close the installer.
 
 Log back into [https://aad.portal.azure.com](https://aad.portal.azure.com) and make your way back to the app proxy.  You should now see the healthy connection as active and pointing to your NDES server.
 
-![Picture23.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620700215443-6QYHUS8TT4U0TE5HLZUB/Picture23.png)
+![Picture23.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1620700215443-6QYHUS8TT4U0TE5HLZUB/Picture23.png)
 
 Select **\+ Configure an app**.
 
 Give the application a friendly name (I chose “SCEP) and then specify the **<http://FQDN>** of your NDES. 
 
-![Picture24.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620700274822-37TXUBKDKEEOZIEKX7NA/Picture24.png)
+![Picture24.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1620700274822-37TXUBKDKEEOZIEKX7NA/Picture24.png)
 
 Azure will automatically concatenate the external URL.  Copy that into a notepad or sticky cause we’re going to need it a few times later. 
 
@@ -110,25 +110,25 @@ We’re going to use the same client/server authentication template we made orig
 
 On your NDES server, launch MMC and add the local computer certificate snap in.  Right click on “Personal” and select **All tasks -> Request New Certificate**. 
 
-![Picture25.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620700357447-CVKN1XTZLRNPNQ0FQK16/Picture25.png)
+![Picture25.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1620700357447-CVKN1XTZLRNPNQ0FQK16/Picture25.png)
 
 Select “Active Directory Enrollment Policy” and click Next.
 
-![Picture26.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620700381199-DOEV911VS2WBJ1VLE1QE/Picture26.png)
+![Picture26.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1620700381199-DOEV911VS2WBJ1VLE1QE/Picture26.png)
 
 Find the NDES template you made and click the “More information is required…” link
 
-![Picture27.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620700411860-N6V32QCE1JQFC00CCJME/Picture27.png)
+![Picture27.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1620700411860-N6V32QCE1JQFC00CCJME/Picture27.png)
 
 For the “Subject name”, select **Common name** from the drop down.  Add the FQDN of your NDES server as the value and click **Add>**
 
 For “Alternative name”, select **DNS** from the drop down.  Again, add the FQDN as the value, and then add the external URL of the app proxy from the previous step as the second value.  It should look like this:
 
-![Picture28.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620700436434-CS47B6W9Y4YOE2IMOFY2/Picture28.png)
+![Picture28.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1620700436434-CS47B6W9Y4YOE2IMOFY2/Picture28.png)
 
 Select **OK**, and then check the box next to the template and hit **Enroll**.
 
-![Picture29.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620700453610-TY1DPWYR1JO4LFR105Q8/Picture29.png)
+![Picture29.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1620700453610-TY1DPWYR1JO4LFR105Q8/Picture29.png)
 
 The NDES server will now have the client/server authentication certificate in the “Personal” certificate store.
 

@@ -57,17 +57,17 @@ With the insights from Discover, we can plan for Intune’s implementation—not
 
 For Design to be effective, create a comprehensive design architecture document. This will vary by project, but here’s an example from an Autopilot design I’ve used:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/e111f216-28e8-435e-b4a0-d6e96ab6500c/NY.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/e111f216-28e8-435e-b4a0-d6e96ab6500c/NY.png)
 
 A clear strategy for Autopilot devices with group tag based assignment
 
 The document illustrates applications and policies deployed to device groups and details the grouping of devices for Autopilot using group tags. When working with mobile devices, for instance, I’ve designed flows to migrate users from their existing MDM to Intune, with key steps clearly documented.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/c0a79639-2d61-492b-abb2-4063da07d563/Blank+diagram+%281%29.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/c0a79639-2d61-492b-abb2-4063da07d563/Blank+diagram+%281%29.png)
 
 In cases where you’re doing something unique, like migrating PCs between Intune tenants, you might end up with a design that looks entirely different.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/48854b23-2ebb-4493-81c9-79a6093f0917/Device+Migration+V6.2+-+Overview.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/48854b23-2ebb-4493-81c9-79a6093f0917/Device+Migration+V6.2+-+Overview.png)
 
 Pure madness!
 
@@ -93,7 +93,7 @@ Welcome to the **Adopt** phase.
 
 I recommend a multi-step pilot program for each use case being tested. After each pilot wave, address any configuration issues. By the final pilot, you should have the maximum number of devices enrolled with minimal issues, ready for fleet-wide deployment.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/b8f37fa8-57ad-4b3c-9d9d-14a80953f288/Blank+diagram+%282%29.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/b8f37fa8-57ad-4b3c-9d9d-14a80953f288/Blank+diagram+%282%29.png)
 
 As the device count goes up, the number of issues go down.
 

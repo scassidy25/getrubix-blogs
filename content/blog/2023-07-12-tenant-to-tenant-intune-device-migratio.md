@@ -27,7 +27,7 @@ This one has been a long, long time in the making. In the coming days, I’m goi
 -   [**LIVE DEMO**](https://www.youtube.com/watch?v=IxSi6UGOikg) - Walkthrough of end user process on our [YouTube channel](https://www.youtube.com/@getrubix9986)
     
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/a2bac790-82e8-4dbe-b984-af97442dce66/1.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/a2bac790-82e8-4dbe-b984-af97442dce66/1.png)
 
 Why are we doing this?
 ----------------------
@@ -51,7 +51,7 @@ If you’ve made it this far, or have had any hands-on experience with Intune, y
 
 For clarity’s sake, we will be referring to the two Azure tenants as **Tenant A** and **Tenant B**.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/2ee75b9a-e87b-4c58-b097-1e2a06811696/2.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/2ee75b9a-e87b-4c58-b097-1e2a06811696/2.png)
 
 Tenant A will be the source, or original tenant from which we are migrating _from_.
 
@@ -87,7 +87,7 @@ What did we do?
 
 With the assumptions in place, let’s break down how the process works. Like most cool things with Intune, we are accomplishing the migration with a series of scripts. Here is the high-level overview of how we’re performing the migration:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/10b71a9f-8ed3-4af1-81af-e494955c82bc/3.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/10b71a9f-8ed3-4af1-81af-e494955c82bc/3.png)
 
 1.  Migration app package (.intunewin) is made available to users via the Intune Company Portal.
     

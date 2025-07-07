@@ -20,7 +20,7 @@ Despite thorough checks, I couldn't find any official documentation from Microso
 
 My first step to troubleshoot was examining the registry value located under HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer, with the value “NoDesktop" set to 1. This value hides and disables all items on the desktop. My first attempt was to use the Settings Catalog in Intune to disable this setting - however, after multiple syncs, the value remained unchanged, and the desktop icons did not reappear. Manually modifying the registry value using regedit was also unsuccessful due to access restrictions.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1d1b7220-d598-4340-879a-32b14b57c1b5/Picture1.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1d1b7220-d598-4340-879a-32b14b57c1b5/Picture1.png)
 
 ### **A Creative Solution**
 

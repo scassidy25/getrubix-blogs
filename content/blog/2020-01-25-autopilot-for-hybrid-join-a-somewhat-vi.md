@@ -23,7 +23,7 @@ _Spoiler alert: this is where the misconceptions get broken down._
 
 Alrighty- ready to go? Have a look at the high level reference architecture for Autopilot Hybrid join.
 
-![It’s almost like a theme park](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581105584573-3W5DQP8195DRUYOC5W90/2020-01-25-15_31_05-refarch_creator.pptx-powerpoint.png)
+![It’s almost like a theme park](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581105584573-3W5DQP8195DRUYOC5W90/2020-01-25-15_31_05-refarch_creator.pptx-powerpoint.png)
 
 It’s almost like a theme park
 
@@ -34,7 +34,7 @@ Let’s take a look at what happens to a device as it goes through the Autopilot
 Part 1: Registration and searching
 ----------------------------------
 
-![2020-01-25-15_53_24-refarch_creator.pptx-powerpoint.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581105618524-L8N665AGYMN4SPPCQ89I/2020-01-25-15_53_24-refarch_creator.pptx-powerpoint.png)
+![2020-01-25-15_53_24-refarch_creator.pptx-powerpoint.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581105618524-L8N665AGYMN4SPPCQ89I/2020-01-25-15_53_24-refarch_creator.pptx-powerpoint.png)
 
 1.  Windows 10 PC is registered to Autopilot, via [PowerShell script](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo/1.6) or by your hardware vendor.
     
@@ -48,7 +48,7 @@ Part 1: Registration and searching
 Part 2: Requesting a blob
 -------------------------
 
-![2020-01-25-15_04_47-refarch_creator.pptx-powerpoint.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581105665057-5TX4HVW970KEINSAH59M/2020-01-25-15_04_47-refarch_creator.pptx-powerpoint.png)
+![2020-01-25-15_04_47-refarch_creator.pptx-powerpoint.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581105665057-5TX4HVW970KEINSAH59M/2020-01-25-15_04_47-refarch_creator.pptx-powerpoint.png)
 
 1.  Intune locates the Domain join configuration profile. This contains the PC name prefix to be applied, the domain controller name, and the specific organizational unit (OU) that the PC will belong to once it joins.
     
@@ -62,7 +62,7 @@ Part 2: Requesting a blob
 Part 3: Meet and reboot
 -----------------------
 
-![2020-01-25-15_08_41-refarch_creator.pptx-powerpoint.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581105688029-7UISAT2Y5B5DLOB8K1A3/2020-01-25-15_08_41-refarch_creator.pptx-powerpoint.png)
+![2020-01-25-15_08_41-refarch_creator.pptx-powerpoint.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581105688029-7UISAT2Y5B5DLOB8K1A3/2020-01-25-15_08_41-refarch_creator.pptx-powerpoint.png)
 
 1.  Intune pushes the ODJ blob to the PC, which now knows the domain controller it needs to look for.
     
@@ -74,7 +74,7 @@ Part 3: Meet and reboot
 Part 4: The joining
 -------------------
 
-![2020-01-25-15_20_41-refarch_creator.pptx-powerpoint.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581105715782-WTLBU0SM1EIQQ70AVAVO/2020-01-25-15_20_41-refarch_creator.pptx-powerpoint.png)
+![2020-01-25-15_20_41-refarch_creator.pptx-powerpoint.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581105715782-WTLBU0SM1EIQQ70AVAVO/2020-01-25-15_20_41-refarch_creator.pptx-powerpoint.png)
 
 1.  The domain controller uses delegated computer permissions to place the PC in the specified OU.
     
@@ -86,7 +86,7 @@ Part 4: The joining
 Part 5: The circle is complete
 ------------------------------
 
-![2020-01-25-15_30_19-refarch_creator.pptx-powerpoint.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581105759199-SKX862HCSCAHGI69SKQQ/2020-01-25-15_30_19-refarch_creator.pptx-powerpoint.png)
+![2020-01-25-15_30_19-refarch_creator.pptx-powerpoint.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581105759199-SKX862HCSCAHGI69SKQQ/2020-01-25-15_30_19-refarch_creator.pptx-powerpoint.png)
 
 1.  Azure AD connect will attempt to register the PC during the next sync.
     

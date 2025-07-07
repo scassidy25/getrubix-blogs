@@ -17,7 +17,7 @@ I’m often asked questions after I upload my videos, but some of the most inter
 -   “This is a Best Buy- why are you trying to return those pants?”
     
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/190d7931-8569-4095-a1e0-ba194d00a23c/PXL_20240528_172145751.MP.jpg)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/190d7931-8569-4095-a1e0-ba194d00a23c/PXL_20240528_172145751.MP.jpg)
 
 Looks real, but you never know…
 
@@ -39,21 +39,21 @@ For our “testing”, we took a brand-new Windows 11 PC and went through the st
 
 We start by powering on the PC and going through Autopilot sign-in.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/481c14fe-6eec-4eb6-bcd6-2e2f0110bd21/Screenshot+2024-06-02+at+12.06.21%E2%80%AFPM.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/481c14fe-6eec-4eb6-bcd6-2e2f0110bd21/Screenshot+2024-06-02+at+12.06.21%E2%80%AFPM.png)
 
 When the provisioning is complete, you can see we’re signed in as Morty Smith, and the Intune Company Portal app has been deployed to our machine.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/11d42d73-f936-4eb1-87e7-d49d18f88e80/Screenshot+2024-06-02+at+12.23.03%E2%80%AFPM.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/11d42d73-f936-4eb1-87e7-d49d18f88e80/Screenshot+2024-06-02+at+12.23.03%E2%80%AFPM.png)
 
 After clicking on the Company Portal, we see the Global Secure Access Client app. Let’s select it and click **Install**.
 
-![Screenshot 2024-06-02 at 12.22.25 PM.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1717368622157-I48V6M2605EZHUJJ4B7C/Screenshot+2024-06-02+at+12.22.25%E2%80%AFPM.png)
+![Screenshot 2024-06-02 at 12.22.25 PM.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1717368622157-I48V6M2605EZHUJJ4B7C/Screenshot+2024-06-02+at+12.22.25%E2%80%AFPM.png)
 
-![Screenshot 2024-06-02 at 12.22.25 PM.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1717368622157-I48V6M2605EZHUJJ4B7C/Screenshot+2024-06-02+at+12.22.25%E2%80%AFPM.png)
+![Screenshot 2024-06-02 at 12.22.25 PM.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1717368622157-I48V6M2605EZHUJJ4B7C/Screenshot+2024-06-02+at+12.22.25%E2%80%AFPM.png)
 
-![Screenshot 2024-06-02 at 12.23.16 PM.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1717368622095-MS6WGWNQJPLVL92YJ31A/Screenshot+2024-06-02+at+12.23.16%E2%80%AFPM.png)
+![Screenshot 2024-06-02 at 12.23.16 PM.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1717368622095-MS6WGWNQJPLVL92YJ31A/Screenshot+2024-06-02+at+12.23.16%E2%80%AFPM.png)
 
-![Screenshot 2024-06-02 at 12.23.16 PM.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1717368622095-MS6WGWNQJPLVL92YJ31A/Screenshot+2024-06-02+at+12.23.16%E2%80%AFPM.png)
+![Screenshot 2024-06-02 at 12.23.16 PM.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1717368622095-MS6WGWNQJPLVL92YJ31A/Screenshot+2024-06-02+at+12.23.16%E2%80%AFPM.png)
 
 #block-yui\_3\_17\_2\_1\_1717368278924\_18084 .sqs-gallery-block-grid .sqs-gallery-design-grid { margin-right: -20px; } #block-yui\_3\_17\_2\_1\_1717368278924\_18084 .sqs-gallery-block-grid .sqs-gallery-design-grid-slide .margin-wrapper { margin-right: 20px; margin-bottom: 20px; }
 
@@ -64,11 +64,11 @@ Connected like magic
 
 Once the installation is complete, the Global Secure Access Client prompts Morty to authenticate. This is where you have the opportunity to enforce MFA with conditional access if you’d like (more on that in a future post).
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/3ae54292-8d08-42ec-895a-9fec449c6f6b/Screenshot+2024-06-02+at+12.25.20%E2%80%AFPM.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/3ae54292-8d08-42ec-895a-9fec449c6f6b/Screenshot+2024-06-02+at+12.25.20%E2%80%AFPM.png)
 
 After the sign-in, Morty can connect to his usual file shares on the domain server as if he was on the network.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/3354b645-2eb7-463a-83fb-2a7796e85c65/Screenshot+2024-06-02+at+12.26.36%E2%80%AFPM.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/3354b645-2eb7-463a-83fb-2a7796e85c65/Screenshot+2024-06-02+at+12.26.36%E2%80%AFPM.png)
 
 Aaaaaaaaand done!
 -----------------
@@ -80,7 +80,7 @@ That’s it! Nothing else needs to be done on Morty’s part, and his device is 
 -   You can see the session info including source IP address, username, and the destination FQDN
     
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/2bfd8467-bfef-41c4-a24e-8b5ac466fdcf/Screenshot+2024-06-02+at+5.59.58%E2%80%AFPM.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/2bfd8467-bfef-41c4-a24e-8b5ac466fdcf/Screenshot+2024-06-02+at+5.59.58%E2%80%AFPM.png)
 
 While in this example we’re using this for file shares, we can extend this to Remote Desktop, mapped drives, and on-premises application authentication.
 

@@ -14,11 +14,11 @@ However if you’re trying to see what policies Microsoft recommends, or if you 
 
 Recently Microsoft announced that security baselines were in development for HoloLens 2 devices, and it looks like they made their way to Intune:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/b13fd1d3-038c-440c-ae95-02db43d0d6a0/hololens1.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/b13fd1d3-038c-440c-ae95-02db43d0d6a0/hololens1.png)
 
 Interestingly, Microsoft has not created a dedicated page yet with all of the [baseline settings](https://learn.microsoft.com/en-us/mem/intune/protect/security-baselines). Also, I’m curious as to why Microsoft added this now since they recently announced the discontinuation of the HoloLens 2. The good news though is update support will continue through December 31, 2027, which means I can still test this thing for a while!
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/bf1cc8ca-0929-4be3-8280-082d2526208c/mehololensexport.jpg)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/bf1cc8ca-0929-4be3-8280-082d2526208c/mehololensexport.jpg)
 
 Now that’s a happy camper. Since there’s no official list yet of all the policies, I went ahead and looked through the Standard and Advanced lists and typed them all up below.
 

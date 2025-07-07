@@ -51,7 +51,7 @@ Some apps are just non-negotiable. These are pushed directly to users’ devices
         -   TeamViewer
             
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/ece16ad7-e321-41bf-a836-82feab6b636b/DALL%C2%B7E+2024-11-08+08.56.38+-+Create+an+animated-style+image+depicting+application+icons+playing+billiards.+Represent+the+icons+as+characters+gathered+around+a+pool+table%2C+each+wit.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/ece16ad7-e321-41bf-a836-82feab6b636b/DALL%C2%B7E+2024-11-08+08.56.38+-+Create+an+animated-style+image+depicting+application+icons+playing+billiards.+Represent+the+icons+as+characters+gathered+around+a+pool+table%2C+each+wit.png)
 
 -   **Productivity Tools**: Core productivity apps like the Microsoft Office Suite, which are essential for daily tasks, fall into this category.
     
@@ -72,7 +72,7 @@ Some apps are just non-negotiable. These are pushed directly to users’ devices
         -   Google Chrome
             
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/b600d1e5-0f51-46f2-bada-f957d3a0632b/DALL%C2%B7E+2024-11-08+08.52.14+-+Create+a+hand-drawn+animation+style+image+of+application+icons+sitting+in+a+McDonald%27s+restaurant%2C+eating+together.+Represent+each+app+as+a+square+ico.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/b600d1e5-0f51-46f2-bada-f957d3a0632b/DALL%C2%B7E+2024-11-08+08.52.14+-+Create+a+hand-drawn+animation+style+image+of+application+icons+sitting+in+a+McDonald%27s+restaurant%2C+eating+together.+Represent+each+app+as+a+square+ico.png)
 
 **The Benefit**: You’re ensuring that critical applications are always installed and up to date.
 
@@ -93,7 +93,7 @@ Available apps show up in the **Company Portal** (Intune’s self-service app st
         -   Adobe Acrobat
             
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1c7de816-886e-40db-a291-00f209c4d5d7/DALL%C2%B7E+2024-11-08+08.53.51+-+Create+a+manga+comic-style+image+depicting+application+icons+practicing+karate+in+a+traditional+dojo+setting.+Each+app+should+be+represented+as+a+squa.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1c7de816-886e-40db-a291-00f209c4d5d7/DALL%C2%B7E+2024-11-08+08.53.51+-+Create+a+manga+comic-style+image+depicting+application+icons+practicing+karate+in+a+traditional+dojo+setting.+Each+app+should+be+represented+as+a+squa.png)
 
 -   **Optional Tools**: Apps that enhance productivity but aren’t required by everyone, like certain note-taking tools or communication platforms.
     
@@ -106,7 +106,7 @@ Available apps show up in the **Company Portal** (Intune’s self-service app st
         -   7Zip
             
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/9d39fb0a-903b-4356-a3dd-2d82bea379a5/DALL%C2%B7E+2024-11-08+08.54.53+-+Create+a+realistic+image+of+application+icons+depicted+as+characters+hanging+out+on+a+street+corner.+Represent+Notepad%2B%2B%2C+VLC%2C+and+7-Zip+as+characters.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/9d39fb0a-903b-4356-a3dd-2d82bea379a5/DALL%C2%B7E+2024-11-08+08.54.53+-+Create+a+realistic+image+of+application+icons+depicted+as+characters+hanging+out+on+a+street+corner.+Represent+Notepad%2B%2B%2C+VLC%2C+and+7-Zip+as+characters.png)
 
 **The Benefit**: Users have the flexibility to install what they need without IT overloading their devices.
 

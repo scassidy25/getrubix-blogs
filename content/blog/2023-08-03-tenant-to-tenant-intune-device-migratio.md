@@ -34,7 +34,7 @@ _\*While we added the group tag manually to the Azure AD object previously, weâ€
 
 The hardware ID and serial number are retrieved with wmi-object calls and the tag we can still get from our **MEM\_Settings.xml** file.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/e6b7c77e-8ace-4173-b106-71da2ef262e4/Screenshot+2023-08-02+at+2.11.17+PM.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/e6b7c77e-8ace-4173-b106-71da2ef262e4/Screenshot+2023-08-02+at+2.11.17+PM.png)
 
 To import the device, just pass those three values to the cmd in the Autopilot module:
 
@@ -60,7 +60,7 @@ BackupToAAD-BitLockerKeyProtector -MountPoint "C:" -KeyProtectorId $BLV.KeyProte
 
 Give it a few minutes and then check on the device in Intune. Navigate to **Recovery keys -> Show Recovery Key** to verify the ID and key are now present.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1b2dfa71-3a4d-477d-a5e3-7bee31128881/1.jpg)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1b2dfa71-3a4d-477d-a5e3-7bee31128881/1.jpg)
 
 Next timeâ€¦
 ----------

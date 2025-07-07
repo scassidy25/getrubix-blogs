@@ -6,7 +6,7 @@ author: "stevew1015@gmail.com"
 description: " "
 ---
 
-![2020-01-03-19_27_39-rdg.batcave.local-remote-desktop-connection-manager-v2.7.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581105147421-8M26XUO9HH8N73HVIIXO/2020-01-03-19_27_39-rdg.batcave.local-remote-desktop-connection-manager-v2.7.png)
+![2020-01-03-19_27_39-rdg.batcave.local-remote-desktop-connection-manager-v2.7.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581105147421-8M26XUO9HH8N73HVIIXO/2020-01-03-19_27_39-rdg.batcave.local-remote-desktop-connection-manager-v2.7.png)
 
 I have an upcoming series of posts coming out soon all about Autopilot hybrid join. In fact, this was supposed to be the first on the topic. But I’m walking a delicate balance between forcing people into modern IT and appeasing the needs of those folks who legitimately aren’t ready for cloud-only. So to that point, we’re going to talk about Windows Hello for Business and why it gives you one less reason to domain join (or hybrid join) a Windows 10 PC.
 
@@ -35,7 +35,7 @@ While access to file shares from Azure joined machines has been _technically_ 
 
 Even though the user should have access, we see a disruptive prompt for credentials:
 
-![2020-01-04-08_37_26-rdg.batcave.local-remote-desktop-connection-manager-v2.7.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581105190384-MVW9CYMOXKTJ6V9PYI46/2020-01-04-08_37_26-rdg.batcave.local-remote-desktop-connection-manager-v2.7.png)
+![2020-01-04-08_37_26-rdg.batcave.local-remote-desktop-connection-manager-v2.7.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581105190384-MVW9CYMOXKTJ6V9PYI46/2020-01-04-08_37_26-rdg.batcave.local-remote-desktop-connection-manager-v2.7.png)
 
 What do I have to do?
 ---------------------
@@ -77,26 +77,26 @@ Now that the local domain is properly configured, we can enable Intune to deploy
 -   Enable Windows Hello for Business enabled for the tenant. This is done by navigating to **Devices -> Enroll devices -> Windows Hello for Business**
     
 
-![2020-01-03-18_39_21-enroll-devices-windows-enrollment-microsoft-endpoint-manager-admin-center.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581105222640-7R1EXIHM63JJDWP1J9X4/2020-01-03-18_39_21-enroll-devices-windows-enrollment-microsoft-endpoint-manager-admin-center.png)
+![2020-01-03-18_39_21-enroll-devices-windows-enrollment-microsoft-endpoint-manager-admin-center.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581105222640-7R1EXIHM63JJDWP1J9X4/2020-01-03-18_39_21-enroll-devices-windows-enrollment-microsoft-endpoint-manager-admin-center.png)
 
 -   Next, configure the individual _Identity protection_ configuration profile and assign it to users and devices that you want leveraging Hello. **Devices -> Configuration profiles -> + Create Profile**. Select **Identity protection** as the profile type.
     
 
-![2020-01-03-18_44_50-trusted-certificate-microsoft-endpoint-manager-admin-center.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581105247324-J0V3SCDNYZCO28E1404L/2020-01-03-18_44_50-trusted-certificate-microsoft-endpoint-manager-admin-center.png)
+![2020-01-03-18_44_50-trusted-certificate-microsoft-endpoint-manager-admin-center.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581105247324-J0V3SCDNYZCO28E1404L/2020-01-03-18_44_50-trusted-certificate-microsoft-endpoint-manager-admin-center.png)
 
 -   Finally, configure a profile with the exported root certificate from the domain. Go to **Devices -> Configuration profiles -> + Create Profile**. Choose **Trusted certificate** as the type. Upload your cert and make sure it’s set to go to **Computer certificate store – Root**.
     
 
-![2020-01-03-18_49_58-windows-hello-for-business-microsoft-endpoint-manager-admin-center.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581105275111-3CTQ6UUJYUWPUQNOR594/2020-01-03-18_49_58-windows-hello-for-business-microsoft-endpoint-manager-admin-center.png)
+![2020-01-03-18_49_58-windows-hello-for-business-microsoft-endpoint-manager-admin-center.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581105275111-3CTQ6UUJYUWPUQNOR594/2020-01-03-18_49_58-windows-hello-for-business-microsoft-endpoint-manager-admin-center.png)
 
 When the user goes through joins the PC to Azure via Autopilot for the first time, they’re asked to either verify or setup their MFA.
 
-![2020-01-03-19_28_19-rdg.batcave.local-remote-desktop-connection-manager-v2.7.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581105297786-ACHTOMCTLW63284R7M4C/2020-01-03-19_28_19-rdg.batcave.local-remote-desktop-connection-manager-v2.7.png)
+![2020-01-03-19_28_19-rdg.batcave.local-remote-desktop-connection-manager-v2.7.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581105297786-ACHTOMCTLW63284R7M4C/2020-01-03-19_28_19-rdg.batcave.local-remote-desktop-connection-manager-v2.7.png)
 
 Once configured, they’re prompted for a device PIN (_and optionally biometric authentication_) before being brought to the desktop. And that’s it!
 
 Test by logging into a mapped drive or just navigating directly to a network files share. If everything worked, there should be absolutely no prompt for credentials:
 
-![2020-01-04-08_55_10-rdg.batcave.local-remote-desktop-connection-manager-v2.7.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581105322885-H9KAIE243YW0RUWDU20X/2020-01-04-08_55_10-rdg.batcave.local-remote-desktop-connection-manager-v2.7.png)
+![2020-01-04-08_55_10-rdg.batcave.local-remote-desktop-connection-manager-v2.7.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581105322885-H9KAIE243YW0RUWDU20X/2020-01-04-08_55_10-rdg.batcave.local-remote-desktop-connection-manager-v2.7.png)
 
 As always, feel free to hit me up with questions and stay tuned for a massive saga about hybrid join coming up!

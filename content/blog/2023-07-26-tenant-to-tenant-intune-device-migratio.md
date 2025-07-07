@@ -48,13 +48,13 @@ Let’s walkthrough the details of each part and what you need to do in order to
 
 Because we have a lot of scripts to run on the PC, we need a place to store them from the Intune app package. We’re creating the “C:\\ProgramData\\IntuneMigration” directory as a local hub to unpack in. We will also start our transcript for logging in the same directory.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/2f1e166f-1d16-4f67-82e0-2c588c2eee11/1.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/2f1e166f-1d16-4f67-82e0-2c588c2eee11/1.png)
 
 I use a “flag” file so that Intune can detect that the package was installed due to it not being an actual application.
 
 One optional step here is to throw in a quick ‘**_whoami’_** command to ensure the script is running in **NT AUTHORITY\\System** context.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/c52c240f-b014-49a3-ab17-4f82e486fa69/context.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/c52c240f-b014-49a3-ab17-4f82e486fa69/context.png)
 
 ### **STEP 2: Authenticate to MS Graph**
 
@@ -79,7 +79,7 @@ Consent to the permissions and generate a client secret value for the app. Save 
 
 They will be constructed here:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/57475c0c-673e-43e8-b086-6b8f92b35451/2.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/57475c0c-673e-43e8-b086-6b8f92b35451/2.png)
 
 The next few lines obtain the authentication token from the app registration information and provides us headers for our upcoming graph calls.
 
@@ -115,7 +115,7 @@ The Intune and Autopilot object IDs will be used later in the script to make gra
 
 The Group Tag variable will be stored in an XML file, locally, so we can retrieve it for some post-migration tasks. We will use the active username variable for data migration and an upcoming task, so let’s store that in the XML as well.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/7a476acd-6157-4864-830e-7d0067ec9ffb/xml.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/7a476acd-6157-4864-830e-7d0067ec9ffb/xml.png)
 
 ### **STEP 4: SET REQUIRED POLICY**
 
@@ -125,11 +125,11 @@ First, we need to verify the PC can authenticate with MS credentials for non-ema
 
 Next, we need to make sure that only the “Other User” option is present after the first reboot.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/da77f923-2720-406e-9e77-37338d21f353/otheruser.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/da77f923-2720-406e-9e77-37338d21f353/otheruser.png)
 
 Until the post-migration steps are complete, users may try to sign into their Tenant A account, and even though it should not work, it’s not a great experience. That means we will set the **DontDisplayLastUsername** policy to enabled.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/84e64ba3-c08f-4547-b45a-fd0394353ca5/policy.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/84e64ba3-c08f-4547-b45a-fd0394353ca5/policy.png)
 
 ### **STEP 5: USER DATA MIGRATION**
 
@@ -152,17 +152,17 @@ To start, we need to check on three numbers:
 
 To get the first number, we need to determine what is being transferred. The **$locations** array is designed for paths to be added or removed easily depending on what we want to move.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/6f0827b0-3402-4783-bbfd-14145dc50ba4/locations.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/6f0827b0-3402-4783-bbfd-14145dc50ba4/locations.png)
 
 You can add “Downloads”, remove “Pictures”, etc.
 
 **_EDIT_:** _After reviewing the script to restore local data in a future post, I moved the_ **_$locations_** _variable to STEP 3 so the paths can be captured in the XML and retrieved later. The GitHub script has been updated to reflect the change._
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/b37db70a-b675-4eea-9b09-3c13d454f76b/newLocations.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/b37db70a-b675-4eea-9b09-3c13d454f76b/newLocations.png)
 
 With the paths determined, we need to know the total, combined size of them. We do this by iterating through the **$locations** array with a “foreach” statement calculating the size of the item and adding it to the **$totalProfileSize** variable.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/2528a2a1-8f55-47d3-8139-ccc15126f8a1/totalSize.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/2528a2a1-8f55-47d3-8139-ccc15126f8a1/totalSize.png)
 
 The next number we need is the available disk space on the PC. This is fairly straight forward by using this one-liner:
 
@@ -174,7 +174,7 @@ Finally, we need to calculate how much disk space need to successfully copy the 
 
 All we have to do is capture **$totalProfileSize \* 3** in a variable, and we have our third number.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/3aaa6ccd-946f-47c0-90f4-2bccf200f759/needed.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/3aaa6ccd-946f-47c0-90f4-2bccf200f759/needed.png)
 
 Knowing the numbers we have to work with, there is a simple choice; is three times the user data worth of free disk space available? If so, we can go ahead and migrate. If not, this part is skipped. For real world application, this is going to be an organizational decision. Do you want to stop the migration process here if we can’t move the date to a new profile? Do we continue anyway and manually move the data later? Ultimately, whichever solution works will have to be incorporated. The script template is set to just proceed with the migration at this point.
 
@@ -195,13 +195,13 @@ We use robocopy because of the verbose logging and ability to exclude the juncti
 
 When a PC is enrolled in Intune, there are some remnants that remain on the device even after it leaves the environment. The first part is the “Enrollments” entry in the registry. Navigate to **HKLM:\\SOFTWARE\\Microsoft\\Enrollments** and you will find many, many GUID objects. We’re looking for the one that contains actual enrollment information.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/d775ee5c-c602-4a99-b84d-e53e276ebd16/reg.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/d775ee5c-c602-4a99-b84d-e53e276ebd16/reg.png)
 
 We are searching for this key and deleting it.
 
 The other area that needs to be wiped is in the task scheduler. Navigate to **Microsoft\\Windows\\EnterpriseMgmt** and you will see the same GUID from the previous step in the registry. We’re going to remove all of these tasks.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/63f92e5d-89df-45cf-8efb-09430ff11925/tasks.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/63f92e5d-89df-45cf-8efb-09430ff11925/tasks.png)
 
 ### STEP 7: LEAVE TENANT A
 
@@ -226,7 +226,7 @@ While we’re almost done with exiting Tenant A, there’s going to be a lot mor
 
 To set these tasks, we’re going to reference our **$packageFiles** variable from all the way in the beginning. All the task files end in the “.xml” extension and are named appropriately. So we will iterate through the that variable and for each file that ends in “.xml”, we will create a task from that file with the same name.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/2f0f4f55-c824-49eb-9f8c-202e5fc329b2/taskfiles.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/2f0f4f55-c824-49eb-9f8c-202e5fc329b2/taskfiles.png)
 
 ### STEP 9: JOIN TENANT B
 
@@ -240,7 +240,7 @@ This is the end. To clean things up before the user signs in with their new Tena
 
 To do this, we simply use the **$intuneID** and **$autopilotID** objects from earlier and make a graph call to delete them:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/4f956715-7390-4aa7-8cb7-c0b1c0f1f790/delete.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/4f956715-7390-4aa7-8cb7-c0b1c0f1f790/delete.png)
 
 After that, we simply run **shutdown -r -t 30** to reboot the PC in 30 seconds.
 

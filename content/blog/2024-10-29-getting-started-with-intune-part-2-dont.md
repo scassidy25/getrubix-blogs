@@ -41,7 +41,7 @@ Each of these setups has its own challenges when moving to modern management, bu
 
 Of these device types, which do you think will be the most challenging to move to Intune management?
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/b53c4c96-6396-4f34-86d8-e9467b9628c8/SCR-20241029-ltco.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/b53c4c96-6396-4f34-86d8-e9467b9628c8/SCR-20241029-ltco.png)
 
 Do you know where your devices fall on this matrix?
 
@@ -70,7 +70,7 @@ On the other hand, if we start with a low-effort, high-impact area, here’s wha
 -   Intune will be viewed as a success.
     
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/feeb332e-6d19-44bd-a4d2-db8d78583c90/SCR-20241029-ltes.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/feeb332e-6d19-44bd-a4d2-db8d78583c90/SCR-20241029-ltes.png)
 
 Plot out your use cases to determine their level of effort vs the positive impact on the business.
 
@@ -83,6 +83,6 @@ By the time the rest of the business is onboarded to Intune, tackling the fringe
 
 But that doesn’t mean we don’t try, and it certainly doesn’t mean we hold back the rest of the fleet from moving to Intune. Starting with the “quick win” allows you to pave a path forward for the entire environment.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/59770f6c-7fc0-4232-8371-7e9b6b2aa014/SCR-20241029-ltfz.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/59770f6c-7fc0-4232-8371-7e9b6b2aa014/SCR-20241029-ltfz.png)
 
 Regardless of where your devices fall on the grid, you can make a plan that includes the whole fleet.

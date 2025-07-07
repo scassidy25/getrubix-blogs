@@ -12,7 +12,7 @@ Purview can generate a significant number of false positives from its built-in S
 
 One of the more recent options for reporting on DLP is Data Loss Prevention analytics. I highly, highly recommend you enable this if you haven't already:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/66f1f4a0-531c-444f-8072-7005e6879690/blog1.jpg)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/66f1f4a0-531c-444f-8072-7005e6879690/blog1.jpg)
 
 Enabling Data Loss Prevention Analytics in Microsoft Purview
 
@@ -29,7 +29,7 @@ Each SIT has multiple confidence levels (low, medium, and high) that are essenti
 -   It's worth noting that if you have, say, 1000 hits on Low Confidence Social Security Numbers, you might not necessarily have that many Social Security Numbers floating around.
     
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/d224a982-6afb-4a99-b245-751d5f3e5a67/blog2.jpg)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/d224a982-6afb-4a99-b245-751d5f3e5a67/blog2.jpg)
 
 Spot check a few hits under each confidence level to get an idea of what you're dealing with.
 
@@ -56,7 +56,7 @@ _Low Confidence Rule_
 
 **"Potentially sensitive PII data may exist in this email. If this is an error, you can ignore this and continue."**
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/fd117c7c-5720-4048-ad67-5ee7b0b92a4b/blog3.jpg)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/fd117c7c-5720-4048-ad67-5ee7b0b92a4b/blog3.jpg)
 
 _Medium Confidence Rule_
 
@@ -68,7 +68,7 @@ _Medium Confidence Rule_
 -   I would then setup a "block only people outside your organization" action with an option for the user to override it with a business justification.
     
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/7fe5c323-61ee-4f5c-9f81-7c7e29b15840/blog4.jpg)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/7fe5c323-61ee-4f5c-9f81-7c7e29b15840/blog4.jpg)
 
 _High Confidence Rule_
 
@@ -83,9 +83,9 @@ _High Confidence Rule_
 -   Optionally, you could also configure an administrator alert for this.
     
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/6b96eeb4-3b24-42bf-b94d-2ee60c23105c/blog5.jpg)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/6b96eeb4-3b24-42bf-b94d-2ee60c23105c/blog5.jpg)
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/d3eee83d-9c11-432a-8f8d-dfcc6675fdbb/blog6.jpg)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/d3eee83d-9c11-432a-8f8d-dfcc6675fdbb/blog6.jpg)
 
 Maybe I'll come up with some automation for this :)
 
@@ -109,7 +109,7 @@ You can also use additional DLP Rule conditions (e.g., character proximity, docu
 -   Be _especially_ cautious when using the "Anywhere in the document" option. Honestly, I'd just never consider using it.
     
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/89a11200-778b-4daf-8478-f73bf0166495/blog7.jpg)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/89a11200-778b-4daf-8478-f73bf0166495/blog7.jpg)
 
 I know the checkbox is enticing, just...don't.
 

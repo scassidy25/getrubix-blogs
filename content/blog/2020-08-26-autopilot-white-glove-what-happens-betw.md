@@ -8,11 +8,11 @@ description: " There's a pattern I'm starting to see when a company implements A
 
 There's a pattern I'm starting to see when a company implements Autopilot and Intune to deploy Windows 10 PCs.  At first, things seem to be going great- enrollments are successful, apps are deploying, policy is applied… just as intended.  So then, that company wants their hardware vendor to implement Autopilot White Glove for them.  Suddenly, what was meant to be a streamlined deployment process turns into an error filled, red-screened, nightmare with no explanation as to why things failed.
 
-![red.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1598366352602-X3BUB6QK8WD1CPIU02QN/red.png)
+![red.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1598366352602-X3BUB6QK8WD1CPIU02QN/red.png)
 
 For the uninitiated, Autopilot White Glove is the process of a PC being powered on, connected to the internet, and then run through an Azure AD Join / Intune enrollment by itself before the end user takes possession.  It's a great option as it takes care of the "heavy lifting" downloads, so the end user is waiting for 5 minutes after signing in as opposed to 30-60 minutes.  Here is a quick break down of the flow (officially known as the [_technician workflow_](https://docs.microsoft.com/en-us/mem/autopilot/white-glove#technician-flow)):
 
-![flow-chart.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1598366397858-GALU5TPE2AT7U6RMYZUQ/flow-chart.png)
+![flow-chart.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1598366397858-GALU5TPE2AT7U6RMYZUQ/flow-chart.png)
 
 -   Autopilot registered PC is powered on and connected to network
     
@@ -27,13 +27,13 @@ For the uninitiated, Autopilot White Glove is the process of a PC being powered 
 
 So if standard Autopilot works, why would it fail using White Glove?  Let's take a look at what happens after hitting that Windows key 5 times and what it takes for a successful enrollment.
 
-![white-glove-result.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1598366884504-595ZT2S5I2BOVNCG9GKI/white-glove-result.png)
+![white-glove-result.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1598366884504-595ZT2S5I2BOVNCG9GKI/white-glove-result.png)
 
 We’re going to use the Enrollment Status Page (ESP) and its three steps as a visual guide for White Glove. During provisioning, the **Device preparation** and **Device setup** sections need to finish in order to reach the successful green screen.  The **Account setup** portion is skipped via policy as this is configured after the user signs in later.**\***
 
 **_\*_**_Yes, there is a workflow for performing White Glove on user-assigned devices, but this is not as common and not recommended in most situations.  For those still reading this tiny disclaimer, I will dive into this in a future post._
 
-![esp-1903.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1598367001405-WVQQTQ6TIOI9TODM5CCM/esp-1903.png)
+![esp-1903.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1598367001405-WVQQTQ6TIOI9TODM5CCM/esp-1903.png)
 
 Device preparation
 ------------------

@@ -50,7 +50,7 @@ AD = anywhere in your Active Directory 
 
 In your on-premises Active Directory, create a new user that we will use as a service account for our NDES activities. 
 
-![1.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620679404895-51WR7LL9HJ3INX3UMCKC/1.png)
+![1.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1620679404895-51WR7LL9HJ3INX3UMCKC/1.png)
 
 For the server, just spin up a fresh Windows Server 2016 or later physical or virtual machine and join it to your domain.  DO NOT promote it to a domain controller.
 
@@ -62,23 +62,23 @@ Next is the SCEP template for client authentication- this will be the certificat
 
  Log into your CA open the Certification Authority.  Expand the CA and right-click Certificate Templates.  Click “Manage”
 
-![Whatever it is, the way you tell your story online can make all the difference.](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620679578521-PVSR27LPCQF6BDAZI2JK/2.png)
+![Whatever it is, the way you tell your story online can make all the difference.](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1620679578521-PVSR27LPCQF6BDAZI2JK/2.png)
 
 The Certificate Templates Console opens.  Right click on “Web server” and select **Duplicate Template**. 
 
-![Whatever it is, the way you tell your story online can make all the difference.](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620679599831-FYOAFIGZTDFTG69UNKM6/3.png)
+![Whatever it is, the way you tell your story online can make all the difference.](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1620679599831-FYOAFIGZTDFTG69UNKM6/3.png)
 
 In the “Extensions” tab, edit Application Policies to contain Server Authentication and Client Authentication.
 
-![4.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620679644650-E9LVHMA1CU2ZZXRGY941/4.png)
+![4.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1620679644650-E9LVHMA1CU2ZZXRGY941/4.png)
 
 In the “Subject Names” tab, ensure that **Supply in the request** is selected.
 
-![Picture5.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620679665286-TB5ZEBZ91C7O3TDDKD1I/Picture5.png)
+![Picture5.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1620679665286-TB5ZEBZ91C7O3TDDKD1I/Picture5.png)
 
 In the “Security” tab, add the name of the NDES server you just made and give it **Read, Enroll** and **Autoenroll** permissions.
 
-![Picture6.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620679731146-4V15VCR5O0415LRUF280/Picture6.png)
+![Picture6.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1620679731146-4V15VCR5O0415LRUF280/Picture6.png)
 
 Make sure to give it a clear name in the “General” tab.  I just use “NDES”.  Click **Apply** and **OK** to close.
 
@@ -97,7 +97,7 @@ Use the above flow to make another certificate.  This one will be used as the c
 
 Back in the Certification Authority console, right click on **Certificate Templates** and select **New -> Certificate Template to Issue**.
 
-![Picture7.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620679757930-N6I4J7017EXQ6C4M44G0/Picture7.png)
+![Picture7.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1620679757930-N6I4J7017EXQ6C4M44G0/Picture7.png)
 
 Choose the two we just created and select **OK**.
 
@@ -105,19 +105,19 @@ Choose the two we just created and select **OK**.
 
 Log into the NDES server you created.  Launch Server Manager and click **Manage -> Add Roles and Features**.  Add the **Active Directory Certificate Services** and **Web Server (IIS)** roles. 
 
-![Picture8.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620679812712-IU1UD3FUFK5XYE1ZXDZH/Picture8.png)
+![Picture8.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1620679812712-IU1UD3FUFK5XYE1ZXDZH/Picture8.png)
 
 Web Server needs everything and the kitchen sink, so make sure these are selected:
 
-![Picture9.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620679841919-G4JAM8L0MVH7EMDZRRI8/Picture9.png)
+![Picture9.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1620679841919-G4JAM8L0MVH7EMDZRRI8/Picture9.png)
 
 On the “Features” menu, check the following options:
 
-![Picture10.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620679867119-MKM39ZH8I890033RXVB0/Picture10.png)
+![Picture10.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1620679867119-MKM39ZH8I890033RXVB0/Picture10.png)
 
 On the menu for role services for Active Directory Certificate Services, uncheck all but **Network Device Enrollment Service**.
 
-![Picture11.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620679891567-4CM2KRGHQ2DDYQX1U4XO/Picture11.png)
+![Picture11.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1620679891567-4CM2KRGHQ2DDYQX1U4XO/Picture11.png)
 
 When prompted for the Service Account, enter the NDES user we created in the first section.  When prompted for the certificate authority, choose **Computer name** and enter the FQDN of your CA.
 

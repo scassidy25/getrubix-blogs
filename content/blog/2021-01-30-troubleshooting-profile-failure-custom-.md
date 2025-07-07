@@ -18,7 +18,7 @@ For String values, copying and pasting can even be the culprit at times… you m
 
 For custom policies that require json, xml, or character data, ensure that you are following the guidelines and examples from Microsoft. If configuring third-party ADMX backed policies, the company may have their own documentation on how to format Intune-specific policy. One example of a Microsoft policy is managed favorites in Edge. When browsing the policy in Administrative Templates, they provide a sample json value which the policy requires:
 
-![Picture1.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1612022354246-80AEQP0LE7ZU1RQFMZ2O/Picture1.png)
+![Picture1.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1612022354246-80AEQP0LE7ZU1RQFMZ2O/Picture1.png)
 
 As long as you keep the formatting exactly the same, this policy should work with your custom bookmarks. Interestingly though, if you configure the same policy for Firefox or Chrome, they require slightly different formatting. Here’s the **Firefox** variant according to their policy documentation ([https://github.com/mozilla/policy-templates/blob/master/README.md](https://github.com/mozilla/policy-templates/blob/master/README.md)):
 

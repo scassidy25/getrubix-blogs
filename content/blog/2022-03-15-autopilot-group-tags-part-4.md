@@ -8,7 +8,7 @@ description: " Autopilot Group Tags can play a major role in application deploym
 
 Autopilot Group Tags can play a major role in application deployment. Devices are registered during procurement with a tag applied, the tag ensures the device ends up in the appropriate group, and that group is used to assign applications to be deployed during initial provisioning. But what about user assigned apps? How do they play into a successful deployment? Let’s have a look.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/587775e0-7adf-41b4-b362-a6242c6907ea/Screen+Shot+2022-03-14+at+4.49.43+PM.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/587775e0-7adf-41b4-b362-a6242c6907ea/Screen+Shot+2022-03-14+at+4.49.43+PM.png)
 
 A typical Autopilot onboarding flow
 
@@ -31,7 +31,7 @@ Each step
 
 Let’s go ahead and break down the provisioning process during an Autopilot deployment. I’m going to address each part as a step in a phase:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/40e5c76b-d47d-45f6-a46f-da3b1e299c55/Screen+Shot+2022-03-14+at+4.44.14+PM.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/40e5c76b-d47d-45f6-a46f-da3b1e299c55/Screen+Shot+2022-03-14+at+4.44.14+PM.png)
 
 We have two phases and three steps. The **device level** phase consists of two parts: the initial sign-in and the device provisioning. The **user level** phase has just one step, which is the actual user log on.
 
@@ -42,7 +42,7 @@ Device phase
 
 View fullsize
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/8bcc0e0b-64bc-48a3-92c0-1de624b1408d/Screen+Shot+2022-03-14+at+8.54.04+PM.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/8bcc0e0b-64bc-48a3-92c0-1de624b1408d/Screen+Shot+2022-03-14+at+8.54.04+PM.png)
 
 The first part of the device phase takes place when the end user powers on the Autopilot device and goes through the OOBE (Out-of-Box-Experience). This is where the user is greeted with the company branding and prompted to enter their corporate credentials. Most folks think this is where the user logs into the PC, but that’s not the case.
 
@@ -63,7 +63,7 @@ Once these components are validate, the device proceeds to the next step where i
 
 ### B. Device provisioning
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/a38d079f-3262-4544-b77f-39a4dab5fe07/Screen+Shot+2022-03-14+at+9.00.18+PM.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/a38d079f-3262-4544-b77f-39a4dab5fe07/Screen+Shot+2022-03-14+at+9.00.18+PM.png)
 
 This where the core provisioning happens in the device setup. All apps and policies that have been assigned to the device based on its group tag are now deployed. Once provisioning is finished, the **device level** phase is now complete. If this device were being pre-provisioned, then this is where the process would complete.
 
@@ -78,7 +78,7 @@ User phase
 
 ### C. User setup
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/e23c9228-8814-4faf-ad9c-2e994b5a5392/Screen+Shot+2022-03-14+at+9.03.00+PM.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/e23c9228-8814-4faf-ad9c-2e994b5a5392/Screen+Shot+2022-03-14+at+9.03.00+PM.png)
 
 After device provisioning, the user is prompted with an official, Windows logon screen. This time when they enter their credentials, they are actually logged in. The user object is now present, the user profile is cached, and the device is issued a [Primary Refresh Token](https://docs.microsoft.com/en-us/azure/active-directory/devices/concept-primary-refresh-token) to associate it with the user.
 

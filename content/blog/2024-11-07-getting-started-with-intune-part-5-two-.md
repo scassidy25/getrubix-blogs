@@ -16,7 +16,7 @@ Remember, there is a full companion video series to these blogs in the GetRubix 
 
 ### The Two Paths Strategy
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/49420d6e-e92d-4480-a445-b01c736dbac9/robot.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/49420d6e-e92d-4480-a445-b01c736dbac9/robot.png)
 
 When integrating Intune and Autopilot into a landscape where hybrid joined or co-managed devices are already in play, many organizations struggle to find the balance between onboarding new devices and retrofitting existing ones. The answer? Start by focusing on the new devices and work backwards from there.
 
@@ -44,7 +44,7 @@ With that understanding, I present Path 1.
 
 ### Onboarding Hybrid Joined Devices to Intune: What to Expect
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/7037e50f-4458-49c4-ba35-40fe7ca7c5ca/the-avengers-marvel.gif)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/7037e50f-4458-49c4-ba35-40fe7ca7c5ca/the-avengers-marvel.gif)
 
 Once you’ve nailed down your new Autopilot deployment, the real fun begins. It’s time to onboard those hybrid beasts. Here’s what to expect:
 

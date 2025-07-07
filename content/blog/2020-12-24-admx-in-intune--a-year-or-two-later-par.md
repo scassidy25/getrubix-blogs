@@ -25,7 +25,7 @@ Custom policy can be set in Intune using the CSP guide found at [https://docs.m
 
 Everything up to _ADMXInstall_ is standard for all ingestions.  The variables that follow get their values based on the ADMX file itself, in this case, _Chrome.ADMX_.  This is how we set these.
 
-![Screen Shot 2020-12-24 at 10.39.38 AM.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1608824796830-XAP2OIM4JEI6E7HEO89N/Screen+Shot+2020-12-24+at+10.39.38+AM.png)
+![Screen Shot 2020-12-24 at 10.39.38 AM.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1608824796830-XAP2OIM4JEI6E7HEO89N/Screen+Shot+2020-12-24+at+10.39.38+AM.png)
 
 **{App Name} = "Chrome" (prefix)**
 
@@ -66,7 +66,7 @@ The CSP schema for configuring an ADMX-backed policy is as follows:
 
 So let’s stick with Chrome as an example.  In this case, we are going to block the ability for private browsing.  Here is the policy in the original Chrome ADMX that was ingested:
 
-![Screen Shot 2020-12-24 at 10.51.49 AM.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1608825265334-2WQFWLNWMK3K2D4N1L6G/Screen+Shot+2020-12-24+at+10.51.49+AM.png)
+![Screen Shot 2020-12-24 at 10.51.49 AM.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1608825265334-2WQFWLNWMK3K2D4N1L6G/Screen+Shot+2020-12-24+at+10.51.49+AM.png)
 
 So now, we can match up the variables we need with the correct values.  These are highlighted above.
 
@@ -110,7 +110,7 @@ If the policy has only an on or off option, we would stop there.  However, som
 
 Let’s look back on the Chrome ADMX for this policy.  The information we need will always be inside the <elements> brackets:
 
-![Screen Shot 2020-12-24 at 10.52.54 AM.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1608825362697-EQM1GPE0Q4R1GWGLSDSU/Screen+Shot+2020-12-24+at+10.52.54+AM.png)
+![Screen Shot 2020-12-24 at 10.52.54 AM.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1608825362697-EQM1GPE0Q4R1GWGLSDSU/Screen+Shot+2020-12-24+at+10.52.54+AM.png)
 
 So because there is more than a simple on or off to this policy, we know we have the two parts.  Let’s start by enabling it.
 
@@ -140,6 +140,6 @@ We want to disable this, so we will use “1” as our value.  So now the comp
 <data id=”IncognitoModeAvailability” value=”1” />
 ```
 
-![10.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1608825482474-BYFFTTXHFSL178UDU1NJ/10.png)
+![10.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1608825482474-BYFFTTXHFSL178UDU1NJ/10.png)
 
 Easy, right? In part 2 we’ll tackle the more complex policy.

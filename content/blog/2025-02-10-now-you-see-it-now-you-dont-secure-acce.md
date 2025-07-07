@@ -30,7 +30,7 @@ First, navigate to **Identity Governance > Catalogs**. A catalog is essentially 
 
 Instead of adding resources to the default General Catalog, I created a new one called Rubix Administrators. This catalog will manage RDP access to domain controllers and other critical resources (I’ll cover these additional resources in a future post).
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/03ef5c33-3b34-45bc-81de-22931fe02af2/blog1.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/03ef5c33-3b34-45bc-81de-22931fe02af2/blog1.png)
 
 **Step 2: Add Resources**
 
@@ -39,39 +39,39 @@ Once the catalog is created, it’s time to add the resources that the **Rubix A
 -   My Private Access applications for both my Domain Controller and MECM server.
     
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/62464206-4f46-447a-86da-13211ae20e05/blog2.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/62464206-4f46-447a-86da-13211ae20e05/blog2.png)
 
 **Step 3: Create an Access Package**
 
 Now, head to **ID Governance > Access Packages** to create the actual package.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/b5320456-c923-4810-9a16-21471329b4af/blog3.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/b5320456-c923-4810-9a16-21471329b4af/blog3.png)
 
 **Name the Access Package** and select the **Rubix Administrators** catalog.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/510ea9aa-9b7b-4eaf-8dba-41df348a211d/blog4.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/510ea9aa-9b7b-4eaf-8dba-41df348a211d/blog4.png)
 
 **Choose Resources**: While the catalog may contain multiple resources, for this example, I’m only including my **Domain Controller RDP application**.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/81c84678-8207-4910-8bdf-486265e95564/blog5.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/81c84678-8207-4910-8bdf-486265e95564/blog5.png)
 
 **Configure Requests**: Here, I add my **Rubix Administrators group** and define approval requirements.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/dc5bb79a-607c-4edd-be9f-28ba266f1d9a/blog6.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/dc5bb79a-607c-4edd-be9f-28ba266f1d9a/blog6.png)
 
 **Request Form:** If you want to make users sweat a little, you can ask them additional questions before granting access. (Optional, but great for passive-aggressively reminding people that security is serious business.)
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/90215f22-8763-4667-8db7-02d48dbf1bce/blog7.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/90215f22-8763-4667-8db7-02d48dbf1bce/blog7.png)
 
 **Lifecycle Policies**: I set this Access Package to expire **after two hours** since it grants **RDP access to a domain controller**.
 
 **Access Reviews:** Not covering them today, but they’re like those “are you still watching?” prompts on Netflix except for security.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/76589ea2-8475-497c-9497-0facb788710d/blog8.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/76589ea2-8475-497c-9497-0facb788710d/blog8.png)
 
 Custom extensions are available as an optional tab. Currently, I do not have any Logic Apps in my test environment, but the [Microsoft documentation](https://learn.microsoft.com/en-us/entra/id-governance/entitlement-management-logic-apps-integration) provides detailed coverage on this topic.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/2e3bc2ad-e486-4769-bbc1-7409a7048ea7/blog9.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/2e3bc2ad-e486-4769-bbc1-7409a7048ea7/blog9.png)
 
 **Step 5: Testing Access Requests**
 
@@ -80,19 +80,19 @@ Now, let’s test it out!
 1.  A user attempts to **RDP into the domain controller** but gets an error expected, since they don’t yet have access.
     
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/e2a7fc07-f3bc-4dc8-95cd-ae60a2187262/blog10.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/e2a7fc07-f3bc-4dc8-95cd-ae60a2187262/blog10.png)
 
 2\. The user navigates to [**https://myaccess.microsoft.com/**](https://myaccess.microsoft.com/) and selects the relevant **Access Package**.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/954cbdfe-576a-48cd-912a-2477e6b1825d/blog11.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/954cbdfe-576a-48cd-912a-2477e6b1825d/blog11.png)
 
 3\. If a **Business Justification** was required during setup, they fill it in.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/27cbe555-b2d8-43a2-bcb3-2d1cffc5a084/blog12.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/27cbe555-b2d8-43a2-bcb3-2d1cffc5a084/blog12.png)
 
 4\. Once the request is **approved**, the user is automatically added to the required application.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/f267bf32-a737-4f14-8c30-aa2b351f0369/blog13.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/f267bf32-a737-4f14-8c30-aa2b351f0369/blog13.png)
 
 5\. The user can now **RDP into the domain controller** using **Entra Private Access**.
 

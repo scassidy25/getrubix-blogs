@@ -14,7 +14,7 @@ You might be thinking to yourself, “Steve- we already know this… have you be
 (device.devicePhysicalIds -any _ -contains "[ZTDId]")
 ```
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/c6ba0471-8535-4a8f-9eed-d5b3711379f2/All+Autopilot.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/c6ba0471-8535-4a8f-9eed-d5b3711379f2/All+Autopilot.png)
 
 So now if you use this group for assigning apps and profiles to your Autopilot fleet, it’s all or nothing. But how can we place the device in a specific group once it’s registered? I suppose you could designate a resource to monitor Autopilot devices all day, and when a new one comes in, they can place it in the right group. Or, we can leverage Autopilot Group Tags.
 
@@ -29,14 +29,14 @@ Get-WindowsAutopilotInfo -GroupTag <YOUR TAG NAME> -Online
 
 Or you can simply provide your hardware vendor or partner with your tag names. The important part is that the tag is there during registration. The tag will show in the Endpoint Manager enrolled device list:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/d5057a33-b48a-409f-91b8-2218312965d1/Screenshot+2022-03-11+135800.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/d5057a33-b48a-409f-91b8-2218312965d1/Screenshot+2022-03-11+135800.png)
 
 Choosing a Tag
 --------------
 
 A Group Tag can be anything you’d like. It is a string value, so you can choose the words of your liking. However, I recommend we apply a structure to the tags. In my test lab and for most customers I work with, we use this schema:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/d2815be6-242e-43a9-b25c-390f04baf50e/schema.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/d2815be6-242e-43a9-b25c-390f04baf50e/schema.png)
 
 Kind of looks like an eye exam…
 
@@ -58,13 +58,13 @@ Azure AD groups that are used for Intune targeting can have dynamic membership r
 
 So now, we can create dynamic device groups that are looking for our Group Tag, or _tags_ so we can start creating some inheritance (more on that later).
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/77e97fac-ea3f-4fc6-aaf1-222eb319f0cb/WIN-AP-CORP.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/77e97fac-ea3f-4fc6-aaf1-222eb319f0cb/WIN-AP-CORP.png)
 
 So take a look at the device group named **WIN-AP-CORP**\- the rule is set to look for tags that are EQUAL to **WIN-AP-CORP**. As soon as my device is registered with the tag, it will aggregate to that group. But why the **ZTD-AP** group up above? Glad you asked.
 
 As I have multiple device builds, I still want a way to group everything that is registered and tagged in Autopilot, whether it be for reporting or just a _break-glass_ emergency assignment scenario. Here is another dynamic group:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/2dd8b77f-c1f6-43d3-a018-38278038b5c4/kiosk.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/2dd8b77f-c1f6-43d3-a018-38278038b5c4/kiosk.png)
 
 Whoa… inception groups?
 
@@ -72,7 +72,7 @@ In this example, the device is tagged **WIN-AP-KIOSK** and is obviously aggregat
 
 What does this mean for assignments? Well, have a look:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/31b24e31-8c86-4058-9380-ba6e45959123/final.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/31b24e31-8c86-4058-9380-ba6e45959123/final.png)
 
 At the top level, I only assign what every device should receive in terms of applications and policy. Those will be inherited by the specific CORP and KIOSK groups. Now, you may notice redundancy. For example, take a look at the Microsoft Teams application assigned to both the CORP and KIOSK build. Why wouldn’t I just assign those at the top layer? Well, because perhaps I have an additional build and I don’t want Teams deployed, or maybe I’m testing Teams on the KIOSK build but the business hasn’t decided if we’re going to keep it yet.
 

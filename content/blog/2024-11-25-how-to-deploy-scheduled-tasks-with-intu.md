@@ -22,31 +22,31 @@ Method 1: The PowerShell and Packaging Way
 
 ### Step 1: Use Task Scheduler to Build the Blueprint
 
-![SCR-20241124-qlob.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1732569490929-28RNRPD8DHR6430NEK78/SCR-20241124-qlob.png)
+![SCR-20241124-qlob.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1732569490929-28RNRPD8DHR6430NEK78/SCR-20241124-qlob.png)
 
-![SCR-20241124-qlob.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1732569490929-28RNRPD8DHR6430NEK78/SCR-20241124-qlob.png)
+![SCR-20241124-qlob.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1732569490929-28RNRPD8DHR6430NEK78/SCR-20241124-qlob.png)
 
-![SCR-20241124-qlrl.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1732569490944-RKKRF3DG94M6GLYNLSOH/SCR-20241124-qlrl.png)
+![SCR-20241124-qlrl.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1732569490944-RKKRF3DG94M6GLYNLSOH/SCR-20241124-qlrl.png)
 
-![SCR-20241124-qlrl.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1732569490944-RKKRF3DG94M6GLYNLSOH/SCR-20241124-qlrl.png)
+![SCR-20241124-qlrl.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1732569490944-RKKRF3DG94M6GLYNLSOH/SCR-20241124-qlrl.png)
 
-![SCR-20241124-qmcw.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1732569491516-ACSLQNAL4G3QHGK1Q8X8/SCR-20241124-qmcw.png)
+![SCR-20241124-qmcw.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1732569491516-ACSLQNAL4G3QHGK1Q8X8/SCR-20241124-qmcw.png)
 
-![SCR-20241124-qmcw.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1732569491516-ACSLQNAL4G3QHGK1Q8X8/SCR-20241124-qmcw.png)
+![SCR-20241124-qmcw.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1732569491516-ACSLQNAL4G3QHGK1Q8X8/SCR-20241124-qmcw.png)
 
-![SCR-20241124-qmhr.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1732569491711-1O9WEBZ7KL6SVH1NTRLD/SCR-20241124-qmhr.png)
+![SCR-20241124-qmhr.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1732569491711-1O9WEBZ7KL6SVH1NTRLD/SCR-20241124-qmhr.png)
 
-![SCR-20241124-qmhr.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1732569491711-1O9WEBZ7KL6SVH1NTRLD/SCR-20241124-qmhr.png)
+![SCR-20241124-qmhr.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1732569491711-1O9WEBZ7KL6SVH1NTRLD/SCR-20241124-qmhr.png)
 
-![SCR-20241124-qmoc.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1732569492284-K8GKACRP2FCG8FJQ3PQJ/SCR-20241124-qmoc.png)
+![SCR-20241124-qmoc.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1732569492284-K8GKACRP2FCG8FJQ3PQJ/SCR-20241124-qmoc.png)
 
-![SCR-20241124-qmoc.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1732569492284-K8GKACRP2FCG8FJQ3PQJ/SCR-20241124-qmoc.png)
+![SCR-20241124-qmoc.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1732569492284-K8GKACRP2FCG8FJQ3PQJ/SCR-20241124-qmoc.png)
 
-![SCR-20241124-qmva.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1732569492714-090JYHMOLFYDB84AWB54/SCR-20241124-qmva.png)
+![SCR-20241124-qmva.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1732569492714-090JYHMOLFYDB84AWB54/SCR-20241124-qmva.png)
 
-![SCR-20241124-qmva.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1732569492714-090JYHMOLFYDB84AWB54/SCR-20241124-qmva.png)
+![SCR-20241124-qmva.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1732569492714-090JYHMOLFYDB84AWB54/SCR-20241124-qmva.png)
 
-![SCR-20241124-qlob.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1732569490929-28RNRPD8DHR6430NEK78/SCR-20241124-qlob.png) ![SCR-20241124-qlrl.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1732569490944-RKKRF3DG94M6GLYNLSOH/SCR-20241124-qlrl.png) ![SCR-20241124-qmcw.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1732569491516-ACSLQNAL4G3QHGK1Q8X8/SCR-20241124-qmcw.png) ![SCR-20241124-qmhr.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1732569491711-1O9WEBZ7KL6SVH1NTRLD/SCR-20241124-qmhr.png) ![SCR-20241124-qmoc.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1732569492284-K8GKACRP2FCG8FJQ3PQJ/SCR-20241124-qmoc.png) ![SCR-20241124-qmva.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1732569492714-090JYHMOLFYDB84AWB54/SCR-20241124-qmva.png)
+![SCR-20241124-qlob.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1732569490929-28RNRPD8DHR6430NEK78/SCR-20241124-qlob.png) ![SCR-20241124-qlrl.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1732569490944-RKKRF3DG94M6GLYNLSOH/SCR-20241124-qlrl.png) ![SCR-20241124-qmcw.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1732569491516-ACSLQNAL4G3QHGK1Q8X8/SCR-20241124-qmcw.png) ![SCR-20241124-qmhr.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1732569491711-1O9WEBZ7KL6SVH1NTRLD/SCR-20241124-qmhr.png) ![SCR-20241124-qmoc.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1732569492284-K8GKACRP2FCG8FJQ3PQJ/SCR-20241124-qmoc.png) ![SCR-20241124-qmva.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1732569492714-090JYHMOLFYDB84AWB54/SCR-20241124-qmva.png)
 
 -   Launch **Task Scheduler** and create a new task.
     

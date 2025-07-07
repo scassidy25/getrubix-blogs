@@ -28,7 +28,7 @@ Some have told me that I treat the ESP as an arch nemesis. That seems a bit extr
 
 If you haven’t set the ESP up in your environment, you should absolutely do that this minute. It’s fairly simple. Log into [https://endpoint.microsoft.com](https://endpoint.microsoft.com) and navigate to **Devices -> Enroll devices -> Windows enrollment -> Enrollment Status Page**.
 
-![2021-09-12 18_22_33-Enroll devices - Microsoft Endpoint Manager admin center.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1631546983446-8DG2FNDASLOWDCZARS5D/2021-09-12+18_22_33-Enroll+devices+-+Microsoft+Endpoint+Manager+admin+center.png)
+![2021-09-12 18_22_33-Enroll devices - Microsoft Endpoint Manager admin center.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1631546983446-8DG2FNDASLOWDCZARS5D/2021-09-12+18_22_33-Enroll+devices+-+Microsoft+Endpoint+Manager+admin+center.png)
 
 There is always one, default ESP configuration in my tenant. Adding more than one used to cause significant issues in Autopilot deployment including extreme delays in provisioning or just straight up time outs. To read more about it, check out the [PSA wrote a while back](https://www.getrubix.com/blog/multiple-enrollment-status-pages-a-psa). Just like when Egon told the other Ghostbusters to “never cross the streams” with their proton packs, I have made sure my team and I only implement one ESP config.
 
@@ -36,13 +36,13 @@ However, it seems that needs to change in order to push an ESP to the Windows 36
 
 I went ahead and created a new ESP configuration and assigned it to my Cloud PC dynamic group that captures all my Windows 365 machines.
 
-![2021-09-12 18_25_30-Enrollment Status Page - Microsoft Endpoint Manager admin center.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1631547221208-FM8DH768BE6KUG8W5QIM/2021-09-12+18_25_30-Enrollment+Status+Page+-+Microsoft+Endpoint+Manager+admin+center.png)
+![2021-09-12 18_25_30-Enrollment Status Page - Microsoft Endpoint Manager admin center.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1631547221208-FM8DH768BE6KUG8W5QIM/2021-09-12+18_25_30-Enrollment+Status+Page+-+Microsoft+Endpoint+Manager+admin+center.png)
 
 The main difference is that I have configured the setting **Only show page to devices provisioned by out-of-box experience (OOBE)** to **No**. I have this set to **Yes** in the default ESP so that only Autopilot devices see it. This is useful for co-managed devices or other PCs that don’t need to go through the OOBE workflow.
 
 But Windows 365 PCs technically aren’t provisioned by OOBE and I still want them to receive an ESP. So setting that policy to **No** should do the trick.
 
-![2021-09-13 10_54_10-Cloud PC ESP - Microsoft Endpoint Manager admin center.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1631547396880-9E7HUPQZYAO09PPK0YIO/2021-09-13+10_54_10-Cloud+PC+ESP+-+Microsoft+Endpoint+Manager+admin+center.png)
+![2021-09-13 10_54_10-Cloud PC ESP - Microsoft Endpoint Manager admin center.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1631547396880-9E7HUPQZYAO09PPK0YIO/2021-09-13+10_54_10-Cloud+PC+ESP+-+Microsoft+Endpoint+Manager+admin+center.png)
 
 Don’t skip the user
 -------------------
@@ -79,13 +79,13 @@ My configuration in Endpoint Manager was complete. I setup a new ESP, configured
 
 I went ahead and provisioned a new Windows 365 PC for a user in the group. As that user, I logged into [https://windows365.microsoft.com,](https://windows365.microsoft.com,) launched the Cloud PC, and BOOM:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1631548208726-ONP66JUHG2DPYY1BO5ZO/2021-09-13+10_29_46-Remote+Desktop+Web+Client.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1631548208726-ONP66JUHG2DPYY1BO5ZO/2021-09-13+10_29_46-Remote+Desktop+Web+Client.png)
 
 Just like an Autopilot device, I was met with the ESP to display my provisioning progress. I’m still curious has to why **Device preparation** and **Device setup** are waiting for the “previous step”… I’ll dig through those pieces later. But it worked exactly as I wanted.
 
 And now, once the user got to the desktop, everything was installed and ready to go:
 
-![2021-09-13 10_38_02-Remote Desktop Web Client.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1631548341156-TPUCNEYM4J9066HQEDVT/2021-09-13+10_38_02-Remote+Desktop+Web+Client.png)
+![2021-09-13 10_38_02-Remote Desktop Web Client.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1631548341156-TPUCNEYM4J9066HQEDVT/2021-09-13+10_38_02-Remote+Desktop+Web+Client.png)
 
 Autopilot or not?
 -----------------

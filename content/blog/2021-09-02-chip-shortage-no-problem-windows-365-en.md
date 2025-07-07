@@ -16,7 +16,7 @@ In short, it is a cloud PC that can be deployed with minimal effort. For everyth
 
 At this point, you may be thinking to yourself “hey Steve, why are you writing about virtual PCs? I thought endpoint management is your area?” While that’s valid, the best part of Windows 365 is the inherent management capability. To start, Windows 365 is administered right in the Endpoint Manager admin center.
 
-![2021-09-02 10_00_29-Devices - Microsoft Endpoint Manager admin center.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1630597456911-4XDKL1YZD2RYZ99L2FAE/2021-09-02+10_00_29-Devices+-+Microsoft+Endpoint+Manager+admin+center.png)
+![2021-09-02 10_00_29-Devices - Microsoft Endpoint Manager admin center.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1630597456911-4XDKL1YZD2RYZ99L2FAE/2021-09-02+10_00_29-Devices+-+Microsoft+Endpoint+Manager+admin+center.png)
 
 I’m not going to spend time on all the official ‘getting-started’ shtick; head over to the [Microsoft documents](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/get-started-with-windows-365-enterprise/ba-p/2530504) for all that goodness.
 
@@ -31,11 +31,11 @@ The initial setup involves creating an Azure VNET with connectivity to your doma
 
 Once there is an available VNET, you configure the On-premises network connection settings with the network info and domain join information.
 
-![2021-09-02 10_06_29-NTWRK-ZTDSCLOUD-W365 - Microsoft Endpoint Manager admin center.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1630598349308-8J64RNZ4E66LAN2GIEBP/2021-09-02+10_06_29-NTWRK-ZTDSCLOUD-W365+-+Microsoft+Endpoint+Manager+admin+center.png)
+![2021-09-02 10_06_29-NTWRK-ZTDSCLOUD-W365 - Microsoft Endpoint Manager admin center.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1630598349308-8J64RNZ4E66LAN2GIEBP/2021-09-02+10_06_29-NTWRK-ZTDSCLOUD-W365+-+Microsoft+Endpoint+Manager+admin+center.png)
 
 Windows 365 PCs are purchased just like any other M365 license and assigned to a user or group the same way. There are various licenses for different hardware specs.
 
-![Welcome to the computer store of the future](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1630598513041-02YVU6Z6EGTWGCG254YR/2021-09-02+11_16_35-Microsoft+365+admin+center.png)
+![Welcome to the computer store of the future](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1630598513041-02YVU6Z6EGTWGCG254YR/2021-09-02+11_16_35-Microsoft+365+admin+center.png)
 
 Welcome to the computer store of the future
 
@@ -46,32 +46,32 @@ Keep them together
 
 Before applying any configuration, I recommend creating an Azure dynamic group for Windows 365 PCs. Azure has a specific property you can use to do this. Use a dynamic query that contains **(device.deviceModel -contains “Cloud PC”)**. Now every time a new machine is provisioned, it will join the group.
 
-![2021-09-02 10_07_24-Windows 365 Cloud PCs - Microsoft Endpoint Manager admin center.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1630598788490-F34L2RCMURXYR0H7Y3UY/2021-09-02+10_07_24-Windows+365+Cloud+PCs+-+Microsoft+Endpoint+Manager+admin+center.png)
+![2021-09-02 10_07_24-Windows 365 Cloud PCs - Microsoft Endpoint Manager admin center.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1630598788490-F34L2RCMURXYR0H7Y3UY/2021-09-02+10_07_24-Windows+365+Cloud+PCs+-+Microsoft+Endpoint+Manager+admin+center.png)
 
 Dynamic groups are always a smart idea in Endpoint Manager so we can explicitly target different builds with different policy.
 
 Back “on the ground”, I would also suggest creating an OU in Active Directory for the same reasons. As you can see, I got real creative with mine:
 
-![2021-09-02 10_12_24-ZTDSDC01.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1630598945811-OQQNVF0880XEYFTPLXYJ/2021-09-02+10_12_24-ZTDSDC01.png)
+![2021-09-02 10_12_24-ZTDSDC01.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1630598945811-OQQNVF0880XEYFTPLXYJ/2021-09-02+10_12_24-ZTDSDC01.png)
 
 Let Intune do it’s thing
 ------------------------
 
 From here on, we can manage these just like any other PC enrolled in Endpoint Manager.
 
-![2021-09-02 10_07_58-CPC-w365-1YW-RV - Microsoft Endpoint Manager admin center.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1630603274984-SLSMJA9CE1WKF40LOBTI/2021-09-02+10_07_58-CPC-w365-1YW-RV+-+Microsoft+Endpoint+Manager+admin+center.png)
+![2021-09-02 10_07_58-CPC-w365-1YW-RV - Microsoft Endpoint Manager admin center.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1630603274984-SLSMJA9CE1WKF40LOBTI/2021-09-02+10_07_58-CPC-w365-1YW-RV+-+Microsoft+Endpoint+Manager+admin+center.png)
 
 See anything out of the ordinary? That’s right- you don’t. Because it’s exactly the same (except for encryption, but that’s to be expected with any virtual machine).
 
 Just with my other machines, I have device configuration policy applied.
 
-![2021-09-02 10_08_33-CPC-w365-1YW-RV - Microsoft Endpoint Manager admin center.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1630603574763-RTEVWYEFSJDME1BYYG44/2021-09-02+10_08_33-CPC-w365-1YW-RV+-+Microsoft+Endpoint+Manager+admin+center.png)
+![2021-09-02 10_08_33-CPC-w365-1YW-RV - Microsoft Endpoint Manager admin center.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1630603574763-RTEVWYEFSJDME1BYYG44/2021-09-02+10_08_33-CPC-w365-1YW-RV+-+Microsoft+Endpoint+Manager+admin+center.png)
 
 You can see my domain certificates, device settings, endpoint protection and even my defender for endpoint onboarding policy have all been applied by targeting them to the dynamic group that was created.
 
 The result on the Windows 365 PC is consistent as well.
 
-![2021-09-02 10_11_05-Remote Desktop Web Client.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1630603632093-7129ICZHLXSFXFU6SP4O/2021-09-02+10_11_05-Remote+Desktop+Web+Client.png)
+![2021-09-02 10_11_05-Remote Desktop Web Client.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1630603632093-7129ICZHLXSFXFU6SP4O/2021-09-02+10_11_05-Remote+Desktop+Web+Client.png)
 
 Policy is applied immediately. As shown, Cortana is disabled, the “allow private store only” policy for the app store is applying, and Windows Updates are being managed per my Update for Business rings.
 
@@ -80,11 +80,11 @@ How about a side order of Group Policy?
 
 Remember, this device is Hybrid Azure AD joined, which means it does exist in my on-premises Active Directory. I can apply any group policy object to it in addition to Intune configuration.
 
-![2021-09-02 10_12_39-ZTDSDC01.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1630603806747-W8Q26HM1T3J3FT4FK9SV/2021-09-02+10_12_39-ZTDSDC01.png)
+![2021-09-02 10_12_39-ZTDSDC01.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1630603806747-W8Q26HM1T3J3FT4FK9SV/2021-09-02+10_12_39-ZTDSDC01.png)
 
 In this case, the policy includes some basic domain settings, in addition to a network drive being mapped. The truth is I forgot about this until I opened the file explorer…
 
-![2021-09-02 10_25_01-Remote Desktop Web Client.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1630603881533-BVE7GF6R1JXOZVEMPCFL/2021-09-02+10_25_01-Remote+Desktop+Web+Client.png)
+![2021-09-02 10_25_01-Remote Desktop Web Client.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1630603881533-BVE7GF6R1JXOZVEMPCFL/2021-09-02+10_25_01-Remote+Desktop+Web+Client.png)
 
 Boom! There’s my H Drive, mapped automatically to the Windows 365 PC. No additional steps were needed.
 

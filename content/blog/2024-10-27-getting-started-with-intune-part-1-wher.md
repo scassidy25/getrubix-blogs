@@ -21,7 +21,7 @@ Then, the higher-ups tell you: it’s time to consolidate everything into Micros
 
 Does any of this sound familiar?
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/b4109908-0c9d-4fc1-ac70-8d0339f0a00c/fortuneTeller.jpeg)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/b4109908-0c9d-4fc1-ac70-8d0339f0a00c/fortuneTeller.jpeg)
 
 My last 8 years
 ---------------
@@ -39,7 +39,7 @@ For every technical challenge, you’ll encounter twice as many process or opera
 
 Fortunately, despite each organization's unique needs, there are foundational components that rarely differ among them. To make headway into the Intune world, start by understanding your current device management landscape.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/23e028c6-e6b9-4c9b-a3cb-92395303a341/human+%281%29.jpeg)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/23e028c6-e6b9-4c9b-a3cb-92395303a341/human+%281%29.jpeg)
 
 What do you do today?
 ---------------------
@@ -113,7 +113,7 @@ Before moving forward, it’s essential to know where you are today. Depending o
 Somewhere to start
 ------------------
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/812df48e-a58b-4326-af17-05054d06df5c/running.jpeg)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/812df48e-a58b-4326-af17-05054d06df5c/running.jpeg)
 
 I know—it’s a lot of information to gather. More important than knowing all these details is identifying who holds this knowledge. In most medium to large organizations, collecting this data requires teamwork, and that’s okay.
 

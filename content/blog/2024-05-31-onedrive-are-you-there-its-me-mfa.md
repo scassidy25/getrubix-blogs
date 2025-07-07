@@ -45,19 +45,19 @@ If you create an intunewin with this oneDrive\_SignIn.ps1 script, your install c
 
 **DETECTION RULE:** File - C:\\Windows\\LaunchOneDriveWithCurrentUser.cmd
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/af6bdf3f-260c-48ab-95e2-c1b8c5875ebb/Picture1.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/af6bdf3f-260c-48ab-95e2-c1b8c5875ebb/Picture1.png)
 
 Once the user is configured in OneDrive, the next time the .cmd file runs at log on, it will determine that the Run registry value is no longer needed (and it will run: reg.exe delete HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run /v LaunchOneDriveWithUser /f)
 
 One interesting thing to note – with this scenario, the user will technically see the option to enable or disable Known Folder Move (KFM). This may seem bad, but the good news is your policy enforcement of KFM will still take effect regardless of what the user selects. You can verify this by enabling the end-user notification when KFM is complete.
 
-![Picture2.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1717159317000-A072JJB183RQTCXLLBAV/Picture2.png)
+![Picture2.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1717159317000-A072JJB183RQTCXLLBAV/Picture2.png)
 
-![Picture2.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1717159317000-A072JJB183RQTCXLLBAV/Picture2.png)
+![Picture2.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1717159317000-A072JJB183RQTCXLLBAV/Picture2.png)
 
-![Picture3.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1717159316979-JXN44OBN3FBKMSV3U5DV/Picture3.png)
+![Picture3.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1717159316979-JXN44OBN3FBKMSV3U5DV/Picture3.png)
 
-![Picture3.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1717159316979-JXN44OBN3FBKMSV3U5DV/Picture3.png)
+![Picture3.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1717159316979-JXN44OBN3FBKMSV3U5DV/Picture3.png)
 
 #block-yui\_3\_17\_2\_1\_1717159105607\_24693 .sqs-gallery-block-grid .sqs-gallery-design-grid { margin-right: -20px; } #block-yui\_3\_17\_2\_1\_1717159105607\_24693 .sqs-gallery-block-grid .sqs-gallery-design-grid-slide .margin-wrapper { margin-right: 20px; margin-bottom: 20px; }
 

@@ -60,9 +60,9 @@ Copy-Item -Path "F:\Templates\GM-$($version).vhdx" -Destination "F:\Hyper-V\Virt
 
 The **$version** variable comes from the initial prompt, which becomes **GM-$($version)**.  In my case, there are three images: GM-1909, GM-2004, and GM-20H2. 
 
-![Untitled picture.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1605583898044-20FY2K0R1B7ATQE1599A/Untitled+picture.png)
+![Untitled picture.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1605583898044-20FY2K0R1B7ATQE1599A/Untitled+picture.png)
 
-![2.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1605583937392-JN0HD6IPKINOCFFX60JF/2.png)
+![2.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1605583937392-JN0HD6IPKINOCFFX60JF/2.png)
 
 As you can see in the line above, I use the $VMName variable to match the name of the cloned disk to the VM itself. 
 
@@ -89,9 +89,9 @@ Set-ExecutionPolicy Bypass -Force
 Get-WindowsAutopilotInfo -Online
 ```
 
-![3.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1605584065212-SC1969Q1TLUN2MKY9YVA/3.png)
+![3.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1605584065212-SC1969Q1TLUN2MKY9YVA/3.png)
 
-![4.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1605584091337-N75F82KSCBW6QSMXSPDS/4.png)
+![4.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1605584091337-N75F82KSCBW6QSMXSPDS/4.png)
 
 It's a great setup.  I can simply remote into my Hyper-V server from any of the PCs in my house and create as many VMs as I need, each one ready for Autopilot.
 

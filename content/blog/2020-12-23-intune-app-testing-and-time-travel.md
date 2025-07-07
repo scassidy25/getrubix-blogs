@@ -27,7 +27,7 @@ Next, I've downloaded PSTools, which can be found [here](https://docs.microsoft.
 
 I've extracted it to my C drive so it's accessible.  There is also a "Test" folder that will serve as the application install directory.  Let's try installing Adobe Acrobat Pro.  We'll copy all of the install files we need into “C:\\Test”.
 
-![1.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1608755756190-848TJEHEFNKU5MIZS2S3/1.png)
+![1.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1608755756190-848TJEHEFNKU5MIZS2S3/1.png)
 
 Make any other changes or customizations you want to the VM such as GPO, UAC settings, shortcuts, etc.  For example, I turn off the UAC settings and configure PowerShell and CMD to always launch as Administrator.  Remember, we're going for time savings.
 
@@ -37,11 +37,11 @@ With everything all set the way you prefer, go ahead and launch an elevated cmd 
 C:\PSTools\PsExec.exe -i -s cmd
 ```
 
-![2.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1608755932536-MPS30MFQUNY4JQQSWUYM/2.png)
+![2.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1608755932536-MPS30MFQUNY4JQQSWUYM/2.png)
 
 PSTools will launch another CMD session, this time as nt authority\\system.  This is the same context in which Intune will install a system application, so this will give us the most accurate result.
 
-![3.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1608755964854-9OMB5YNZA49DVEVRYG9C/3.png)
+![3.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1608755964854-9OMB5YNZA49DVEVRYG9C/3.png)
 
 Go ahead and navigate to your install directory by typing:
 
@@ -54,16 +54,16 @@ Snapshot
 
 I'm going to create a Hyper-V checkpoint to snapshot the current state of the VM,  because this is the absolute perfect spot to do so.  My install files are ready, I have CMD running as system to mirror Intune, and I'm sitting in the install directory.  Now if something goes wrong, I can return to this exact moment in time.  I suppose it's like _Back to the Future_, just not as entertaining or cool.
 
-![4.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1608756048443-RX2M6VZTQ1ARRMN40DLS/4.png)
+![4.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1608756048443-RX2M6VZTQ1ARRMN40DLS/4.png)
 
 Installing the app
 ------------------
 
 Now that I've frozen that moment in time, it's time to install the app.  Keep in mind, that whatever you type at this point should be the same as what you intend to configure for the install command in Intune.
 
-![5.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1608756085711-89QP8K919GXL2YNNWKAL/5.png)
+![5.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1608756085711-89QP8K919GXL2YNNWKAL/5.png)
 
-![6.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1608756096637-HOZWD3CMOGCMO9GDIJOK/6.png)
+![6.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1608756096637-HOZWD3CMOGCMO9GDIJOK/6.png)
 
 Hopefully, the app will install.  If it does, go ahead and package using the Win32 Content Prep Tool.  Here's my [last writeup](https://www.getrubix.com/blog/app-answers-yes-intune-can-do-it) on it.
 

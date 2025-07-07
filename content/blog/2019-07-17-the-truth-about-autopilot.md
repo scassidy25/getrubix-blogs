@@ -19,7 +19,7 @@ That’s not a knock against Autopilot; it functions exactly how it’s supposed
 -   Assuming credentials are valid, the PC is Azure AD joined and passed off to the automatic Intune MDM enrollment
     
 
-![image_thumb373-e1563731747452.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581032505797-8TNCR8CQKC4XCMGCRAEL/image_thumb373-e1563731747452.png)
+![image_thumb373-e1563731747452.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581032505797-8TNCR8CQKC4XCMGCRAEL/image_thumb373-e1563731747452.png)
 
 If that all goes to plan, you now have a device that’s enrolled in Intune; Microsoft’s endpoint management tool. But what next? When do the device restrictions, update policies, applications and the rest of the good stuff push to the device? The answer is it won’t unless you’ve built them out in Intune. And that is the common misconception. Autopilot will enroll you with Intune faster and with less chance of errors, but you need to have an infrastructure built out to manage the device. For all of this to work, you need:
 

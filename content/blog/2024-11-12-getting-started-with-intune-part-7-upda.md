@@ -29,7 +29,7 @@ Here’s why WUfB can make your life easier:
 The Power of Update Rings: A Gradual, Controlled Rollout
 --------------------------------------------------------
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/43df4b56-44e5-4d57-ae5c-e7e37afb5068/part6-1.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/43df4b56-44e5-4d57-ae5c-e7e37afb5068/part6-1.png)
 
 With WSUS, you’d manually approve each update, pushing it out in waves across the organization. In Intune, **update rings** give you similar control but with more automation and flexibility. You can structure updates into rings, assigning devices to groups for a gradual rollout that minimizes disruption and keeps issues isolated to smaller groups.
 
@@ -73,7 +73,7 @@ With this approach, the transition to Windows 11 feels like just another feature
 Boost Efficiency with Delivery Optimization for On-Site Updates
 ---------------------------------------------------------------
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/47b52aff-e318-4d8a-b8a9-cf4718ef6c18/part6-2.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/47b52aff-e318-4d8a-b8a9-cf4718ef6c18/part6-2.png)
 
 For on-site environments, Delivery Optimization in Intune is a game-changer for bandwidth management. Delivery Optimization allows devices to download updates from local peers, reducing the load on your network and speeding up the process for everyone.
 
@@ -95,7 +95,7 @@ Instead of each device downloading updates directly from Microsoft, Delivery Opt
 Compliance Policies: Making Sure Devices Are Up-to-Date
 -------------------------------------------------------
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/62198685-a8ab-47da-a45d-06b17ef76944/part6-3.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/62198685-a8ab-47da-a45d-06b17ef76944/part6-3.png)
 
 Intune’s **compliance policies** are your best friend for ensuring devices stay updated. Compliance policies allow you to set requirements for OS and patch levels, so you can easily see if devices are falling behind.
 

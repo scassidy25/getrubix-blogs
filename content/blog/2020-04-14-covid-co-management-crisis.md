@@ -19,7 +19,7 @@ _\*I understand that most of your users, if not all, are currently not connected
 
 Without a doubt, this is the easier scenario. Essentially, we’ll be enrolling SCCM managed devices to Intune and pushing as much or as little of the workload as we want there. Here are the most relevant workloads to help immediately:
 
-![2020-04-14 09_39_33-CONFIGMAN (configman3000.zerotouch.local) - Remote Desktop Connection Manager v2.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1586871582389-OA1MVYRZN4SMMH4IPTAH/2020-04-14+09_39_33-CONFIGMAN+%28configman3000.zerotouch.local%29+-+Remote+Desktop+Connection+Manager+v2.png)
+![2020-04-14 09_39_33-CONFIGMAN (configman3000.zerotouch.local) - Remote Desktop Connection Manager v2.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1586871582389-OA1MVYRZN4SMMH4IPTAH/2020-04-14+09_39_33-CONFIGMAN+%28configman3000.zerotouch.local%29+-+Remote+Desktop+Connection+Manager+v2.png)
 
 -   **Office 365 deployment**: deploy and manage the Office suite including individual apps, update channels, and configuration policy (admin templates)
     
@@ -32,7 +32,7 @@ Without a doubt, this is the easier scenario. Essentially, we’ll be enrolling 
 
 Here is a high-level overview of the architecture:
 
-![2020-04-13 23_43_46-Co Management.pptx - PowerPoint.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1586871708305-TZ26HGLJEUQQF8U05IVB/2020-04-13+23_43_46-Co+Management.pptx+-+PowerPoint.png)
+![2020-04-13 23_43_46-Co Management.pptx - PowerPoint.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1586871708305-TZ26HGLJEUQQF8U05IVB/2020-04-13+23_43_46-Co+Management.pptx+-+PowerPoint.png)
 
 You can see that even though the device is domain bound and still managed by the client, you now have the ability to push additional applications and configurations from Azure. These require no line-of-sight to the domain, thus providing an immediate fix for managing a remote workforce.
 
@@ -43,22 +43,22 @@ Here is a breakdown of the steps:
 -   Hybrid Azure AD join must be enabled. This allows domain joined devices to be visible in Azure and eligible for Intune enrollment
     
 
-![2020-04-14 09_07_03-z0tdc02.zerotouch.local - Remote Desktop Connection.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1586871814535-MI7M0IT0KBL6UA8W9J4G/2020-04-14+09_07_03-z0tdc02.zerotouch.local+-+Remote+Desktop+Connection.png)
+![2020-04-14 09_07_03-z0tdc02.zerotouch.local - Remote Desktop Connection.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1586871814535-MI7M0IT0KBL6UA8W9J4G/2020-04-14+09_07_03-z0tdc02.zerotouch.local+-+Remote+Desktop+Connection.png)
 
 -   Assign the EMS (Enterprise Mobility + Security) licensing to all applicable users and enable Automatic Enrollment in Intune for Windows devices.
     
 
-![2020-04-14 09_44_51-Chuck Berry _ Licenses - Microsoft Azure.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1586871900872-MRRNQWEKHZE7PHZTMCB7/2020-04-14+09_44_51-Chuck+Berry+_+Licenses+-+Microsoft+Azure.png)
+![2020-04-14 09_44_51-Chuck Berry _ Licenses - Microsoft Azure.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1586871900872-MRRNQWEKHZE7PHZTMCB7/2020-04-14+09_44_51-Chuck+Berry+_+Licenses+-+Microsoft+Azure.png)
 
 -   In the SCCM console, navigate to **Administration > Cloud Services > Co-management** and click “**Configure co-management**”.
     
 
-![2020-04-14 09_36_10-CONFIGMAN (configman3000.zerotouch.local) - Remote Desktop Connection Manager v2.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1586872000467-VAOWKB29ZTI1SC3UV8AM/2020-04-14+09_36_10-CONFIGMAN+%28configman3000.zerotouch.local%29+-+Remote+Desktop+Connection+Manager+v2.png)
+![2020-04-14 09_36_10-CONFIGMAN (configman3000.zerotouch.local) - Remote Desktop Connection Manager v2.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1586872000467-VAOWKB29ZTI1SC3UV8AM/2020-04-14+09_36_10-CONFIGMAN+%28configman3000.zerotouch.local%29+-+Remote+Desktop+Connection+Manager+v2.png)
 
 -   Sign in to Azure and select your pilot group for enrollment.
     
 
-![2020-04-13 22_30_37-configman3000.zerotouch.local - Remote Desktop Connection.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1586872033328-4PL9M7WKA0SQRAFCZJCR/2020-04-13+22_30_37-configman3000.zerotouch.local+-+Remote+Desktop+Connection.png)
+![2020-04-13 22_30_37-configman3000.zerotouch.local - Remote Desktop Connection.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1586872033328-4PL9M7WKA0SQRAFCZJCR/2020-04-13+22_30_37-configman3000.zerotouch.local+-+Remote+Desktop+Connection.png)
 
 From there, you can enable the correlating features in Intune that match up to the workloads you'll be shifting. The cool part is that even without shifting workloads, you gain access to the following features:
 

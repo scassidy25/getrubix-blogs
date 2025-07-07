@@ -12,7 +12,7 @@ For those who have a relatively small pool of printers, let’s say 40 or less, 
 
 Let’s make a PowerShell script with… absolutely nothing in it! Well, maybe put a comment or something just for fun – but don’t bother putting any real commands in it.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/69c62aa7-9423-4ea6-aaea-98aaf0c8c090/blog1.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/69c62aa7-9423-4ea6-aaea-98aaf0c8c090/blog1.png)
 
 …Why? 
 
@@ -28,7 +28,7 @@ Wrap that ps1 as an intunewin, start the upload, and then configure the followin
 
 **Device restart behavior:** No specific action
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/9ddef4db-9c96-429e-81b8-36f8f74da089/blog2.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/9ddef4db-9c96-429e-81b8-36f8f74da089/blog2.png)
 
 So again… why do we have to do this? Well, we could have technically put the command in the PowerShell script we wrapped. But – that would require an executionpolicy override. To do an executionpolicy override, you need to be an administrator. System has administrator rights… but does System have access to the print server? The user likely does NOT have administrator rights (I hope)… but the user should have access to the print server.
 
@@ -44,11 +44,11 @@ Now that we have the solution, let’s add a proper detection rule:
 
 **Detection method:** Key Exists
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/6abfdc4a-ce37-486f-907c-435e5eec3964/blog_detect.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/6abfdc4a-ce37-486f-907c-435e5eec3964/blog_detect.png)
 
 What’s nice about this method is that I can just upload the same .intunewin over and over again, and simply change the package name, install commands, and detection rule. With this package now available in the company portal, the user can go ahead and install their desired printer:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/3603eb96-1abc-4ec2-b3c7-0af93590d242/blog4.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/3603eb96-1abc-4ec2-b3c7-0af93590d242/blog4.png)
 
 The ps1 will likely take up most of the screen when it runs, but it should be relatively quick. Just make sure you have line of site to the print server (perhaps you could add a custom requirement script to run Test-NetConnection?).
 

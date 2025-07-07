@@ -21,7 +21,7 @@ First, let’s grab the [required files](https://www.microsoft.com/en-us/downloa
 
 Microsoft provides a handy diagram below on how this all works, but let’s break it down step by step.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/5d2c3f41-b0a1-4a62-9f04-8ee684768d65/blog1.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/5d2c3f41-b0a1-4a62-9f04-8ee684768d65/blog1.png)
 
 **Step 1: Setting Up the Password Protection Proxy**
 
@@ -32,7 +32,7 @@ Microsoft has a few [prerequisites](https://learn.microsoft.com/en-us/entra/iden
 2.  The installer will not prompt you for a restart, but trust me, just go ahead and reboot. It helps.
     
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/f5007b32-1225-493d-b7b5-6d7591ecd00c/blog2.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/f5007b32-1225-493d-b7b5-6d7591ecd00c/blog2.png)
 
 **Step 2: Register the Proxy Service**
 
@@ -51,17 +51,17 @@ Register-AzureADPasswordProtectionProxy -AccountUpn 'globaladmin@tenant.domain.c
 
 4. After that, test your setup to confirm everything is working as expected.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1326f84b-4d2c-4fd6-b4b0-8ffd3bb5afd4/bog3.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1326f84b-4d2c-4fd6-b4b0-8ffd3bb5afd4/bog3.png)
 
 **Step 3: Register Your On-Premises Active Directory**
 
 Next up, we install the **DC Agent** on all domain controllers. It’s a super simple install—just click a button, let it do its thing, and restart when prompted. (Yes, another restart. Just go with it.) Be sure to grab the [prerequisites](https://learn.microsoft.com/en-us/entra/identity/authentication/howto-password-ban-bad-on-premises-deploy#microsoft-entra-password-protection-dc-agent) for this installation.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/8e685e22-fb98-46e2-84c6-81f9c9d2e4d9/blog4.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/8e685e22-fb98-46e2-84c6-81f9c9d2e4d9/blog4.png)
 
 After rebooting, we run similar commands as before to verify everything is properly registered. If all checks pass, we’re good to move on.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/07908292-1c9d-40a8-b77e-9b433aa32d94/blog5.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/07908292-1c9d-40a8-b77e-9b433aa32d94/blog5.png)
 
 **Configuring Password Protection in Entra**
 
@@ -78,17 +78,17 @@ Now that our on-premises setup is done, let’s configure our policies in Entra:
 5.  Set **Mode** to Audit first so you can see what passwords are getting flagged before enforcing it.
     
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/8f22172f-4fb7-4c45-b02a-2538bbeda3b7/blog6.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/8f22172f-4fb7-4c45-b02a-2538bbeda3b7/blog6.png)
 
 **Putting It to the Test**
 
 Once everything is in place, I tried changing my password to something resembling “poptart” and—boom—rejected faster than a vegetarian at a BBQ competition.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/83b2ed91-7152-4eff-a071-d65a7d048888/blog7.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/83b2ed91-7152-4eff-a071-d65a7d048888/blog7.png)
 
 A quick check of the event logs under: **\\Applications and Services Logs\\Microsoft\\AzureADPasswordProtection\\DCAgent\\Admin** confirmed that my new password was rejected due to Azure’s Password Policy. Success!
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/03ebde3e-aea3-4c11-9581-4f16cedf2e83/Screenshot+2025-02-04+090904.jpg)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/03ebde3e-aea3-4c11-9581-4f16cedf2e83/Screenshot+2025-02-04+090904.jpg)
 
 **Final Thoughts**
 

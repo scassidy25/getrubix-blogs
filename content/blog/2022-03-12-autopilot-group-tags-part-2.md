@@ -36,7 +36,7 @@ Let’s recap what we have:
 
 So what does this mean for our Group Tag strategy? First, let’s take a look at the example I used previously:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/76209911-fdb3-4ee9-a116-2cef11c821d1/final.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/76209911-fdb3-4ee9-a116-2cef11c821d1/final.png)
 
 Sure, we could go with a similar structure, but we would be missing a key factor: location. Now, could we solve this with user based assignment? We could, but that would introduce some new challenges:
 
@@ -57,13 +57,13 @@ So knowing this, what does our Group Tag structure need to look like? Well, if y
 
 Let’s go ahead and add a place for the site location. I’ll use **WIN-AP-NY-CORP**. But why did I put the location in _that_ particular spot? Check out my new diagram that I made specifically for Magic Coffee:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/855795c3-42b6-414a-a609-7efb871187e1/All.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/855795c3-42b6-414a-a609-7efb871187e1/All.png)
 
 There’s a lot going on here. The main difference from my original diagram is the horizontal movement. Those are the sites. My “All Autopilot” PCs group is still intact, and it contains all the site locations within it. And then within the site groups, are the build groups.
 
 But wait a minute- why wouldn’t I do the _build_ first followed by the location? Easy; that’s not what the business needed. To highlight this, let’s zoom in on the NY location:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/dc8f7977-b043-4f30-ba9d-b55916698bf6/NY.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/dc8f7977-b043-4f30-ba9d-b55916698bf6/NY.png)
 
 Remember, each site is run by it’s own IT department, each with their own standards. Here, the IT department can determine which standards apply to all builds, like Office 365 apps, Windows Update rings and security policy. Now within each build, network drives, printers, VPN connection and applications can be used, still all keeping with the NY site standards.
 
@@ -72,7 +72,7 @@ What happens in NY…
 
 Let’s zoom out one more time:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/4c515464-2938-4ecd-92fe-bac88e0395c2/zoom+out.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/4c515464-2938-4ecd-92fe-bac88e0395c2/zoom+out.png)
 
 You can see, that everything that is assigned and scoped to the NY site does not affect additional sites, like Chicago. They will not inherit anything from NY with this structure, and are free to have their own versions of Office, Windows updates, etc. And if Magic Coffee ever does need to deploy something to all devices in the business, we still have the **WIN-AP**, “All Autopilot” device group which will catch every PC in every site.
 

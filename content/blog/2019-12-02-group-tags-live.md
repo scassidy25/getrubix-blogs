@@ -15,7 +15,7 @@ First, rearrange
 
 Here is the chunk from the first draft of the script that downloaded the group tag config file.
 
-![2019-12-02-09_58_56-tagselector.ps1-grouptags-visual-studio-code.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581090372669-ZRAO0N3O1VWREAOCKQCV/2019-12-02-09_58_56-tagselector.ps1-grouptags-visual-studio-code.png)
+![2019-12-02-09_58_56-tagselector.ps1-grouptags-visual-studio-code.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581090372669-ZRAO0N3O1VWREAOCKQCV/2019-12-02-09_58_56-tagselector.ps1-grouptags-visual-studio-code.png)
 
 So first things first; we’re no longer going to be getting the XML file from a static location. Instead, we’re going to make a modified graph call to return active group tags. Note that this will only work on currently applied group tags.
 
@@ -25,7 +25,7 @@ Here is the graph call:
 
 Now our code to get the group tags from an XML file looks like this:
 
-![Because we’re still getting the tag content from an XML, we’re exporting our graph call as an XML file next to the script.](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581090405134-PU1EY3MENTNYNP4U6R0W/2019-12-02-10_34_25-tagform2.ps1-grouptags-visual-studio-code.png)
+![Because we’re still getting the tag content from an XML, we’re exporting our graph call as an XML file next to the script.](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581090405134-PU1EY3MENTNYNP4U6R0W/2019-12-02-10_34_25-tagform2.ps1-grouptags-visual-studio-code.png)
 
 Because we’re still getting the tag content from an XML, we’re exporting our graph call as an XML file next to the script.
 
@@ -36,20 +36,20 @@ Because we’re using the **Get-AutopilotImportedDevice** function, we have to
 
 ### Before…
 
-![We need to move this block up above](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581090444159-D9JR2Y3PS014KFNMNMUE/2019-12-02-10_37_11-tagselector.ps1-grouptags-visual-studio-code-1.png)
+![We need to move this block up above](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581090444159-D9JR2Y3PS014KFNMNMUE/2019-12-02-10_37_11-tagselector.ps1-grouptags-visual-studio-code-1.png)
 
 We need to move this block up above
 
 ### After…
 
-![2019-12-02-10_39_40-e2978f-tagform2.ps1-grouptags-visual-studio-code-2.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581090640841-N9W19DEJV4AOP0POX6KF/2019-12-02-10_39_40-e2978f-tagform2.ps1-grouptags-visual-studio-code-2.png)
+![2019-12-02-10_39_40-e2978f-tagform2.ps1-grouptags-visual-studio-code-2.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581090640841-N9W19DEJV4AOP0POX6KF/2019-12-02-10_39_40-e2978f-tagform2.ps1-grouptags-visual-studio-code-2.png)
 
 Finally, enjoy!
 ---------------
 
 Now we will have authenticated prior to getting the tags, since they’re coming straight from the graph. Here is the new pop up:
 
-![2019-12-02-10_50_01-test-no-ap-1903-on-sweiner-14178-virtual-machine-connection.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581090670314-4TC190B2NDOR4DENZT33/2019-12-02-10_50_01-test-no-ap-1903-on-sweiner-14178-virtual-machine-connection.png)
+![2019-12-02-10_50_01-test-no-ap-1903-on-sweiner-14178-virtual-machine-connection.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581090670314-4TC190B2NDOR4DENZT33/2019-12-02-10_50_01-test-no-ap-1903-on-sweiner-14178-virtual-machine-connection.png)
 
 So we’re getting the same options as before, just not as clean looking. Ultimately, I still have to do some work on getting rid of the null values, but this is at least functional.
 

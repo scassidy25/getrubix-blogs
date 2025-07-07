@@ -10,7 +10,7 @@ Alright- we may be at the end here. In [Part 2](https://www.getrubix.com/blog/au
 
 We spent time with Magic Coffee building a Group Tag structure to fit their need to separate device builds based on site locations. As a recap, here is was designed for them:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/7ca33ee2-27ca-46df-9cad-8c9caae281db/All.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/7ca33ee2-27ca-46df-9cad-8c9caae281db/All.png)
 
 This structure reflects the need to identify each device build per site, leaving room for specific app assignments in addition to future builds. But take a closer look; the primary differentiator here is the location, which makes sense because Magic Coffee allows the IT admins per site to control the build requirements. But this is very different for our other business; enter Global Operations Inc.
 
@@ -47,7 +47,7 @@ Device Builds:
 
 There are a lot of factors here. But again, it’s all about requirements and the needs of the business. Let’s start with the global standard. Global Opps wants to make sure the corporate build is consistent whether it’s deployed in Canada or India. That means the build should be my primary differentiator with this Group Tag structure. So let’s start there:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/07813967-f244-46d7-93d9-2b05d46f6414/Screen+Shot+2022-03-15+at+3.08.05+PM.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/07813967-f244-46d7-93d9-2b05d46f6414/Screen+Shot+2022-03-15+at+3.08.05+PM.png)
 
 Just like the rest of the examples, I have my parent group, **WIN-AP**, that is collecting all tagged devices. Next are the device builds. They come before any location tag because of the need for the standard. Core applications and policies are applied here so that the build components cascade through subsequent tags.
 
@@ -55,7 +55,7 @@ While Global Opps is enforcing a global standard for these builds, they will als
 
 Here is the structure to support the regions:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/9ca73a09-38dc-43ce-9780-33dd6a67e7e8/Screen+Shot+2022-03-15+at+3.44.45+PM.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/9ca73a09-38dc-43ce-9780-33dd6a67e7e8/Screen+Shot+2022-03-15+at+3.44.45+PM.png)
 
 Each build as subsequent tags for the region. Central IT will determine what is configured at the **WIN-AP-CORP** level. However, the IT admins in Canada have the ability to manage **WIN-AP-CORP-CA** the way they see fit for their needs. They can do this without interfering with the corporate standard.
 

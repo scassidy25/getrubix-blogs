@@ -17,20 +17,20 @@ If you want to watch Radar in action, you can watch it [**here**](https://youtu.
 **Step 1: Access Radar in Robopack**
 ------------------------------------
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/f41c474d-ccb4-453a-b655-be76b3d913e7/robopack1.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/f41c474d-ccb4-453a-b655-be76b3d913e7/robopack1.png)
 
 After logging into Robopack, you’ll find **Radar** in the left-hand menu below “Instant Apps.” Clicking on **Radar** takes you to a dashboard where you can scan your Intune environment for existing applications.
 
 **Step 2: Scan Your Intune Tenant**
 -----------------------------------
 
-![robopack2.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1740775550456-XRLP7VS4TTW1EE23VX3R/robopack2.png)
+![robopack2.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1740775550456-XRLP7VS4TTW1EE23VX3R/robopack2.png)
 
-![robopack2.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1740775550456-XRLP7VS4TTW1EE23VX3R/robopack2.png)
+![robopack2.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1740775550456-XRLP7VS4TTW1EE23VX3R/robopack2.png)
 
-![robopack3.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1740775550362-R6GEO8B3AL8D2MWRGDD4/robopack3.png)
+![robopack3.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1740775550362-R6GEO8B3AL8D2MWRGDD4/robopack3.png)
 
-![robopack3.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1740775550362-R6GEO8B3AL8D2MWRGDD4/robopack3.png)
+![robopack3.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1740775550362-R6GEO8B3AL8D2MWRGDD4/robopack3.png)
 
 Once inside the Radar interface, you can **select an Intune tenant** from the dropdown list and then click **“Scan Intune with Radar.”** This process retrieves all applications currently managed or discovered within Intune.
 
@@ -43,18 +43,18 @@ After scanning, Radar presents a detailed list of apps **already deployed in Int
 **Step 3: Identify Apps Ready for Patching**
 --------------------------------------------
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/b82900d8-2c0e-4060-a7de-f27ea0f0e7c7/robopack4.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/b82900d8-2c0e-4060-a7de-f27ea0f0e7c7/robopack4.png)
 
 Once the scan completes, you’ll see a list of **apps available for patching** along with their publisher, version, and type. The results can be **searched and filtered** to quickly locate specific applications.
 
 Some apps may not be eligible for automatic patching—Radar conveniently categorizes these separately, prompting admins to manually specify or upload an installer if needed.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/31fa7d6c-7b10-434f-9f48-3c148d77d064/robopack5.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/31fa7d6c-7b10-434f-9f48-3c148d77d064/robopack5.png)
 
 **Step 4: Assign Apps to a Patch Group**
 ----------------------------------------
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/e81cc2e3-1958-4a09-8f11-bd004f7adb79/robopack6.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/e81cc2e3-1958-4a09-8f11-bd004f7adb79/robopack6.png)
 
 Radar allows you to select multiple apps and assign them to a **patch group** for streamlined updates. Patch groups define which devices receive updates first, ensuring a controlled rollout.
 
@@ -65,7 +65,7 @@ For example, you can create a **“Patch Group Zero”** to include critical app
 
 Once assigned, your selected apps will be **automatically updated** within Intune using Robopack’s patching system. Patch groups can be configured to **retain a set number of previous versions** to allow for rollbacks.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/3a3e4435-bf12-4f09-8cc6-4c30eef28123/robopack7.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/3a3e4435-bf12-4f09-8cc6-4c30eef28123/robopack7.png)
 
 **Why Robopack Radar is a Game-Changer**
 ----------------------------------------

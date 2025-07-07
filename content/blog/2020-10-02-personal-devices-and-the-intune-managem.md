@@ -16,7 +16,7 @@ All Windows 10 devices have a basic registry path that acts as a placeholder for
 
 The data for that particular value is the Azure tenant ID, but we don’t even need the data. For any intunewin packages that are assigned to user groups, we can add an additional requirement to install the app only if the registry value exists. See below:
 
-![Picture1.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1601670605027-TEXTWZS9IZXY42U02J6U/Picture1.png)
+![Picture1.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1601670605027-TEXTWZS9IZXY42U02J6U/Picture1.png)
 
 One more gotcha…
 
@@ -26,11 +26,11 @@ Then all of a sudden, Google Chrome installed. The surprise here was that Google
 
 After some digging in Endpoint Manager and some logs, we noticed that the guid for Chrome was listed as a “ChildId” in the Intune Management Extension log:
 
-![92181c91-a120-4353-a945-b44891bd1bab.jpg](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1601670698370-PT0VV26CLUF73C7TFUWY/92181c91-a120-4353-a945-b44891bd1bab.jpg)
+![92181c91-a120-4353-a945-b44891bd1bab.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1601670698370-PT0VV26CLUF73C7TFUWY/92181c91-a120-4353-a945-b44891bd1bab.jpg)
 
 What this tells us is that Google Chrome was listed as a dependency for the original application, and the console had the dependency configured to automatically install (For those who aren’t aware, the app guid appears in your browser’s url bar when looking at a specific application: [https://endpoint.microsoft.com/#blade/Microsoft\_Intune\_Apps/SettingsMenu/0/appId/11010011-abcd-efgh-1011-abcdefghijkl](https://endpoint.microsoft.com/#blade/Microsoft_Intune_Apps/SettingsMenu/0/appId/11010011-abcd-efgh-1011-abcdefghijkl)). In this screenshot, we are looking at the primary application to view the Chrome dependency:
 
-![Picture1.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1601670742747-0UVKTHYR2WNE1QKOFV8G/Picture1.png)
+![Picture1.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1601670742747-0UVKTHYR2WNE1QKOFV8G/Picture1.png)
 
 …so what does this mean? Intune will process and execute any required dependencies before it actually calculates the requirements for the primary application… yikes. 
 

@@ -17,7 +17,7 @@ Policy from Intune can be divided into three categories: Configuration profiles,
 
 These are the easy ones; profiles that are nothing more than GUI toggles in the console just like any standard MDM (Mobile Device Management) solution. Want to disable Cortana? Just hit the ‘block’ button in the console. Require CTRL + ALT + DEL to unlock a PC? Click away, my friend.
 
-![2019-07-26-08_52_30-interactive-logon-microsoft-azure.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581033581292-R1I0LLHLBIC8CQAVUTEB/2019-07-26-08_52_30-interactive-logon-microsoft-azure.png)
+![2019-07-26-08_52_30-interactive-logon-microsoft-azure.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581033581292-R1I0LLHLBIC8CQAVUTEB/2019-07-26-08_52_30-interactive-logon-microsoft-azure.png)
 
 ### Custom CSP
 
@@ -25,13 +25,13 @@ So what happens when you want to set a policy that’s nowhere to be found in th
 
 Let’s say for example you want to disable the consumer features of Windows that business love so much (that was sarcasm). First step is to find that policy on the [Microsoft CSP page](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-configuration-service-provider). As you can see below, the **AreaName** is “Experience” and the **Policy** is “AllowWindowsConsumerFeatures”. Our options are represented by the values 0 (Not Allowed) and 1 (Allowed).
 
-![2019-07-26-08_56_00-policy-csp-experience-_-microsoft-docs-and-11-more-pages-microsoft-edge.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581033680907-H7400YVE2LOKJWB760RB/2019-07-26-08_56_00-policy-csp-experience-_-microsoft-docs-and-11-more-pages-microsoft-edge.png)
+![2019-07-26-08_56_00-policy-csp-experience-_-microsoft-docs-and-11-more-pages-microsoft-edge.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581033680907-H7400YVE2LOKJWB760RB/2019-07-26-08_56_00-policy-csp-experience-_-microsoft-docs-and-11-more-pages-microsoft-edge.png)
 
 The basic construction of the policy is usually **./<Scope>/Vendor/MSFT/Policy/Config/<AreaName>/<Policy>**.
 
 Scope can also be found on the page with the policy documentation. So in this case, our policy will read as **./Device/Vendor/MSFT/Policy/Config/Experience/AllowWindowsConsumerFeatures**. Intune has an option when creating configuration profiles to choose “custom”. Simply apply the values we aggregated from the CSP page to set and assign:
 
-![Custom configuration profile values](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581033821022-4PICDANOTG77HV7BP6FN/2019-07-26-09_01_00-add-row-microsoft-azure.png)
+![Custom configuration profile values](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581033821022-4PICDANOTG77HV7BP6FN/2019-07-26-09_01_00-add-row-microsoft-azure.png)
 
 Custom configuration profile values
 
@@ -39,13 +39,13 @@ Custom configuration profile values
 
 Ah yes- this is the long awaited feature that was keeping so many of us nerds in suspense. Actual, GPOs in the Intune console. Simply add a configuration profile with the type “Administrative Templates”. From there, you will find an embarrassingly disorganized list of every ADMX policy available.
 
-![All available GPOs- without any organization](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581034178585-OV9G9OHFC8GYZC2X3S71/2019-07-26-09_03_04-z0t-onedrive-policy-settings-microsoft-azure.png)
+![All available GPOs- without any organization](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581034178585-OV9G9OHFC8GYZC2X3S71/2019-07-26-09_03_04-z0t-onedrive-policy-settings-microsoft-azure.png)
 
 All available GPOs- without any organization
 
 Let’s go ahead and set a configuration for OneDrive policy. After creating the Administrative Templates profile, open the settings and search for “OneDrive”. Everything available in that node should populate. Select the settings you want to configure, and just like traditional GPO, you’ll be presented with the options. That’s it. You can make as many of these profiles as you’d like as they pertain to different areas of Windows.
 
-![Just like AD group policy](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581034258556-NVOXBLGHZ3CWG9KEPCY3/2019-07-26-09_04_14-silently-sign-in-users-to-the-onedrive-sync-client-with-their-windows-credential.png)
+![Just like AD group policy](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581034258556-NVOXBLGHZ3CWG9KEPCY3/2019-07-26-09_04_14-silently-sign-in-users-to-the-onedrive-sync-client-with-their-windows-credential.png)
 
 Just like AD group policy
 

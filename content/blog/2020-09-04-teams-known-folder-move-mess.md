@@ -12,7 +12,7 @@ Most companies like the idea of having Office ready to go before the end user hi
 
 Around the same time that Teams completes the user install and generates a desktop shortcut, the OneDrive Known Folder Move policy kicks in and redirects the desktop. The only issue here - and this is especially true with those who are constantly testing and re-enrolling devices via Autopilot - is you may end up with multiple copies of the “Microsoft Teams.lnk” shortcut. Especially if you forget to delete these like I do. Look at this mess:
 
-![Screen Shot 2020-09-02 at 1.47.15 PM.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1599163083679-4RTQKRNHDLMB62BWRWS8/Screen+Shot+2020-09-02+at+1.47.15+PM.png)
+![Screen Shot 2020-09-02 at 1.47.15 PM.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1599163083679-4RTQKRNHDLMB62BWRWS8/Screen+Shot+2020-09-02+at+1.47.15+PM.png)
 
 Since I primarily work with IT folks who are testing this heavily for the first time, I figure it would be nice to provide a way to cleanup the icons during test deployments. I created a  PowerShell script that generates a reoccurring task for the first 10 minutes of deployment, and it essentially looks for any file names containing “Microsoft Teams -“ in the OneDrive folder path. This one may look a bit odd, as my goal was to do everything within one single script . The other option would have been to wrap three separate files into an intunewin package - that probably would be much prettier, but the scripts tend to hit devices quicker and this needs to hit devices immediately after reaching the desktop.
 
@@ -158,7 +158,7 @@ In the end, the files are created and the task is imported and initiated. One th
 if($icon.Name -like "*Microsoft Teams*")
 ```
 
-![Better?](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1599235299503-2FP3NUG60YNHEWXTUDNY/edited.png)
+![Better?](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1599235299503-2FP3NUG60YNHEWXTUDNY/edited.png)
 
 Better?
 

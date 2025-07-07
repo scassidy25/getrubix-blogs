@@ -15,13 +15,13 @@ Boot up and get started
 
 Start up your physical PC or virtual machine and wait until you see the _“Choose your country or region”_ selection screen. To verify what version of Windows you’re using, type **fn+Shift+F10** to open the cmd prompt and type `winver` and hit return.
 
-![1.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1718130499008-850Z61VLUYJQ1YO9LXB3/1.png)
+![1.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1718130499008-850Z61VLUYJQ1YO9LXB3/1.png)
 
-![1.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1718130499008-850Z61VLUYJQ1YO9LXB3/1.png)
+![1.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1718130499008-850Z61VLUYJQ1YO9LXB3/1.png)
 
-![2.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1718130498969-DDNPGPRP0SSQB37T0W7R/2.png)
+![2.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1718130498969-DDNPGPRP0SSQB37T0W7R/2.png)
 
-![2.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1718130498969-DDNPGPRP0SSQB37T0W7R/2.png)
+![2.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1718130498969-DDNPGPRP0SSQB37T0W7R/2.png)
 
 #block-yui\_3\_17\_2\_1\_1718130455724\_13392 .sqs-gallery-block-grid .sqs-gallery-design-grid { margin-right: -20px; } #block-yui\_3\_17\_2\_1\_1718130455724\_13392 .sqs-gallery-block-grid .sqs-gallery-design-grid-slide .margin-wrapper { margin-right: 20px; margin-bottom: 20px; }
 
@@ -36,13 +36,13 @@ Choose your region and click **yes**.
 
 On the next screens, choose your keyboard type and then decide whether to add a second keyboard or not (I have chosen to hit **Skip**).
 
-![3.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1718130548025-P30ISP4QJYVQNK52FQ3T/3.png)
+![3.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1718130548025-P30ISP4QJYVQNK52FQ3T/3.png)
 
-![3.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1718130548025-P30ISP4QJYVQNK52FQ3T/3.png)
+![3.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1718130548025-P30ISP4QJYVQNK52FQ3T/3.png)
 
-![4.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1718130548007-EP4MICI24VZ6WZDZM0Y8/4.png)
+![4.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1718130548007-EP4MICI24VZ6WZDZM0Y8/4.png)
 
-![4.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1718130548007-EP4MICI24VZ6WZDZM0Y8/4.png)
+![4.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1718130548007-EP4MICI24VZ6WZDZM0Y8/4.png)
 
 #block-yui\_3\_17\_2\_1\_1718130455724\_22442 .sqs-gallery-block-grid .sqs-gallery-design-grid { margin-right: -20px; } #block-yui\_3\_17\_2\_1\_1718130455724\_22442 .sqs-gallery-block-grid .sqs-gallery-design-grid-slide .margin-wrapper { margin-right: 20px; margin-bottom: 20px; }
 
@@ -57,7 +57,7 @@ Now we come to three screens that were hidden in Autopilot V1. This is due to th
 
 This page will be shown for both Windows 11 Pro and Enterprise versions.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/da36bc2a-5d92-4b29-8843-4992f0cfe8ad/5.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/da36bc2a-5d92-4b29-8843-4992f0cfe8ad/5.png)
 
 -   Click **Accept** on the License Agreement page.
     
@@ -68,7 +68,7 @@ This will only be shown in Windows 11 Pro, however it is the most problematic gi
 
 If need be, the computer name can be changed again via a PowerShell script deployed through Intune after enrollment.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/bfe5ac73-710d-486b-8b28-ef1fc50ad97d/6.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/bfe5ac73-710d-486b-8b28-ef1fc50ad97d/6.png)
 
 -   We will click on **Skip for now**.
     
@@ -79,7 +79,7 @@ Probably one of the most critical OOBE screens, this will also not be shown in W
 
 In order for Autopilot V2 to work, you need to select the work/school option. Otherwise, the PC will be expecting a consumer Microsoft account and not an Entra ID.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/a36518a9-c3c7-425b-8f7c-cd160018b7b0/7.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/a36518a9-c3c7-425b-8f7c-cd160018b7b0/7.png)
 
 -   To continue with Autopilot enrollment, choose **Set up for work or school**
     
@@ -88,14 +88,14 @@ In order for Autopilot V2 to work, you need to select the work/school option. Ot
 
 On the sign-in screen, the PC is expecting an enterprise or education account.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/ac71a2d5-f416-4a49-b945-4e77dee5167b/8.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/ac71a2d5-f416-4a49-b945-4e77dee5167b/8.png)
 
 -   Enter your M365 credentials and click **Next**
     
 
 Once you enter your email, you should see the corporate logo on the next screen.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/95402276-2065-4965-b036-845f3f0446c9/9.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/95402276-2065-4965-b036-845f3f0446c9/9.png)
 
 -   Enter your password and click **Sign in**
     
@@ -107,19 +107,19 @@ Assuming the user you signed in with is part of the group that is assigned the d
 
 ### Start the setup
 
-![10.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1718131386265-8T070QEOXGON0DPW642W/10.png)
+![10.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1718131386265-8T070QEOXGON0DPW642W/10.png)
 
-![10.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1718131386265-8T070QEOXGON0DPW642W/10.png)
+![10.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1718131386265-8T070QEOXGON0DPW642W/10.png)
 
-![11.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1718131386265-RNACALKKAFGB6H6KVBIP/11.png)
+![11.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1718131386265-RNACALKKAFGB6H6KVBIP/11.png)
 
-![11.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1718131386265-RNACALKKAFGB6H6KVBIP/11.png)
+![11.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1718131386265-RNACALKKAFGB6H6KVBIP/11.png)
 
 #block-yui\_3\_17\_2\_1\_1718130455724\_39695 .sqs-gallery-block-grid .sqs-gallery-design-grid { margin-right: -20px; } #block-yui\_3\_17\_2\_1\_1718130455724\_39695 .sqs-gallery-block-grid .sqs-gallery-design-grid-slide .margin-wrapper { margin-right: 20px; margin-bottom: 20px; }
 
 The new status page is quite different, only showing the user the overall setup progress of the PC.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/07bf861d-1042-463f-8ad1-4643e8c395ad/12.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/07bf861d-1042-463f-8ad1-4643e8c395ad/12.png)
 
 So far from my testing, it seems like the numbers correlate to the following:
 
@@ -136,11 +136,11 @@ Once the required setup is complete, click **Next**
 
 ### This is private
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/a1130bdf-aa60-4e4f-9750-7d591c67d516/14.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/a1130bdf-aa60-4e4f-9750-7d591c67d516/14.png)
 
 The last screen that is no longer skipped with Autopilot is the device privacy settings. These can also be configured through Intune and applied to the device after enrollment.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/05cec7c2-94ab-4ea1-b997-c72cbbac571c/15.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/05cec7c2-94ab-4ea1-b997-c72cbbac571c/15.png)
 
 For now, just scroll to the bottom of the settings and click **Accept.**
 
@@ -149,13 +149,13 @@ Looks like we made it
 
 After the privacy settings, the device should start preparing the user profile. Once completed, you will now be on the fully enrolled and managed desktop.
 
-![16.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1718131574450-NBWZJF8P9CCXY6FU46QX/16.png)
+![16.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1718131574450-NBWZJF8P9CCXY6FU46QX/16.png)
 
-![16.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1718131574450-NBWZJF8P9CCXY6FU46QX/16.png)
+![16.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1718131574450-NBWZJF8P9CCXY6FU46QX/16.png)
 
-![17.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1718131574508-C9EIDHCP39XTOZNJKCH0/17.png)
+![17.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1718131574508-C9EIDHCP39XTOZNJKCH0/17.png)
 
-![17.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1718131574508-C9EIDHCP39XTOZNJKCH0/17.png)
+![17.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1718131574508-C9EIDHCP39XTOZNJKCH0/17.png)
 
 #block-yui\_3\_17\_2\_1\_1718131490199\_24338 .sqs-gallery-block-grid .sqs-gallery-design-grid { margin-right: -10px; } #block-yui\_3\_17\_2\_1\_1718131490199\_24338 .sqs-gallery-block-grid .sqs-gallery-design-grid-slide .margin-wrapper { margin-right: 10px; margin-bottom: 10px; }
 

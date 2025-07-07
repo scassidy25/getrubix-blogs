@@ -8,7 +8,7 @@ description: " If you’ve deployed any Windows 10 devices via Autopilot, then y
 
 If you’ve deployed any Windows 10 devices via Autopilot, then you are no doubt familiar with the Enrollment Status Page (ESP). It is responsible for communicating which stage of the provisioning process that Windows is currently going through.
 
-![esp-1903.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1594750659924-XRJ4197VAK7J3RN6FXQG/esp-1903.png)
+![esp-1903.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1594750659924-XRJ4197VAK7J3RN6FXQG/esp-1903.png)
 
 This is a great feature as it allows IT admins to determine which applications must be installed on the machine prior to allowing a user to sign in. The only problem is, the ESP is quite unforgiving when installing these applications. Any hiccups that may occur during the installation will show themselves 100% of the time here, so it’s important to understand what can potentially trip up the ESP and what you can do to conquer it.
 
@@ -17,7 +17,7 @@ A giant clock
 
 One of the more prominent features that can be configured in ESP is the amount of time to wait for provisioning to finish before an error message is thrown.
 
-![2020-07-14 14_24_19-All users and all devices _ Properties - Microsoft Endpoint Manager admin center.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1594751917577-ME6GUX4O10BQ6O030GBD/2020-07-14+14_24_19-All+users+and+all+devices+_+Properties+-+Microsoft+Endpoint+Manager+admin+center.png)
+![2020-07-14 14_24_19-All users and all devices _ Properties - Microsoft Endpoint Manager admin center.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1594751917577-ME6GUX4O10BQ6O030GBD/2020-07-14+14_24_19-All+users+and+all+devices+_+Properties+-+Microsoft+Endpoint+Manager+admin+center.png)
 
 The default is 60 minutes, and unless you’re feeling especially bold, I don’t recommend changing it. We’ve given ourselves a preset amount of time for all of our required applications and policies to come down from Microsoft Endpoint Manager (MEM, formerly known as Intune). Granted, if you’re pushing more than an hour’s worth of content during this phase, the question is why are you using Autopilot to begin with? But still, even if your average provisioning time is in the 20-30 minute range, having some wiggle room for poor bandwidth is smart.
 

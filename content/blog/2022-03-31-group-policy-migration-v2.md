@@ -21,7 +21,7 @@ With V1, there was a custom authentication method that was able to access the Mi
 
 The main benefit is that there are no modules required; it relies solely on web requests. Why is that a benefit? Often times we push PowerShell scripts to endpoints via Intune for various reasons. If we want them to authenticate to the graph, it’s best not to have to push required modules out to those endpoints. However, that is obviously a different use case. So we streamlined things a bit by leveraging the [Microsoft.Graph.Intune](https://www.powershellgallery.com/packages/Microsoft.Graph.Intune/6.1907.1.0) PowerShell module in V2.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/20df7112-c10f-4ca1-91ed-ea8812ab1045/2.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/20df7112-c10f-4ca1-91ed-ea8812ab1045/2.png)
 
 As you can see, we start by checking if the module is installed, and if not, installing it before importing. With the Microsoft.Graph.Intune module installed, we can simply call **Connect-MSGraph** to authenticate. You will need to sign-in with Intune Admin credentials (or higher) to use the script.
 
@@ -29,7 +29,7 @@ As you can see, we start by checking if the module is installed, and if not, ins
 
 There are two variables that must be modified in order for the script to function. First is the **$csvPath** which points to the exported policy csv file from Intune. The other is **$policyName** which is the name we want the configuration profile to have when it posts to Intune. Instead of hard-coding those in the script, they are now required parameters to make it easier when running.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/09ec5d4b-7afd-415a-a710-158a7b2e2c15/1.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/09ec5d4b-7afd-415a-a710-158a7b2e2c15/1.png)
 
 Why didn’t we use those to start? That is a fantastic question and one of the first that Logan asked me when working on this. If you asked yourself the same thing, you’re in good company (the answer is I’m lazy).
 
@@ -53,9 +53,9 @@ Export and run
 
 And that’s all there is to it. To convert a policy, just export the Group Policy Analytics report from Intune, and run the PowerShell script. Just like before, your policy will be converted to an Intune device configuration profile in about 30 seconds. Not bad, eh?
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/56773c7f-2be4-4b10-a36a-53d29aacc585/3.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/56773c7f-2be4-4b10-a36a-53d29aacc585/3.png)
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/58751a37-082e-43c9-addb-cb47ff6959b1/4.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/58751a37-082e-43c9-addb-cb47ff6959b1/4.png)
 
 ### Upcoming feature?
 

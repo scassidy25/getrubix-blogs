@@ -107,4 +107,4 @@ Make sure to set this new package as a dependency for the Autopilot Branding and
 
 Once complete, you should end up with a proper start layout that contains your custom lnk icons. You can ultimately create any shortcuts you need for tiles using this method – the files just have to be somewhere in that Start Menu\\Programs path ahead of time. And yes, I need to update that Company Portal icon to the latest one, but you could use your own company’s icon if you wanted to customize it further. Let me know if this helps or if there are other general customizations you are curious about, thanks!
 
-![Picture1.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1598298102344-25SRVFG1AO3NYSIKZNWD/Picture1.png)
+![Picture1.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1598298102344-25SRVFG1AO3NYSIKZNWD/Picture1.png)

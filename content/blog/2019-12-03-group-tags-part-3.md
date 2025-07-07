@@ -15,17 +15,17 @@ No more nulls
 
 My second iteration of the group tag selector script was able to scrape all existing group tags for Autopilot devices from the Microsoft Graph. You can download that version of the [script here](https://z0tinstallers.blob.core.windows.net/configs/tagSelector2.ps1?sv=2019-02-02&ss=b&srt=sco&sp=rwdlac&se=2020-12-31T22:44:02Z&st=2019-12-02T14:44:02Z&spr=https&sig=kg2j7kOXkWNZQieiYVhDoqVfIzCA1npLF7eYtoTwQ4I%3D). The problem was I couldn’t seem to filter out the null values that represented ’empty’ group tags.
 
-![Let’s be honest; that’s disgusting](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581090890315-0EZUWB9IQCY4ULIVGR2M/image-asset.png)
+![Let’s be honest; that’s disgusting](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581090890315-0EZUWB9IQCY4ULIVGR2M/image-asset.png)
 
 Let’s be honest; that’s disgusting
 
 It wasn’t for lack of trying. I played with various _if_ statements to try and leave those blank values out. But of course, Jesse cracked this one right away. Here was the original code block that listed the values from the XML:
 
-![image.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581090919355-WIZB3PS14854LTAAHANU/image.png)
+![image.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581090919355-WIZB3PS14854LTAAHANU/image.png)
 
 The **$tag** variable is just listing each group tag in the XML, regardless of whether or not it was empty. In the end, it was a simple _if_ statement inside the _foreach_ loop, excluding any entries equal to nothing.
 
-![image-1.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581090945897-XFN1PSOYPORV6826ACM8/image-1.png)
+![image-1.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581090945897-XFN1PSOYPORV6826ACM8/image-1.png)
 
 So, that took care of leaving out the null values.
 
@@ -41,27 +41,27 @@ Of course, the first question Jesse asked me after reviewing the script was “w
 -   Two new entries were added to the list box in addition to the dynamic listing of tags from the graph: **_“No tag”_** and **_“Add new tag…”_**
     
 
-![image-3.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581090998998-91WXPKSH4B6TEKZSDHNP/image-3.png)
+![image-3.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581090998998-91WXPKSH4B6TEKZSDHNP/image-3.png)
 
 -   If **_“No tag”_** is the selected item, the **$tag** variable is simply set to **$null** and the device is enrolled with no tag; perfect!
     
 
-![image-4.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581091034056-IZUY8GPNBB4XQ0381F0R/image-4.png)
+![image-4.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581091034056-IZUY8GPNBB4XQ0381F0R/image-4.png)
 
 -   If **_“Add new tag…”_** is the selected item, another form is displayed as a text box, where a brand new tag can be entered. The **$tag** variable is then set to that string.
     
 
-![image-5.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581091055091-XQBBPTY64PLMHDW7MB56/image-5.png)
+![image-5.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581091055091-XQBBPTY64PLMHDW7MB56/image-5.png)
 
 Also, proper handlers for the “cancel” button were also added. Now when the script is run, this is the pop-up window displayed:
 
-![Notice the ‘Add new tag…’ option](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581091133882-R9NCGOTBVRWQE9ITMCWR/2019-12-03-09_00_36-ztds-1903-1203-on-sweiner-14178-virtual-machine-connection.png)
+![Notice the ‘Add new tag…’ option](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581091133882-R9NCGOTBVRWQE9ITMCWR/2019-12-03-09_00_36-ztds-1903-1203-on-sweiner-14178-virtual-machine-connection.png)
 
 Notice the ‘Add new tag…’ option
 
 When **“Add new tag…”** is selected, a new text box appears:
 
-![2019-12-03-09_01_14-ztds-1903-1203-on-sweiner-14178-virtual-machine-connection.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581091165997-PR5FWNRTN9N65B9MRQD4/2019-12-03-09_01_14-ztds-1903-1203-on-sweiner-14178-virtual-machine-connection.png)
+![2019-12-03-09_01_14-ztds-1903-1203-on-sweiner-14178-virtual-machine-connection.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581091165997-PR5FWNRTN9N65B9MRQD4/2019-12-03-09_01_14-ztds-1903-1203-on-sweiner-14178-virtual-machine-connection.png)
 
 There are probably a few things that can still be cleaned up, but I think that gets us where we want to be. Again, thanks to Jesse for taking this to the next level. You can grab the new version of the [script here](https://z0tinstallers.blob.core.windows.net/configs/tagSelector3.ps1?sv=2019-02-02&ss=b&srt=sco&sp=rwdlac&se=2020-12-31T22:44:02Z&st=2019-12-02T14:44:02Z&spr=https&sig=kg2j7kOXkWNZQieiYVhDoqVfIzCA1npLF7eYtoTwQ4I%3D).
 

@@ -12,11 +12,11 @@ Keep in mind - the Install behavior is normally determined by the EXE or MSI you
 
 Having said that; when you wrap an application with a script, if you point to the script instead of the original installer file, MEM will let you chose whether the install behavior is System or User. See the screenshots below:
 
-![Screen Shot 2021-06-21 at 1.45.06 PM.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1624539465543-X8FQ6RIM9IDN17DZMTDM/Screen+Shot+2021-06-21+at+1.45.06+PM.png)
+![Screen Shot 2021-06-21 at 1.45.06 PM.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1624539465543-X8FQ6RIM9IDN17DZMTDM/Screen+Shot+2021-06-21+at+1.45.06+PM.png)
 
 Now let’s say I uploaded this and decided to test the installation behavior. I come to realize that due to some errors in the installation logs, the process needs to run as the User instead of System. If I go back to the same intunewin package, I can not modify the property:
 
-![Screen Shot 2021-06-21 at 1.48.41 PM.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1624539491572-MKPPS6YFMGKN882SVGZA/Screen+Shot+2021-06-21+at+1.48.41+PM.png)
+![Screen Shot 2021-06-21 at 1.48.41 PM.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1624539491572-MKPPS6YFMGKN882SVGZA/Screen+Shot+2021-06-21+at+1.48.41+PM.png)
 
 Shoot. I proceeded to try and upload a new intunewin to the existing package, but it still had the property locked. This was something that I needed to change for seven different version of the application, as they had sightly altered settings for different user-based groups. I could have re-wrapped the packages, but I wanted to see if there was any way to just update the package via the graph.
 

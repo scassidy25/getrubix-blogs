@@ -44,7 +44,7 @@ Once you’ve checked your overall hardware requirements and potential app/drive
 
 And no – setting the policy to make MDM win over GPO does not fix this. **You need to get rid of those ancient GPOs!** 
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/e1b038d0-0001-4f93-ad9f-c36f67cd6425/200.gif)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/e1b038d0-0001-4f93-ad9f-c36f67cd6425/200.gif)
 
 So which GPOs are potentially problematic? If you look at a cloud-native device without GPO, you will typically see that no settings exist under the following registry paths:
 
@@ -154,7 +154,7 @@ I originally did a video with Steve on this script to gather all sorts of data a
 
 And - now that we have 1-2 remediations in Intune, we can even pull those results and incorporate it into the report!
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/878a0906-916b-4d48-916e-57b5cae77302/great.gif)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/878a0906-916b-4d48-916e-57b5cae77302/great.gif)
 
 You can download the script by [clicking here](https://github.com/stevecapacity/IntunePowershell/blob/55b00e29e85bb86d8a32d506451f6b24d96a9151/Win11_Scripts/Intune_W11_Reporting_Script.ps1). Feel free to set it to either delegated or application-based permissions – just make sure to select the correct authentication settings in the script around line 54 (and make sure you have separately loaded MSAL.PS once on your computer for delegated-auth scripts).
 
@@ -169,41 +169,41 @@ What would a CSV export be without a beautifully colored Excel file to import to
 
 2\. In the search bar, type “from text” to get the legacy option to show.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/c3917984-196e-4d28-92b8-045e7ec160e3/excel5.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/c3917984-196e-4d28-92b8-045e7ec160e3/excel5.png)
 
 3\. Set the file type to Delimited. Then set the import to start at row 2. Check off “My data has headers” and click Next.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/add098b4-fa13-4519-a065-084a455ffc86/excel1.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/add098b4-fa13-4519-a065-084a455ffc86/excel1.png)
 
 4\. Set your Delimiters to Comma and click Next.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/8e7faa90-0ae7-4376-992d-e0ee7f2caf25/excel2.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/8e7faa90-0ae7-4376-992d-e0ee7f2caf25/excel2.png)
 
   
 5\. Click Finish on the next menu. BEFORE you click OK, first click on Properties and uncheck “Adjust column width”. Then you can click OK, and OK again on the last screen.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/97488725-132e-4181-a67e-c2f7a5d16a35/excel3.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/97488725-132e-4181-a67e-c2f7a5d16a35/excel3.png)
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/65b92b8d-c06f-48e7-84c5-145eeebcad6f/excel4.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/65b92b8d-c06f-48e7-84c5-145eeebcad6f/excel4.png)
 
 Let’s see what the final output looks like…
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/90d2cd76-200c-4310-aa41-12f6edda1094/excel6.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/90d2cd76-200c-4310-aa41-12f6edda1094/excel6.png)
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/016142e6-4f20-4f5f-ba7e-6da2a79d9623/excel7.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/016142e6-4f20-4f5f-ba7e-6da2a79d9623/excel7.png)
 
 I have additional hardware details around TPM, Secure Boot, Encryption Status, Manufacturer/Model, Chassis Type, and Processor Architecture – you can always remove these from the final output variable in the script, and the Excel template itself. Same thing for Compliance status – however I do include ConfigMgr client and co-management workload statuses:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/cc3de23c-be85-4145-8f73-4b121e5b54ba/excel8.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/cc3de23c-be85-4145-8f73-4b121e5b54ba/excel8.png)
 
 And while it doesn’t matter so much, I include status of MDM wins over GPO (again, doesn’t really help with Windows Update policies). But – take a look at the remediation data!
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/3b8ec8b1-2d1c-4bcf-a557-e4ac070af2a3/excel9.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/3b8ec8b1-2d1c-4bcf-a557-e4ac070af2a3/excel9.png)
 
   
 Again, it’s not perfect with how I converted it all to string – however when you want to filter and conditionally format potentially bad values, just do a search in the format as “valuename”,”value”
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/e1c2bd39-26d7-4e87-ae92-5a7e9e2c0642/excel10.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/e1c2bd39-26d7-4e87-ae92-5a7e9e2c0642/excel10.png)
 
 My conditional formatting at the moment just looks for NoAutoUpdate being set to 1 in the AU key, and DisableDualScan being set to 1 in the parent WindowsUpdate key. You can certainly replicate additional rules for some of the other bad values, which I would recommend for the scansource and target version entries.
 

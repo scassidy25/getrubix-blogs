@@ -33,7 +33,7 @@ Having options is a good thing, so we went back and looked at user migration fro
 
 This is similar to what we’ve already covered, but we’re now using Azure blob storage as an alternative to copying data on the local machine. Here is the high-level workflow:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/58bf1b53-fca5-4d59-8b19-c1434b9b5865/Screenshot+2023-10-02+at+8.40.16+AM.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/58bf1b53-fca5-4d59-8b19-c1434b9b5865/Screenshot+2023-10-02+at+8.40.16+AM.png)
 
 Almost looks like a map to a theme park, right? Anyway, here’s the flow:
 
@@ -56,7 +56,7 @@ Almost looks like a map to a theme park, right? Anyway, here’s the flow:
 
 This second method came about for two organizations I was working with while making the first series. Here, the user is migrated to a new tenant, but instead of bringing their existing PC, they are issued a new machine deployed via Autopilot. Take a look:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/4943f015-6223-456a-8df0-d82859d236ce/Screenshot+2023-10-02+at+9.52.08+AM.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/4943f015-6223-456a-8df0-d82859d236ce/Screenshot+2023-10-02+at+9.52.08+AM.png)
 
 In this model, we have two options. We can use blob storage, but only as a fail safe. We’re using the pre-migration script to create an SMB share that can be read by our new Autopilot device, allowing for peer-to-peer network sharing. Here’s how it works:
 

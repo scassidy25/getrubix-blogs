@@ -13,7 +13,7 @@ Task Flow
 
 For as elaborate as this task system is, they follow a very simple flow.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/d53da0b2-7c45-40f4-9137-98bef909a6e5/TaskFlow2.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/d53da0b2-7c45-40f4-9137-98bef909a6e5/TaskFlow2.png)
 
 -   The **StartMigrate.ps1** script is deployed in an app package from Intune in Tenant A
     
@@ -48,7 +48,7 @@ We have to rename the Tenant A local profile name before the 2nd reboot. So why 
 
 Here is what the finished product looked like:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/02728329-2590-4a71-b253-30d05ecc78bd/middleboot.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/02728329-2590-4a71-b253-30d05ecc78bd/middleboot.png)
 
 Note that we’re also creating the **post-migration.log** file to capture all of the output from the task scripts. Subsequent scripts will append their transcripts to that file.
 
@@ -64,7 +64,7 @@ Once we have that, the next part is just the inverse of the original data backup
 
 After the data migration is complete, we reset the policy to show the last signed-in user at the logon screen. I’m going to have the device reboot one more time because of all the data we moved to the user profile, and same as before, this script will disable the task that ran it. Take a look:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/476380e7-c39a-4a61-a0f5-042d9404483d/restore.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/476380e7-c39a-4a61-a0f5-042d9404483d/restore.png)
 
 Next time…
 ----------

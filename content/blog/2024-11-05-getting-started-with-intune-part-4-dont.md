@@ -13,7 +13,7 @@ Remember, if you’re enjoying this series make sure to check out the video comp
 Who made these in the first place?
 ----------------------------------
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/376ccbe3-8339-4720-9da7-14686b3d3c50/gpo2.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/376ccbe3-8339-4720-9da7-14686b3d3c50/gpo2.png)
 
 Ugh
 
@@ -37,7 +37,7 @@ This built-in tool allows Intune to read your GPOs and tell you what the equival
 
 Simple, right? Well, there is an issue.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/b0f98107-ba03-4d54-9abf-c2f91482393b/gpo1.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/b0f98107-ba03-4d54-9abf-c2f91482393b/gpo1.png)
 
 It looks promising, but don’t be fooled
 
@@ -64,7 +64,7 @@ The Group Policy Analytics tool is helpful, but don’t expect it to do all the 
     -   MIGRATE SUPPORTED POLICY
         
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/23f0a3c1-de23-4d51-bba6-3cfb0a451e56/gpo3.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/23f0a3c1-de23-4d51-bba6-3cfb0a451e56/gpo3.png)
 
 But, it’s so tempting…
 
@@ -107,7 +107,7 @@ Before we get into transferring and creating policies, we need to understand wha
 Step 2: Take only what you need to survive
 ------------------------------------------
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/ef9c1907-a64f-42f8-8bf8-d1bde4ae4a0f/gpo4.jpg)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/ef9c1907-a64f-42f8-8bf8-d1bde4ae4a0f/gpo4.jpg)
 
 Great movie
 
@@ -136,7 +136,7 @@ There are a few policies you can’t just ignore, like:
 
 ### We have the TECHNOLOGY; we can rebuild them
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/38900f0b-2a76-494b-a66f-829dfd67a312/gpo5.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/38900f0b-2a76-494b-a66f-829dfd67a312/gpo5.png)
 
 Now we’re just going off the rails, but I’m enjoying myself
 
@@ -191,7 +191,7 @@ Well, mostly painless.
 No more training, do you require
 --------------------------------
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/eda04b3b-6319-40bf-b896-fb19f3d733f2/gpo6.gif)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/eda04b3b-6319-40bf-b896-fb19f3d733f2/gpo6.gif)
 
 Nice
 

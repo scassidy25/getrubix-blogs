@@ -13,7 +13,7 @@ Remember, there is a full companion video series to these blogs in the GetRubix 
 Daily Intune Operations: Rethinking the IT Routine
 --------------------------------------------------
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/92048788-a8c9-4b43-bcc8-7ff342d57e68/DALL%C2%B7E+2024-11-13+16.01.01+-+A+vibrant+image+illustrating+the+theme+of+changing+a+routine.+A+person+is+depicted+transitioning+from+a+busy%2C+repetitive+schedule+shown+on+the+left+si.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/92048788-a8c9-4b43-bcc8-7ff342d57e68/DALL%C2%B7E+2024-11-13+16.01.01+-+A+vibrant+image+illustrating+the+theme+of+changing+a+routine.+A+person+is+depicted+transitioning+from+a+busy%2C+repetitive+schedule+shown+on+the+left+si.png)
 
 In traditional Windows management, the daily routine might involve everything from managing group policies and pushing updates through WSUS to troubleshooting specific devices on-site. Intune flips much of this on its head, moving device management to the cloud, so you can support devices from anywhere. Here are some of the biggest differences:
 
@@ -47,7 +47,7 @@ With Intune, you’re not limited by on-premises restrictions, which means your 
 Autopilot vs. Traditional Imaging: The End of “Ghosting” Machines
 -----------------------------------------------------------------
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/cb826878-7f0e-4fb3-ab26-c162a5a0b31c/crying.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/cb826878-7f0e-4fb3-ab26-c162a5a0b31c/crying.png)
 
 Now, let’s talk about deploying new PCs. If you’ve spent years using traditional imaging tools, you’re probably familiar with the endless cycle of capturing and deploying images, then customizing them for specific departments. **Windows Autopilot** takes a different approach, and it’s making life a lot easier (and faster) for IT.
 

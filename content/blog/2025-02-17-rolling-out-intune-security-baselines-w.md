@@ -33,11 +33,11 @@ There are many methods to import .json files, but for this demo I’m just going
 
 ·         **Devices>Configuration> Create> Import Policy**
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/5d8fe554-38df-4436-a2c0-ca707801958e/blog1.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/5d8fe554-38df-4436-a2c0-ca707801958e/blog1.png)
 
 ·         **Browse to .Json file> Assign a name for the policy>Click Save**
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/56026f20-b176-4eae-9766-8d04852e87fe/blog2.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/56026f20-b176-4eae-9766-8d04852e87fe/blog2.png)
 
 ·         **After creating the new policy, assign it as you normally would.**
 
@@ -47,6 +47,6 @@ There are many methods to import .json files, but for this demo I’m just going
 
 With this UAT form, I roll out settings to pilot groups. If users experience an issue, we identify that specific group and troubleshoot from there. This makes life _so much_ easier rather than debugging hundreds of settings at once, we’re only dealing with a handful at a time.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/139362a6-2319-4b0c-b33e-8690694cda70/blog3.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/139362a6-2319-4b0c-b33e-8690694cda70/blog3.png)
 
 By taking this step-by-step approach, I keep security tight _without_ accidentally locking people out of their offices (again).

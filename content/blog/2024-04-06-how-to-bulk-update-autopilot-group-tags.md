@@ -14,19 +14,19 @@ I wrote a quick PowerShell script using the Graph API to change group tags in bu
 
 We start by authenticating to the graph via the **WindowsAutopilotIntune** module.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/71d4259b-0a06-4e73-be21-5e72ee4ba385/Screenshot+2024-04-06+190336.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/71d4259b-0a06-4e73-be21-5e72ee4ba385/Screenshot+2024-04-06+190336.png)
 
 You’ll also need NuGet to install the module so we threw that in. Afterwards, use **Connect-MgGraph** to authenticate to your tenant (permissions will be required, of course.)
 
 So now it’s time to re-tag. But how should we do this? I thought of two possible scenarios: the first, gathering a list of serial numbers for the devices that need to be updated. We can then import the list and use that to change tags.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/e059a59b-cf8a-4a53-ac0e-390c85870869/Screenshot+2024-04-06+190814.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/e059a59b-cf8a-4a53-ac0e-390c85870869/Screenshot+2024-04-06+190814.png)
 
 That works.
 
 But let’s say instead of individual devices, you’re looking for everything that has a certain group tag? Let’s call that the “old tag”. We can use the old tag to target those devices for tag changing.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/64dabd7b-6e5d-4c7e-8cf8-e556d30c16dc/Screenshot+2024-04-06+190949.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/64dabd7b-6e5d-4c7e-8cf8-e556d30c16dc/Screenshot+2024-04-06+190949.png)
 
 There we go! The full code is now on my GitHub page [here](https://github.com/stevecapacity/IntunePowershell/blob/main/bulkGroupTagUpdate.ps1).
 

@@ -42,7 +42,7 @@ Where is Device Query?
 
 The single device query is still located within the managed device menu for each PC. To access the tenant-wide query, log in to [https://endpoint.microsoft.com](https://endpoint.microsoft.com) and navigate to **Devices > Device query**:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/f01b3962-b4c0-4091-87d1-b5c91b9b3411/Pasted+Graphic.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/f01b3962-b4c0-4091-87d1-b5c91b9b3411/Pasted+Graphic.png)
 
 That was easy
 
@@ -55,7 +55,7 @@ Don’t worry if you’re not super familiar with KQL—it’s a pretty straight
 
 But before that, let’s go over the lay of the land, so to speak. Here is a break down of the device query page:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/7f04e113-fc65-426a-aa9f-5d6987d5ed30/SCR-20250222-nwpx.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/7f04e113-fc65-426a-aa9f-5d6987d5ed30/SCR-20250222-nwpx.png)
 
 -   A: These are the categories of attributes you can use in your device queries
     

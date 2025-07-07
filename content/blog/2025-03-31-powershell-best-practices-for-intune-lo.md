@@ -40,7 +40,7 @@ Stop-Transcript
 
 This will result in a log file that looks like this:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1e584c6e-63ac-4eca-bd55-76c443d78d99/log1.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1e584c6e-63ac-4eca-bd55-76c443d78d99/log1.png)
 
 Log Function
 ------------
@@ -83,14 +83,14 @@ Stop-Transcript
 
 Here is what the result looks like:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/d0c75683-8363-47c3-80c2-39d2305cac5b/log2.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/d0c75683-8363-47c3-80c2-39d2305cac5b/log2.png)
 
 Where to put the logs?
 ----------------------
 
 You can write logs to just about anywhere on the PC. However, allow me to bring your attention back to Intune and the _“Collect Diagnostics”_ feature:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/deabf6d0-2f4a-4e45-a700-a408783aa2bd/log3.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/deabf6d0-2f4a-4e45-a700-a408783aa2bd/log3.png)
 
 Clicking this will pull all of Intune related events up to us in a neat, little file that we can collect remotely. Wouldn’t it be great if we could do the same with our own logs? Well, we can.
 

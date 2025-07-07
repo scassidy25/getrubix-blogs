@@ -19,7 +19,7 @@ Don’t worry if the serial and prefix are longer than 15 characters (the Window
 
 Let’s reference the Group Tag structure we made for Magic Coffee Co.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/2c2298fb-c52f-418d-9605-367b8f456834/All.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/2c2298fb-c52f-418d-9605-367b8f456834/All.png)
 
 They want to name their devices based on the site location. Their PC naming schema looks like this:
 
@@ -36,7 +36,7 @@ So, MC (for Magic Coffee), the site abbreviation and some random numbers to fill
 
 Okay, you get the picture. So now all we have to do is create three, different Autopilot profiles, and have them named accordingly. This way, devices will be automatically named based on their Group Tag.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/0d32f885-c87a-4491-b559-ec04daf0bc00/Screen+Shot+2022-03-14+at+11.38.27+AM.jpg)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/0d32f885-c87a-4491-b559-ec04daf0bc00/Screen+Shot+2022-03-14+at+11.38.27+AM.jpg)
 
 There are alternative ways to name devices using Intune that involve cleverly timed, PowerShell scripts. But unless you absolutely need to, I would say it’s not worth the hassle.
 

@@ -35,7 +35,7 @@ Body of the script
 
 From a high level, we’re going to create everything we need for generating the hardware hash and posting it to Autopilot with the Microsoft Graph in one shot.  Let’s a have a look:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1583337959758-REDQJFKX0MXTBNN99DOC/image-asset.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1583337959758-REDQJFKX0MXTBNN99DOC/image-asset.png)
 
 You’ll notice for the authentication piece, I went with an interactive logon which will give us a multi-tenant solution:
 
@@ -54,7 +54,7 @@ If you’re new to Azure Blob Storage, follow this guide to get going: [https://
 
 Take the above script and place it in a storage container.  Note the URL path to the file.  Keep in mind that we will be typing this each time to run it, so don’t make the name unbearable.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1583338033080-GPSMZ70LBOWVUCW09N1B/image-asset.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1583338033080-GPSMZ70LBOWVUCW09N1B/image-asset.png)
 
 Register with one line
 ----------------------
@@ -69,6 +69,6 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Webrequest ‘https://u
 
 Your script will be pulled from blob storage, run on the machine, and finally delete itself.  You will see the graph post results displayed after a successful Autopilot registration:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1583338114754-PU7ZWZBIT4N8Z0MI4T9Q/image-asset.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1583338114754-PU7ZWZBIT4N8Z0MI4T9Q/image-asset.png)
 
 Enjoy, and let me know your thoughts!

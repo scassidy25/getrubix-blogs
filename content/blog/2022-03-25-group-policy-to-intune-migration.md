@@ -12,11 +12,11 @@ In case you’re not as hyped as me yet, here’s some backstory. For Windows de
 
 After realizing how tedious it was, Microsoft then implemented [Group Policy Analytics](https://docs.microsoft.com/en-us/mem/intune/configuration/group-policy-analytics) in Endpoint Manager. This time, you could export your GPO right from the domain in an XML file and upload this to Intune. You were then presented with an amazing chart that broke down how many of your policies are compatible with Intune and what the path is to set them. While fancy looking, there was just one issue; you could _only_ look.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/09db85ad-b324-419b-a975-d5ba24020641/gpoAnalytics.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/09db85ad-b324-419b-a975-d5ba24020641/gpoAnalytics.png)
 
 If you decided that you wanted to migrate 100 of those compatible settings, you would have to go line by line and configure them yourself with either the settings catalog, administrator templates or a custom policy. Depending on how many are required, you’re easily looking at hours, if not days of manual work.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/a9942ca6-30f7-474c-9833-7663d8782566/gpo+settings.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/a9942ca6-30f7-474c-9833-7663d8782566/gpo+settings.png)
 
 The solution
 ------------
@@ -41,7 +41,7 @@ As with most PowerShell scripts that leverage the Microsoft Graph API, we need t
 
 Make sure to provide the app registration **Microsoft Graph ->** **Application permissions -> DeviceManagementConfiguration.ReadWrite.All** permission and grant consent.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/ce71cd82-43ec-4f48-a5c3-98f0c5d85d4e/api.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/ce71cd82-43ec-4f48-a5c3-98f0c5d85d4e/api.png)
 
 Two important files
 -------------------
@@ -57,19 +57,19 @@ For the script to work, you have to add your own personal touch to three areas.
 
 First, replace lines **33**, **34** and **35** with your own values from the app registration you created earlier:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/0bb4db79-1471-47e6-8ead-37a6fac1f2b0/script1.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/0bb4db79-1471-47e6-8ead-37a6fac1f2b0/script1.png)
 
 Next, set the full path to your .csv file on line **54**:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/467514b8-64ec-43a9-a132-f883b611f7ae/script2.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/467514b8-64ec-43a9-a132-f883b611f7ae/script2.png)
 
 Lastly, choose your own name for the policy on line **195**:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/3a3aa6a7-e400-4d70-b8c6-44d095f7715c/script3.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/3a3aa6a7-e400-4d70-b8c6-44d095f7715c/script3.png)
 
 With those edits complete, go ahead and run the script. If all goes well, you should end up with your new policy in Endpoint Manager in **Device -> Configuration Profiles**.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/2ee7dd41-24be-42bc-b5fc-ee2417dcbbb5/success.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/2ee7dd41-24be-42bc-b5fc-ee2417dcbbb5/success.png)
 
 Just because we can, should we?
 -------------------------------

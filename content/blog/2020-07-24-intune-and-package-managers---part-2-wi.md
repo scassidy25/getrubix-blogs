@@ -30,15 +30,15 @@ winget install --exact --silent "ApplicationId"
 
 The “Id” variable comes from the way Winget lists apps.  Simply type **winget search** to view all available packages, and you'll notice the three columns; Name, Id, and Version. 
 
-![2020-07-24 13_01_39-Administrator_ PowerShellV20.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1595613645641-OP66LFOPNHC44SORVMG0/2020-07-24+13_01_39-Administrator_+PowerShellV20.png)
+![2020-07-24 13_01_39-Administrator_ PowerShellV20.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1595613645641-OP66LFOPNHC44SORVMG0/2020-07-24+13_01_39-Administrator_+PowerShellV20.png)
 
 If you were to simply use the "Name" parameter, then Winget may throw something that looks like this:
 
-![Untitled picture.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1595613972587-CXIJKIVLBXMC9F1WE65X/Untitled+picture.png)
+![Untitled picture.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1595613972587-CXIJKIVLBXMC9F1WE65X/Untitled+picture.png)
 
 Looks like our command will have to be a bit more specific.  That's where the Id parameter comes in handy, coupled with the "--exact" switch.
 
-![2020-07-24 13_07_44-ZTDS-TRAINING - VMware Workstation.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1595614132401-YXWMR0BUVRZTTLGQ8HI2/2020-07-24+13_07_44-ZTDS-TRAINING+-+VMware+Workstation.png)
+![2020-07-24 13_07_44-ZTDS-TRAINING - VMware Workstation.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1595614132401-YXWMR0BUVRZTTLGQ8HI2/2020-07-24+13_07_44-ZTDS-TRAINING+-+VMware+Workstation.png)
 
 There we go!
 
@@ -51,11 +51,11 @@ We don't technically push Winget itself, but instead the updated Windows Desktop
 
 Log into [https://endpoint.microsoft.com](https://endpoint.microsoft.com) and head to **Apps -> Windows -> Add+**.  Select **Line-of-business app** from the drop down.
 
-![2020-07-24 10_30_01-Select app type - Microsoft Endpoint Manager admin center.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1595614255217-BXEGAP7WWN2MM39NENBI/2020-07-24+10_30_01-Select+app+type+-+Microsoft+Endpoint+Manager+admin+center.png)
+![2020-07-24 10_30_01-Select app type - Microsoft Endpoint Manager admin center.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1595614255217-BXEGAP7WWN2MM39NENBI/2020-07-24+10_30_01-Select+app+type+-+Microsoft+Endpoint+Manager+admin+center.png)
 
 Upload the appxbundle for the Desktop App Installer.  If you have the right file, the Endpoint Manager will now complain to you that it needs dependencies to push the app. 
 
-![2020-07-24 10_31_20-App package file - Microsoft Endpoint Manager admin center.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1595614304507-ICGAFBWYRYKAO7S5LYT8/2020-07-24+10_31_20-App+package+file+-+Microsoft+Endpoint+Manager+admin+center.png)
+![2020-07-24 10_31_20-App package file - Microsoft Endpoint Manager admin center.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1595614304507-ICGAFBWYRYKAO7S5LYT8/2020-07-24+10_31_20-App+package+file+-+Microsoft+Endpoint+Manager+admin+center.png)
 
 You can find everything you need right here: [https://store.rg-adguard.net/](https://store.rg-adguard.net/).  Change the search parameter to **PackageFamilyName**, and search "Microsoft.DesktopAppInstaller\_8wekyb3d8bbwe".  All of the dependencies can be downloaded here.
 
@@ -63,7 +63,7 @@ You can find everything you need right here: [https://store.rg-adguard.net/](htt
 
 Be sure to only download the .APPX files.  Upload to Endpoint Manager and everything should check out, allowing you to assign the app to all devices.
 
-![2020-07-24 13_25_29-App package file - Microsoft Endpoint Manager admin center.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1595614422729-M8ZL86253PYFENX94U9U/2020-07-24+13_25_29-App+package+file+-+Microsoft+Endpoint+Manager+admin+center.png)
+![2020-07-24 13_25_29-App package file - Microsoft Endpoint Manager admin center.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1595614422729-M8ZL86253PYFENX94U9U/2020-07-24+13_25_29-App+package+file+-+Microsoft+Endpoint+Manager+admin+center.png)
 
 Because we need the Updated Desktop Installer on the device before we start pushing apps, go ahead and install it during Autopilot provisioning, or set it as a dependency for the individual apps.
 
@@ -72,7 +72,7 @@ Wrap it up
 
 For this, we're going to deploy VLC media player.  Create an install directory, and place a PowerShell script inside called **InstallVLC.ps1**
 
-![2020-07-24 13_28_27-● InstallVLC.ps1 - Visual Studio Code.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1595614491151-GIUFV99L57TWC5ND8VHV/2020-07-24+13_28_27-%E2%97%8F+InstallVLC.ps1+-+Visual+Studio+Code.png)
+![2020-07-24 13_28_27-● InstallVLC.ps1 - Visual Studio Code.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1595614491151-GIUFV99L57TWC5ND8VHV/2020-07-24+13_28_27-%E2%97%8F+InstallVLC.ps1+-+Visual+Studio+Code.png)
 
 Go ahead and use the [Microsoft Win32 Content-Prep-Tool](https://github.com/microsoft/Microsoft-Win32-Content-Prep-Tool) to create an .INTUNEWIN file from the script.  Upload to the Endpoint Manager and configure with the following parameters:
 
@@ -84,14 +84,14 @@ Go ahead and use the [Microsoft Win32 Content-Prep-Tool](https://github.com/micr
 
 **\***_This part is critical.  Winget uses the Desktop App Installer to deploy applications, and that ONLY runs at the user level.  This MUST be set to "User" to work- setting to "System" would result in the Intune Management Extension not being able to find the specified path of the Desktop App Installer._
 
-![2020-07-24 13_36_49-Edit application - Microsoft Endpoint Manager admin center.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1595614620314-AW9FO5VW0RX4OYM1FKXJ/2020-07-24+13_36_49-Edit+application+-+Microsoft+Endpoint+Manager+admin+center.png)
+![2020-07-24 13_36_49-Edit application - Microsoft Endpoint Manager admin center.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1595614620314-AW9FO5VW0RX4OYM1FKXJ/2020-07-24+13_36_49-Edit+application+-+Microsoft+Endpoint+Manager+admin+center.png)
 
 The detection rule is simple.  I'm using the folder path of **C:\\Program Files\\VideoLAN\\VLC** and checking if it exists.
 
-![2020-07-24 13_41_58-Detection rule - Microsoft Endpoint Manager admin center.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1595614653797-QLWQBTA4U3WQKNGMN188/2020-07-24+13_41_58-Detection+rule+-+Microsoft+Endpoint+Manager+admin+center.png)
+![2020-07-24 13_41_58-Detection rule - Microsoft Endpoint Manager admin center.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1595614653797-QLWQBTA4U3WQKNGMN188/2020-07-24+13_41_58-Detection+rule+-+Microsoft+Endpoint+Manager+admin+center.png)
 
 I'm assigning the application as available so users can access it from the Company Portal.  It installs with no issue.
 
-![2020-07-24 13_50_57-ZTD-AP-EUR-1909 - VMware Workstation.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1595614679322-T2KWM33E7T5THDH085KJ/2020-07-24+13_50_57-ZTD-AP-EUR-1909+-+VMware+Workstation.png)
+![2020-07-24 13_50_57-ZTD-AP-EUR-1909 - VMware Workstation.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1595614679322-T2KWM33E7T5THDH085KJ/2020-07-24+13_50_57-ZTD-AP-EUR-1909+-+VMware+Workstation.png)
 
 So which will you use- Chocolatey or Winget?  As I've stated in the beginning of Part 1, there are pros and cons to each, and for that matter, pros and cons of using a package manager at all.  But for me, anything to make things more streamlined is a good thing.  And isn't that the whole point of "Zero Touch"?

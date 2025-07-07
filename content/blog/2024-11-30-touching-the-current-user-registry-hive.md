@@ -24,15 +24,15 @@ Get-ChildItem -Path "HKCU:\Environment"
 
 [View fullsize
 
-![SCR-20241130-myeo.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1732995265733-ZSLYTZYCI82HSCGGDYIF/SCR-20241130-myeo.png)
+![SCR-20241130-myeo.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1732995265733-ZSLYTZYCI82HSCGGDYIF/SCR-20241130-myeo.png)
 
-![SCR-20241130-myeo.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1732995265733-ZSLYTZYCI82HSCGGDYIF/SCR-20241130-myeo.png)](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1732995265733-ZSLYTZYCI82HSCGGDYIF/SCR-20241130-myeo.png)
+![SCR-20241130-myeo.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1732995265733-ZSLYTZYCI82HSCGGDYIF/SCR-20241130-myeo.png)](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1732995265733-ZSLYTZYCI82HSCGGDYIF/SCR-20241130-myeo.png)
 
 [View fullsize
 
-![SCR-20241130-myhg.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1732995265750-8P8DNVURB91N5ZDKE5ZS/SCR-20241130-myhg.png)
+![SCR-20241130-myhg.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1732995265750-8P8DNVURB91N5ZDKE5ZS/SCR-20241130-myhg.png)
 
-![SCR-20241130-myhg.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1732995265750-8P8DNVURB91N5ZDKE5ZS/SCR-20241130-myhg.png)](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1732995265750-8P8DNVURB91N5ZDKE5ZS/SCR-20241130-myhg.png)
+![SCR-20241130-myhg.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1732995265750-8P8DNVURB91N5ZDKE5ZS/SCR-20241130-myhg.png)](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1732995265750-8P8DNVURB91N5ZDKE5ZS/SCR-20241130-myhg.png)
 
 #block-yui\_3\_17\_2\_1\_1732994407946\_21202 .sqs-gallery-block-grid .sqs-gallery-design-grid { margin-right: -18px; } #block-yui\_3\_17\_2\_1\_1732994407946\_21202 .sqs-gallery-block-grid .sqs-gallery-design-grid-slide .margin-wrapper { margin-right: 18px; margin-bottom: 18px; }
 
@@ -42,7 +42,7 @@ But try the same command in **system** context (right side), and the result is�
 
 The “HKCU” hive is really just a convenience shortcut. All user hives live under **HKEY\_USERS**, identified by their unique **security identifiers (SIDs)**. With the right SID in hand, you can modify any user’s registry keys—even from the system context.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/281b6b25-75df-483c-aa31-ebca8bec3a98/SCR-20241130-mfig.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/281b6b25-75df-483c-aa31-ebca8bec3a98/SCR-20241130-mfig.png)
 
 ### **Testing Locally as SYSTEM**
 
@@ -104,7 +104,7 @@ But in system context, here’s the process:
 
 Here’s the full script to deploy via Intune:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1cbf0e7e-cc5f-4a4d-bd72-e839e53e36ea/SCR-20241130-mrbu.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1cbf0e7e-cc5f-4a4d-bd72-e839e53e36ea/SCR-20241130-mrbu.png)
 
 You can also find an enhanced version with additional Windows 11 settings on my [GitHub](https://github.com/stevecapacity/IntunePowershell/blob/main/Misc%20Intune/win11SettingsFix.ps1).
 

@@ -8,7 +8,7 @@ description: " This post is a bit different than the rest, as I won’t be talki
 
 This post is a bit different than the rest, as I won’t be talking about any scripts or policy configuration.  Many have asked me about the tools I use on a daily basis and how I configure my home (basement) office.  So, to commemorate the 14 months since I’ve gone full time remote, I’d like to detail my setup and shed some light on why some things are the way they are.
 
-![20210514_125433.jpg](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1621027293723-DBEO228PYBJR6W3L4C1J/20210514_125433.jpg)
+![20210514_125433.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1621027293723-DBEO228PYBJR6W3L4C1J/20210514_125433.jpg)
 
 ### **Computers**
 
@@ -20,7 +20,7 @@ The Surface Laptop is connected to the Surface Dock 2, which also powers a Dell 
 
 There are three Hyper-V servers running on my home network that sit on an assortment of hardware.One of these, is about one of the coolest desktop PCs I’ve ever owned; the Intel NUC 8, similar to [this one](https://www.amazon.com/Intel-NUC-NUC8I7HNK-Gaming-Mini/dp/B07WGYJJWB/ref=sr_1_10?dchild=1&keywords=intel%20nuc%208&qid=1621018053&sr=8-10).
 
-![Pac-man approves](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1621027369008-H63X292I2GFSB5Z811QU/20210514_144540.jpg)
+![Pac-man approves](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1621027369008-H63X292I2GFSB5Z811QU/20210514_144540.jpg)
 
 Pac-man approves
 
@@ -32,7 +32,7 @@ The servers all have 64gb RAM and 4TB of SSD storage.  I use [Royal TS](https:/
 
 Some folks get freaked out when they see how many monitors I use.  Personally, I’ve seen crazier setups out there, but I’m still flattered.  It helps when I explain what they’re all for, besides from pretending I run the Matrix.
 
-![20210514_145641.jpg](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1621027449410-N0SD457Q9LH6BYGFS2VA/20210514_145641.jpg)
+![20210514_145641.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1621027449410-N0SD457Q9LH6BYGFS2VA/20210514_145641.jpg)
 
 The main display, front and center is for production work. It’s the primary display and the one I stare at the most. Typically, it’s the largest in the bunch and has a high resolution and fantastic panel. At the time of writing, it is a LG 32” QHD IPS display. It’s got HDR colors, 165hz motion and perfect IPS so the viewing angle looks good all around. Plus, it’s branded as a gaming display, so it has a sick aesthetic.
 
@@ -40,7 +40,7 @@ The vertical display on my right is a Dell 27” Ultra-sharp QHD and used exclus
 
 Above the primary 32” monitor, sits a 24” LG 1080p display.  This one is dedicated to screen sharing on customer calls and presentations.  I’m often asked why I feel the need to dedicate a display solely for this purpose, but if you find yourself screen sharing for a good part of your workday, consider the following:
 
-![20210514_171154.jpg](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1621027533932-26QZLX1OSO5ADXC0UKHN/20210514_171154.jpg)
+![20210514_171154.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1621027533932-26QZLX1OSO5ADXC0UKHN/20210514_171154.jpg)
 
 -   Having a dedicated screen for sharing means my mail, chat, browser and calendar programs are never in the way.  I can leave these running on the production monitor without worrying about sharing sensitive information. 
     
@@ -74,4 +74,4 @@ Here are some quick notes on some of the random things on my desk:
 
 That’s all.  Thanks for taking the tour with me.  I’ll leave you with a view of the shelf behind me that acts as the ultimate backdrop for IT professionals:
 
-![20210514_125355.jpg](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1621027684587-0OBFD4DFHY9SHPXOYYIG/20210514_125355.jpg)
+![20210514_125355.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1621027684587-0OBFD4DFHY9SHPXOYYIG/20210514_125355.jpg)

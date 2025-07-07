@@ -16,11 +16,11 @@ In the midst of troubleshooting and nearly reaching out to the vendor, they obse
 
 When reviewing the Microsoft doc on Defender compatibility with other security products, there is an interesting note for Windows 11:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/f477a422-5dc4-40a8-ab1e-936aba9f1eaa/blogtable1.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/f477a422-5dc4-40a8-ab1e-936aba9f1eaa/blogtable1.png)
 
 Ok. If we look further down in the document, it summarizes the following for Smart App Control State (in this scenario, we meet the criteria of the last line):
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/4332eeee-0cdb-43aa-be49-e2d81e3f478a/blogTable2.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/4332eeee-0cdb-43aa-be49-e2d81e3f478a/blogTable2.png)
 
 So if using a third-party AV solution without Defender for Endpoint, Smart App Control will actually flip to Evaluation, or even On (yet Defender AV will disable automatically). Microsoft also has a separate document regarding WDAC and Smart App Control that states the following:
 
@@ -32,7 +32,7 @@ The document does provide instructions on disabling the setting via Registry, wh
 
 To turn off Smart App Control across your organization's endpoints, you can set the **VerifiedAndReputablePolicyState** (DWORD) registry value under HKLM\\SYSTEM\\CurrentControlSet\\Control\\CI\\Policy as shown in the following table. After you change the registry value, you must either restart the device or use [CiTool.exe -r](https://learn.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/operations/citool-commands#refresh-the-wdac-policies-on-the-system) for the change to take effect.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/d22352b9-5d04-4283-b727-0121a1420ad4/blogTable3.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/d22352b9-5d04-4283-b727-0121a1420ad4/blogTable3.png)
 
 Lo and behold, setting this registry value to 0 seemed to resolve the installation and performance issues across the board. We also had recalled some weirdness with running some privilege management software, as well as some PowerShell scripts a while back – perhaps this was part of that behavior?
 

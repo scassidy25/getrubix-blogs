@@ -33,7 +33,7 @@ Why do we need it?
 
 When our migration process runs, it will remove the device from Tenant A Azure AD and will need to be moved to Tenant B. But how will the device know what Tenant B is without any user input? That is exactly what the provisioning package will do.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/e5f82e46-915f-4f61-aa16-5dc02d85f3d9/Screenshot+2023-08-01+at+8.29.42+AM.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/e5f82e46-915f-4f61-aa16-5dc02d85f3d9/Screenshot+2023-08-01+at+8.29.42+AM.png)
 
 By installing the package with our **StartMigrate** script, we’re placing the device in Tenant B before the reboot, but without any user affinity. After the reboot, the user can then sign into Tenant B with the device already being enrolled.
 
@@ -46,19 +46,19 @@ There are two flavors of the Configuration Designer; one available from the Micr
 
 First, download the Windows Configuration designer from the Microsoft Store.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/7e6d25b4-51cc-4529-b012-898b526e57ab/blog3-2.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/7e6d25b4-51cc-4529-b012-898b526e57ab/blog3-2.png)
 
 Launch the app, and choose the option for “Provision desktop devices” and provide a package name. Our script templates assume the package name is **_migration_**.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/d9e647fd-edf9-46a2-ba05-591658e3a3b1/Screenshot+2023-07-31+093842.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/d9e647fd-edf9-46a2-ba05-591658e3a3b1/Screenshot+2023-07-31+093842.png)
 
 Now we will go through the guided setup, configuring very few things along the way. Starting on the “Set up device” page, go ahead and provide a naming schema for the PC. Remember, this is for the PC joining Tenant B, so make sure you choose a name accordingly (no different then choosing a naming convention in Autopilot).
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/0a6fccbb-cb88-4919-8f8c-65e5561ec06d/Screenshot+2023-07-31+093920.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/0a6fccbb-cb88-4919-8f8c-65e5561ec06d/Screenshot+2023-07-31+093920.png)
 
 On the “Set up network” page, turn off the **Connect devices to a Wi-Fi network** option. We don’t need that. Click Next.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/401d5952-10ec-4a82-8c5d-4dcebb5e27d7/Screenshot+2023-07-31+093934.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/401d5952-10ec-4a82-8c5d-4dcebb5e27d7/Screenshot+2023-07-31+093934.png)
 
 This is the important step. When you get to “Account Management”, select **Enroll in Azure AD**.
 
@@ -66,29 +66,29 @@ Set **Refresh AAD credentials** to “Yes”.
 
 The standard time for the token expiration is 6 months, so leave that alone.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/f6aeb3df-1ccf-44fb-baf5-75b80ee963f3/Screenshot+2023-07-31+094019.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/f6aeb3df-1ccf-44fb-baf5-75b80ee963f3/Screenshot+2023-07-31+094019.png)
 
 Click on the **Get Bulk Token** button. You will be prompted to sign into Azure AD and I recommend you do so with Global Administrator privileges.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/6f07f31a-6ea7-4cc8-88ca-0712758bbadd/Screenshot+2023-07-31+094042.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/6f07f31a-6ea7-4cc8-88ca-0712758bbadd/Screenshot+2023-07-31+094042.png)
 
 When asked to **Stay signed in to all your apps**, uncheck the box and click on **No, sign in to this app only**.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/9f333239-a01c-4d15-b441-31c60c840ecd/Screenshot+2023-07-31+094100.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/9f333239-a01c-4d15-b441-31c60c840ecd/Screenshot+2023-07-31+094100.png)
 
 If successful, you should see that the bulk token was fetched successfully from Azure AD.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/07cb67a4-e3d8-493b-a3e4-bf7480fc4d14/Screenshot+2023-07-31+094117.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/07cb67a4-e3d8-493b-a3e4-bf7480fc4d14/Screenshot+2023-07-31+094117.png)
 
 Before clicking next on this page, go ahead and set a local admin account. This will give us a way to access the device locally should we encounter an issue with the migration process.
 
 Click next through the **Add applications** and **Add certificates** pages. When you get to the **Finish** page, click on “Create”.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/366455fe-56e9-4b80-9ad4-e26bcfc1593c/Screenshot+2023-07-31+094133.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/366455fe-56e9-4b80-9ad4-e26bcfc1593c/Screenshot+2023-07-31+094133.png)
 
 Your provisioning package is now available in the _%USERPROFILE%\\Documents\\Windows Imaging and Configuration Designer (WICD)_ directory. There are several other files generated with the package, including a “customizations.xml” file that is a manifest of everything we configured while going through the guided setup.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/ad549382-1e7b-4465-9fe1-fbfe1d1d4110/Screenshot+2023-07-31+094152.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/ad549382-1e7b-4465-9fe1-fbfe1d1d4110/Screenshot+2023-07-31+094152.png)
 
 If you do not get a bulk token and receive an error, try the following:
 
@@ -97,11 +97,11 @@ If you do not get a bulk token and receive an error, try the following:
 -   Select **Enterprise applications -> All applications -> Windows Configuration Designer (WCD)**
     
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/71efb2fa-251f-49eb-8abc-68df8002ae09/Screenshot+2023-07-31+at+10.17.14+PM.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/71efb2fa-251f-49eb-8abc-68df8002ae09/Screenshot+2023-07-31+at+10.17.14+PM.png)
 
 On the application page select **Permissions** and then click **Grant admin consent for <TENANT NAME>**.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/a375c9d1-77b7-407e-bd3d-9a9e82520058/Screenshot+2023-07-31+at+10.18.39+PM.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/a375c9d1-77b7-407e-bd3d-9a9e82520058/Screenshot+2023-07-31+at+10.18.39+PM.png)
 
 ### SCRIPT VERSION
 
@@ -111,7 +111,7 @@ Download the Windows Assessment and Deployment Kit (ADK) from [here](https://sup
 
 During the installation, at the **Select the features you want to install** screen, you only need to check the “Configuration Designer” option and click “Install”.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/7b74cbd2-ac80-4533-9332-0814c5fb9bab/blog3-1.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/7b74cbd2-ac80-4533-9332-0814c5fb9bab/blog3-1.png)
 
 Install and import the **AADInternals** PowerShell module. Like most modules, this is a straight forward process.
 
@@ -120,7 +120,7 @@ Install-Module AADInternals -Force
 Import-Module AADInternals
 ```
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/bfd0263c-b8f3-4429-bc1c-95bcdcac6d5e/Screenshot+2023-07-31+093415.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/bfd0263c-b8f3-4429-bc1c-95bcdcac6d5e/Screenshot+2023-07-31+093415.png)
 
 _\*We’re going to generate the package with a full PowerShell script later, which will also install and import for us. I personally like to go through the steps piece by piece to get a better understanding of what’s going on._
 
@@ -128,7 +128,7 @@ Here is a breakdown of how the process works with the module:
 
 FIrst, authenticate to Azure with user credentials. The script prompts for username and password.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/80a1b47b-578d-4d3f-a056-b3a7fcef966f/Screenshot+2023-07-31+094513.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/80a1b47b-578d-4d3f-a056-b3a7fcef966f/Screenshot+2023-07-31+094513.png)
 
 After authenticating, generate a BPRT and set an expiration date.
 
@@ -136,7 +136,7 @@ Next, we’ll construct the XML used to create the provisioning package and inse
 
 The nice thing about this is that the XML we’re constructing is identical to the “customizations.xml” generated from the designer.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/044dadd8-5d0a-47aa-b2bb-3fcb3fd47482/Screenshot+2023-07-31+095146.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/044dadd8-5d0a-47aa-b2bb-3fcb3fd47482/Screenshot+2023-07-31+095146.png)
 
 On the left, is the XML we built in the script. On the right is the one generated with the package. So if you’re using this method, you can easily add the settings for the local admin and device name by inserting them into your XML.
 
@@ -150,7 +150,7 @@ ICD.exe /Build-ProvisioningPackage /CustomizationXML:$Filename.xml /PackagePath:
 
 Navigate to your output destination and you’ll see a familiar group of files.
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/410394ca-eb82-4d60-9d68-561dff2c8413/Screenshot+2023-07-31+094823.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/410394ca-eb82-4d60-9d68-561dff2c8413/Screenshot+2023-07-31+094823.png)
 
 The full PowerShell script for generating the package with AADInternals can be downloaded [here](https://oofhours.files.wordpress.com/2023/02/generate-aad-ppkg.zip).
 

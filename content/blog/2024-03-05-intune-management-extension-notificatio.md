@@ -8,13 +8,13 @@ description: " I recently came across a question online regarding notification a
 
 I recently came across a question online regarding notification and Intune… specifically if the user decides to go to **Settings -> System -> Notifications**, and disables notifications from the Intune Management Extension, what is the impact? (NOTE: This setting is the same in both Win10 and Win11):
 
-![1.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1709656602039-V3H0SEJZZ8J74R7TDBUN/1.png)
+![1.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1709656602039-V3H0SEJZZ8J74R7TDBUN/1.png)
 
-![1.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1709656602039-V3H0SEJZZ8J74R7TDBUN/1.png)
+![1.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1709656602039-V3H0SEJZZ8J74R7TDBUN/1.png)
 
-![2.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1709656602041-20JDD4VMREJW22A3BGC4/2.png)
+![2.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1709656602041-20JDD4VMREJW22A3BGC4/2.png)
 
-![2.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1709656602041-20JDD4VMREJW22A3BGC4/2.png)
+![2.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1709656602041-20JDD4VMREJW22A3BGC4/2.png)
 
 #block-yui\_3\_17\_2\_1\_1709656527672\_14738 .sqs-gallery-block-grid .sqs-gallery-design-grid { margin-right: -18px; } #block-yui\_3\_17\_2\_1\_1709656527672\_14738 .sqs-gallery-block-grid .sqs-gallery-design-grid-slide .margin-wrapper { margin-right: 18px; margin-bottom: 18px; }
 
@@ -22,19 +22,19 @@ Well, if you occasionally push applications to users, do you like them to be awa
 
 Luckily, there is a user registry entry we can track, which only  gets created when we disable notifications for the IME. Let’s take a look at HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Notifications\\Settings before and after we make the change:
 
-![3.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1709656673187-06XMTCDUGNB8123DOKAG/3.png)
+![3.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1709656673187-06XMTCDUGNB8123DOKAG/3.png)
 
-![3.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1709656673187-06XMTCDUGNB8123DOKAG/3.png)
+![3.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1709656673187-06XMTCDUGNB8123DOKAG/3.png)
 
-![4.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1709656673194-TUVKYA5VHHPAFYHVK0YC/4.png)
+![4.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1709656673194-TUVKYA5VHHPAFYHVK0YC/4.png)
 
-![4.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1709656673194-TUVKYA5VHHPAFYHVK0YC/4.png)
+![4.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1709656673194-TUVKYA5VHHPAFYHVK0YC/4.png)
 
 #block-yui\_3\_17\_2\_1\_1709656527672\_25058 .sqs-gallery-block-grid .sqs-gallery-design-grid { margin-right: -20px; } #block-yui\_3\_17\_2\_1\_1709656527672\_25058 .sqs-gallery-block-grid .sqs-gallery-design-grid-slide .margin-wrapper { margin-right: 20px; margin-bottom: 20px; }
 
 This Notification setting did also make me curious… if I want to send an **Organizational message** from Intune – does this setting for IME affect that feature on my Win11 devices? If we look at Microsoft’s documentation, it might? Maybe?
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/32e54c31-6c3c-411e-8d3a-28038c3e1046/5.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/32e54c31-6c3c-411e-8d3a-28038c3e1046/5.png)
 
 That makes me more concerned about Do Not Disturb, which is technically enabled right after Autopilot enrollment completes (Microsoft calls that “quiet period”, but it gets disabled fairly quickly). There’s a granular switch for Notifications under the Intune Management Extension, which enables showing important notifications when Do Not Disturb is enabled, but we’ll come back to that later 
 
@@ -102,11 +102,11 @@ Remove-ItemProperty -Path $regPath -Name "Enabled" -Force
 
 Another thing… before I mentioned an option related to do not disturb, within the notification settings for the IME:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/56940a36-1b05-4395-9e9e-03cadd04c464/6.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/56940a36-1b05-4395-9e9e-03cadd04c464/6.png)
 
 It turns out if you turn on “Allow app to send important notifications when do not disturb is on”, an additional registry key is created in our HKCU path:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/566c584c-7ab2-4198-ad0a-19d06c7af367/7.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/566c584c-7ab2-4198-ad0a-19d06c7af367/7.png)
 
 That setting is important as well, so let’s amend our remediation package to fix that setting:
 
@@ -141,7 +141,7 @@ This gave me one last idea…can we set that urgent notifications value in Nieha
 
 Interestingly, there is also another registry path I observed in HKLM:
 
-![](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/e20bf3f7-1778-4999-82ca-6da4238dc708/8.png)
+![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/e20bf3f7-1778-4999-82ca-6da4238dc708/8.png)
 
 Maybe we should set the HKLM and HKCU entries? Here’s a potential addition to the end of your AutopilotBranding.ps1:
 

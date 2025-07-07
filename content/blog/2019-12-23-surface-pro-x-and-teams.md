@@ -8,7 +8,7 @@ description: " The Surface is great, Windows 10 is great and Office 365 is great
 
 The Surface is great, Windows 10 is great and Office 365 is great. But the problem is that sometimes the folks who engineer these great products out in Redmond forget to speak to each other. If you’re looking to deploy a shiny new Pro X with Autopilot, then you’re going to find out the hard way that users are going to be asking you why Teams is missing. But don’t worry, my team of nerds…_I mean engineers_, have cracked this one.
 
-![71WPXY5GhgL._AC_SX466_.jpg](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581104762006-HP2RM40QVEYN2LPC7S0Y/71WPXY5GhgL._AC_SX466_.jpg)
+![71WPXY5GhgL._AC_SX466_.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581104762006-HP2RM40QVEYN2LPC7S0Y/71WPXY5GhgL._AC_SX466_.jpg)
 
 What’s the problem?
 -------------------
@@ -26,7 +26,7 @@ You see, the standard behavior for Teams when Office is pre-installed is to sit 
 
 So now armed with knowledge of that behavior, I took all three brand new Surface devices out of their box and went searching through the explorer. And there it was- both the Laptop 3 and Pro 7 had the Teams installer sitting where it was supposed to be. The Pro X did not. The answer was clear. All we had to do was push the Teams install directory through MEM to where it was supposed to be before the user signs in to the device while it’s being provisioned with Autopilot- easy right?
 
-![2020-02-07 14_44_30-Blog Feed – Inconvenient Integration.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581104787505-RMK8DUBPRH6CCR1FAPOL/2020-02-07+14_44_30-Blog+Feed+%E2%80%93+Inconvenient+Integration.png)
+![2020-02-07 14_44_30-Blog Feed – Inconvenient Integration.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581104787505-RMK8DUBPRH6CCR1FAPOL/2020-02-07+14_44_30-Blog+Feed+%E2%80%93+Inconvenient+Integration.png)
 
 That doesn’t sound easy…
 ------------------------
@@ -84,4 +84,4 @@ msiexec /i $dest /qn
 
 That’s it! If everything goes to plan, you should see Teams installing as soon as the user logs in.
 
-![2019-12-23-10_59_24-rdg.batcave.local-remote-desktop-connection-manager-v2.7.png](https://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581104930793-DEU4ZIJ0R7G2VEEYMLGI/2019-12-23-10_59_24-rdg.batcave.local-remote-desktop-connection-manager-v2.7.png)
+![2019-12-23-10_59_24-rdg.batcave.local-remote-desktop-connection-manager-v2.7.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581104930793-DEU4ZIJ0R7G2VEEYMLGI/2019-12-23-10_59_24-rdg.batcave.local-remote-desktop-connection-manager-v2.7.png)
