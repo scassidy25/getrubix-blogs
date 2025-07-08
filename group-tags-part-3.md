@@ -1,10 +1,19 @@
 ---
-title: "Group Tags Part 3"
-slug: "/blog/group-tags-part-3"
-date: "Tue, 03 Dec 2019 15:59:00 +0000"
-author: "stevew1015@gmail.com"
-description: " Sometimes the best and worst thing you can do with your work is show it to someone else. I knew something was missing from my first two scripts to automate the addition of group tags during Autopilot enrollment. If you haven’t yet, read the&nbsp;first&nbsp;and&nbsp;second&nbsp;posts in the series, or"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+categories:
+- powershell
+- automation
+date: Tue, 03 Dec 2019 15:59:00 +0000
+description: >
+  Sometimes the best and worst thing you can do with your work is show it to someone else. I knew something was missing from my first two scripts to automate the addition of group tags during Autopilot enrollment. If you haven’t yet, read the first and second posts in the series, or this will make zero sense from here on out.
+slug: /blog/group-tags-part-3
+tags:
+- powershell
+- script
+- automate
+- flow
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Group Tags Part 3
 ---
 
 Sometimes the best and worst thing you can do with your work is show it to someone else. I knew something was missing from my first two scripts to automate the addition of group tags during Autopilot enrollment. If you haven’t yet, read the [first](https://z0touch.home.blog/2019/11/30/autopilot-group-tags/) and [second](https://z0touch.home.blog/2019/12/02/group-tags-live/) posts in the series, or this will make zero sense from here on out.

@@ -1,10 +1,13 @@
 ---
-title: "Smart App Control A Surprise Pain"
-slug: "/blog/smart-app-control-a-surprise-pain-qjHVN"
-date: "Tue, 20 Aug 2024 15:13:45 +0000"
-author: "GuestUser"
-description: " Here’s a little feature I forgot about until it, well, caused an issue. A current customer of mine uses a third-party AV/EDR solution. With this in mind, they currently have policy to disable the Defender service (they are planning on enabling the service soon so that passive mode"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: GuestUser
+date: Tue, 20 Aug 2024 15:13:45 +0000
+description: '"Here’s a little feature I forgot about until it, well, caused an issue.
+  A current customer of mine uses a third-party AV/EDR solution. With this in mind,
+  they currently have policy to disable the Defender service (they are planning on
+  enabling the service soon so that passive mode"'
+slug: /blog/smart-app-control-a-surprise-pain-qjHVN
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Smart App Control A Surprise Pain
 ---
 
 Here’s a little feature I forgot about until it, well, caused an issue.

@@ -1,10 +1,22 @@
 ---
-title: "The truth about Autopilot"
-slug: "/blog/the-truth-about-autopilot"
-date: "Wed, 17 Jul 2019 22:42:00 +0000"
-author: "stevew1015@gmail.com"
-description: " Windows Autopilot deployment services enable new, Windows 10 PCs to be ‘business ready’ out of the box so your employees can get to work faster. At least that’s what the internet would have you think. Over the past two years since it’s official release, I’ve helped organizations all"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+categories:
+- intune
+- security
+- automation
+- azure
+date: Wed, 17 Jul 2019 22:42:00 +0000
+description: "Windows Autopilot deployment services enable new, Windows 10 PCs to be ‘business ready’ out of the box so your employees can get to work faster. At least that’s what the internet would have you think. Over the past two years since it’s official release, I’ve helped organizations all"
+slug: /blog/the-truth-about-autopilot
+tags:
+- automate
+- azure
+- active directory
+- security
+- intune
+- flow
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: The truth about Autopilot
 ---
 
 Windows Autopilot deployment services enable new, Windows 10 PCs to be ‘business ready’ out of the box so your employees can get to work faster. At least that’s what the internet would have you think. Over the past two years since it’s official release, I’ve helped organizations all over the world deploy Windows 10 with Autopilot. And the reality is, Autopilot does very little.

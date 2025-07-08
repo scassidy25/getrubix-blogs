@@ -1,10 +1,13 @@
 ---
-title: "Group Policy Migration V2"
-slug: "/blog/group-policy-migration-v2"
-date: "Thu, 31 Mar 2022 02:12:41 +0000"
-author: "stevew1015@gmail.com"
-description: " Wow! So first off, thanks for all of the extremely positive response to the last post. While it was understandably rough, I’m glad enough folks were able to put it to use. Today I’m excited to unveil the V2 of this PowerShell script, complete with"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+date: Thu, 31 Mar 2022 02:12:41 +0000
+description: '"Wow! So first off, thanks for all of the extremely positive response
+  to the last post. While it was understandably rough, I’m glad enough folks were
+  able to put it to use. Today I’m excited to unveil the V2 of this PowerShell script,
+  complete with"'
+slug: /blog/group-policy-migration-v2
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Group Policy Migration V2
 ---
 
 Wow! So first off, thanks for all of the extremely positive response to the [last post](https://www.getrubix.com/blog/group-policy-to-intune-migration). While it was understandably rough, I’m glad enough folks were able to put it to use. Today I’m excited to unveil the V2 of this PowerShell script, complete with way less steps than V1.

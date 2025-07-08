@@ -1,10 +1,13 @@
 ---
-title: "Windows 11 Autopilot Enrollment"
-slug: "/blog/windows-11-autopilot-enrollment"
-date: "Tue, 21 Jun 2022 19:39:45 +0000"
-author: "stevew1015@gmail.com"
-description: " Time for something a bit different. You see, I’ve been helping several organizations over the last few weeks test Windows 11 enrollments to Intune via Autopilot. I’ve come across a few things that are particularly interesting.“You’re just talking about Windows again, Steve… what’s different?” Glad"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+date: Tue, 21 Jun 2022 19:39:45 +0000
+description: '"Time for something a bit different. You see, I’ve been helping several
+  organizations over the last few weeks test Windows 11 enrollments to Intune via
+  Autopilot. I’ve come across a few things that are particularly interesting.“You’re
+  just talking about Windows again, Steve… what’s different?” Glad"'
+slug: /blog/windows-11-autopilot-enrollment
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Windows 11 Autopilot Enrollment
 ---
 
 Time for something a bit different. You see, I’ve been helping several organizations over the last few weeks test Windows 11 enrollments to Intune via Autopilot. I’ve come across a few things that are particularly interesting.

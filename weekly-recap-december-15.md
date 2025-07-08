@@ -1,10 +1,20 @@
 ---
-title: "Weekly Recap December 15"
-slug: "/blog/weekly-recap-december-15"
-date: "Fri, 15 Dec 2023 13:25:25 +0000"
-author: "stevew1015@gmail.com"
-description: " This week we took a big detour from our usual topics and dove into Mac management with Intune. That and our second podcast episode wraps things up for this week.How to Enroll a Mac to Intune Get familiar with the basic steps"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+categories:
+- intune
+- security
+- powershell
+date: Fri, 15 Dec 2023 13:25:25 +0000
+description: "This week we took a big detour from our usual topics and dove into Mac management with Intune. That and our second podcast episode wraps things up for this week. How to Enroll a Mac to Intune Get familiar with the basic steps."
+slug: /blog/weekly-recap-december-15
+tags:
+- defender
+- security
+- script
+- scripting
+- intune
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Weekly Recap December 15
 ---
 
 This week we took a big detour from our usual topics and dove into Mac management with Intune. That and our second podcast episode wraps things up for this week.

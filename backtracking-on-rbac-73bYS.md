@@ -1,10 +1,13 @@
 ---
-title: "Backtracking on RBAC"
-slug: "/blog/backtracking-on-rbac-73bYS"
-date: "Fri, 06 Sep 2024 19:29:25 +0000"
-author: "GuestUser"
-description: " Don’t worry, this isn’t another discovered issue or service advisory. I wanted to put together some general info and recommendations around Intune’s role-based access controls (RBAC). I often get asked about the capabilities and how to support different scenarios, so I figured it would be good to list"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: GuestUser
+date: Fri, 06 Sep 2024 19:29:25 +0000
+description: '"Don’t worry, this isn’t another discovered issue or service advisory.
+  I wanted to put together some general info and recommendations around Intune’s role-based
+  access controls (RBAC). I often get asked about the capabilities and how to support
+  different scenarios, so I figured it would be good to list"'
+slug: /blog/backtracking-on-rbac-73bYS
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Backtracking on RBAC
 ---
 
 Don’t worry, this isn’t another discovered issue or service advisory. I wanted to put together some general info and recommendations around Intune’s role-based access controls (RBAC). I often get asked about the capabilities and how to support different scenarios, so I figured it would be good to list some critical points here.

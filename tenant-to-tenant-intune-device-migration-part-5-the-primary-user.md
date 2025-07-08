@@ -1,10 +1,13 @@
 ---
-title: "Tenant to Tenant Intune Device Migration Part 5 The Primary User"
-slug: "/blog/tenant-to-tenant-intune-device-migration-part-5-the-primary-user"
-date: "Wed, 02 Aug 2023 12:12:02 +0000"
-author: "stevew1015@gmail.com"
-description: " Finally. Now that we covered the provisioning package and how our device will migrate to Tenant B with no user affinity, let’s talk about the task that sets the primary user for Intune.After migration, when you navigate to the PC in Intune, the “Primary user” attribute should"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+date: Wed, 02 Aug 2023 12:12:02 +0000
+description: '"Finally. Now that we covered the provisioning package and how our device
+  will migrate to Tenant B with no user affinity, let’s talk about the task that sets
+  the primary user for Intune.After migration, when you navigate to the PC in Intune,
+  the “Primary user” attribute should"'
+slug: /blog/tenant-to-tenant-intune-device-migration-part-5-the-primary-user
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Tenant to Tenant Intune Device Migration Part 5 The Primary User
 ---
 
 Finally. Now that we covered the provisioning package and how our device will migrate to Tenant B with no user affinity, let’s talk about the task that sets the primary user for Intune.

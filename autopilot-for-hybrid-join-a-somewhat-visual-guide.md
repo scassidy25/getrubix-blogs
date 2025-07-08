@@ -1,10 +1,13 @@
 ---
-title: "Autopilot for Hybrid join a somewhat visual guide"
-slug: "/blog/autopilot-for-hybrid-join-a-somewhat-visual-guide"
-date: "Sat, 25 Jan 2020 20:04:00 +0000"
-author: "stevew1015@gmail.com"
-description: " Here we go! This one has been a long time coming, so thanks for waiting around. Most folks know that until recently I have been extremely against hybrid-joining a PC with Autopilot. It was meant for pure, Azure AD join only, and damnit, that’s the way it should"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+date: Sat, 25 Jan 2020 20:04:00 +0000
+description: '"Here we go! This one has been a long time coming, so thanks for waiting
+  around. Most folks know that until recently I have been extremely against hybrid-joining
+  a PC with Autopilot. It was meant for pure, Azure AD join only, and damnit, that’s
+  the way it should"'
+slug: /blog/autopilot-for-hybrid-join-a-somewhat-visual-guide
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Autopilot for Hybrid join a somewhat visual guide
 ---
 
 Here we go! This one has been a long time coming, so thanks for waiting around. Most folks know that until recently I have been extremely against hybrid-joining a PC with Autopilot. It was meant for pure, Azure AD join only, and damnit, that’s the way it should stay. But as the technology itself matured, and industries of all sizes are heading towards the modern desktop, I (and my reluctant team) must adapt.

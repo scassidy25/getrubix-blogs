@@ -1,10 +1,14 @@
 ---
-title: "Rolling Out Intune Security Baselines Without Causing a Workplace Uprising"
-slug: "/blog/rolling-out-intune-security-baselines-without-causing-a-workplace-uprising"
-date: "Mon, 17 Feb 2025 16:28:27 +0000"
-author: "stevew1015@gmail.com"
-description: " Rolling Out Intune Security Baselines Without Causing Office ChaosBig news Microsoft just dropped the latest version of Intune Security Baselines! These handy settings help lock down Windows devices, Microsoft Edge, and other Microsoft apps with best-practice security configurations. Think of them as a security cheat sheet, covering everything"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+date: Mon, 17 Feb 2025 16:28:27 +0000
+description: '"Rolling Out Intune Security Baselines Without Causing Office ChaosBig
+  news Microsoft just dropped the latest version of Intune Security Baselines! These
+  handy settings help lock down Windows devices, Microsoft Edge, and other Microsoft
+  apps with best-practice security configurations. Think of them as a security cheat
+  sheet, covering everything"'
+slug: /blog/rolling-out-intune-security-baselines-without-causing-a-workplace-uprising
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Rolling Out Intune Security Baselines Without Causing a Workplace Uprising
 ---
 
 **Rolling Out Intune Security Baselines Without Causing Office Chaos**

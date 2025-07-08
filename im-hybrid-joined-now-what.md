@@ -1,10 +1,13 @@
 ---
-title: "Im Hybrid Joined Now What"
-slug: "/blog/im-hybrid-joined-now-what"
-date: "Wed, 05 Feb 2020 20:13:00 +0000"
-author: "stevew1015@gmail.com"
-description: " You’ve read the documents, setup the Intune connector, created the OU and delegated the privileges (and if you haven’t,&nbsp;read my hybrid join post). The dynamic group that is set to catch all of your ‘hybrid’ tagged PCs seems to be working. You power on the PC, see that"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+date: Wed, 05 Feb 2020 20:13:00 +0000
+description: '"You’ve read the documents, setup the Intune connector, created the
+  OU and delegated the privileges (and if you haven’t,&nbsp;read my hybrid join post).
+  The dynamic group that is set to catch all of your ‘hybrid’ tagged PCs seems to
+  be working. You power on the PC, see that"'
+slug: /blog/im-hybrid-joined-now-what
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Im Hybrid Joined Now What
 ---
 
 You’ve read the documents, setup the Intune connector, created the OU and delegated the privileges (and if you haven’t, [read my hybrid join post](https://z0touch.home.blog/2020/01/25/autopilot-for-hybrid-join-a-somewhat-visual-guide/)). The dynamic group that is set to catch all of your ‘hybrid’ tagged PCs seems to be working. You power on the PC, see that custom OOBE screen, and proceed with the enrollment. Just like magic, it looks like you’re on the desktop- congratulations! You have successfully used Autopilot to Hybrid Azure AD join a PC… now what?

@@ -1,10 +1,13 @@
 ---
-title: "Administrator Privileges on Azure AD Joined Machines"
-slug: "/blog/administrator-privileges-on-azure-ad-joined-machines-4lFva"
-date: "Thu, 16 Jul 2020 01:46:02 +0000"
-author: "GuestUser"
-description: " There are several settings within Azure and Intune/MEM that will dictate when users have administrative privileges. One of the primary options is to configure a setting within Autopilot – when we create an Autopilot profile, we assign it to devices that are registered in the tenant. One of"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: GuestUser
+date: Thu, 16 Jul 2020 01:46:02 +0000
+description: '"There are several settings within Azure and Intune/MEM that will dictate
+  when users have administrative privileges. One of the primary options is to configure
+  a setting within Autopilot – when we create an Autopilot profile, we assign it to
+  devices that are registered in the tenant. One of"'
+slug: /blog/administrator-privileges-on-azure-ad-joined-machines-4lFva
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Administrator Privileges on Azure AD Joined Machines
 ---
 
 There are several settings within Azure and Intune/MEM that will dictate when users have administrative privileges. One of the primary options is to configure a setting within Autopilot – when we create an Autopilot profile, we assign it to devices that are registered in the tenant. One of the options in the profile is the “User account type” setting, which we can set to Administrator or Standard:

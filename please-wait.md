@@ -1,10 +1,21 @@
 ---
-title: "Fighting the Enrollment Status Page"
-slug: "/blog/please-wait"
-date: "Wed, 15 Jul 2020 04:27:36 +0000"
-author: "stevew1015@gmail.com"
-description: " If you’ve deployed any Windows 10 devices via Autopilot, then you are no doubt familiar with the Enrollment Status Page (ESP). It is responsible for communicating which stage of the provisioning process that Windows is currently going through. "
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+categories:
+- intune
+- powershell
+- automation
+date: Wed, 15 Jul 2020 04:27:36 +0000
+description: >
+  If you’ve deployed any Windows 10 devices via Autopilot, then you are no doubt familiar with the Enrollment Status Page (ESP). It is responsible for communicating which stage of the provisioning process that Windows is currently going through.
+slug: /blog/please-wait
+tags:
+- endpoint manager
+- script
+- powershell
+- intune
+- flow
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Fighting the Enrollment Status Page
 ---
 
 If you’ve deployed any Windows 10 devices via Autopilot, then you are no doubt familiar with the Enrollment Status Page (ESP). It is responsible for communicating which stage of the provisioning process that Windows is currently going through.

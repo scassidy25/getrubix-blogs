@@ -1,10 +1,22 @@
 ---
-title: "Teams Known Folder Move Mess"
-slug: "/blog/teams-known-folder-move-mess-4SVNr"
-date: "Fri, 04 Sep 2020 16:03:36 +0000"
-author: "GuestUser"
-description: " Endpoint Manager makes it easy to not only deploy the office suite, but to manage policy around the applications as well. There’s often some policies around Outlook and Office in general that are desired, which are available in the ADMX templates. When it comes to OneDrive specifically, most"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: GuestUser
+categories:
+- intune
+- security
+- powershell
+- azure
+date: Fri, 04 Sep 2020 16:03:36 +0000
+description: "Endpoint Manager makes it easy to not only deploy the office suite, but to manage policy around the applications as well. There’s often some policies around Outlook and Office in general that are desired, which are available in the ADMX templates. When it comes to OneDrive specifically, most"
+slug: /blog/teams-known-folder-move-mess-4SVNr
+tags:
+- endpoint manager
+- azure
+- security
+- script
+- powershell
+- intune
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Teams Known Folder Move Mess
 ---
 
 Endpoint Manager makes it easy to not only deploy the office suite, but to manage policy around the applications as well. There’s often some policies around Outlook and Office in general that are desired, which are available in the ADMX templates. When it comes to OneDrive specifically, most folks opt to enable Silent Configuration and Known Folder Move, which redirects the Documents, Pictures, and Desktop folders to OneDrive for Business.

@@ -1,10 +1,13 @@
 ---
-title: "Updating Win32 app behavior via PowerShell and Graph"
-slug: "/blog/updating-win32-app-behavior-via-powershell-and-graph-Q4bSZ"
-date: "Thu, 24 Jun 2021 13:00:53 +0000"
-author: "GuestUser"
-description: " Whenever you upload an intunewin package to Endpoint Manager, you can generally go back and modify various settings such as the install command, detection rule, and most other properties. However, the one property that seems to become locked from any future changes is the Install Behavior.Keep in mind"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: GuestUser
+date: Thu, 24 Jun 2021 13:00:53 +0000
+description: '"Whenever you upload an intunewin package to Endpoint Manager, you can
+  generally go back and modify various settings such as the install command, detection
+  rule, and most other properties. However, the one property that seems to become
+  locked from any future changes is the Install Behavior.Keep in mind"'
+slug: /blog/updating-win32-app-behavior-via-powershell-and-graph-Q4bSZ
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Updating Win32 app behavior via PowerShell and Graph
 ---
 
 Whenever you upload an intunewin package to Endpoint Manager, you can generally go back and modify various settings such as the install command, detection rule, and most other properties. However, the one property that seems to become locked from any future changes is the Install Behavior.

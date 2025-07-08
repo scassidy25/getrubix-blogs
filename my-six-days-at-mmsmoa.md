@@ -1,10 +1,12 @@
 ---
-title: "My six days at MMSMOA"
-slug: "/blog/my-six-days-at-mmsmoa"
-date: "Sun, 11 May 2025 12:56:29 +0000"
-author: "stevew1015@gmail.com"
-description: " Typically, I would do a short video recap of a week like I just had, but for some reason, I wasn’t feeling it. Maybe I’m just in a typing mood. Maybe it’s because I have some pics I want to share with you. Whatever the reason, we’re"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+date: Sun, 11 May 2025 12:56:29 +0000
+description: '"Typically, I would do a short video recap of a week like I just had,
+  but for some reason, I wasn’t feeling it. Maybe I’m just in a typing mood. Maybe
+  it’s because I have some pics I want to share with you. Whatever the reason, we’re"'
+slug: /blog/my-six-days-at-mmsmoa
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: My six days at MMSMOA
 ---
 
 Typically, I would do a short video recap of a week like I just had, but for some reason, I wasn’t feeling it. Maybe I’m just in a typing mood. Maybe it’s because I have some pics I want to share with you. Whatever the reason, we’re doing this in blog form.

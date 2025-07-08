@@ -3,7 +3,7 @@ title: "ADMX in Intune- a year or two later Part I"
 slug: "/blog/admx-in-intune-a-year-or-two-later-part-i"
 date: "Thu, 24 Dec 2020 16:01:47 +0000"
 author: "stevew1015@gmail.com"
-description: " When I started writing this piece, the plan was to title it "ADMX: a year later".&nbsp;&nbsp;I was going to reference my original write up on ADMX policy in Intune and highlight what has changed since then.&nbsp;&nbsp;Well, as soon as I started, I realized I couldn't find the original.&nbsp;&nbsp;Then"
+description: "When I started writing this piece, the plan was to title it 'ADMX: a year later'. I was going to reference my original write up on ADMX policy in Intune and highlight what has changed since then. Well, as soon as I started, I realized I couldn't find the original. Then"
 thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 

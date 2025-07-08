@@ -1,10 +1,26 @@
 ---
-title: "Scripting in Intune"
-slug: "/blog/scripting-in-intune-2lwp4"
-date: "Thu, 12 Dec 2019 19:13:00 +0000"
-author: "GuestUser"
-description: " Well hello there… my name is Jesse Weimer (no relation to Steve). I work directly with Steve in the wonderful world that is Windows 10 and Intune. And Azure. And Autopilot and Whiteglove. And iOS. And Android Enterprise too, I guess. Steve brought me in on this voyage"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: GuestUser
+categories:
+- intune
+- security
+- powershell
+- azure
+date: Thu, 12 Dec 2019 19:13:00 +0000
+description: >
+  Well hello there… my name is Jesse Weimer (no relation to Steve). I work directly with
+  Steve in the wonderful world that is Windows 10 and Intune. And Azure. And Autopilot
+  and Whiteglove. And iOS. And Android Enterprise too, I guess. Steve brought me in on
+  this voyage.
+slug: /blog/scripting-in-intune-2lwp4
+tags:
+- azure
+- security
+- script
+- powershell
+- scripting
+- intune
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Scripting in Intune
 ---
 
 Well hello there… my name is Jesse Weimer (no relation to Steve). I work directly with Steve in the wonderful world that is Windows 10 and Intune. And Azure. And Autopilot and Whiteglove. And iOS. And Android Enterprise too, I guess. Steve brought me in on this voyage almost two years ago and I’ve learned a lot over time.

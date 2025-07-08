@@ -1,10 +1,13 @@
 ---
-title: "Getting Started with Intune Part 8 Your New Management World"
-slug: "/blog/getting-started-with-intune-part-8-your-new-management-world"
-date: "Wed, 13 Nov 2024 21:34:16 +0000"
-author: "stevew1015@gmail.com"
-description: " We’ve been through a lot over the last few weeks. Cloud vs hybrid, group policy vs CSP, WSUS vs Update rings; it’s been a ride. But at this point, you should have all the fundamental tools you need get Intune off the ground. In this"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+date: Wed, 13 Nov 2024 21:34:16 +0000
+description: '"We’ve been through a lot over the last few weeks. Cloud vs hybrid,
+  group policy vs CSP, WSUS vs Update rings; it’s been a ride. But at this point,
+  you should have all the fundamental tools you need get Intune off the ground. In
+  this"'
+slug: /blog/getting-started-with-intune-part-8-your-new-management-world
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Getting Started with Intune Part 8 Your New Management World
 ---
 
 We’ve been through a lot over the last few weeks. Cloud vs hybrid, group policy vs CSP, WSUS vs Update rings; it’s been a ride. But at this point, you should have all the fundamental tools you need get Intune off the ground. In this final part, let’s look at what your endpoint management life will look like day-to-day.

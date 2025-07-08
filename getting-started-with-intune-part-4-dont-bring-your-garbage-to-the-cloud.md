@@ -1,10 +1,23 @@
 ---
-title: "Getting Started with Intune Part 4 Dont Bring Your Garbage to the Cloud"
-slug: "/blog/getting-started-with-intune-part-4-dont-bring-your-garbage-to-the-cloud"
-date: "Tue, 05 Nov 2024 03:50:29 +0000"
-author: "stevew1015@gmail.com"
-description: " Alright- we made it this far. If you’re still with me, then hang on for this one because it’s not going to be pretty. Today is all about moving those Group Policy objects to Intune.Remember, if you’re enjoying this series make sure to check out the video companion"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+categories:
+- intune
+- security
+- powershell
+- azure
+date: Tue, 05 Nov 2024 03:50:29 +0000
+description: "Alright—we made it this far. If you’re still with me, then hang on for this one because it’s not going to be pretty. Today is all about moving those Group Policy objects to Intune. Remember, if you’re enjoying this series, make sure to check out the video companion."
+slug: /blog/getting-started-with-intune-part-4-dont-bring-your-garbage-to-the-cloud
+tags:
+- defender
+- active directory
+- security
+- script
+- powershell
+- entra
+- intune
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Getting Started with Intune Part 4 Dont Bring Your Garbage to the Cloud
 ---
 
 Alright- we made it this far. If you’re still with me, then hang on for this one because it’s not going to be pretty. Today is all about moving those Group Policy objects to Intune.

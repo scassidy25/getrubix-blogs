@@ -1,10 +1,13 @@
 ---
-title: "Entra Password Protection Smarter Security Fewer Pop-Tarts"
-slug: "/blog/entra-password-protection-smarter-security-fewer-pop-tarts"
-date: "Tue, 04 Feb 2025 13:29:29 +0000"
-author: "stevew1015@gmail.com"
-description: " Alright, let’s be real—passwords are the worst. If you can, ditch them altogether and embrace the wonderful world of passwordless authentication. But if you’re stuck with passwords for the time being, at least let’s make them a little less terrible, shall we?That’s where Microsoft Entra Password Protection comes"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+date: Tue, 04 Feb 2025 13:29:29 +0000
+description: '"Alright, let’s be real—passwords are the worst. If you can, ditch them
+  altogether and embrace the wonderful world of passwordless authentication. But if
+  you’re stuck with passwords for the time being, at least let’s make them a little
+  less terrible, shall we?That’s where Microsoft Entra Password Protection comes"'
+slug: /blog/entra-password-protection-smarter-security-fewer-pop-tarts
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Entra Password Protection Smarter Security Fewer Pop-Tarts
 ---
 
 Alright, let’s be real—passwords are the worst. If you can, ditch them altogether and embrace the wonderful world of passwordless authentication. But if you’re stuck with passwords for the time being, at least let’s make them a little less terrible, shall we?

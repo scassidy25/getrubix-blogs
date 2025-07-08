@@ -1,10 +1,23 @@
 ---
-title: "Tenant to Tenant Intune Device Migration Part 6 The Last Tasks"
-slug: "/blog/tenant-to-tenant-intune-device-migration-part-6-the-last-tasks"
-date: "Thu, 03 Aug 2023 12:00:36 +0000"
-author: "stevew1015@gmail.com"
-description: " Here we go, folks- we’re at the last two tasks in the migration process. After this, we will have all the pieces needed to test this out. Who’s excited?AUTOPILOT REGISTRATION (TRIGGER: 30 MIN AFTER LOGON)By this point, our device has migrated into Tenant B and should"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+categories:
+- intune
+- powershell
+- automation
+- azure
+date: Thu, 03 Aug 2023 12:00:36 +0000
+description: >
+  Here we go, folks – we’re at the last two tasks in the migration process. After this, we will have all the pieces needed to test this out. Who’s excited?
+slug: /blog/tenant-to-tenant-intune-device-migration-part-6-the-last-tasks
+tags:
+- azure
+- aad
+- script
+- powershell
+- intune
+- automation
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Tenant to Tenant Intune Device Migration Part 6 The Last Tasks
 ---
 
 Here we go, folks- we’re at the last two tasks in the migration process. After this, we will have all the pieces needed to test this out. Who’s excited?

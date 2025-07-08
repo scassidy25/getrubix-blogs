@@ -1,10 +1,13 @@
 ---
-title: "Tenant to Tenant Intune Device Migration Beginning of a Series"
-slug: "/blog/tenant-to-tenant-intune-device-migration-the-beginning-of-a-series"
-date: "Wed, 12 Jul 2023 17:40:52 +0000"
-author: "stevew1015@gmail.com"
-description: " This one has been a long, long time in the making. In the coming days, I’m going to be releasing a series of posts that detail how to migrate an Intune managed, Windows PC from one Azure AD tenant to another… without wiping the device!Edit: it’s been"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+date: Wed, 12 Jul 2023 17:40:52 +0000
+description: '"This one has been a long, long time in the making. In the coming days,
+  I’m going to be releasing a series of posts that detail how to migrate an Intune
+  managed, Windows PC from one Azure AD tenant to another… without wiping the device!Edit:
+  it’s been"'
+slug: /blog/tenant-to-tenant-intune-device-migration-the-beginning-of-a-series
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Tenant to Tenant Intune Device Migration Beginning of a Series
 ---
 
 This one has been a long, long time in the making. In the coming days, I’m going to be releasing a series of posts that detail how to migrate an Intune managed, Windows PC from one Azure AD tenant to another… **_without_** wiping the device!

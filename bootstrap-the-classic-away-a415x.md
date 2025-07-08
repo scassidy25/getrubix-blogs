@@ -1,10 +1,17 @@
 ---
-title: "Bootstrap the Classic Away"
-slug: "/blog/bootstrap-the-classic-away-a415x"
-date: "Thu, 19 Sep 2024 18:38:34 +0000"
-author: "GuestUser"
-description: " A while back Steve posted a video on removing the per-user installs of Teams Classic (which also includes some odd rant about communal food). While this script still generally works, there is a newer option available using the bootstrapper exe.The latest versions of teamsbootstrapper.exe will remove the machine-wide"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: GuestUser
+categories:
+- intune
+- powershell
+date: Thu, 19 Sep 2024 18:38:34 +0000
+description: "A while back Steve posted a video on removing the per-user installs of Teams Classic (which also includes some odd rant about communal food). While this script still generally works, there is a newer option available using the bootstrapper exe. The latest versions of teamsbootstrapper.exe will remove the machine-wide."
+slug: /blog/bootstrap-the-classic-away-a415x
+tags:
+- intune
+- script
+- powershell
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Bootstrap the Classic Away
 ---
 
 A while back Steve posted [a video](https://youtu.be/Zmk44EuMud4?si=zTyMrMrcsOhFwPC6) on removing the per-user installs of Teams Classic (which also includes some odd rant about communal food). While this script still generally works, there is a newer option available using the bootstrapper exe.

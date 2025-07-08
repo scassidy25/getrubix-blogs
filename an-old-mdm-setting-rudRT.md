@@ -1,10 +1,22 @@
 ---
-title: "An Old MDM Setting"
-slug: "/blog/an-old-mdm-setting-rudRT"
-date: "Thu, 02 May 2024 20:04:51 +0000"
-author: "GuestUser"
-description: " Every now and then, believe it or not, we still come across tenants that do NOT have the MDM Authority set to Intune. You may encounter this if you can’t edit the Enrollment Status Page (ESP) or Enrollment restrictions profiles - this of course needs to be updated"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: GuestUser
+categories:
+- intune
+- security
+- powershell
+date: Thu, 02 May 2024 20:04:51 +0000
+description: >
+  Every now and then, believe it or not, we still come across tenants that do NOT
+  have the MDM Authority set to Intune. You may encounter this if you can’t edit
+  the Enrollment Status Page (ESP) or Enrollment restrictions profiles - this of
+  course needs to be updated.
+slug: /blog/an-old-mdm-setting-rudRT
+tags:
+- intune
+- security
+- script
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: An Old MDM Setting
 ---
 
 Every now and then, believe it or not, we still come across tenants that do NOT have the MDM Authority set to Intune. You may encounter this if you can’t edit the Enrollment Status Page (ESP) or Enrollment restrictions profiles - this of course needs to be updated in order to fully manage your devices.

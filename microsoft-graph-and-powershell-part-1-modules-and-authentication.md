@@ -1,10 +1,23 @@
 ---
-title: "Microsoft Graph and PowerShell Part 1 Modules and Authentication"
-slug: "/blog/microsoft-graph-and-powershell-part-1-modules-and-authentication"
-date: "Thu, 30 Jun 2022 18:03:46 +0000"
-author: "stevew1015@gmail.com"
-description: " I don’t know about you, but this one has a great title; lot of words. One of the most efficient ways to work with the Microsoft 365 platform is via the graph API. if you’re not familiar, go take care of that now:https://developer.microsoft.com/en-us/graph/graph-explorerIt’s super easy to"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+categories:
+- intune
+- powershell
+- automation
+- azure
+date: Thu, 30 Jun 2022 18:03:46 +0000
+description: >
+  I don’t know about you, but this one has a great title; lot of words. One of the most efficient ways to work with the Microsoft 365 platform is via the graph API. if you’re not familiar, go take care of that now: https://developer.microsoft.com/en-us/graph/graph-explorer It’s super easy to
+slug: /blog/microsoft-graph-and-powershell-part-1-modules-and-authentication
+tags:
+- automate
+- azure
+- script
+- powershell
+- scripting
+- intune
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Microsoft Graph and PowerShell Part 1 Modules and Authentication
 ---
 
 I don’t know about you, but this one has a great title; lot of words.

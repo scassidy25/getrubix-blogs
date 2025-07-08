@@ -1,10 +1,13 @@
 ---
-title: "Home Office and Geek Cave Tour"
-slug: "/blog/home-office-and-geek-cave-tour"
-date: "Fri, 14 May 2021 21:31:58 +0000"
-author: "stevew1015@gmail.com"
-description: " This post is a bit different than the rest, as I won’t be talking about any scripts or policy configuration.&nbsp; Many have asked me about the tools I use on a daily basis and how I configure my home (basement) office.&nbsp; So, to commemorate the 14 months since"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+date: Fri, 14 May 2021 21:31:58 +0000
+description: '"This post is a bit different than the rest, as I won’t be talking about
+  any scripts or policy configuration.&nbsp; Many have asked me about the tools I
+  use on a daily basis and how I configure my home (basement) office.&nbsp; So, to
+  commemorate the 14 months since"'
+slug: /blog/home-office-and-geek-cave-tour
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Home Office and Geek Cave Tour
 ---
 
 This post is a bit different than the rest, as I won’t be talking about any scripts or policy configuration.  Many have asked me about the tools I use on a daily basis and how I configure my home (basement) office.  So, to commemorate the 14 months since I’ve gone full time remote, I’d like to detail my setup and shed some light on why some things are the way they are.

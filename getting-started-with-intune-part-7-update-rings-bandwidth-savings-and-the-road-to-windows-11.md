@@ -1,10 +1,22 @@
 ---
-title: "Getting Started with Intune Part 7 Update Rings Bandwidth Savings and the Road to Windows 11"
-slug: "/blog/getting-started-with-intune-part-7-update-rings-bandwidth-savings-and-the-road-to-windows-11"
-date: "Tue, 12 Nov 2024 21:54:05 +0000"
-author: "stevew1015@gmail.com"
-description: " Policy has been configured. Personas are mapped out. Apps are packaged and ready for deployment. We’re so close to getting Intune off the ground and there’s only one, tiny part left… Windows updates.Depending on what you’re used to, this may be one of the biggest"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+categories:
+- intune
+- security
+- automation
+- azure
+date: Tue, 12 Nov 2024 21:54:05 +0000
+description: "Policy has been configured. Personas are mapped out. Apps are packaged and ready for deployment. We’re so close to getting Intune off the ground and there’s only one, tiny part left… Windows updates. Depending on what you’re used to, this may be one of the biggest."
+slug: /blog/getting-started-with-intune-part-7-update-rings-bandwidth-savings-and-the-road-to-windows-11
+tags:
+- compliance
+- security
+- entra
+- intune
+- automation
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Getting Started with Intune Part 7 Update Rings Bandwidth Savings and the Road
+  to Windows 11
 ---
 
 Policy has been configured. Personas are mapped out. Apps are packaged and ready for deployment. We’re so close to getting Intune off the ground and there’s only one, tiny part left… Windows updates.

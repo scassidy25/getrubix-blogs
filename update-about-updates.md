@@ -1,10 +1,13 @@
 ---
-title: "Update about Updates"
-slug: "/blog/update-about-updates"
-date: "Thu, 26 Oct 2023 22:56:37 +0000"
-author: "stevew1015@gmail.com"
-description: " You’ve probably noticed by now that a lot of the action about the Intune device migration solution is happening on the GetRubix YouTube channel. It’s not because I don’t love rambling here, but a lot of these concepts are just easier to show, rather than tell. "
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+date: Thu, 26 Oct 2023 22:56:37 +0000
+description: '"You’ve probably noticed by now that a lot of the action about the Intune
+  device migration solution is happening on the GetRubix YouTube channel. It’s not
+  because I don’t love rambling here, but a lot of these concepts are just easier
+  to show, rather than tell."'
+slug: /blog/update-about-updates
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Update about Updates
 ---
 
 You’ve probably noticed by now that a lot of the action about the Intune device migration solution is happening on the [GetRubix YouTube](https://www.youtube.com/@getrubix9986) channel. It’s not because I don’t love rambling here, but a lot of these concepts are just easier to show, rather than tell.

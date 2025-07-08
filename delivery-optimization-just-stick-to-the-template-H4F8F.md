@@ -1,10 +1,18 @@
 ---
-title: "Delivery Optimization - Just Stick to the Template"
-slug: "/blog/delivery-optimization-just-stick-to-the-template-H4F8F"
-date: "Fri, 02 Feb 2024 18:07:13 +0000"
-author: "GuestUser"
-description: " Here’s a short and sweet post on something that drove me crazy for over a few weeks. A little silly it took me this long, but the timing around some legitimate M365 Apps suite issues made it more confusing.The Backstory&nbsp;Around the middle of November, I had several customers"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: GuestUser
+categories:
+- intune
+- security
+- powershell
+date: Fri, 02 Feb 2024 18:07:13 +0000
+description: "Here’s a short and sweet post on something that drove me crazy for over a few weeks. A little silly it took me this long, but the timing around some legitimate M365 Apps suite issues made it more confusing."
+slug: /blog/delivery-optimization-just-stick-to-the-template-H4F8F
+tags:
+- configuration profiles
+- security
+- script
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Delivery Optimization - Just Stick to the Template
 ---
 
 Here’s a short and sweet post on something that drove me crazy for over a few weeks. A little silly it took me this long, but the timing around some legitimate M365 Apps suite issues made it more confusing.

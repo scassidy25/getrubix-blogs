@@ -1,10 +1,13 @@
 ---
-title: "Custom Intune Reporting"
-slug: "/blog/custom-intune-reporting-PVN2O"
-date: "Fri, 19 Jan 2024 19:58:28 +0000"
-author: "GuestUser"
-description: " Hey everyone - I figured it was about time I come back and contribute some written content after about 3 years (my lord).Yes, I still work with very closely with Steve – since I finally showed myself in one of his latest videos, I figured I would come"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: GuestUser
+date: Fri, 19 Jan 2024 19:58:28 +0000
+description: '"Hey everyone - I figured it was about time I come back and contribute
+  some written content after about 3 years (my lord).Yes, I still work with very closely
+  with Steve – since I finally showed myself in one of his latest videos, I figured
+  I would come"'
+slug: /blog/custom-intune-reporting-PVN2O
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Custom Intune Reporting
 ---
 
 Hey everyone - I figured it was about time I come back and contribute some written content after about 3 years (my lord).

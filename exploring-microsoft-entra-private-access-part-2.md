@@ -1,10 +1,14 @@
 ---
-title: "Exploring Microsoft Entra Private Access - Part 2"
-slug: "/blog/exploring-microsoft-entra-private-access-part-2"
-date: "Mon, 20 Jan 2025 20:30:01 +0000"
-author: "stevew1015@gmail.com"
-description: " Welcome back – let’s continue our series on Microsoft Entra Private Access! If you missed Part 1, you can check it out here: Exploring Microsoft Entra Private Access. Let’s dive into the nitty-gritty of installing the GSA client, applying Conditional Access policies, and tackling some basic troubleshooting.Installing the"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+date: Mon, 20 Jan 2025 20:30:01 +0000
+description: '"Welcome back – let’s continue our series on Microsoft Entra Private
+  Access! If you missed Part 1, you can check it out here: Exploring Microsoft Entra
+  Private Access. Let’s dive into the nitty-gritty of installing the GSA client, applying
+  Conditional Access policies, and tackling some basic troubleshooting.Installing
+  the"'
+slug: /blog/exploring-microsoft-entra-private-access-part-2
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Exploring Microsoft Entra Private Access - Part 2
 ---
 
 Welcome back – let’s continue our series on Microsoft Entra Private Access! If you missed Part 1, you can check it out here: [Exploring Microsoft Entra Private Access](https://www.getrubix.com/blog/exploring-microsoft-entra-private-access). Let’s dive into the nitty-gritty of installing the GSA client, applying Conditional Access policies, and tackling some basic troubleshooting.

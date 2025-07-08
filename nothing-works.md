@@ -1,10 +1,10 @@
 ---
-title: "Nothing works"
-slug: "/blog/nothing-works"
-date: "Fri, 29 Sep 2023 13:40:13 +0000"
-author: "stevew1015@gmail.com"
-description: " "
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+date: Fri, 29 Sep 2023 13:40:13 +0000
+description: '""'
+slug: /blog/nothing-works
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Nothing works
 ---
 
 ![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/29c39dd9-ff43-4bce-984f-a9c971efe2c0/Discord-logo.png)

@@ -1,10 +1,19 @@
 ---
-title: "Weekly Recap December 1"
-slug: "/blog/weekly-recap-december-1"
-date: "Fri, 01 Dec 2023 14:02:47 +0000"
-author: "stevew1015@gmail.com"
-description: " After being inspired by Andrew Taylor’s weekly Intune newsletter (which now includes me for some reason), I figured it would make sense to start providing a summary of my videos every Friday. This will give me a chance to add some context, helpful links, and address some"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+categories:
+- intune
+- security
+- powershell
+date: Fri, 01 Dec 2023 14:02:47 +0000
+description: "After being inspired by Andrew Taylor’s weekly Intune newsletter (which now includes me for some reason), I figured it would make sense to start providing a summary of my videos every Friday. This will give me a chance to add some context, helpful links, and address some questions that may have come up throughout the week."
+slug: /blog/weekly-recap-december-1
+tags:
+- intune
+- powershell
+- compliance
+- script
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Weekly Recap December 1
 ---
 
 After being inspired by [Andrew Taylor’s weekly Intune newsletter](https://andrewstaylor.com/2023/12/01/intune-newsletter-1st-december-2023/) (which now includes me for some reason), I figured it would make sense to start providing a summary of my videos every Friday. This will give me a chance to add some context, helpful links, and address some questions that may have come up throughout the week.

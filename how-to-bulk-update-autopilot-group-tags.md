@@ -1,10 +1,13 @@
 ---
-title: "How to Bulk Update Autopilot Group Tags"
-slug: "/blog/how-to-bulk-update-autopilot-group-tags"
-date: "Sat, 06 Apr 2024 23:13:09 +0000"
-author: "stevew1015@gmail.com"
-description: " Well, I almost made it a full vacation without working. But hey- what can you do?The other day, I received a question in the Discord server about what the easiest way would be to update enrollment profiles for Autopilot devices, specifically based on the group tag. "
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+date: Sat, 06 Apr 2024 23:13:09 +0000
+description: '"Well, I almost made it a full vacation without working. But hey- what
+  can you do?The other day, I received a question in the Discord server about what
+  the easiest way would be to update enrollment profiles for Autopilot devices, specifically
+  based on the group tag."'
+slug: /blog/how-to-bulk-update-autopilot-group-tags
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: How to Bulk Update Autopilot Group Tags
 ---
 
 Well, I almost made it a full vacation without working. But hey- what can you do?

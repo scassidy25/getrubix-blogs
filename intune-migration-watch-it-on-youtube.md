@@ -1,10 +1,13 @@
 ---
-title: "Intune Migration watch it on YouTube"
-slug: "/blog/intune-migration-watch-it-on-youtube"
-date: "Mon, 11 Sep 2023 14:18:08 +0000"
-author: "stevew1015@gmail.com"
-description: " If you’re wondering why I haven’t been writing much on here, it’s because I’ve been busy over on the Getrubix YouTube channel. Here is a quick summary of each Intune tenant to tenant device migration video so you can easily jump to an area of interest.New videos"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+date: Mon, 11 Sep 2023 14:18:08 +0000
+description: '"If you’re wondering why I haven’t been writing much on here, it’s because
+  I’ve been busy over on the Getrubix YouTube channel. Here is a quick summary of
+  each Intune tenant to tenant device migration video so you can easily jump to an
+  area of interest.New videos"'
+slug: /blog/intune-migration-watch-it-on-youtube
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Intune Migration watch it on YouTube
 ---
 
 If you’re wondering why I haven’t been writing much on here, it’s because I’ve been busy over on the [Getrubix YouTube channel](https://www.youtube.com/@getrubix9986/featured). Here is a quick summary of each Intune tenant to tenant device migration video so you can easily jump to an area of interest.

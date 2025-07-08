@@ -1,10 +1,13 @@
 ---
-title: "Looking for something Use a remediation"
-slug: "/blog/looking-for-something-use-a-remediation-GXD0c"
-date: "Wed, 27 Mar 2024 17:48:07 +0000"
-author: "GuestUser"
-description: " Every now and then I either need to look for a conflicting group policy, or some other software setting that is sitting in the registry.A good example of conflicting GPO that others have blogged about – Windows Update policies. Generally when deploying Update Rings and Feature Updates through"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: GuestUser
+date: Wed, 27 Mar 2024 17:48:07 +0000
+description: '"Every now and then I either need to look for a conflicting group policy,
+  or some other software setting that is sitting in the registry.A good example of
+  conflicting GPO that others have blogged about – Windows Update policies. Generally
+  when deploying Update Rings and Feature Updates through"'
+slug: /blog/looking-for-something-use-a-remediation-GXD0c
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Looking for something Use a remediation
 ---
 
 Every now and then I either need to look for a conflicting group policy, or some other software setting that is sitting in the registry.

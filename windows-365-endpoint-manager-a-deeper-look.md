@@ -1,10 +1,13 @@
 ---
-title: "Almost Autopilot Windows 365 and the Enrollment Status Page"
-slug: "/blog/windows-365-endpoint-manager-a-deeper-look"
-date: "Mon, 13 Sep 2021 16:07:34 +0000"
-author: "stevew1015@gmail.com"
-description: " This week, I spent a decent amount of time walking folks through my Windows 365 lab setup and how it’s managed with Microsoft Endpoint Manager (or Intune). The response has been very positive and many organizations are eager to get started with a POC or implementation.There is"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+date: Mon, 13 Sep 2021 16:07:34 +0000
+description: '"This week, I spent a decent amount of time walking folks through my
+  Windows 365 lab setup and how it’s managed with Microsoft Endpoint Manager (or Intune).
+  The response has been very positive and many organizations are eager to get started
+  with a POC or implementation.There is"'
+slug: /blog/windows-365-endpoint-manager-a-deeper-look
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Almost Autopilot Windows 365 and the Enrollment Status Page
 ---
 
 This week, I spent a decent amount of time walking folks through my Windows 365 lab setup and how it’s managed with Microsoft Endpoint Manager (or Intune). The response has been very positive and many organizations are eager to get started with a POC or implementation.

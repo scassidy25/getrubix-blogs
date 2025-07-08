@@ -1,10 +1,23 @@
 ---
-title: "NDES and SCEP for Intune Part 1"
-slug: "/blog/ndes-and-scep-for-intune-part-1"
-date: "Mon, 10 May 2021 20:52:48 +0000"
-author: "stevew1015@gmail.com"
-description: " Long time, no talk.&nbsp; But it’s because I’ve been busy.&nbsp; And usually when I’m this busy it means I’ve got a lot to talk about.&nbsp; During three separate Endpoint Manager implementations, I’ve recently had to go outside my comfort zone and help folks troubleshoot Intune SCEP certificate profiles.&nbsp;"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+categories:
+- intune
+- security
+- automation
+- azure
+date: Mon, 10 May 2021 20:52:48 +0000
+description: >
+  Long time, no talk. But it’s because I’ve been busy. And usually when I’m this busy it means I’ve got a lot to talk about. During three separate Endpoint Manager implementations, I’ve recently had to go outside my comfort zone and help folks troubleshoot Intune SCEP certificate profiles.
+slug: /blog/ndes-and-scep-for-intune-part-1
+tags:
+- endpoint manager
+- azure
+- active directory
+- security
+- intune
+- flow
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: NDES and SCEP for Intune Part 1
 ---
 
 Long time, no talk.  But it’s because I’ve been busy.  And usually when I’m this busy it means I’ve got a lot to talk about.  During three separate Endpoint Manager implementations, I’ve recently had to go outside my comfort zone and help folks troubleshoot Intune SCEP certificate profiles.  That led to poking around the SCEP connector itself.  Well, once I started looking there, it wasn’t long before I pumped the breaks, took a deep breath, and figured out how to build the whole thing from scratch.  So, sit back and relax while I take you through the entire setup process of an Intune certificate connector on a fresh, new NDES server.

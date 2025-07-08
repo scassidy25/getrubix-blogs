@@ -1,10 +1,17 @@
 ---
-title: "Yes there are GPOs in Intune"
-slug: "/blog/yes-there-are-gpos-in-intune"
-date: "Fri, 26 Jul 2019 23:12:00 +0000"
-author: "stevew1015@gmail.com"
-description: " When I have the standard “you don’t need domain join and SCCM if you use Intune” conversation, the first push-back from the uninitiated is that Intune does not have full parity with on-premise GPO (Group Policy Objects). This hasn’t been true for sometime, but now with the official"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+categories:
+- intune
+- azure
+date: Fri, 26 Jul 2019 23:12:00 +0000
+description: "When I have the standard “you don’t need domain join and SCCM if you use Intune” conversation, the first push-back from the uninitiated is that Intune does not have full parity with on-premise GPO (Group Policy Objects). This hasn’t been true for sometime, but now with the official release of Administrative Templates, it is even more ludicrous."
+slug: /blog/yes-there-are-gpos-in-intune
+tags:
+- intune
+- configuration profiles
+- azure
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Yes there are GPOs in Intune
 ---
 
 When I have the standard “you don’t need domain join and SCCM if you use Intune” conversation, the first push-back from the uninitiated is that Intune does not have full parity with on-premise GPO (Group Policy Objects). This hasn’t been true for sometime, but now with the official release of Administrative Templates, it is even more ludicrous.

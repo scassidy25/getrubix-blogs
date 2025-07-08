@@ -1,10 +1,13 @@
 ---
-title: "Weekly Recap January 26"
-slug: "/blog/weekly-recap-january-26"
-date: "Fri, 26 Jan 2024 22:38:19 +0000"
-author: "stevew1015@gmail.com"
-description: " A lot more Intune, and a lot more interacting with inanimate objects.Getting Started with Microsoft Graph for Intune This is a refresher or starting guide to anyone who wants to begin learning about using the Microsoft Graph for Intune. We start by"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+date: Fri, 26 Jan 2024 22:38:19 +0000
+description: '"A lot more Intune, and a lot more interacting with inanimate objects.Getting
+  Started with Microsoft Graph for Intune This is a refresher or starting guide to
+  anyone who wants to begin learning about using the Microsoft Graph for Intune. We
+  start by"'
+slug: /blog/weekly-recap-january-26
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Weekly Recap January 26
 ---
 
 A lot more Intune, and a lot more interacting with inanimate objects.

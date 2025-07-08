@@ -1,10 +1,13 @@
 ---
-title: "Covid Co-Management Crisis"
-slug: "/blog/covid-co-management-crisis"
-date: "Tue, 14 Apr 2020 14:05:43 +0000"
-author: "stevew1015@gmail.com"
-description: " For three years now, I have led a team of engineers in the practice of deploying modern management for Windows 10. Last month, when the pandemic induced lock-down started, the world of Windows users lost their line-of-site to their corporate domains. The modern management my"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+date: Tue, 14 Apr 2020 14:05:43 +0000
+description: '"For three years now, I have led a team of engineers in the practice
+  of deploying modern management for Windows 10. Last month, when the pandemic induced
+  lock-down started, the world of Windows users lost their line-of-site to their corporate
+  domains. The modern management my"'
+slug: /blog/covid-co-management-crisis
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Covid Co-Management Crisis
 ---
 
 For three years now, I have led a team of engineers in the practice of deploying modern management for Windows 10. Last month, when the pandemic induced lock-down started, the world of Windows users lost their line-of-site to their corporate domains. The modern management my team had evangelized for years had suddenly pivoted from being an eventual destination to an urgent need. This is not the push to modern management we wanted to see.

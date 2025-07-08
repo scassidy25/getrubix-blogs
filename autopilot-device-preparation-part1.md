@@ -1,10 +1,13 @@
 ---
-title: "How to configure Autopilot Device Preparation Part 1 Set it up"
-slug: "/blog/autopilot-device-preparation-part1"
-date: "Sun, 09 Jun 2024 01:09:40 +0000"
-author: "stevew1015@gmail.com"
-description: " Microsoft has just released its latest flavor of Windows Autopilot known as Autopilot Device Preparation, and it’s been getting a lot of press this week. Some call it Autopilot V2, some call it “half-baked”, and some have said much worse. But regardless, it’s here and we’ve been putting"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+date: Sun, 09 Jun 2024 01:09:40 +0000
+description: '"Microsoft has just released its latest flavor of Windows Autopilot
+  known as Autopilot Device Preparation, and it’s been getting a lot of press this
+  week. Some call it Autopilot V2, some call it “half-baked”, and some have said much
+  worse. But regardless, it’s here and we’ve been putting"'
+slug: /blog/autopilot-device-preparation-part1
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: How to configure Autopilot Device Preparation Part 1 Set it up
 ---
 
 Microsoft has just released its latest flavor of Windows Autopilot known as [Autopilot Device Preparation](https://techcommunity.microsoft.com/t5/intune-customer-success/announcing-new-windows-autopilot-onboarding-experience-for/ba-p/4161000?utm_source=dlvr.it&utm_medium=twitter), and it’s been getting a lot of press this week. Some call it Autopilot V2, some call it “half-baked”, and some have said much worse. But regardless, it’s here and we’ve been putting it through its paces.

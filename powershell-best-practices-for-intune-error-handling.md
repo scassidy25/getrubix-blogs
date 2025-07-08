@@ -1,10 +1,13 @@
 ---
-title: "PowerShell Best Practices for Intune Error Handling"
-slug: "/blog/powershell-best-practices-for-intune-error-handling"
-date: "Fri, 04 Apr 2025 19:16:21 +0000"
-author: "stevew1015@gmail.com"
-description: " In the last part we looked at why logging is so importing with the scripts we push to Intune. However, the best logging in the world can’t help you if we have nothing to log.So today we’ll about error handling, ensuring scripts are resilient, readable, and easy"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+date: Fri, 04 Apr 2025 19:16:21 +0000
+description: '"In the last part we looked at why logging is so importing with the
+  scripts we push to Intune. However, the best logging in the world can’t help you
+  if we have nothing to log.So today we’ll about error handling, ensuring scripts
+  are resilient, readable, and easy"'
+slug: /blog/powershell-best-practices-for-intune-error-handling
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: PowerShell Best Practices for Intune Error Handling
 ---
 
 In the [last part](https://www.getrubix.com/blog/powershell-best-practices-for-intune-logging) we looked at why logging is so importing with the scripts we push to Intune. However, the best logging in the world can’t help you if we have nothing to log.

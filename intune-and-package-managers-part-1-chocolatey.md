@@ -1,10 +1,13 @@
 ---
-title: "Intune and Package Managers - Part 1 Chocolatey"
-slug: "/blog/intune-and-package-managers-part-1-chocolatey"
-date: "Thu, 23 Jul 2020 03:15:45 +0000"
-author: "stevew1015@gmail.com"
-description: " Deploying applications to Windows 10 devices from Intune has certainly come a long way.&nbsp; We went from single file .MSI installers only, to using PowerShell scripts to bring down install bits from blob storage to run locally, all the way to full application support with .Intunewin"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+date: Thu, 23 Jul 2020 03:15:45 +0000
+description: '"Deploying applications to Windows 10 devices from Intune has certainly
+  come a long way.&nbsp; We went from single file .MSI installers only, to using PowerShell
+  scripts to bring down install bits from blob storage to run locally, all the way
+  to full application support with .Intunewin"'
+slug: /blog/intune-and-package-managers-part-1-chocolatey
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Intune and Package Managers - Part 1 Chocolatey
 ---
 
 Deploying applications to Windows 10 devices from Intune has certainly come a long way.  We went from single file .MSI installers only, to using PowerShell scripts to bring down install bits from blob storage to run locally, all the way to full application support with .Intunewin packages.

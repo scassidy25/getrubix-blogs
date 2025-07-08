@@ -1,10 +1,13 @@
 ---
-title: "Getting Started with Intune Part 5 Two Paths"
-slug: "/blog/getting-started-with-intune-part-5-two-paths"
-date: "Thu, 07 Nov 2024 14:46:29 +0000"
-author: "stevew1015@gmail.com"
-description: " So far, we’ve explored evaluating your environment, choosing initial use cases, planning and building your deployment, and the daunting process of moving Group Policy objects into Intune.But ultimately, you’re going to realize there is a challenge ahead; how are you going to deal with managing your new, shiny"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+author: stevew1015@gmail.com
+date: Thu, 07 Nov 2024 14:46:29 +0000
+description: '"So far, we’ve explored evaluating your environment, choosing initial
+  use cases, planning and building your deployment, and the daunting process of moving
+  Group Policy objects into Intune.But ultimately, you’re going to realize there is
+  a challenge ahead; how are you going to deal with managing your new, shiny"'
+slug: /blog/getting-started-with-intune-part-5-two-paths
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+title: Getting Started with Intune Part 5 Two Paths
 ---
 
 So far, we’ve explored evaluating your environment, choosing initial use cases, planning and building your deployment, and the daunting process of moving Group Policy objects into Intune.
