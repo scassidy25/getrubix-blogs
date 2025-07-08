@@ -4,6 +4,7 @@ slug: "/blog/advanced-intune-device-query-joining-across-categories"
 date: "Tue, 18 Mar 2025 14:28:34 +0000"
 author: "stevew1015@gmail.com"
 description: " Last time, we went over the basics of Intune Device Query and how to pull data from the Device category using KQL. If you’ve been playing around with it, hopefully, you’re starting to see just how powerful it can be. But what if you need data from multiple"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 Last time, we went over the basics of **Intune Device Query** and how to pull data from the **Device** category using KQL. If you’ve been playing around with it, hopefully, you’re starting to see just how powerful it can be. But what if you need data from multiple categories?

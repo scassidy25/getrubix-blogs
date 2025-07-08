@@ -4,6 +4,7 @@ slug: "/blog/troubleshooting-hardware-failure-h2Ea3"
 date: "Sun, 31 Jan 2021 21:19:22 +0000"
 author: "GuestUser"
 description: " One common policy that can encounter issues related to hardware is Bitlocker encryption. When looking at the per-device status for the policy, you can click on one of the failing devices to view the device configuration summary. If Bitlocker is failing, select the policy and see which components"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 One common policy that can encounter issues related to hardware is **Bitlocker encryption**. When looking at the _per-device status_ for the policy, you can click on one of the failing devices to view the **device configuration** summary. If Bitlocker is failing, select the policy and see which components have an error – the image below shows a typical failure where the encryption does not successfully complete:

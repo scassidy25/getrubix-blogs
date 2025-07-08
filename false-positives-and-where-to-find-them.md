@@ -4,6 +4,7 @@ slug: "/blog/false-positives-and-where-to-find-them"
 date: "Fri, 14 Feb 2025 12:41:26 +0000"
 author: "stevew1015@gmail.com"
 description: " Purview can generate a significant number of false positives from its built-in Sensitive Information Types. Part of my job when running datasecurity projects is to help resolve these and keep them from popping up again in the future. Some of this may be common sense, and some of"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 Purview can generate a significant number of false positives from its built-in Sensitive Information Types. Part of my job when running datasecurity projects is to help resolve these and keep them from popping up again in the future. Some of this may be common sense, and some of it may be new to you...either way, let's dive in:

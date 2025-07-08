@@ -4,6 +4,7 @@ slug: "/blog/getting-started-with-intune-part-2-dont-build-for-the-fringe"
 date: "Tue, 29 Oct 2024 17:15:31 +0000"
 author: "stevew1015@gmail.com"
 description: " In most cases, the hardest part of doing anything is getting started, and that’s certainly true for implementing Intune. More often than not, I see folks thwarted by what I call the “fringe case.”Don’t forget that I’m doing an exclusive video series to follow along with this series"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 In most cases, the hardest part of doing anything is getting started, and that’s certainly true for implementing Intune. More often than not, I see folks thwarted by what I call the “fringe case.”

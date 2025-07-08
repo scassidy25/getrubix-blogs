@@ -4,6 +4,7 @@ slug: "/blog/goodbye-vpn-part-1-this-is-private"
 date: "Tue, 28 May 2024 03:18:01 +0000"
 author: "stevew1015@gmail.com"
 description: "Recently, I released a guided walkthrough of setting up Entra Private Access for cloud native PCs connecting to on-premises file shares. In addition to a tremendously positive response (thank you), I also received many requests for a written guide. It then got me thinking... "could some of my videos benefit"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 Recently, I released a [guided walkthrough of setting up Entra Private Access](https://youtu.be/uIjGDUhvKvY) for cloud native PCs connecting to on-premises file shares. In addition to a tremendously positive response (thank you), I also received many requests for a written guide. It then got me thinking... "could some of my videos benefit from a written companion?"

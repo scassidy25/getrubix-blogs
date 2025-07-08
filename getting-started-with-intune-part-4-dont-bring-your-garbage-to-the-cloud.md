@@ -4,6 +4,7 @@ slug: "/blog/getting-started-with-intune-part-4-dont-bring-your-garbage-to-the-c
 date: "Tue, 05 Nov 2024 03:50:29 +0000"
 author: "stevew1015@gmail.com"
 description: " Alright- we made it this far. If you’re still with me, then hang on for this one because it’s not going to be pretty. Today is all about moving those Group Policy objects to Intune.Remember, if you’re enjoying this series make sure to check out the video companion"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 Alright- we made it this far. If you’re still with me, then hang on for this one because it’s not going to be pretty. Today is all about moving those Group Policy objects to Intune.

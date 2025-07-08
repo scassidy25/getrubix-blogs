@@ -4,6 +4,7 @@ slug: "/blog/elevate-with-windows-11"
 date: "Mon, 08 May 2023 13:06:38 +0000"
 author: "stevew1015@gmail.com"
 description: " Yes it's been a while; no I don't want to talk about it.&nbsp; What I do want to talk about is the new Endpoint Privilege Management capability that is now live in Microsoft Intune.&nbsp; This has been a long time coming and I think we can all agree"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 Yes it's been a while; no I don't want to talk about it.  What I do want to talk about is the new Endpoint Privilege Management capability that is now live in Microsoft Intune.  This has been a long time coming and I think we can all agree it works great and makes managing Windows with Intune that much easier.

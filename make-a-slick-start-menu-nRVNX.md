@@ -4,6 +4,7 @@ slug: "/blog/make-a-slick-start-menu-nRVNX"
 date: "Mon, 24 Aug 2020 19:43:20 +0000"
 author: "GuestUser"
 description: " When deploying devices, customers usually want to customize some of the default settings on the machine. This can include wallpaper, start layout, power settings, and more. To configure these items during Autopilot, we rely on Michael Niehaus’s Autopilot Branding script and wrap it as an intunewin package.One of"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 When deploying devices, customers usually want to customize some of the default settings on the machine. This can include wallpaper, start layout, power settings, and more. To configure these items during Autopilot, we rely on Michael Niehaus’s [Autopilot Branding](https://github.com/mtniehaus/AutopilotBranding) script and wrap it as an intunewin package.

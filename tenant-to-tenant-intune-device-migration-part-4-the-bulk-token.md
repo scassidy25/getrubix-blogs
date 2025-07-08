@@ -4,6 +4,7 @@ slug: "/blog/tenant-to-tenant-intune-device-migration-part-4-the-bulk-token"
 date: "Tue, 01 Aug 2023 12:45:54 +0000"
 author: "stevew1015@gmail.com"
 description: " So, remember how I promised I would talk about the SetPrimaryUser task in this post? It’s not that I don’t want to, but I just realized it’s not going to make much sense without context. Allow me to introduce you to the two components that make"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 So, remember how I promised I would talk about the **SetPrimaryUser** task in this post? It’s not that I don’t want to, but I just realized it’s not going to make much sense without context. Allow me to introduce you to the two components that make this process possible; the bulk primary refresh token and Windows runtime provisioning package.

@@ -4,6 +4,7 @@ slug: "/blog/autopilot-shortcut"
 date: "Wed, 04 Mar 2020 16:13:09 +0000"
 author: "stevew1015@gmail.com"
 description: " I’ve been working on a write up about co-management and the SCCM cloud management gateway for a week or so now, and it’s becoming about as painful as the actual process itself.&nbsp; So in the meantime, I wanted to share a handy little trick I came up with"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 I’ve been working on a write up about co-management and the SCCM cloud management gateway for a week or so now, and it’s becoming about as painful as the actual process itself.  So in the meantime, I wanted to share a handy little trick I came up with for quickly adding devices to Autopilot for testing or other purposes.  

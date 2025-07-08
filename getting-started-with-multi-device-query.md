@@ -4,6 +4,7 @@ slug: "/blog/getting-started-with-multi-device-query"
 date: "Sat, 22 Feb 2025 22:40:11 +0000"
 author: "stevew1015@gmail.com"
 description: " Intune device query was a big step forward when it came out last year. The ability to use KQL to grab real-time information from a PC was a much welcome feature for the platform, even if it was only available in the Advanced Analytics add-on.But one of"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 Intune device query was a big step forward when it came out last year. The ability to use KQL to grab real-time information from a PC was a much welcome feature for the platform, even if it was only available in the [Advanced Analytics](https://learn.microsoft.com/en-us/mem/analytics/advanced-endpoint-analytics) add-on.

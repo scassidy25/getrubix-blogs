@@ -4,6 +4,7 @@ slug: "/blog/touching-the-current-user-registry-hive-with-intune"
 date: "Sat, 30 Nov 2024 20:26:20 +0000"
 author: "stevew1015@gmail.com"
 description: " Let’s cut to the chase—this title doesn’t exactly scream excitement, but it does get straight to the point. If you’ve ever had to deploy registry changes to PCs using Intune, whether via remediations, platform scripts, or within a Win32 app, there are some critical nuances you need to"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 Let’s cut to the chase—this title doesn’t exactly scream excitement, but it does get straight to the point. If you’ve ever had to deploy registry changes to PCs using Intune, whether via remediations, platform scripts, or within a Win32 app, there are some critical nuances you need to grasp.

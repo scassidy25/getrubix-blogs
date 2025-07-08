@@ -4,6 +4,7 @@ slug: "/blog/covid-co-management-crisis-part-2-cloud-management-gateway"
 date: "Tue, 01 Sep 2020 13:26:22 +0000"
 author: "stevew1015@gmail.com"
 description: " I’ll be completely honest- when I first wrote Covid Co-Management Crisis back in April, I didn’t rush to work on the promised follow up about the cloud management gateway. As we all were, I was hoping we’d be done with this whole mess before it was needed."
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 I’ll be completely honest- when I first wrote [Covid Co-Management Crisis](https://www.getrubix.com/blog/covid-co-management-crisis) back in April, I didn’t rush to work on the promised follow up about the cloud management gateway. As we all were, I was hoping we’d be done with this whole mess before it was needed. While that was not the case, IT departments are still out there working hard everyday to make sure users are getting up and running with Windows 10 PCs. I’m fortunate enough to have helped many companies move to modern management in order to better support this year’s forced upon remote work situation.

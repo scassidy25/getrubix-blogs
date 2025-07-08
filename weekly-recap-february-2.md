@@ -4,6 +4,7 @@ slug: "/blog/weekly-recap-february-2"
 date: "Fri, 02 Feb 2024 18:21:09 +0000"
 author: "stevew1015@gmail.com"
 description: " Aaaaaaaaannd, just like that, January has completed deployment.Intune PowerShell SDK: Invoking Web Requests I guess this is part 4 in the graph series. Here, we switch from using cmdlets to invoking rest calls directly to the graph API endpoints.How to user the"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 Aaaaaaaaannd, just like that, January has completed deployment.

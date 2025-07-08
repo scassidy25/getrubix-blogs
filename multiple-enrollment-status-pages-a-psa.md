@@ -4,6 +4,7 @@ slug: "/blog/multiple-enrollment-status-pages-a-psa"
 date: "Tue, 28 Jul 2020 13:23:14 +0000"
 author: "stevew1015@gmail.com"
 description: " I've written a lot about the Enrollment Status Page (ESP) in the Microsoft Endpoint Manager (here is the most recent), mainly because it can be a tricky thing to nail down.&nbsp; My latest issue with it has been a drastic increase in the time it takes for devices"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 I've written a lot about the Enrollment Status Page (ESP) in the Microsoft Endpoint Manager (here is the [most recent](https://www.getrubix.com/blog/please-wait)), mainly because it can be a tricky thing to nail down.  My latest issue with it has been a drastic increase in the time it takes for devices to get through the "Preparing your device for mobile management" step:

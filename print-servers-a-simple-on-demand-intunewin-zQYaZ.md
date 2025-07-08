@@ -4,6 +4,7 @@ slug: "/blog/print-servers-a-simple-on-demand-intunewin-zQYaZ"
 date: "Wed, 14 Feb 2024 00:16:15 +0000"
 author: "GuestUser"
 description: " Printers, printers, printers… some time ago I blogged about a powershell command to invoke pnputil and install a printer and its drivers. While there are much better solutions like Universal Print and third-party SaaS offerings for large quantities of printer, some folks prefer to not add these additional"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 Printers, printers, printers… some time ago I [blogged about a powershell command](https://www.getrubix.com/blog/deploy-individual-printers-with-intune?rq=printer) to invoke pnputil and install a printer and its drivers. While there are much better solutions like Universal Print and third-party SaaS offerings for large quantities of printer, some folks prefer to not add these additional components (licensing or cost, perhaps?).

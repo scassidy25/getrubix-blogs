@@ -4,6 +4,7 @@ slug: "/blog/weekly-recap-december-8"
 date: "Fri, 08 Dec 2023 13:30:56 +0000"
 author: "stevew1015@gmail.com"
 description: " This week was very exciting, at least for me. The V3 of the migration tool was officially released and we launched our first podcast. What more can you ask for?Special thanks to Microsoft MVP Andrew Taylor for continuously including this content in his newsletter. It’s"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 This week was very exciting, at least for me. The V3 of the migration tool was officially released and we launched our first podcast. What more can you ask for?

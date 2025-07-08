@@ -4,6 +4,7 @@ slug: "/blog/so-along-kiosk-desktop-icons"
 date: "Tue, 07 Jan 2025 20:52:35 +0000"
 author: "stevew1015@gmail.com"
 description: " Recently, I encountered a challenging issue while setting up assigned access (kiosk) devices in Intune for a customer who manages multiple devices of this type. This customer relied heavily on desktop icons for their users - despite the availability of pinned list configurations, desktop shortcuts were a part"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 Recently, I encountered a challenging issue while setting up assigned access (kiosk) devices in Intune for a customer who manages multiple devices of this type. This customer relied heavily on desktop icons for their users - despite the availability of pinned list configurations, desktop shortcuts were a part of their everyday workflow.

@@ -4,6 +4,7 @@ slug: "/blog/weekly-recap-december-22"
 date: "Fri, 22 Dec 2023 16:14:56 +0000"
 author: "stevew1015@gmail.com"
 description: " The holidays are here, but we’re not slowing down. Here is a rundown of what happened this week before new content drops the day after Christmas!How to auto-update Chocolatey Apps with Intune: Part 1 For those of us using Chocolatey to deploy"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 The holidays are here, but we’re not slowing down. Here is a rundown of what happened this week before new content drops the day after Christmas!

@@ -4,6 +4,7 @@ slug: "/blog/goodbye-vpn-part-2-the-public-access-user-experience"
 date: "Sun, 02 Jun 2024 23:08:02 +0000"
 author: "stevew1015@gmail.com"
 description: " I’m often asked questions after I upload my videos, but some of the most interesting are:“Hey, Steve; what’s with all the nonsense ranting in the beginning of your videos?”“Who do you talk to off to the side of your desk; the Koo-Aid Man, Snoopy, yourself?”“Is it a real"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 I’m often asked questions after I upload my videos, but some of the most interesting are:

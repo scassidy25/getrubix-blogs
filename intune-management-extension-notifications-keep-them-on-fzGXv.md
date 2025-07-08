@@ -4,6 +4,7 @@ slug: "/blog/intune-management-extension-notifications-keep-them-on-fzGXv"
 date: "Tue, 05 Mar 2024 16:49:07 +0000"
 author: "GuestUser"
 description: " I recently came across a question online regarding notification and Intune… specifically if the user decides to go to Settings -&gt; System -&gt; Notifications, and disables notifications from the Intune Management Extension, what is the impact? (NOTE: This setting is the same in both Win10 and Win11): "
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 I recently came across a question online regarding notification and Intune… specifically if the user decides to go to **Settings -> System -> Notifications**, and disables notifications from the Intune Management Extension, what is the impact? (NOTE: This setting is the same in both Win10 and Win11):

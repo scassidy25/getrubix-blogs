@@ -4,6 +4,7 @@ slug: "/blog/autopilot-group-tags-part-3"
 date: "Mon, 14 Mar 2022 17:54:16 +0000"
 author: "stevew1015@gmail.com"
 description: " While working on the next Group Tag installment, I realized I left out two interesting concepts that I should probably address before moving forward. How does a Group Tag structure impact device naming, and where does user assignment fit into all this mess?What’s in a name?Naming devices"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 While working on the next Group Tag installment, I realized I left out two interesting concepts that I should probably address before moving forward. How does a Group Tag structure impact device naming, and where does user assignment fit into all this mess?

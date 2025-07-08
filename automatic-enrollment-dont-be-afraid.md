@@ -4,6 +4,7 @@ slug: "/blog/automatic-enrollment-dont-be-afraid"
 date: "Thu, 26 Mar 2020 14:56:49 +0000"
 author: "stevew1015@gmail.com"
 description: " When setting up an Intune/Autopilot environment, the rubric I cannot stress enough is “watch out for the little things”.&nbsp; You’d be genuinely surprised at how often one un-flipped switch or policy typo can sink the entire Windows 10 deployment.&nbsp; Today I want to go over one of the"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 When setting up an Intune/Autopilot environment, the rubric I cannot stress enough is “watch out for the little things”.  You’d be genuinely surprised at how often one un-flipped switch or policy typo can sink the entire Windows 10 deployment.  Today I want to go over one of the most commonly overlooked aspects of the Modern Endpoint Manager (MEM)\*; automatic enrollment.

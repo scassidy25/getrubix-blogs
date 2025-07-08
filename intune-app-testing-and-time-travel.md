@@ -4,6 +4,7 @@ slug: "/blog/intune-app-testing-and-time-travel"
 date: "Wed, 23 Dec 2020 20:51:05 +0000"
 author: "stevew1015@gmail.com"
 description: " It goes without saying that building a Microsoft Endpoint Manager environment takes time.&nbsp;&nbsp;Most of that time comes from testing device enrollments to ensure all of the profiles and applications we've configured are deploying correctly.&nbsp;Intunewin applications can be especially tricky if you're still in the process of figuring out"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 It goes without saying that building a Microsoft Endpoint Manager environment takes time.  Most of that time comes from testing device enrollments to ensure all of the profiles and applications we've configured are deploying correctly. Intunewin applications can be especially tricky if you're still in the process of figuring out things like the install line or detection rule.  So to save some time, I've developed a process to test an application deployment on a virtual machine, with the result being as close as possible to an Intune enrollment. Minus the time between device enrollments.

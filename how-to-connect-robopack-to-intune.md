@@ -4,6 +4,7 @@ slug: "/blog/how-to-connect-robopack-to-intune"
 date: "Sat, 08 Feb 2025 15:26:02 +0000"
 author: "stevew1015@gmail.com"
 description: " Earlier this month (or last month, my brain is getting mushy) we took a fresh look at Robopack for Intune app management. You can watch here: https://youtu.be/gwcXBItGOYULately I’ve been receiving many questions about the platform so I figured it would make sense to start answering them here"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 Earlier this month (or last month, my brain is getting mushy) we took a fresh look at Robopack for Intune app management.

@@ -4,6 +4,7 @@ slug: "/blog/autopilot-group-tags-part-2"
 date: "Sat, 12 Mar 2022 22:00:47 +0000"
 author: "stevew1015@gmail.com"
 description: " In Part 1, we went over the basics of Autopilot Group Tags and how we can use them to target devices for application and policy provisioning upon registration. However, the focus was on the device build. Today we’re going to take that a step farther. "
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 In [Part 1](https://www.getrubix.com/blog/autopilot-group-tags-1), we went over the basics of Autopilot Group Tags and how we can use them to target devices for application and policy provisioning upon registration. However, the focus was on the _device build_**_._** Today we’re going to take that a step farther. We are going to go through how to use Group Tags to provision devices based on build and _location_.

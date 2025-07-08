@@ -4,6 +4,7 @@ slug: "/blog/onedrive-are-you-there-its-me-mfa-8C50m"
 date: "Fri, 31 May 2024 12:48:03 +0000"
 author: "GuestUser"
 description: " Most organizations like to configure OneDrive to automatically sign-in with the user’s credentials. However, this doesn’t always work when multi-factor authentication (MFA) is enabled for their accounts – this may be intentional/unintentional due to MFA targeted to All Cloud Apps (the common example that I loathe, but I’ll"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 Most organizations like to configure OneDrive to automatically sign-in with the user’s credentials. However, this doesn’t always work when multi-factor authentication (MFA) is enabled for their accounts – this may be intentional/unintentional due to MFA targeted to All Cloud Apps (the common example that I loathe, but I’ll come back to that another time…), or it may be targeted just for the sake of protecting OneDrive in general. Either way, it would be nice to get OneDrive to still do its thing in this scenario.

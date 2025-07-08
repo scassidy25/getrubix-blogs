@@ -4,6 +4,7 @@ slug: "/blog/tenant-to-tenant-intune-device-migration-part-3-a-group-tag-without
 date: "Mon, 31 Jul 2023 18:58:40 +0000"
 author: "stevew1015@gmail.com"
 description: " Today was supposed to be covering the GroupTag and SetPrimaryUser tasks. But after I started digging into this one, it became clear that it needed it’s own post. So let’s jump in.If you’re just joining us, start here. GROUP TAG (TRIGGER: 5 MIN AFTER LOGON)Group tags"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 Today was supposed to be covering the **GroupTag** and **SetPrimaryUser** tasks. But after I started digging into this one, it became clear that it needed it’s own post. So let’s jump in.

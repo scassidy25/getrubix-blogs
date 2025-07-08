@@ -4,6 +4,7 @@ slug: "/blog/be-gone-chat"
 date: "Mon, 27 Jun 2022 12:29:36 +0000"
 author: "stevew1015@gmail.com"
 description: " Windows 11 is without a doubt, my favorite version of the OS so far. But, it’s still Windows, which means there are a few annoying things you’re going to encounter along the way. During my first experience with “11”, I was surprised about that built-in consumer"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 Windows 11 is without a doubt, my favorite version of the OS so far. But, it’s still Windows, which means there are a few annoying things you’re going to encounter along the way. During my first experience with “11”, I was surprised about that built-in consumer version of Teams, chat, home-Teams… whatever it’s supposed to be called (turns out it’s both “Microsoft Teams” _and_ “Chat”; not confusing at all).

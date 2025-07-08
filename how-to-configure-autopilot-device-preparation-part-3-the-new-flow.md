@@ -4,6 +4,7 @@ slug: "/blog/how-to-configure-autopilot-device-preparation-part-3-the-new-flow"
 date: "Thu, 13 Jun 2024 15:53:23 +0000"
 author: "stevew1015@gmail.com"
 description: " Arguably the biggest change with Autopilot device preparation (APV2) is the technical flow and the emphasis on the user assignment. This is critical to understand as when we look at the trade-offs in the out-of-box experience (OOBE) compared to Autopilot V1 (APV1), they are not arbitrary; it all"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 Arguably the biggest change with Autopilot device preparation (**APV2**) is the technical flow and the emphasis on the user assignment. This is critical to understand as when we look at the trade-offs in the out-of-box experience (OOBE) compared to Autopilot V1 (**APV1**), they are not arbitrary; it all has to do with the flow.

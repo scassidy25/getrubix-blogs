@@ -4,6 +4,7 @@ slug: "/blog/two-paths-for-user-data-migration"
 date: "Mon, 02 Oct 2023 14:44:26 +0000"
 author: "stevew1015@gmail.com"
 description: " I’ll be honest- when putting together the Intune tenant to tenant device migration solution, the user data was the last thing on my mind. It’s not because I think people should adopt OneDrive, be responsible for where they put their data, or just give up on their"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 I’ll be honest- when putting together the Intune tenant to tenant device migration solution, the user data was the last thing on my mind. It’s not because I think people should adopt OneDrive, be responsible for where they put their data, or just give up on their cat pics altogether. I was just focused on bigger things- like moving a PC between Intune tenants without wiping the device.

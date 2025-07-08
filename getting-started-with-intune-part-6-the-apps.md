@@ -4,6 +4,7 @@ slug: "/blog/getting-started-with-intune-part-6-the-apps"
 date: "Fri, 08 Nov 2024 14:03:53 +0000"
 author: "stevew1015@gmail.com"
 description: " If you’re just tuning in (no pun intended…I think), we’ve gone from evaluating environments to migrating policies and blending your current fleet with new, Autopilot devices. Now it’s time for Part 6: the thrilling, aggravating, and somewhat nerve-wracking world of app deployment.This is both straight forward and all"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 If you’re just tuning in (no pun intended…I think), we’ve gone from evaluating environments to migrating policies and blending your current fleet with new, Autopilot devices. Now it’s time for Part 6: the thrilling, aggravating, and somewhat nerve-wracking world of app deployment.

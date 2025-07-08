@@ -4,6 +4,7 @@ slug: "/blog/autopilot-for-existing-devices-have-patience"
 date: "Mon, 24 Feb 2020 02:58:43 +0000"
 author: "stevew1015@gmail.com"
 description: " When a new PC is enrolled in Autopilot, it typically gets a deployment profile assigned within a 20 min time span.&nbsp; Assuming this is done by your hardware vendor, you don’t need to worry about those 20 min, because the clock starts when the device ships.&nbsp; Even if"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 When a new PC is enrolled in Autopilot, it typically gets a deployment profile assigned within a 20 min time span.  Assuming this is done by your hardware vendor, you don’t need to worry about those 20 min, because the clock starts when the device ships.  Even if you pony up for overnight shipping, that’s more than enough time for the computer to get a profile and have a terrific Autopilot experience.

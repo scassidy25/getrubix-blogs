@@ -4,6 +4,7 @@ slug: "/blog/lets-set-up-passkeys-the-easy-secure-way"
 date: "Tue, 28 Jan 2025 18:15:54 +0000"
 author: "stevew1015@gmail.com"
 description: " Hey there! Today, we're diving into the wonderful world of passkeys. Don't worry, this isn't rocket science – my mission is to show you how ridiculously easy it is to get passkeys up and running in your tenant. Sure, standard MFA is a solid starting point, but let's"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 Hey there! Today, we're diving into the wonderful world of **passkeys**. Don't worry, this isn't rocket science – my mission is to show you how ridiculously easy it is to get passkeys up and running in your tenant. Sure, standard MFA is a solid starting point, but let's face it - it’s not exactly the finish line of cybersecurity greatness. 

@@ -4,6 +4,7 @@ slug: "/blog/windows-11-can-we-upgrade-already-3UEP5"
 date: "Thu, 19 Dec 2024 17:06:19 +0000"
 author: "GuestUser"
 description: " I’m back! I’ve been quite busy the last two months getting folks up and running with Intune, especially in regards to planning for Windows 11.Since the deadline is fast approaching (it’s nearly 2025 already!), I figured I’d outline my overall approach to getting ready for Windows 11. You"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 I’m back! I’ve been quite busy the last two months getting folks up and running with Intune, especially in regards to planning for Windows 11.

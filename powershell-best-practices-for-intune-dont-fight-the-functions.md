@@ -4,6 +4,7 @@ slug: "/blog/powershell-best-practices-for-intune-dont-fight-the-functions"
 date: "Fri, 11 Apr 2025 15:38:06 +0000"
 author: "stevew1015@gmail.com"
 description: " PowerShell functions provide a structured way to organize reusable code. In the context of Microsoft Intune and system administration, they enhance script readability, reduce duplication, and improve long-term maintainability. And while I completely understand not wanting to take “structured” advice from me, it will definitely help you"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 PowerShell functions provide a structured way to organize reusable code. In the context of Microsoft Intune and system administration, they enhance script readability, reduce duplication, and improve long-term maintainability. And while I completely understand not wanting to take “structured” advice from me, it will definitely help you in the long run.

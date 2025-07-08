@@ -4,6 +4,7 @@ slug: "/blog/chip-shortage-no-problem-windows-365-endpoint-manager"
 date: "Thu, 02 Sep 2021 17:42:13 +0000"
 author: "stevew1015@gmail.com"
 description: " Despite the challenges around moving to the cloud in addition to functioning amid a global pandemic, many organizations continue to hire at an exponential rate. You’ve got Autopilot and Intune setup to onboard Windows devices for all the new employees starting. There’s just one problem: a"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 Despite the challenges around moving to the cloud in addition to functioning amid a global pandemic, many organizations continue to hire at an exponential rate. You’ve got Autopilot and Intune setup to onboard Windows devices for all the new employees starting. There’s just one problem: a major hardware shortage. As if on cue, Microsoft presented a solution for companies of all sizes to get their employees up and running; chip shortage or not.

@@ -4,6 +4,7 @@ slug: "/blog/personal-devices-and-the-intune-management-extension-part-2-another
 date: "Fri, 02 Oct 2020 20:34:44 +0000"
 author: "GuestUser"
 description: " Here’s a quick (but important) follow up on the first post. After some additional testing on our end, Steve Weiner and I were able to come up with a solution to assign applications to user-based groups, while excluding corporate (autopilot) devices at the same time.All Windows 10 devices"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 Here’s a quick (but important) follow up on the first post. After some additional testing on our end, Steve Weiner and I were able to come up with a solution to assign applications to user-based groups, while excluding corporate (autopilot) devices at the same time.

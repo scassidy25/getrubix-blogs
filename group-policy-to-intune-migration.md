@@ -4,6 +4,7 @@ slug: "/blog/group-policy-to-intune-migration"
 date: "Fri, 25 Mar 2022 19:43:34 +0000"
 author: "stevew1015@gmail.com"
 description: " This is a big one, folks. It’s been a long time coming and my whole team is legitimately thrilled to have this now. In case you’re not as hyped as me yet, here’s some backstory. For Windows devices managed with Intune and joined to Azure"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 This is a big one, folks. It’s been a long time coming and my whole team is legitimately thrilled to have this now.

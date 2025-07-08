@@ -4,6 +4,7 @@ slug: "/blog/ndes-and-scep-for-intune-part-4"
 date: "Wed, 12 May 2021 18:42:22 +0000"
 author: "stevew1015@gmail.com"
 description: " Can you smell that?&nbsp; It’s the smell of almost being done deploying SCEP certificates to Windows 10 devices from Intune via the Intune SCEP connector and NDES server. In case you missed it, you can start from Part 1, here.Part 4: Adding the root, deploying SCEP and achieving"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 Can you smell that?  It’s the smell of almost being done deploying SCEP certificates to Windows 10 devices from Intune via the Intune SCEP connector and NDES server.

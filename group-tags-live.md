@@ -4,6 +4,7 @@ slug: "/blog/group-tags-live"
 date: "Mon, 02 Dec 2019 15:51:00 +0000"
 author: "stevew1015@gmail.com"
 description: " In&nbsp;the last post, we walked through a PowerShell script I created to enroll devices in Autopilot with a pop-up window to choose a group tag. This should be helpful for existing ‘one-off’ devices or testing different deployment profiles. Also, many of you asked me for the script itself"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 In [the last post](https://z0touch.home.blog/2019/11/30/autopilot-group-tags/), we walked through a PowerShell script I created to enroll devices in Autopilot with a pop-up window to choose a group tag. This should be helpful for existing ‘one-off’ devices or testing different deployment profiles. Also, many of you asked me for the script itself as I only posted pieces of it last time; my bad. You can download the [entire script here](https://z0tinstallers.blob.core.windows.net/configs/tagSelector.ps1?sv=2019-02-02&ss=b&srt=sco&sp=rwdlac&se=2020-12-31T22:44:02Z&st=2019-12-02T14:44:02Z&spr=https&sig=kg2j7kOXkWNZQieiYVhDoqVfIzCA1npLF7eYtoTwQ4I%3D).

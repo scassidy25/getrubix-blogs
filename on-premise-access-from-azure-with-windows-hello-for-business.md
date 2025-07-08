@@ -4,6 +4,7 @@ slug: "/blog/on-premise-access-from-azure-with-windows-hello-for-business"
 date: "Sat, 04 Jan 2020 19:55:00 +0000"
 author: "stevew1015@gmail.com"
 description: " "
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 ![2020-01-03-19_27_39-rdg.batcave.local-remote-desktop-connection-manager-v2.7.png](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1581105147421-8M26XUO9HH8N73HVIIXO/2020-01-03-19_27_39-rdg.batcave.local-remote-desktop-connection-manager-v2.7.png)

@@ -4,6 +4,7 @@ slug: "/blog/weekly-recap-december-29"
 date: "Fri, 29 Dec 2023 15:24:49 +0000"
 author: "stevew1015@gmail.com"
 description: " Time to close out 2023. How to onboard PCs to Defender for Endpoint with Intune We’ve talked a lot about Intune, but now it’s time to start getting secure. In this video, we went through the basic steps for getting managed"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 Time to close out 2023.

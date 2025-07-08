@@ -4,6 +4,7 @@ slug: "/blog/getting-started-with-intune-part-1-where-are-you-today"
 date: "Sun, 27 Oct 2024 13:40:03 +0000"
 author: "stevew1015@gmail.com"
 description: " Welcome to my series on adopting Microsoft Intune in your organization. This series isn't exclusively technical; it’s more of a practical, real-world approach to help you get started while considering key factors. Additionally, I’ll have a video guide to complement these articles on the GetRubix YouTube members' channel.Let"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 Welcome to my series on adopting Microsoft Intune in your organization. This series isn't exclusively technical; it’s more of a practical, real-world approach to help you get started while considering key factors. Additionally, I’ll have a video guide to complement these articles on the [GetRubix YouTube members' channel](https://www.youtube.com/channel/UCF6q8UjlE5AFO52ht-G_L6A/join).

@@ -4,6 +4,7 @@ slug: "/blog/autopilot-group-tags"
 date: "Sat, 30 Nov 2019 15:43:00 +0000"
 author: "stevew1015@gmail.com"
 description: " In the early days of Autopilot, we weren’t very concerned with the group tags (or ‘Order IDs). The real struggle was getting the hardware hash off the PCs and hoping they would register in Autopilot before hundreds of laptops arrived at a customer’s doorstep. But now it’s not"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 In the early days of Autopilot, we weren’t very concerned with the group tags (_or ‘Order IDs_). The real struggle was getting the hardware hash off the PCs and hoping they would register in Autopilot before hundreds of laptops arrived at a customer’s doorstep. But now it’s not enough to just capture all of your computers in Autopilot; we need to assign varying deployment profiles to different groups of machines based on use case or type of hardware. I’ve created a PowerShell script that we can run manually on a device and choose the correct group tag.

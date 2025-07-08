@@ -4,6 +4,7 @@ slug: "/blog/getting-started-with-intune-part-3-the-phases"
 date: "Wed, 30 Oct 2024 19:00:25 +0000"
 author: "stevew1015@gmail.com"
 description: " If you’ve made it this far, congratulations! You have completed the first phase, known as the Discover phase. But wait—when did we mention phases?We didn’t! That’s the focus of today’s post.Don’t forget to follow the video companion for this series on the GetRubix YouTube members channel.A Repeatable ModelTechnically,"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 If you’ve made it this far, congratulations! You have completed the first phase, known as the **Discover** phase. But wait—when did we mention phases?

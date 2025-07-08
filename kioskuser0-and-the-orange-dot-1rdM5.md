@@ -4,6 +4,7 @@ slug: "/blog/kioskuser0-and-the-orange-dot-1rdM5"
 date: "Mon, 27 Jan 2025 21:55:03 +0000"
 author: "stevew1015@gmail.com"
 description: " UPDATE 1/28/25: Many thanks to Steven Hosking at Microsoft for pointing out a different CSP that I was missing. It turns out I tried everything but this Microsoft account CSP. I’d say this is the much simpler solution and to deploy this as a configuration profile instead!Original Post:"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 **UPDATE 1/28/25:** Many thanks to Steven Hosking at Microsoft for pointing out a different CSP that I was missing. It turns out I tried everything but [this Microsoft account CSP](https://learn.microsoft.com/en-au/windows/client-management/mdm/policy-csp-LocalPoliciesSecurityOptions#accounts_blockmicrosoftaccounts). I’d say this is the much simpler solution and to deploy this as a configuration profile instead!

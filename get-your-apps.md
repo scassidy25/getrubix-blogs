@@ -4,6 +4,7 @@ slug: "/blog/get-your-apps"
 date: "Mon, 17 May 2021 19:07:33 +0000"
 author: "stevew1015@gmail.com"
 description: " Have you ever needed to retrieve an application that you deployed with Intune but it’s been about a billion years since you packaged that thing? Yeah, we’ve all been there. Luckily, modern IT guru and MVP Oliver Kieselbach created a utility that allows us to retrieve"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 Have you ever needed to retrieve an application that you deployed with Intune but it’s been about a billion years since you packaged that thing? Yeah, we’ve all been there. Luckily, modern IT guru and MVP [Oliver Kieselbach](https://oliverkieselbach.com/) created a utility that allows us to retrieve the .intunewin package and crack it open.

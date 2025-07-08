@@ -4,6 +4,7 @@ slug: "/blog/exposing-esp-failures-with-the-microsoft-graph"
 date: "Mon, 03 Feb 2020 20:09:00 +0000"
 author: "stevew1015@gmail.com"
 description: " If you’ve been testing or deploying Windows 10 devices via Autopilot, it’s safe to assume you’ve encountered application failures during the device or user provisioning step of the ESP (enrollment status page). Now there’s nothing wrong with failures, but there is a problem when you can’t see which"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 If you’ve been testing or deploying Windows 10 devices via Autopilot, it’s safe to assume you’ve encountered application failures during the device or user provisioning step of the ESP (enrollment status page). Now there’s nothing wrong with failures, but there is a problem when you can’t see which app is the troublemaker. On first glance, there’s no definitive log or event viewer that will provide insight as to what the problem is. Luckily, my team thrives on the elusive- we have a pretty solid (if not round-about) way to determine which apps are causing your ESP failures.

@@ -4,6 +4,7 @@ slug: "/blog/autopilot-group-tags-part-4"
 date: "Tue, 15 Mar 2022 12:37:23 +0000"
 author: "stevew1015@gmail.com"
 description: " Autopilot Group Tags can play a major role in application deployment. Devices are registered during procurement with a tag applied, the tag ensures the device ends up in the appropriate group, and that group is used to assign applications to be deployed during initial provisioning. But"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 Autopilot Group Tags can play a major role in application deployment. Devices are registered during procurement with a tag applied, the tag ensures the device ends up in the appropriate group, and that group is used to assign applications to be deployed during initial provisioning. But what about user assigned apps? How do they play into a successful deployment? Let’s have a look.

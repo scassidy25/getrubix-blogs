@@ -4,6 +4,7 @@ slug: "/blog/tenant-to-tenant-intune-device-migration-part-7-go-time"
 date: "Mon, 07 Aug 2023 18:15:50 +0000"
 author: "stevew1015@gmail.com"
 description: " Today we’re going through the entire migration process, step-by-step. If you’ve been following along, you should have all the required files including the scripts, tasks, and provisioning package. We’re going to deploy the migration app with Intune in Tenant A, and then watch the migration to"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 Today we’re going through the entire migration process, step-by-step. If you’ve been following along, you should have all the required files including the scripts, tasks, and provisioning package. We’re going to deploy the migration app with Intune in Tenant A, and then watch the migration to Tenant B.

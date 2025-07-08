@@ -4,6 +4,7 @@ slug: "/blog/tenant-to-tenant-intune-device-migration-part-2-the-tasks-of-reboot
 date: "Fri, 28 Jul 2023 15:53:01 +0000"
 author: "stevew1015@gmail.com"
 description: " You might not have noticed, but in the last post when we covered the StartMigrate.ps1 script, we set a lot of tasks. These are responsible for handling our post-migration activities and there is a very specific method to their madness.Task FlowFor as elaborate as this task system"
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 You might not have noticed, but in the last post when we covered the **StartMigrate.ps1** script, we set _a lot_ of tasks. These are responsible for handling our post-migration activities and there is a very specific method to their madness.

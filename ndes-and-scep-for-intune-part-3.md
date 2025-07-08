@@ -4,6 +4,7 @@ slug: "/blog/ndes-and-scep-for-intune-part-3"
 date: "Tue, 11 May 2021 20:28:22 +0000"
 author: "stevew1015@gmail.com"
 description: " Let’s start with some follow up before moving on.&nbsp; We need to set the SPN (Service Principal Name) for the NDES account.Log into your NDES server and open an elevated CMD prompt.&nbsp; Type the following:setspn -s http/&lt;NDES-FQDN&gt; domainName\NDESaccountNameMine looks like this: "
+thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---
 
 Let’s start with some follow up before moving on.  We need to set the SPN (Service Principal Name) for the NDES account.
