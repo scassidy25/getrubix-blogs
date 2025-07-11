@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Thu, 27 Mar 2025 21:21:42 +0000
 description: '"Understanding and managing user personas is not an easy thing within
   Intune. While there’s no silver bullet, I would highly recommend you look at a feature
   from Robopack called Patch Groups.Imagine not only being able to group your apps
   together for assignment, but also deploy them in"'
-slug: /blog/leverage-robopack-patch-groups-to-manage-app-personas
+slug: leverage-robopack-patch-groups-to-manage-app-personas
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Leverage Robopack Patch Groups to manage app personas
 ---

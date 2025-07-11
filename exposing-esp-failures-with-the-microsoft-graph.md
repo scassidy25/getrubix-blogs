@@ -1,12 +1,12 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 categories:
 - intune
 - powershell
 - azure
 date: Mon, 03 Feb 2020 20:09:00 +0000
 description: "If you’ve been testing or deploying Windows 10 devices via Autopilot, it’s safe to assume you’ve encountered application failures during the device or user provisioning step of the ESP (enrollment status page). Now there’s nothing wrong with failures, but there is a problem when you can’t see which app is the troublemaker."
-slug: /blog/exposing-esp-failures-with-the-microsoft-graph
+slug: exposing-esp-failures-with-the-microsoft-graph
 tags:
 - script
 - endpoint manager

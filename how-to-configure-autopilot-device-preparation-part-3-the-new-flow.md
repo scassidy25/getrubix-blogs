@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Thu, 13 Jun 2024 15:53:23 +0000
 description: '"Arguably the biggest change with Autopilot device preparation (APV2)
   is the technical flow and the emphasis on the user assignment. This is critical
   to understand as when we look at the trade-offs in the out-of-box experience (OOBE)
   compared to Autopilot V1 (APV1), they are not arbitrary; it all"'
-slug: /blog/how-to-configure-autopilot-device-preparation-part-3-the-new-flow
+slug: how-to-configure-autopilot-device-preparation-part-3-the-new-flow
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: How to configure Autopilot Device Preparation Part 3 The New Flow
 ---

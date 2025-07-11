@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Wed, 13 Nov 2024 21:34:16 +0000
 description: '"We’ve been through a lot over the last few weeks. Cloud vs hybrid,
   group policy vs CSP, WSUS vs Update rings; it’s been a ride. But at this point,
   you should have all the fundamental tools you need get Intune off the ground. In
   this"'
-slug: /blog/getting-started-with-intune-part-8-your-new-management-world
+slug: getting-started-with-intune-part-8-your-new-management-world
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Getting Started with Intune Part 8 Your New Management World
 ---

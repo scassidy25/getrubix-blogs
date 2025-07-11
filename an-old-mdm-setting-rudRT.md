@@ -1,5 +1,5 @@
 ---
-author: GuestUser
+author: steve@getrubix.com
 categories:
 - intune
 - security
@@ -10,7 +10,7 @@ description: >
   have the MDM Authority set to Intune. You may encounter this if you can’t edit
   the Enrollment Status Page (ESP) or Enrollment restrictions profiles - this of
   course needs to be updated.
-slug: /blog/an-old-mdm-setting-rudRT
+slug: an-old-mdm-setting
 tags:
 - intune
 - security

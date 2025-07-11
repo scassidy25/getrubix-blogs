@@ -1,5 +1,5 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 categories:
 - intune
 - security
@@ -7,7 +7,7 @@ categories:
 - automation
 date: Fri, 08 Nov 2024 14:03:53 +0000
 description: "If you’re just tuning in (no pun intended…I think), we’ve gone from evaluating environments to migrating policies and blending your current fleet with new, Autopilot devices. Now it’s time for Part 6: the thrilling, aggravating, and somewhat nerve-wracking world of app deployment. This is both straight forward and all over the place at the same time, so I’ll go through this in some steps, and hopefully stay on track."
-slug: /blog/getting-started-with-intune-part-6-the-apps
+slug: getting-started-with-intune-part-6-the-apps
 tags:
 - compliance
 - automate

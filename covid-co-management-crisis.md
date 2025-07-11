@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Tue, 14 Apr 2020 14:05:43 +0000
 description: '"For three years now, I have led a team of engineers in the practice
   of deploying modern management for Windows 10. Last month, when the pandemic induced
   lock-down started, the world of Windows users lost their line-of-site to their corporate
   domains. The modern management my"'
-slug: /blog/covid-co-management-crisis
+slug: covid-co-management-crisis
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Covid Co-Management Crisis
 ---

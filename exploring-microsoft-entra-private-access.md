@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Thu, 16 Jan 2025 15:55:07 +0000
 description: '"My journey in the IT world began with network security in the Marines,
   where I gained all sorts of invaluable experiences. After some time, I eventually
   shifted my focus to endpoints. When I heard about Microsoft''s release of their
   Security Service Edge solution - which combined both of"'
-slug: /blog/exploring-microsoft-entra-private-access
+slug: exploring-microsoft-entra-private-access
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Exploring Microsoft Entra Private Access
 ---

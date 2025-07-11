@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Tue, 11 Jun 2024 18:50:40 +0000
 description: '"In part 1 we looked at the step-by-step process for configuring the
   Autopilot device preparation policy. Today, we’ll look at the end user experience
   and the ways this experience differs from Autopilot V1. I’ll also show you how critical
   Windows Pro VS Enterprise is for this version of"'
-slug: /blog/how-to-configure-autopilot-device-preparation-part-2-user-experience
+slug: how-to-configure-autopilot-device-preparation-part-2-user-experience
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: How to configure Autopilot Device Preparation Part 2 User Experience
 ---

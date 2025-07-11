@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Mon, 31 Jul 2023 18:58:40 +0000
 description: '"Today was supposed to be covering the GroupTag and SetPrimaryUser tasks.
   But after I started digging into this one, it became clear that it needed it’s own
   post. So let’s jump in.If you’re just joining us, start here. GROUP TAG (TRIGGER:
   5 MIN AFTER LOGON)Group tags"'
-slug: /blog/tenant-to-tenant-intune-device-migration-part-3-a-group-tag-without-autopilot
+slug: tenant-to-tenant-intune-device-migration-part-3-a-group-tag-without-autopilot
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Tenant to Tenant Intune Device Migration Part 3 A Group Tag Without Autopilot
 ---

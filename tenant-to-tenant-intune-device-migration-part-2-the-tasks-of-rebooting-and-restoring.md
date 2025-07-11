@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Fri, 28 Jul 2023 15:53:01 +0000
 description: '"You might not have noticed, but in the last post when we covered the
   StartMigrate.ps1 script, we set a lot of tasks. These are responsible for handling
   our post-migration activities and there is a very specific method to their madness.Task
   FlowFor as elaborate as this task system"'
-slug: /blog/tenant-to-tenant-intune-device-migration-part-2-the-tasks-of-rebooting-and-restoring
+slug: tenant-to-tenant-intune-device-migration-part-2-the-tasks-of-rebooting-and-restoring
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Tenant to Tenant Intune Device Migration Part 2 The Tasks of Rebooting and
   Restoring

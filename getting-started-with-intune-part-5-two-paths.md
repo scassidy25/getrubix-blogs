@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Thu, 07 Nov 2024 14:46:29 +0000
 description: '"So far, we’ve explored evaluating your environment, choosing initial
   use cases, planning and building your deployment, and the daunting process of moving
   Group Policy objects into Intune.But ultimately, you’re going to realize there is
   a challenge ahead; how are you going to deal with managing your new, shiny"'
-slug: /blog/getting-started-with-intune-part-5-two-paths
+slug: getting-started-with-intune-part-5-two-paths
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Getting Started with Intune Part 5 Two Paths
 ---

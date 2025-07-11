@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Fri, 11 Mar 2022 19:04:13 +0000
 description: '"Autopilot allows Windows devices to register to an Azure AD / Endpoint
   Manager environment prior to deployment. The PC is shipped directly to an end user,
   powered up, and when they sign-in, Windows is provisioned with applications and
   policies from Endpoint Manager. The device is production"'
-slug: /blog/autopilot-group-tags-1
+slug: autopilot-group-tags-1
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Autopilot Group Tags Part 1
 ---

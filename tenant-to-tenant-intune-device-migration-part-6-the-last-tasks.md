@@ -1,5 +1,5 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 categories:
 - intune
 - powershell
@@ -8,7 +8,7 @@ categories:
 date: Thu, 03 Aug 2023 12:00:36 +0000
 description: >
   Here we go, folks – we’re at the last two tasks in the migration process. After this, we will have all the pieces needed to test this out. Who’s excited?
-slug: /blog/tenant-to-tenant-intune-device-migration-part-6-the-last-tasks
+slug: tenant-to-tenant-intune-device-migration-part-6-the-last-tasks
 tags:
 - azure
 - aad

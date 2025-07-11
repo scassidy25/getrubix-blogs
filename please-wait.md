@@ -1,5 +1,5 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 categories:
 - intune
 - powershell
@@ -7,7 +7,7 @@ categories:
 date: Wed, 15 Jul 2020 04:27:36 +0000
 description: >
   If you’ve deployed any Windows 10 devices via Autopilot, then you are no doubt familiar with the Enrollment Status Page (ESP). It is responsible for communicating which stage of the provisioning process that Windows is currently going through.
-slug: /blog/please-wait
+slug: please-wait
 tags:
 - endpoint manager
 - script

@@ -1,10 +1,10 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 categories:
 - security
 date: Sat, 12 Mar 2022 22:00:47 +0000
 description: "In Part 1, we went over the basics of Autopilot Group Tags and how we can use them to target devices for application and policy provisioning upon registration. However, the focus was on the device build. Today we’re going to take that a step farther."
-slug: /blog/autopilot-group-tags-part-2
+slug: autopilot-group-tags-part-2
 tags:
 - security
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png

@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Wed, 16 Mar 2022 14:58:21 +0000
 description: '"Alright- we may be at the end here. In Part 2 I mentioned we were going
   to be looking at a Group Tag structure for two example companies: Magic Coffee Co
   and Global Operations Inc. I’m fairly certain they’re both imaginary.We spent time
   with Magic Coffee"'
-slug: /blog/autopilot-group-tags-part-5
+slug: autopilot-group-tags-part-5
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Autopilot Group Tags Part 5
 ---

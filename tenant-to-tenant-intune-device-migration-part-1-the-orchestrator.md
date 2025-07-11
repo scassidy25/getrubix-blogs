@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Wed, 26 Jul 2023 19:40:14 +0000
 description: '"Alright, let’s get started!Most of the work that happens with the device
   migration between Intune tenants happens with PowerShell scripts talking to the
   Microsoft Graph API. There are a total of 13 scripts that run the process- 7 PowerShell
   and 6 XML files for tasks.Today, we’re"'
-slug: /blog/tenant-to-tenant-intune-device-migration-part-1-the-orchestrator
+slug: tenant-to-tenant-intune-device-migration-part-1-the-orchestrator
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Tenant to Tenant Intune Device Migration Part 1 The Orchestrator
 ---

@@ -1,5 +1,5 @@
 ---
-author: GuestUser
+author: steve@getrubix.com
 categories:
 - intune
 - security
@@ -7,7 +7,7 @@ categories:
 - azure
 date: Fri, 04 Sep 2020 16:03:36 +0000
 description: "Endpoint Manager makes it easy to not only deploy the office suite, but to manage policy around the applications as well. There’s often some policies around Outlook and Office in general that are desired, which are available in the ADMX templates. When it comes to OneDrive specifically, most"
-slug: /blog/teams-known-folder-move-mess-4SVNr
+slug: teams-known-folder-move-mess-4SVNr
 tags:
 - endpoint manager
 - azure

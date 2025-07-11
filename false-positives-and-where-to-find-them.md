@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Fri, 14 Feb 2025 12:41:26 +0000
 description: '"Purview can generate a significant number of false positives from its
   built-in Sensitive Information Types. Part of my job when running datasecurity projects
   is to help resolve these and keep them from popping up again in the future. Some
   of this may be common sense, and some of"'
-slug: /blog/false-positives-and-where-to-find-them
+slug: false-positives-and-where-to-find-them
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: False Positives and Where to Find Them
 ---

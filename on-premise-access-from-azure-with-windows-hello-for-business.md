@@ -1,8 +1,8 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Sat, 04 Jan 2020 19:55:00 +0000
 description: '""'
-slug: /blog/on-premise-access-from-azure-with-windows-hello-for-business
+slug: on-premise-access-from-azure-with-windows-hello-for-business
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: On-premise access from Azure with Windows Hello for Business
 ---

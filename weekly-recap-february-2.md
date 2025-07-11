@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 categories:
 - intune
 - powershell
 date: Fri, 02 Feb 2024 18:21:09 +0000
 description: "Aaaaaaaaannd, just like that, January has completed deployment. Intune PowerShell SDK: Invoking Web Requests I guess this is part 4 in the graph series. Here, we switch from using cmdlets to invoking rest calls directly to the graph API endpoints. How to use the"
-slug: /blog/weekly-recap-february-2
+slug: weekly-recap-february-2
 tags:
 - intune
 - powershell

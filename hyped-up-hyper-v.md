@@ -1,12 +1,12 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Tue, 17 Nov 2020 03:42:07 +0000
 description: '"Time for something a bit different.&nbsp; This blog is about, well,
   another blog.&nbsp; Specifically, Oliver Kieselbach''s recent write up on managing
   a Hyper-V lab for Intune.https://oliverkieselbach.com/2020/11/13/working-with-hyper-v-vms-in-an-intune-lab-environment/If
   you haven''t read it yet, than stop right now and get to it.&nbsp; Oliver Kieselbach
   is a Microsoft MVP and has a"'
-slug: /blog/hyped-up-hyper-v
+slug: hyped-up-hyper-v
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Hyped-up Hyper-V
 ---

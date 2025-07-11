@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Thu, 26 Oct 2023 22:56:37 +0000
 description: '"You’ve probably noticed by now that a lot of the action about the Intune
   device migration solution is happening on the GetRubix YouTube channel. It’s not
   because I don’t love rambling here, but a lot of these concepts are just easier
   to show, rather than tell."'
-slug: /blog/update-about-updates
+slug: update-about-updates
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Update about Updates
 ---

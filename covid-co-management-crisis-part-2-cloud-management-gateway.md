@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Tue, 01 Sep 2020 13:26:22 +0000
 description: '"I’ll be completely honest- when I first wrote Covid Co-Management Crisis
   back in April, I didn’t rush to work on the promised follow up about the cloud management
   gateway. As we all were, I was hoping we’d be done with this whole mess before it
   was needed."'
-slug: /blog/covid-co-management-crisis-part-2-cloud-management-gateway
+slug: covid-co-management-crisis-part-2-cloud-management-gateway
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Covid Co-Management Crisis Part 2 Cloud Management Gateway
 ---

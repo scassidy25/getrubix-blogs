@@ -1,11 +1,8 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Sat, 03 Aug 2019 23:23:00 +0000
-description: '"“If I use Intune to manage Windows 10 devices, can I only push apps
-  from the Microsoft Windows Store?“This is definitely one of the more common questions
-  my team gets asked on a daily (maybe hourly) basis. There is an extreme misconception
-  that Intune can only deploy apps"'
-slug: /blog/app-answers-yes-intune-can-do-it
+description: 'If I use Intune to manage Windows 10 devices, can I only push apps from the Microsoft Windows Store? This is definitely one of the more common questions my team gets asked on a daily (maybe hourly) basis. There is an extreme misconception that Intune can only deploy apps'
+slug: app-answers-yes-intune-can-do-it
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: App answers yes Intune can do it
 ---

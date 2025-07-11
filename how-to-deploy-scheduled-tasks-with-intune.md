@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Mon, 25 Nov 2024 21:31:47 +0000
 description: '"We’re all sick of scheduled tasks, but let’s face it; you probably
   still need to deploy them on your Windows machines. And now that you’re invested
   in the brave, new world of Intune, you’re going to need a way to deploy them.This
   guide will serve as a written"'
-slug: /blog/how-to-deploy-scheduled-tasks-with-intune
+slug: how-to-deploy-scheduled-tasks-with-intune
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: How to Deploy Scheduled Tasks with Intune
 ---

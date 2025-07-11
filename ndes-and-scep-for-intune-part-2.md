@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Tue, 11 May 2021 02:41:45 +0000
 description: '"Before we move on to Part 2, there are two tasks I should have included
   in Part 1.First, we need to give the NDES service account permissions to request
   and issue certificates.&nbsp; Log into the CA and launch the Certification Authority
   console.&nbsp; Right click on the CA and"'
-slug: /blog/ndes-and-scep-for-intune-part-2
+slug: ndes-and-scep-for-intune-part-2
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: NDES and SCEP for Intune Part 2
 ---

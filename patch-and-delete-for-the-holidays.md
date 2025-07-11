@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Tue, 24 Dec 2024 20:39:59 +0000
 description: '"Hopefully, you''re not reading this. You should be getting ready for
   Christmas by decking halls, manufacturing gingerbread buildings, preparing for the
   coming of Mr. Clause- all that stuff. But you''re here. Which sadly means, you''re
   a bit like me (my family sends their condolences). Just because the holidays"'
-slug: /blog/patch-and-delete-for-the-holidays
+slug: patch-and-delete-for-the-holidays
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: PATCH and DELETE for the Holidays
 ---

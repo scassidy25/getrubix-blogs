@@ -1,12 +1,12 @@
 ---
-author: GuestUser
+author: steve@getrubix.com
 date: Sat, 30 Jan 2021 16:03:46 +0000
 description: '"When deploying a custom policy, it is important to ensure the OMA-URI
   and Value fields are typed accurately. Refer to the Policy CSP document for correctly
   formatting OMA-URI entries: https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-configuration-service-providerAlso,
   when entering the value of the policy, use the document above to ensure you are
   configuring a supported"'
-slug: /blog/troubleshooting-profile-failure-custom-policy-syntax-hWJU7
+slug: troubleshooting-profile-failure-custom-policy-syntax-hWJU7
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Troubleshooting Profile Failure Custom Policy Syntax
 ---

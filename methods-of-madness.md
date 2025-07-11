@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Fri, 13 Dec 2024 21:05:24 +0000
 description: '"Wow- another week of Graph videos in the books.Check out the ever-growing
   playlist here.Today we’re going to spend some time talking about methods and how
   they play a critical part in working with the Microsoft Graph.What are methods?From
   the internet: REST API methods are the various ways that"'
-slug: /blog/methods-of-madness
+slug: methods-of-madness
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Methods of Madness
 ---

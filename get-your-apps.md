@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 categories:
 - intune
 - powershell
 date: Mon, 17 May 2021 19:07:33 +0000
 description: "Have you ever needed to retrieve an application that you deployed with Intune but it’s been about a billion years since you packaged that thing? Yeah, we’ve all been there. Luckily, modern IT guru and MVP Oliver Kieselbach created a utility that allows us to retrieve it."
-slug: /blog/get-your-apps
+slug: get-your-apps
 tags:
 - intune
 - script

@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Tue, 15 Mar 2022 12:37:23 +0000
 description: '"Autopilot Group Tags can play a major role in application deployment.
   Devices are registered during procurement with a tag applied, the tag ensures the
   device ends up in the appropriate group, and that group is used to assign applications
   to be deployed during initial provisioning. But"'
-slug: /blog/autopilot-group-tags-part-4
+slug: autopilot-group-tags-part-4
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Autopilot Group Tags Part 4
 ---

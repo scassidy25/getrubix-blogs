@@ -1,11 +1,11 @@
 ---
-author: GuestUser
+author: steve@getrubix.com
 date: Fri, 19 Jan 2024 19:58:28 +0000
 description: '"Hey everyone - I figured it was about time I come back and contribute
   some written content after about 3 years (my lord).Yes, I still work with very closely
   with Steve – since I finally showed myself in one of his latest videos, I figured
   I would come"'
-slug: /blog/custom-intune-reporting-PVN2O
+slug: custom-intune-reporting-PVN2O
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Custom Intune Reporting
 ---

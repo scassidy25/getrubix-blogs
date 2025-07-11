@@ -1,8 +1,8 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Fri, 29 Sep 2023 13:40:13 +0000
 description: '""'
-slug: /blog/nothing-works
+slug: nothing-works
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Nothing works
 ---

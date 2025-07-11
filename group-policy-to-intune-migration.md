@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Fri, 25 Mar 2022 19:43:34 +0000
 description: '"This is a big one, folks. It’s been a long time coming and my whole
   team is legitimately thrilled to have this now. In case you’re not as hyped as me
   yet, here’s some backstory. For Windows devices managed with Intune and joined to
   Azure"'
-slug: /blog/group-policy-to-intune-migration
+slug: group-policy-to-intune-migration
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Group Policy to Intune Migration
 ---

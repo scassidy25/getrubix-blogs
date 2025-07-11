@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Tue, 28 Jul 2020 13:23:14 +0000
 description: '"I''ve written a lot about the Enrollment Status Page (ESP) in the Microsoft
   Endpoint Manager (here is the most recent), mainly because it can be a tricky thing
   to nail down.&nbsp; My latest issue with it has been a drastic increase in the time
   it takes for devices"'
-slug: /blog/multiple-enrollment-status-pages-a-psa
+slug: multiple-enrollment-status-pages-a-psa
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Multiple Enrollment Status Pages A PSA
 ---

@@ -1,5 +1,5 @@
 ---
-author: GuestUser
+author: steve@getrubix.com
 categories:
 - intune
 - security
@@ -11,7 +11,7 @@ description: >
   Steve in the wonderful world that is Windows 10 and Intune. And Azure. And Autopilot
   and Whiteglove. And iOS. And Android Enterprise too, I guess. Steve brought me in on
   this voyage.
-slug: /blog/scripting-in-intune-2lwp4
+slug: scripting-in-intune-2lwp4
 tags:
 - azure
 - security

@@ -1,10 +1,10 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Fri, 12 Jan 2024 12:49:39 +0000
 description: '"This week, I squeezed in one extra video AND wound up as a guest on
   the We Got Your Mac podcast. Not bad.How to Quickly Create Hyper-V Machines: Part
   1 For about three years, I’ve been using an automated solution to generate"'
-slug: /blog/weekly-recap-january-12
+slug: weekly-recap-january-12
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Weekly Recap January 12
 ---

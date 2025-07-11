@@ -1,5 +1,5 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 categories:
 - intune
 - powershell
@@ -8,7 +8,7 @@ description: '"While working on the next Group Tag installment, I realized I lef
   out two interesting concepts that I should probably address before moving forward.
   How does a Group Tag structure impact device naming, and where does user assignment
   fit into all this mess?What’s in a name?Naming devices"'
-slug: /blog/autopilot-group-tags-part-3
+slug: autopilot-group-tags-part-3
 tags:
 - intune
 - endpoint manager

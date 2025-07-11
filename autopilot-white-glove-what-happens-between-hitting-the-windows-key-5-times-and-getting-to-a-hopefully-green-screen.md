@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Wed, 26 Aug 2020 02:19:11 +0000
 description: '"There''s a pattern I''m starting to see when a company implements Autopilot
   and Intune to deploy Windows 10 PCs.&nbsp; At first, things seem to be going great-
   enrollments are successful, apps are deploying, policy is applied… just as intended.&nbsp;
   So then, that company wants their hardware vendor to"'
-slug: /blog/autopilot-white-glove-what-happens-between-hitting-the-windows-key-5-times-and-getting-to-a-hopefully-green-screen
+slug: autopilot-white-glove-what-happens-between-hitting-the-windows-key-5-times-and-getting-to-a-hopefully-green-screen
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Autopilot White-Glove What happens between hitting the Windows key 5 times
   and getting to a hopefully green screen

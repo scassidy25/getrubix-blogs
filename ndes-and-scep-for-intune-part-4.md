@@ -1,12 +1,12 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 categories:
 - intune
 - powershell
 - azure
 date: Wed, 12 May 2021 18:42:22 +0000
 description: "Can you smell that? It’s the smell of almost being done deploying SCEP certificates to Windows 10 devices from Intune via the Intune SCEP connector and NDES server. In case you missed it, you can start from Part 1, here. Part 4: Adding the root, deploying SCEP and achieving"
-slug: /blog/ndes-and-scep-for-intune-part-4
+slug: ndes-and-scep-for-intune-part-4
 tags:
 - endpoint manager
 - azure

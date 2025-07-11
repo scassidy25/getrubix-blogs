@@ -1,12 +1,12 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 categories:
 - intune
 - security
 - powershell
 date: Fri, 01 Dec 2023 14:02:47 +0000
 description: "After being inspired by Andrew Taylor’s weekly Intune newsletter (which now includes me for some reason), I figured it would make sense to start providing a summary of my videos every Friday. This will give me a chance to add some context, helpful links, and address some questions that may have come up throughout the week."
-slug: /blog/weekly-recap-december-1
+slug: weekly-recap-december-1
 tags:
 - intune
 - powershell

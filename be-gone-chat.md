@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Mon, 27 Jun 2022 12:29:36 +0000
 description: '"Windows 11 is without a doubt, my favorite version of the OS so far.
   But, it’s still Windows, which means there are a few annoying things you’re going
   to encounter along the way. During my first experience with “11”, I was surprised
   about that built-in consumer"'
-slug: /blog/be-gone-chat
+slug: be-gone-chat
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Be gone chat
 ---

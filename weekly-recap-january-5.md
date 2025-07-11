@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Fri, 05 Jan 2024 13:09:54 +0000
 description: '"First week of 2024 complete. Thanks to everyone who pushed our YouTube
   channel to over 500 subscribers!How to Customize Windows 11 with Intune and Autopilot
   Adding advertisements was a lot of fun, even if they’re fake. This is an overview
   of"'
-slug: /blog/weekly-recap-january-5
+slug: weekly-recap-january-5
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Weekly Recap January 5
 ---

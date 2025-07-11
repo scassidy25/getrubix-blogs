@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Fri, 19 Jan 2024 20:26:34 +0000
 description: '"There was a lot this week, so let’s get into it.How to Set the Lock
   Screen Wallpaper in Windows Pro In solving for some migration issues, we found a
   great solution to force lock screen wallpaper in Windows Pro, which is traditionally
   only"'
-slug: /blog/weekly-recap-january-19
+slug: weekly-recap-january-19
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Weekly Recap January 19
 ---

@@ -1,5 +1,5 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 categories:
 - intune
 - security
@@ -7,7 +7,7 @@ categories:
 - azure
 date: Tue, 05 Nov 2024 03:50:29 +0000
 description: "Alright—we made it this far. If you’re still with me, then hang on for this one because it’s not going to be pretty. Today is all about moving those Group Policy objects to Intune. Remember, if you’re enjoying this series, make sure to check out the video companion."
-slug: /blog/getting-started-with-intune-part-4-dont-bring-your-garbage-to-the-cloud
+slug: getting-started-with-intune-part-4-dont-bring-your-garbage-to-the-cloud
 tags:
 - defender
 - active directory

@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Wed, 12 Feb 2025 11:28:14 +0000
 description: '"One of the most common issues I''m tasked with resolving for my Purview
   customers is the structure of the DLP Rules within their DLP Policies. You build
   a rule based on common sense understanding and find that common sense isn''t always
   the right approach. It''s easy to see"'
-slug: /blog/complex-dlp-rule-design-is-wellcomplex
+slug: complex-dlp-rule-design-is-wellcomplex
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Complex DLP Rule Design Is WellComplex
 ---

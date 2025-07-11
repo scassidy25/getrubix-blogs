@@ -2,7 +2,7 @@
 title: "Weekly Recap February 9"
 slug: "/blog/weekly-recap-february-9"
 date: "Fri, 09 Feb 2024 15:45:13 +0000"
-author: "stevew1015@gmail.com"
+author: steve@getrubix.com
 description: "function introComment($weekOfMonth, $busyValue, $funnyThing) { $commentOutput = 'That is it for $($weekOfMonth.week), it sure has been $($busyValue.value).' + ' ' + $($funnyThing) }"
 thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
 ---

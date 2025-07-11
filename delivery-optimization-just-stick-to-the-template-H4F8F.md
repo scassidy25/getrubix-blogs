@@ -1,12 +1,12 @@
 ---
-author: GuestUser
+author: steve@getrubix.com
 categories:
 - intune
 - security
 - powershell
 date: Fri, 02 Feb 2024 18:07:13 +0000
 description: "Here’s a short and sweet post on something that drove me crazy for over a few weeks. A little silly it took me this long, but the timing around some legitimate M365 Apps suite issues made it more confusing."
-slug: /blog/delivery-optimization-just-stick-to-the-template-H4F8F
+slug: delivery-optimization-just-stick-to-the-template-H4F8F
 tags:
 - configuration profiles
 - security

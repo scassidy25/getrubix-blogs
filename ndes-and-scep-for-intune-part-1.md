@@ -1,5 +1,5 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 categories:
 - intune
 - security
@@ -8,7 +8,7 @@ categories:
 date: Mon, 10 May 2021 20:52:48 +0000
 description: >
   Long time, no talk. But it’s because I’ve been busy. And usually when I’m this busy it means I’ve got a lot to talk about. During three separate Endpoint Manager implementations, I’ve recently had to go outside my comfort zone and help folks troubleshoot Intune SCEP certificate profiles.
-slug: /blog/ndes-and-scep-for-intune-part-1
+slug: ndes-and-scep-for-intune-part-1
 tags:
 - endpoint manager
 - azure

@@ -1,5 +1,5 @@
 ---
-author: '[AUTHOR]'
+author: steve@getrubix.com
 categories: []
 date: '[DATE]'
 description: '"''[DESCRIPTION]''"'

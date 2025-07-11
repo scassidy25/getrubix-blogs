@@ -1,12 +1,12 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 categories:
 - intune
 - powershell
 - azure
 date: Sat, 30 Nov 2019 15:43:00 +0000
 description: "In the early days of Autopilot, we weren’t very concerned with the group tags (or ‘Order IDs). The real struggle was getting the hardware hash off the PCs and hoping they would register in Autopilot before hundreds of laptops arrived at a customer’s doorstep. But now it’s not"
-slug: /blog/autopilot-group-tags
+slug: autopilot-group-tags
 tags:
 - intune
 - script

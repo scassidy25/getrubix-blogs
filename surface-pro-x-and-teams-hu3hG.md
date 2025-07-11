@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Mon, 23 Dec 2019 19:48:00 +0000
 description: '"The Surface is great, Windows 10 is great and Office 365 is great.
   But the problem is that sometimes the folks who engineer these great products out
   in Redmond forget to speak to each other. If you’re looking to deploy a shiny new
   Pro X with Autopilot, then"'
-slug: /blog/surface-pro-x-and-teams-hu3hG
+slug: surface-pro-x-and-teams-hu3hG
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Surface Pro X and Teams
 ---

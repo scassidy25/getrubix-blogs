@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Mon, 10 Feb 2025 13:03:56 +0000
 description: '"Simplifying Secure Access with Microsoft Entra ID GovernanceManaging
   access to critical resources can be a nightmare like trying to keep snacks away
   from a hungry toddler. You want to lock things down tight, but you also don’t want
   to deal with endless requests for “just five more minutes”"'
-slug: /blog/now-you-see-it-now-you-dont-secure-access-with-entra-id-governance
+slug: now-you-see-it-now-you-dont-secure-access-with-entra-id-governance
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Now You See It Now You Dont Secure Access with Entra ID Governance
 ---

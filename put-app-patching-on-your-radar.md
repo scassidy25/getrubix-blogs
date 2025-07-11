@@ -1,12 +1,12 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Fri, 28 Feb 2025 20:55:33 +0000
 description: '"That title is funny. Shut up.Keeping third-party applications updated
   in Microsoft Intune has always been a challenge for IT administrators. Manually
   tracking app versions, deploying updates, and ensuring patch compliance can quickly
   become a tedious process. Enter Robopack Radar, the latest feature in Robopack designed
   to detect"'
-slug: /blog/put-app-patching-on-your-radar
+slug: put-app-patching-on-your-radar
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Put App Patching on Your Radar
 ---

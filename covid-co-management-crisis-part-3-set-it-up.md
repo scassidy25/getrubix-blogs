@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Mon, 07 Sep 2020 17:42:25 +0000
 description: '"If you read Part 2 in this series, then you know what happens now.
   Here is a rant-free guide to setting up the Cloud Management Gateway for SCCM.Steps
   in this guideVerify a unique URL DNS nameCertification preparationAzure service
   integration to SCCMDeploy Cloud Management GatewayVerify resource creation in"'
-slug: /blog/covid-co-management-crisis-part-3-set-it-up
+slug: covid-co-management-crisis-part-3-set-it-up
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Covid Co-Management Crisis Part 3 Set it up
 ---

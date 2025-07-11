@@ -1,5 +1,5 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 categories:
 - intune
 - security
@@ -7,7 +7,7 @@ categories:
 - azure
 date: Wed, 17 Jul 2019 22:42:00 +0000
 description: "Windows Autopilot deployment services enable new, Windows 10 PCs to be ‘business ready’ out of the box so your employees can get to work faster. At least that’s what the internet would have you think. Over the past two years since it’s official release, I’ve helped organizations all"
-slug: /blog/the-truth-about-autopilot
+slug: the-truth-about-autopilot
 tags:
 - automate
 - azure

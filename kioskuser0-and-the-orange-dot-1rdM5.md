@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Mon, 27 Jan 2025 21:55:03 +0000
 description: '"UPDATE 1/28/25: Many thanks to Steven Hosking at Microsoft for pointing
   out a different CSP that I was missing. It turns out I tried everything but this
   Microsoft account CSP. I’d say this is the much simpler solution and to deploy this
   as a configuration profile instead!Original Post:"'
-slug: /blog/kioskuser0-and-the-orange-dot-1rdM5
+slug: kioskuser0-and-the-orange-dot-1rdM5
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Kioskuser0 and the Orange Dot
 ---

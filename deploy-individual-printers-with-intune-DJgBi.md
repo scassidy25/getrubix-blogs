@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Thu, 09 Jan 2020 19:57:00 +0000
 description: '"Jesse here – hijacking the blog again. On my first entry I discussed
   the general practices with PowerShell scripts and Intune, and I provided an example
   of performing drive mappings. Today I wanted to give a quick solution that can help
   deploy printers – specifically on an Azure"'
-slug: /blog/deploy-individual-printers-with-intune-DJgBi
+slug: deploy-individual-printers-with-intune-DJgBi
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Deploy Individual Printers with Intune
 ---

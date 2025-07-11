@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Mon, 24 Feb 2020 02:58:43 +0000
 description: '"When a new PC is enrolled in Autopilot, it typically gets a deployment
   profile assigned within a 20 min time span.&nbsp; Assuming this is done by your
   hardware vendor, you don’t need to worry about those 20 min, because the clock starts
   when the device ships.&nbsp; Even if"'
-slug: /blog/autopilot-for-existing-devices-have-patience
+slug: autopilot-for-existing-devices-have-patience
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Autopilot for existing devices have patience
 ---

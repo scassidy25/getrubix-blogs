@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Fri, 24 Jul 2020 18:20:28 +0000
 description: '"Welcome to Part 2 of deploying apps with package managers.&nbsp; Today
   is all about Winget, the Microsoft package manager.&nbsp; A few things to know before
   we jump in:Winget will be available in Windows 10 2004 in an upcoming release. For
   now, use insider build 10.0.20150.1000.If you don''t"'
-slug: /blog/intune-and-package-managers-part-2-winget
+slug: intune-and-package-managers-part-2-winget
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Intune and Package Managers - Part 2 Winget
 ---

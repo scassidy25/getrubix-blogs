@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Mon, 13 Apr 2020 03:31:06 +0000
 description: '"Regardless of how you feel about co-management (98% of the time I despise
   it), we have to deal with it. One of the more common situations I run into is when
   an organization is using both co-management in addition to pure, Intune managed
   PCs. There is"'
-slug: /blog/dynamic-groups-for-co-managed-devices
+slug: dynamic-groups-for-co-managed-devices
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Dynamic groups for co-managed devices
 ---

@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Sun, 09 Jun 2024 01:09:40 +0000
 description: '"Microsoft has just released its latest flavor of Windows Autopilot
   known as Autopilot Device Preparation, and it’s been getting a lot of press this
   week. Some call it Autopilot V2, some call it “half-baked”, and some have said much
   worse. But regardless, it’s here and we’ve been putting"'
-slug: /blog/autopilot-device-preparation-part1
+slug: autopilot-device-preparation-part1
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: How to configure Autopilot Device Preparation Part 1 Set it up
 ---

@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 categories:
 - intune
 - powershell
 date: Mon, 02 Dec 2019 15:51:00 +0000
 description: "In the last post, we walked through a PowerShell script I created to enroll devices in Autopilot with a pop-up window to choose a group tag. This should be helpful for existing ‘one-off’ devices or testing different deployment profiles. Also, many of you asked me for the script itself."
-slug: /blog/group-tags-live
+slug: group-tags-live
 tags:
 - intune
 - script

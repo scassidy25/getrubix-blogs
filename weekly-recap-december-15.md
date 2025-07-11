@@ -1,12 +1,12 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 categories:
 - intune
 - security
 - powershell
 date: Fri, 15 Dec 2023 13:25:25 +0000
 description: "This week we took a big detour from our usual topics and dove into Mac management with Intune. That and our second podcast episode wraps things up for this week. How to Enroll a Mac to Intune Get familiar with the basic steps."
-slug: /blog/weekly-recap-december-15
+slug: weekly-recap-december-15
 tags:
 - defender
 - security

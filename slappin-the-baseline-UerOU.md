@@ -1,12 +1,12 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Tue, 21 Jan 2025 15:54:28 +0000
 description: '"Security Baselines… gotta love them. Well maybe not - I personally
   recommend breaking them out into Settings Catalog profiles; especially when you
   have a mix of other configuration profiles already in the mix (otherwise you may
   encounter some conflicts).However if you’re trying to see what policies Microsoft
   recommends,"'
-slug: /blog/slappin-the-baseline-UerOU
+slug: slappin-the-baseline-UerOU
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Slappin the MR Baseline
 ---

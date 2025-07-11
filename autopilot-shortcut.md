@@ -1,5 +1,5 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 categories:
 - intune
 - powershell
@@ -9,7 +9,7 @@ description: >
   I’ve been working on a write up about co-management and the SCCM cloud management
   gateway for a week or so now, and it’s becoming about as painful as the actual
   process itself. So in the meantime, I wanted to share a handy little trick I came up with.
-slug: /blog/autopilot-shortcut
+slug: autopilot-shortcut
 tags:
 - intune
 - script

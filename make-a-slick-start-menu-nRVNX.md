@@ -1,5 +1,5 @@
 ---
-author: GuestUser
+author: steve@getrubix.com
 categories:
 - intune
 - powershell
@@ -9,7 +9,7 @@ description: >
   settings on the machine. This can include wallpaper, start layout, power settings,
   and more. To configure these items during Autopilot, we rely on Michael Niehaus’s
   Autopilot Branding script and wrap it as an intunewin package.
-slug: /blog/make-a-slick-start-menu-nRVNX
+slug: make-a-slick-start-menu-nRVNX
 tags:
 - intune
 - endpoint manager

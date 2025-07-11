@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Fri, 13 Jun 2025 02:21:19 +0000
 description: '"I almost made a comment about not realizing we’re in the middle of
   June, but then I remembered I don’t like folksy sayings about how time passes. What
   matters is there’s a lot going on.Some folks have reached out to me and apparently
   didn’t see this week’s videos"'
-slug: /blog/ninjas-cloud-pcs-and-security
+slug: ninjas-cloud-pcs-and-security
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Ninjas Cloud PCs and Security
 ---

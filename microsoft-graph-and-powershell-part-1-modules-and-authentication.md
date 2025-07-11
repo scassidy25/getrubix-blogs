@@ -1,5 +1,5 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 categories:
 - intune
 - powershell
@@ -8,7 +8,7 @@ categories:
 date: Thu, 30 Jun 2022 18:03:46 +0000
 description: >
   I don’t know about you, but this one has a great title; lot of words. One of the most efficient ways to work with the Microsoft 365 platform is via the graph API. if you’re not familiar, go take care of that now: https://developer.microsoft.com/en-us/graph/graph-explorer It’s super easy to
-slug: /blog/microsoft-graph-and-powershell-part-1-modules-and-authentication
+slug: microsoft-graph-and-powershell-part-1-modules-and-authentication
 tags:
 - automate
 - azure

@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Wed, 05 Feb 2020 20:13:00 +0000
 description: '"You’ve read the documents, setup the Intune connector, created the
   OU and delegated the privileges (and if you haven’t,&nbsp;read my hybrid join post).
   The dynamic group that is set to catch all of your ‘hybrid’ tagged PCs seems to
   be working. You power on the PC, see that"'
-slug: /blog/im-hybrid-joined-now-what
+slug: im-hybrid-joined-now-what
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Im Hybrid Joined Now What
 ---

@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Sun, 21 Jul 2019 22:54:00 +0000
 description: '"Most of my time during the work week is spent either configuring an
   Azure/Intune environment or talking about it. If it’s the first time introducing
   these modern concepts to a customer, they always have questions. And those questions
   are almost 99.99% the same questions, all the time. Someone"'
-slug: /blog/some-answers-for-you
+slug: some-answers-for-you
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Some answers for you
 ---

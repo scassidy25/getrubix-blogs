@@ -1,11 +1,11 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Thu, 02 Sep 2021 17:42:13 +0000
 description: '"Despite the challenges around moving to the cloud in addition to functioning
   amid a global pandemic, many organizations continue to hire at an exponential rate.
   You’ve got Autopilot and Intune setup to onboard Windows devices for all the new
   employees starting. There’s just one problem: a"'
-slug: /blog/chip-shortage-no-problem-windows-365-endpoint-manager
+slug: chip-shortage-no-problem-windows-365-endpoint-manager
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Chip shortage No problem Windows 365 Endpoint Manager
 ---

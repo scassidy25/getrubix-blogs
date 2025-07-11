@@ -1,12 +1,12 @@
 ---
-author: stevew1015@gmail.com
+author: steve@getrubix.com
 date: Wed, 23 Dec 2020 20:51:05 +0000
 description: '"It goes without saying that building a Microsoft Endpoint Manager environment
   takes time.&nbsp;&nbsp;Most of that time comes from testing device enrollments to
   ensure all of the profiles and applications we''ve configured are deploying correctly.&nbsp;Intunewin
   applications can be especially tricky if you''re still in the process of figuring
   out"'
-slug: /blog/intune-app-testing-and-time-travel
+slug: intune-app-testing-and-time-travel
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
 title: Intune App Testing and Time Travel
 ---
