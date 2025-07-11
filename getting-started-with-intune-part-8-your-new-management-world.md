@@ -6,7 +6,7 @@ description: '"We’ve been through a lot over the last few weeks. Cloud vs hybr
   you should have all the fundamental tools you need get Intune off the ground. In
   this"'
 slug: getting-started-with-intune-part-8-your-new-management-world
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1731533648743-PHPHLQ0248NOU8AXGEB2/finish.png
 title: Getting Started with Intune Part 8 Your New Management World
 ---
 

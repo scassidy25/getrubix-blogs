@@ -6,7 +6,7 @@ description: '"I recently came across a question online regarding notification a
   and disables notifications from the Intune Management Extension, what is the impact?
   (NOTE: This setting is the same in both Win10 and Win11):"'
 slug: intune-management-extension-notifications-keep-them-on-fzGXv
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1709657312780-NYKCZWRZFC3UDXTYDW37/image-asset.jpeg/img.jpg
 title: Intune Management Extension Notifications Keep Them On
 ---
 

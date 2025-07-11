@@ -15,7 +15,7 @@ tags:
 - script
 - intune
 - automation
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1731074590309-PEXA5KEQG9UPQ9CVAAUV/apps.png
 title: Getting Started with Intune Part 6 The Apps
 ---
 

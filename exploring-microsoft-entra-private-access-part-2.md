@@ -7,7 +7,7 @@ description: '"Welcome back – let’s continue our series on Microsoft Entra P
   Conditional Access policies, and tackling some basic troubleshooting.Installing
   the"'
 slug: exploring-microsoft-entra-private-access-part-2
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1737404546350-LRXZWMDVXFSOMJQRMZVQ/Electric_Digital_Globe_Entra_Access_Blog.jpg
 title: Exploring Microsoft Entra Private Access - Part 2
 ---
 

@@ -6,7 +6,7 @@ description: '"Hopefully, you''re not reading this. You should be getting ready 
   coming of Mr. Clause- all that stuff. But you''re here. Which sadly means, you''re
   a bit like me (my family sends their condolences). Just because the holidays"'
 slug: patch-and-delete-for-the-holidays
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1735072786250-JF9S0MINW5EY3XVCJSIZ/xmasBlog.jpg
 title: PATCH and DELETE for the Holidays
 ---
 

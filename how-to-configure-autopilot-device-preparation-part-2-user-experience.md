@@ -6,7 +6,7 @@ description: '"In part 1 we looked at the step-by-step process for configuring t
   and the ways this experience differs from Autopilot V1. I’ll also show you how critical
   Windows Pro VS Enterprise is for this version of"'
 slug: how-to-configure-autopilot-device-preparation-part-2-user-experience
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1718131834035-HAQK9T8APBBFBJTB5ZCV/food.jpeg
 title: How to configure Autopilot Device Preparation Part 2 User Experience
 ---
 

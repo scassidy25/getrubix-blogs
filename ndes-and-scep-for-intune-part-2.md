@@ -6,7 +6,7 @@ description: '"Before we move on to Part 2, there are two tasks I should have in
   and issue certificates.&nbsp; Log into the CA and launch the Certification Authority
   console.&nbsp; Right click on the CA and"'
 slug: ndes-and-scep-for-intune-part-2
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620700894913-GDMWNHKKVKBQYL4KN95U/unsplash-image-9wWX_jwDHeM.jpg
 title: NDES and SCEP for Intune Part 2
 ---
 

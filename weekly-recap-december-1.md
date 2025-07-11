@@ -12,7 +12,7 @@ tags:
 - powershell
 - compliance
 - script
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1701439335494-CEP3OMJ2HLYQ3ISFVQQK/image-asset.jpeg/img.jpg
 title: Weekly Recap December 1
 ---
 

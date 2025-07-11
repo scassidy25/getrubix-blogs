@@ -1,12 +1,9 @@
 ---
 author: steve@getrubix.com
 date: Fri, 13 Jun 2025 02:21:19 +0000
-description: '"I almost made a comment about not realizing we’re in the middle of
-  June, but then I remembered I don’t like folksy sayings about how time passes. What
-  matters is there’s a lot going on.Some folks have reached out to me and apparently
-  didn’t see this week’s videos"'
+description: 'I almost made a comment about not realizing we’re in the middle of June, but then I remembered I don’t like folksy sayings about how time passes. What matters is there’s a lot going on.Some folks have reached out to me and apparently didn’t see this week’s videos'
 slug: ninjas-cloud-pcs-and-security
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1749781264699-J4VFWI6AGG54ITNX6QKP/ninja_steve.png
 title: Ninjas Cloud PCs and Security
 ---
 

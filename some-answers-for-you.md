@@ -6,7 +6,7 @@ description: '"Most of my time during the work week is spent either configuring 
   these modern concepts to a customer, they always have questions. And those questions
   are almost 99.99% the same questions, all the time. Someone"'
 slug: some-answers-for-you
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581036967085-JTVJJ8BWIFSL0CTBM19H/image-asset.jpeg/img.jpg
 title: Some answers for you
 ---
 

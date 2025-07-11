@@ -6,7 +6,7 @@ description: '"Here’s a little feature I forgot about until it, well, caused a
   they currently have policy to disable the Defender service (they are planning on
   enabling the service soon so that passive mode"'
 slug: smart-app-control-a-surprise-pain-qjHVN
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1724166797719-ZNJTMLKWQ6APBUTUP7G0/farm.jpeg
 title: Smart App Control A Surprise Pain
 ---
 

@@ -6,7 +6,7 @@ description: '"For three years now, I have led a team of engineers in the practi
   lock-down started, the world of Windows users lost their line-of-site to their corporate
   domains. The modern management my"'
 slug: covid-co-management-crisis
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1586873132620-V48DMITAXISWCM9UYPTZ/image-asset.jpeg/img.jpg
 title: Covid Co-Management Crisis
 ---
 

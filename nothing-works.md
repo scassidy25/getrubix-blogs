@@ -3,7 +3,7 @@ author: steve@getrubix.com
 date: Fri, 29 Sep 2023 13:40:13 +0000
 description: '""'
 slug: nothing-works
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1695994682149-FBAQ4X1B5L8GFDZL6DI7/image-asset.jpeg/img.jpg
 title: Nothing works
 ---
 

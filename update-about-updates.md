@@ -6,7 +6,7 @@ description: '"You’ve probably noticed by now that a lot of the action about t
   because I don’t love rambling here, but a lot of these concepts are just easier
   to show, rather than tell."'
 slug: update-about-updates
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1698360374604-SZDMK194QBNVV2FF182O/image-asset.jpeg/img.jpg
 title: Update about Updates
 ---
 

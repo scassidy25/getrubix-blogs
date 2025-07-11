@@ -19,7 +19,7 @@ tags:
 - powershell
 - scripting
 - intune
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581104146473-V348IZBFA87N0OR6VTXU/image-asset.jpeg/img.jpg
 title: Scripting in Intune
 ---
 

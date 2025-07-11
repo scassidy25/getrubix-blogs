@@ -6,7 +6,7 @@ description: '"If you’re wondering why I haven’t been writing much on here, 
   each Intune tenant to tenant device migration video so you can easily jump to an
   area of interest.New videos"'
 slug: intune-migration-watch-it-on-youtube
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1694441801816-GSUP20UM4YXD1IEO2XU6/image-asset.jpeg/img.jpg
 title: Intune Migration watch it on YouTube
 ---
 

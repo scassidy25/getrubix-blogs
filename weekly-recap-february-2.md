@@ -9,7 +9,7 @@ slug: weekly-recap-february-2
 tags:
 - intune
 - powershell
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1706898061903-686Z74NSB7FZVET4Y925/image-asset.jpeg/img.jpg
 title: Weekly Recap February 2
 ---
 

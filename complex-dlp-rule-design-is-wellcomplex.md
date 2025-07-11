@@ -6,7 +6,7 @@ description: '"One of the most common issues I''m tasked with resolving for my P
   a rule based on common sense understanding and find that common sense isn''t always
   the right approach. It''s easy to see"'
 slug: complex-dlp-rule-design-is-wellcomplex
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1739359675527-64H58KBJAOINMC9WR8OR/dlp.jpeg
 title: Complex DLP Rule Design Is WellComplex
 ---
 

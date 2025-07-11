@@ -6,7 +6,7 @@ description: '"Here’s a quick (but important) follow up on the first post. Aft
   to assign applications to user-based groups, while excluding corporate (autopilot)
   devices at the same time.All Windows 10 devices"'
 slug: personal-devices-and-the-intune-management-extension-part-2-another-psa-op82L
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1601670877134-LH39I7N5FT1NM0Z874TU/image-asset.jpeg/img.jpg
 title: Personal Devices and the Intune Management Extension Part 2 Another PSA
 ---
 

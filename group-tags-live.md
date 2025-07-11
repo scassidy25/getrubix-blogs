@@ -10,7 +10,7 @@ tags:
 - intune
 - script
 - powershell
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581090747958-SRD303CF0KUFXZ6SDA89/image-asset.jpeg/img.jpg
 title: Group Tags LIVE
 ---
 

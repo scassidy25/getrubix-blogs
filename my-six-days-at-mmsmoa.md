@@ -5,7 +5,7 @@ description: '"Typically, I would do a short video recap of a week like I just h
   but for some reason, I wasn’t feeling it. Maybe I’m just in a typing mood. Maybe
   it’s because I have some pics I want to share with you. Whatever the reason, we’re"'
 slug: my-six-days-at-mmsmoa
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1746968180775-9NJRC3HFEBVZIYI0KVSL/MMS.jpg
 title: My six days at MMSMOA
 ---
 

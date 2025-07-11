@@ -6,7 +6,7 @@ description: '"I’m back! I’ve been quite busy the last two months getting fo
   the deadline is fast approaching (it’s nearly 2025 already!), I figured I’d outline
   my overall approach to getting ready for Windows 11. You"'
 slug: windows-11-can-we-upgrade-already-3UEP5
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1734627754697-BBOHR2QUQ5ZP9U6RXYKX/unsplash-image-OaO6N9VUZYc.jpg
 title: Windows 11 Can we upgrade already
 ---
 

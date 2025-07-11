@@ -6,7 +6,7 @@ description: '"Understanding and managing user personas is not an easy thing wit
   from Robopack called Patch Groups.Imagine not only being able to group your apps
   together for assignment, but also deploy them in"'
 slug: leverage-robopack-patch-groups-to-manage-app-personas
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1743110489494-HNE8NK2AJ5ZEEIZVDR2T/coffee.png
 title: Leverage Robopack Patch Groups to manage app personas
 ---
 

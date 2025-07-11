@@ -6,7 +6,7 @@ description: '"Today was supposed to be covering the GroupTag and SetPrimaryUser
   post. So let’s jump in.If you’re just joining us, start here. GROUP TAG (TRIGGER:
   5 MIN AFTER LOGON)Group tags"'
 slug: tenant-to-tenant-intune-device-migration-part-3-a-group-tag-without-autopilot
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1690829907020-DORV2T6ZL7G569U3KXLC/image-asset.jpeg/img.jpg
 title: Tenant to Tenant Intune Device Migration Part 3 A Group Tag Without Autopilot
 ---
 

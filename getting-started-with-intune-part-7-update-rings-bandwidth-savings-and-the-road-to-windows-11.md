@@ -14,9 +14,8 @@ tags:
 - entra
 - intune
 - automation
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
-title: Getting Started with Intune Part 7 Update Rings Bandwidth Savings and the Road
-  to Windows 11
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1731448438100-10AJ2NHFUA121CP54SDD/part6-4.png
+title: Getting Started with Intune Part 7 Update Rings Bandwidth Savings and the Road to Windows 11
 ---
 
 Policy has been configured. Personas are mapped out. Apps are packaged and ready for deployment. We’re so close to getting Intune off the ground and there’s only one, tiny part left… Windows updates.

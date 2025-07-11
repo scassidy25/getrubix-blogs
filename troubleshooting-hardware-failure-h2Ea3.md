@@ -6,7 +6,7 @@ description: '"One common policy that can encounter issues related to hardware i
   can click on one of the failing devices to view the device configuration summary.
   If Bitlocker is failing, select the policy and see which components"'
 slug: troubleshooting-hardware-failure-h2Ea3
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1612127944064-89M23K3XMB98FFQ1DEQW/image-asset.jpeg/img.jpg
 title: Troubleshooting Hardware Failure
 ---
 

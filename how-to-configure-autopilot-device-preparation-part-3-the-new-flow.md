@@ -6,7 +6,7 @@ description: '"Arguably the biggest change with Autopilot device preparation (AP
   to understand as when we look at the trade-offs in the out-of-box experience (OOBE)
   compared to Autopilot V1 (APV1), they are not arbitrary; it all"'
 slug: how-to-configure-autopilot-device-preparation-part-3-the-new-flow
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1718293996750-FG7G4X65MKAZEZKXNSX7/lost.jpeg
 title: How to configure Autopilot Device Preparation Part 3 The New Flow
 ---
 

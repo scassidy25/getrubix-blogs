@@ -6,7 +6,7 @@ description: '"This is a big one, folks. It’s been a long time coming and my w
   yet, here’s some backstory. For Windows devices managed with Intune and joined to
   Azure"'
 slug: group-policy-to-intune-migration
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1648237407261-ZTLDB89K7M4OYFTAWHH7/unsplash-image--87JyMb9ZfU.jpg
 title: Group Policy to Intune Migration
 ---
 

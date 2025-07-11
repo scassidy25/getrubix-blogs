@@ -6,7 +6,7 @@ description: '"In the last part we looked at why logging is so importing with th
   if we have nothing to log.So today we’ll about error handling, ensuring scripts
   are resilient, readable, and easy"'
 slug: powershell-best-practices-for-intune-error-handling
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1743794171034-BCXILX4E05CY5NG3P6A2/karate_steve.jpg
 title: PowerShell Best Practices for Intune Error Handling
 ---
 

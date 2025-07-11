@@ -6,7 +6,7 @@ description: '"This week was very exciting, at least for me. The V3 of the migra
   ask for?Special thanks to Microsoft MVP Andrew Taylor for continuously including
   this content in his newsletter. It’s"'
 slug: weekly-recap-december-8
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1702042107869-6JBIK6UQKRUQTEJOARD7/image-asset.jpeg/img.jpg
 title: Weekly Recap December 8
 ---
 

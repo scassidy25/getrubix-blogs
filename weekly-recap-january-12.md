@@ -5,7 +5,7 @@ description: '"This week, I squeezed in one extra video AND wound up as a guest 
   the We Got Your Mac podcast. Not bad.How to Quickly Create Hyper-V Machines: Part
   1 For about three years, I’ve been using an automated solution to generate"'
 slug: weekly-recap-january-12
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1705063633349-NJQPFYRAQSFFS1KZDRJP/image-asset.jpeg/img.jpg
 title: Weekly Recap January 12
 ---
 

@@ -7,7 +7,7 @@ description: '"Rolling Out Intune Security Baselines Without Causing Office Chao
   apps with best-practice security configurations. Think of them as a security cheat
   sheet, covering everything"'
 slug: rolling-out-intune-security-baselines-without-causing-a-workplace-uprising
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1739809620487-UU69KFLF2L7WHQEPUGA2/unsplash-image-zBTYRFCeaS0.jpg
 title: Rolling Out Intune Security Baselines Without Causing a Workplace Uprising
 ---
 

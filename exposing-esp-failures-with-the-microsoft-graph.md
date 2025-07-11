@@ -11,7 +11,7 @@ tags:
 - script
 - endpoint manager
 - azure
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581106189983-1GFZSPFZZCR6EM5N4KR1/image-asset.jpeg/img.jpg
 title: Exposing ESP failures with the Microsoft Graph
 ---
 

@@ -14,7 +14,7 @@ tags:
 - endpoint manager
 - powershell
 - script
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1647280446405-O8I373L2LS4UZ8TPQF64/unsplash-image-566CgCRSNCk.jpg
 title: Autopilot Group Tags Part 3
 ---
 

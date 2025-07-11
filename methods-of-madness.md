@@ -6,7 +6,7 @@ description: '"Wow- another week of Graph videos in the books.Check out the ever
   they play a critical part in working with the Microsoft Graph.What are methods?From
   the internet: REST API methods are the various ways that"'
 slug: methods-of-madness
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1734123788042-JOJ49DT47NG74W4QMFS5/train.png
 title: Methods of Madness
 ---
 

@@ -7,7 +7,7 @@ description: '"Security Baselines… gotta love them. Well maybe not - I persona
   encounter some conflicts).However if you’re trying to see what policies Microsoft
   recommends,"'
 slug: slappin-the-baseline-UerOU
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1737050319848-QWRRDJ5UEXKN3W9G2MBB/fishimage.png
 title: Slappin the MR Baseline
 ---
 

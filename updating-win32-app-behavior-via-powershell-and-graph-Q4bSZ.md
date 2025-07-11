@@ -6,7 +6,7 @@ description: '"Whenever you upload an intunewin package to Endpoint Manager, you
   rule, and most other properties. However, the one property that seems to become
   locked from any future changes is the Install Behavior.Keep in mind"'
 slug: updating-win32-app-behavior-via-powershell-and-graph-Q4bSZ
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1624539627778-F2NA4OWBC605XSW6HZE1/unsplash-image-Ny0Lt7hLSJ0.jpg
 title: Updating Win32 app behavior via PowerShell and Graph
 ---
 

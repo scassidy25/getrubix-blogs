@@ -6,7 +6,7 @@ description: '"Hey everyone - I figured it was about time I come back and contri
   with Steve – since I finally showed myself in one of his latest videos, I figured
   I would come"'
 slug: custom-intune-reporting-PVN2O
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1705694293364-MR5CEP4PG70XJ56L7CN3/image-asset.jpeg/img.jpg
 title: Custom Intune Reporting
 ---
 

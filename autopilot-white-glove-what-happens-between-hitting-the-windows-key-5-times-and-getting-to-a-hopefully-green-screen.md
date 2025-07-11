@@ -6,7 +6,7 @@ description: '"There''s a pattern I''m starting to see when a company implements
   enrollments are successful, apps are deploying, policy is applied… just as intended.&nbsp;
   So then, that company wants their hardware vendor to"'
 slug: autopilot-white-glove-what-happens-between-hitting-the-windows-key-5-times-and-getting-to-a-hopefully-green-screen
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1598408342622-2HYWS3K9WL65N991G4PI/image-asset.jpeg/img.jpg
 title: Autopilot White-Glove What happens between hitting the Windows key 5 times
   and getting to a hopefully green screen
 ---

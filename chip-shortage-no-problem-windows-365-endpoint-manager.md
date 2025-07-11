@@ -6,7 +6,7 @@ description: '"Despite the challenges around moving to the cloud in addition to 
   You’ve got Autopilot and Intune setup to onboard Windows devices for all the new
   employees starting. There’s just one problem: a"'
 slug: chip-shortage-no-problem-windows-365-endpoint-manager
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1630604364652-TUF5S54W2QB6OGYW1O98/unsplash-image-G9js7s793k4.jpg
 title: Chip shortage No problem Windows 365 Endpoint Manager
 ---
 

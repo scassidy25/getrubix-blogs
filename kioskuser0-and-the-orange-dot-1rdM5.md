@@ -6,7 +6,7 @@ description: '"UPDATE 1/28/25: Many thanks to Steven Hosking at Microsoft for po
   Microsoft account CSP. I’d say this is the much simpler solution and to deploy this
   as a configuration profile instead!Original Post:"'
 slug: kioskuser0-and-the-orange-dot-1rdM5
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1738014979535-J1K95N54RMW75AWIKF16/accountnotice1.jpg
 title: Kioskuser0 and the Orange Dot
 ---
 

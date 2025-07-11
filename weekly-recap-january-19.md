@@ -6,7 +6,7 @@ description: '"There was a lot this week, so let’s get into it.How to Set the 
   great solution to force lock screen wallpaper in Windows Pro, which is traditionally
   only"'
 slug: weekly-recap-january-19
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1705695827788-EUL49LMJMHQK09NADJ57/image-asset.jpeg/img.jpg
 title: Weekly Recap January 19
 ---
 

@@ -6,7 +6,7 @@ description: '"The Surface is great, Windows 10 is great and Office 365 is great
   in Redmond forget to speak to each other. If you’re looking to deploy a shiny new
   Pro X with Autopilot, then"'
 slug: surface-pro-x-and-teams-hu3hG
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581106519400-RVA8ADLU3KI8I72XBC3T/image-asset.jpeg/img.jpg
 title: Surface Pro X and Teams
 ---
 

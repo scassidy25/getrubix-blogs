@@ -6,7 +6,7 @@ description: '"When setting up an Intune/Autopilot environment, the rubric I can
   at how often one un-flipped switch or policy typo can sink the entire Windows 10
   deployment.&nbsp; Today I want to go over one of the"'
 slug: automatic-enrollment-dont-be-afraid
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1585234600428-B0XUBOR1Y0PFY9UHSTOR/image-asset.jpeg/img.jpg
 title: Automatic Enrollment Dont Be Afraid
 ---
 

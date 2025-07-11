@@ -6,7 +6,7 @@ description: '"Welcome to Part 2 of deploying apps with package managers.&nbsp; 
   we jump in:Winget will be available in Windows 10 2004 in an upcoming release. For
   now, use insider build 10.0.20150.1000.If you don''t"'
 slug: intune-and-package-managers-part-2-winget
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1595614820689-XYOAJ25VEYCXXKPNRPMA/image-asset.jpeg/img.jpg
 title: Intune and Package Managers - Part 2 Winget
 ---
 

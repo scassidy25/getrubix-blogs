@@ -4,7 +4,7 @@ slug: "/blog/weekly-recap-february-9"
 date: "Fri, 09 Feb 2024 15:45:13 +0000"
 author: steve@getrubix.com
 description: "function introComment($weekOfMonth, $busyValue, $funnyThing) { $commentOutput = 'That is it for $($weekOfMonth.week), it sure has been $($busyValue.value).' + ' ' + $($funnyThing) }"
-thumbnail: "https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png"
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1707493504360-SRWPREM1X31E8M6YWVRY/image-asset.jpeg/img.jpg
 ---
 
 Intune Device Migration: V6

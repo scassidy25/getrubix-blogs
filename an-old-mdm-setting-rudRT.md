@@ -15,7 +15,7 @@ tags:
 - intune
 - security
 - script
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1714680252697-TRE1U3HCSLBZ6D6UKBCE/obiwan.png
 title: An Old MDM Setting
 ---
 

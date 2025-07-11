@@ -5,7 +5,7 @@ description: '"Time to close out 2023. How to onboard PCs to Defender for Endpoi
   with Intune We’ve talked a lot about Intune, but now it’s time to start getting
   secure. In this video, we went through the basic steps for getting managed"'
 slug: weekly-recap-december-29
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1703863484866-13N6SS9T5KMPMGE6ZNKZ/image-asset.jpeg/img.jpg
 title: Weekly Recap December 29
 ---
 

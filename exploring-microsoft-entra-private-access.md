@@ -6,7 +6,7 @@ description: '"My journey in the IT world began with network security in the Mar
   shifted my focus to endpoints. When I heard about Microsoft''s release of their
   Security Service Edge solution - which combined both of"'
 slug: exploring-microsoft-entra-private-access
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1737042453223-6I84ZGKHLYLFYIAR5EV7/unsplash-image-nGoCBxiaRO0.jpg
 title: Exploring Microsoft Entra Private Access
 ---
 

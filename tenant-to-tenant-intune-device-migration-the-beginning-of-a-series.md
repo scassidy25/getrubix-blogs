@@ -6,7 +6,7 @@ description: '"This one has been a long, long time in the making. In the coming 
   managed, Windows PC from one Azure AD tenant to another… without wiping the device!Edit:
   it’s been"'
 slug: tenant-to-tenant-intune-device-migration-the-beginning-of-a-series
-thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/logo512.png
+thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1689183644777-AM97KRGGGC2D5D2OLBW1/image-asset.jpeg/img.jpg
 title: Tenant to Tenant Intune Device Migration Beginning of a Series
 ---
 
