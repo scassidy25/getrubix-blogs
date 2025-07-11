@@ -6,7 +6,7 @@ description: '"Let’s cut to the chase—this title doesn’t exactly scream ex
   to PCs using Intune, whether via remediations, platform scripts, or within a Win32
   app, there are some critical nuances you need to"'
 slug: touching-the-current-user-registry-hive-with-intune
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1732998362073-UUS2Z8U0AGU14FHI7ZBN/userRegContext.png
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/touching-the-current-user-registry-hive-with-intune_thumbnail.jpg
 title: Touching the Current User Registry Hive with Intune
 ---
 

@@ -6,7 +6,7 @@ description: '"Yes it''s been a while; no I don''t want to talk about it.&nbsp; 
   is now live in Microsoft Intune.&nbsp; This has been a long time coming and I think
   we can all agree"'
 slug: elevate-with-windows-11
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1683551178914-EANV0K4VZTR4RWVNMMU2/unsplash-image-Y-GnrESsjr0.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/elevate-with-windows-11_thumbnail.jpg
 title: Elevate with Windows 11
 ---
 

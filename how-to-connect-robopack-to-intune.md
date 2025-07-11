@@ -6,7 +6,7 @@ description: '"Earlier this month (or last month, my brain is getting mushy) we 
   I’ve been receiving many questions about the platform so I figured it would make
   sense to start answering them here"'
 slug: how-to-connect-robopack-to-intune
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1739028310433-88HFLEBK4B5QLD09SJNZ/robopack2.png
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/how-to-connect-robopack-to-intune_thumbnail.jpg
 title: How to Connect Robopack to Intune
 ---
 

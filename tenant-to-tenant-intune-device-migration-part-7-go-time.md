@@ -6,7 +6,7 @@ description: '"Today we’re going through the entire migration process, step-by
   the scripts, tasks, and provisioning package. We’re going to deploy the migration
   app with Intune in Tenant A, and then watch the migration to"'
 slug: tenant-to-tenant-intune-device-migration-part-7-go-time
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1691432140087-90QVCETBYI04045GZCQC/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/tenant-to-tenant-intune-device-migration-part-7-go-time_thumbnail.jpg
 title: Tenant to Tenant Intune Device Migration Part 7 Go Time
 ---
 

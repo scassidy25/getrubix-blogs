@@ -6,7 +6,7 @@ description: '"This post is a bit different than the rest, as I won’t be talki
   use on a daily basis and how I configure my home (basement) office.&nbsp; So, to
   commemorate the 14 months since"'
 slug: home-office-and-geek-cave-tour
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1621027910724-XCKQXB6UITZO77HL58ZL/20210514_125433.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/home-office-and-geek-cave-tour_thumbnail.jpg
 title: Home Office and Geek Cave Tour
 ---
 

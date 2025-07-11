@@ -6,7 +6,7 @@ description: '"We’re all sick of scheduled tasks, but let’s face it; you pro
   in the brave, new world of Intune, you’re going to need a way to deploy them.This
   guide will serve as a written"'
 slug: how-to-deploy-scheduled-tasks-with-intune
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1732570288635-CFQ9UK7K0AADW0AKFLHI/tasks.jpeg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/how-to-deploy-scheduled-tasks-with-intune_thumbnail.jpg
 title: How to Deploy Scheduled Tasks with Intune
 ---
 

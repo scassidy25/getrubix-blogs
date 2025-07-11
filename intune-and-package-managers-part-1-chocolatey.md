@@ -6,7 +6,7 @@ description: '"Deploying applications to Windows 10 devices from Intune has cert
   scripts to bring down install bits from blob storage to run locally, all the way
   to full application support with .Intunewin"'
 slug: intune-and-package-managers-part-1-chocolatey
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1595474133083-3FWXLH15VKPG5VPI7XUX/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/intune-and-package-managers-part-1-chocolatey_thumbnail.jpg
 title: Intune and Package Managers - Part 1 Chocolatey
 ---
 

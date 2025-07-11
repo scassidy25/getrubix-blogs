@@ -6,7 +6,7 @@ description: '"I''ve written a lot about the Enrollment Status Page (ESP) in the
   to nail down.&nbsp; My latest issue with it has been a drastic increase in the time
   it takes for devices"'
 slug: multiple-enrollment-status-pages-a-psa
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1595942567978-NPX33249PPC8X9DP208Q/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/multiple-enrollment-status-pages-a-psa_thumbnail.jpg
 title: Multiple Enrollment Status Pages A PSA
 ---
 

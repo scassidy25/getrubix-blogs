@@ -15,7 +15,7 @@ tags:
 - script
 - powershell
 - intune
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1599235382452-QOXDBE5PC6RX1ETI7H7U/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/teams-known-folder-move-mess-4SVNr_thumbnail.jpg
 title: Teams Known Folder Move Mess
 ---
 

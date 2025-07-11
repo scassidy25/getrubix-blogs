@@ -7,7 +7,7 @@ description: "In Part 1, we went over the basics of Autopilot Group Tags and how
 slug: autopilot-group-tags-part-2
 tags:
 - security
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1647122431594-PXIQ2MVAIS4900KXJO9T/unsplash-image-rKYRJu0n06Y.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/autopilot-group-tags-part-2_thumbnail.jpg
 title: Autopilot Group Tags Part 2
 ---
 

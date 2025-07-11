@@ -6,7 +6,7 @@ description: '"Finally. Now that we covered the provisioning package and how our
   the primary user for Intune.After migration, when you navigate to the PC in Intune,
   the “Primary user” attribute should"'
 slug: tenant-to-tenant-intune-device-migration-part-5-the-primary-user
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1690924478236-UO2EOWMED3H3JFVLWA2E/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/tenant-to-tenant-intune-device-migration-part-5-the-primary-user_thumbnail.jpg
 title: Tenant to Tenant Intune Device Migration Part 5 The Primary User
 ---
 

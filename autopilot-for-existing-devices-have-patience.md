@@ -6,7 +6,7 @@ description: '"When a new PC is enrolled in Autopilot, it typically gets a deplo
   hardware vendor, you don’t need to worry about those 20 min, because the clock starts
   when the device ships.&nbsp; Even if"'
 slug: autopilot-for-existing-devices-have-patience
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1582513202288-CXSBAOUYTPBMPWEMC3DU/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/autopilot-for-existing-devices-have-patience_thumbnail.jpg
 title: Autopilot for existing devices have patience
 ---
 

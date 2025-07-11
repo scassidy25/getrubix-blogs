@@ -6,7 +6,7 @@ description: "\"Let’s start with some follow up before moving on.&nbsp; We nee
   and open an elevated CMD prompt.&nbsp; Type the following:setspn -s http/&lt;NDES-FQDN&gt;
   domainName\NDESaccountNameMine looks like this:\""
 slug: ndes-and-scep-for-intune-part-3
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620764880182-YIKOJOE87XZ5BHYR48CG/unsplash-image-yLDabpoCL3s.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/ndes-and-scep-for-intune-part-3_thumbnail.jpg
 title: NDES and SCEP for Intune Part 3
 ---
 

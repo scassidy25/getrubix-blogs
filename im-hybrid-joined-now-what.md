@@ -6,7 +6,7 @@ description: '"You’ve read the documents, setup the Intune connector, created 
   The dynamic group that is set to catch all of your ‘hybrid’ tagged PCs seems to
   be working. You power on the PC, see that"'
 slug: im-hybrid-joined-now-what
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581106436872-O6HSTS5BSPSP62K1Y7NG/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/im-hybrid-joined-now-what_thumbnail.jpg
 title: Im Hybrid Joined Now What
 ---
 

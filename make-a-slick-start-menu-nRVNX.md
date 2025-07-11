@@ -14,7 +14,7 @@ tags:
 - intune
 - endpoint manager
 - script
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1598298189416-0ZBVQWAYQZ1WH1NOUCBK/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/make-a-slick-start-menu-nRVNX_thumbnail.jpg
 title: Make a Slick Start Menu
 ---
 

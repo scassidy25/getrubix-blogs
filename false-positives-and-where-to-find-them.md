@@ -6,7 +6,7 @@ description: '"Purview can generate a significant number of false positives from
   is to help resolve these and keep them from popping up again in the future. Some
   of this may be common sense, and some of"'
 slug: false-positives-and-where-to-find-them
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1739536831728-FMBLD4OYRSMSEE5LLAR9/blog8.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/false-positives-and-where-to-find-them_thumbnail.jpg
 title: False Positives and Where to Find Them
 ---
 

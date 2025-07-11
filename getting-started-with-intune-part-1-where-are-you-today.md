@@ -9,7 +9,7 @@ slug: getting-started-with-intune-part-1-where-are-you-today
 tags:
 - active directory
 - intune
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1730036395134-X8XWFSIZSR6NE81M3PI1/flight.jpeg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/getting-started-with-intune-part-1-where-are-you-today_thumbnail.jpg
 title: Getting Started with Intune Part 1 Where Are You Today
 ---
 

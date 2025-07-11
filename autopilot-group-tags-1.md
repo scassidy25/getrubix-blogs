@@ -6,7 +6,7 @@ description: '"Autopilot allows Windows devices to register to an Azure AD / End
   powered up, and when they sign-in, Windows is provisioned with applications and
   policies from Endpoint Manager. The device is production"'
 slug: autopilot-group-tags-1
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1647025447270-RLXUIBG3VYJVR9KVREBE/unsplash-image-_XlhZVsKykw.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/autopilot-group-tags-1_thumbnail.jpg
 title: Autopilot Group Tags Part 1
 ---
 

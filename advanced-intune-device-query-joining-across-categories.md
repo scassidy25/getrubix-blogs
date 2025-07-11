@@ -6,7 +6,7 @@ description: '"Last time, we went over the basics of Intune Device Query and how
   it, hopefully, you’re starting to see just how powerful it can be. But what if you
   need data from multiple"'
 slug: advanced-intune-device-query-joining-across-categories
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1742308091842-MTEME0V3QK8PZXDYRMTH/deviceQuery.png
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/advanced-intune-device-query-joining-across-categories_thumbnail.jpg
 title: Advanced Intune Device Query Joining Across Categories
 ---
 

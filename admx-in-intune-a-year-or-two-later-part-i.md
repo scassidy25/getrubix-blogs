@@ -4,7 +4,7 @@ slug: admx-in-intune-a-year-or-two-later-part-i
 date: Thu, 24 Dec 2020 16:01:47 +0000
 author: steve@getrubix.com
 description: "When I started writing this piece, the plan was to title it 'ADMX: a year later'. I was going to reference my original write up on ADMX policy in Intune and highlight what has changed since then. Well, as soon as I started, I realized I couldn't find the original."
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1608825614148-BMHE3D5VTE9XY0TVGR5Z/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/admx-in-intune-a-year-or-two-later-part-i_thumbnail.jpg
 ---
 
 When I started writing this piece, the plan was to title it "ADMX: a year later".  I was going to reference my original write up on ADMX policy in Intune and highlight what has changed since then.  Well, as soon as I started, I realized I couldn't find the original.  Then it hit me; I wrote that back in 2018, not 2019.  In fact, getrubix.com wasn't even a thing at that point.  So I suppose instead of referencing something you've never read, here comes a two-parter.  In the first part, I'll walk through the current state of ADMX policy ingestion via Microsoft Intune.

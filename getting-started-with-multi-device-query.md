@@ -6,7 +6,7 @@ description: '"Intune device query was a big step forward when it came out last 
   feature for the platform, even if it was only available in the Advanced Analytics
   add-on.But one of"'
 slug: getting-started-with-multi-device-query
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1740264002576-G41V0BZINV6GH143B04L/query.png
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/getting-started-with-multi-device-query_thumbnail.jpg
 title: Getting Started with Multi-Device Query
 ---
 

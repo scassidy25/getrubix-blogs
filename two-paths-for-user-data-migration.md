@@ -6,7 +6,7 @@ description: '"I’ll be honest- when putting together the Intune tenant to tena
   I think people should adopt OneDrive, be responsible for where they put their data,
   or just give up on their"'
 slug: two-paths-for-user-data-migration
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1696257857638-1KA7OFIFIOVJZHLRV4F3/fork.png
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/two-paths-for-user-data-migration_thumbnail.jpg
 title: Two Paths for User Data Migration
 ---
 

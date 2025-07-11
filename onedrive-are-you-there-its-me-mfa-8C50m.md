@@ -3,7 +3,7 @@ author: steve@getrubix.com
 date: Fri, 31 May 2024 12:48:03 +0000
 description: 'Most organizations like to configure OneDrive to automatically sign-in with the user’s credentials. However, this doesn’t always work when multi-factor authentication (MFA) is enabled for their accounts – this may be intentional/unintentional due to MFA targeted to All Cloud Apps (the common example that I loathe, but I’ll'
 slug: onedrive-are-you-there-its-me-mfa-8C50m
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1717159659469-JJB28HPG60JFM0FEKFD5/oneDrive.jpeg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/onedrive-are-you-there-its-me-mfa-8C50m_thumbnail.jpg
 title: OneDrive are you there Its me MFA
 ---
 

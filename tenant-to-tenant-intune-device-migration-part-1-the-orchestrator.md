@@ -6,7 +6,7 @@ description: '"Alright, let’s get started!Most of the work that happens with t
   Microsoft Graph API. There are a total of 13 scripts that run the process- 7 PowerShell
   and 6 XML files for tasks.Today, we’re"'
 slug: tenant-to-tenant-intune-device-migration-part-1-the-orchestrator
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1690400366340-BOKVVZJEM9Z1HAYJ83QO/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/tenant-to-tenant-intune-device-migration-part-1-the-orchestrator_thumbnail.jpg
 title: Tenant to Tenant Intune Device Migration Part 1 The Orchestrator
 ---
 

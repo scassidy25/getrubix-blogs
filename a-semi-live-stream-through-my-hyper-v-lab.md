@@ -6,7 +6,7 @@ description: '"In preparing to make some YouTube content detailing the tenant-to
   alas; I found myself fresh out of any Windows 10 22H2 builds.This would mean I needed
   to make one. And I figured, if"'
 slug: a-semi-live-stream-through-my-hyper-v-lab
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1692653279858-26LQR1HQ7PN8JQGO0M5B/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/a-semi-live-stream-through-my-hyper-v-lab_thumbnail.jpg
 title: A semi Live-stream Through My Hyper-V Lab
 ---
 

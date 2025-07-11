@@ -16,7 +16,7 @@ tags:
 - powershell
 - scripting
 - intune
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1656612209544-JMYJODVXAC8ZN6Q1OGCN/unsplash-image-JKUTrJ4vK00.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/microsoft-graph-and-powershell-part-1-modules-and-authentication_thumbnail.jpg
 title: Microsoft Graph and PowerShell Part 1 Modules and Authentication
 ---
 

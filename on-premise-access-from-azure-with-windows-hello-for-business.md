@@ -3,7 +3,7 @@ author: steve@getrubix.com
 date: Sat, 04 Jan 2020 19:55:00 +0000
 description: '""'
 slug: on-premise-access-from-azure-with-windows-hello-for-business
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581106589546-LB9ZBIQ35O6ML5VV7CJ5/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/on-premise-access-from-azure-with-windows-hello-for-business_thumbnail.jpg
 title: On-premise access from Azure with Windows Hello for Business
 ---
 

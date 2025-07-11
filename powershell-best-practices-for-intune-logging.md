@@ -4,7 +4,7 @@ slug: "/blog/powershell-best-practices-for-intune-logging"
 date: "Mon, 31 Mar 2025 14:43:28 +0000"
 author: steve@getrubix.com
 description: "Whether you like it or not, the ability to write PowerShell scripts is critical for effectively managing Windows devices with Microsoft Intune. I know a lot of folks have the sentiment of 'wait, so now I'm a developer? Thanks a lot, Microsoft!' But the way I see it..."
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1743432196129-L7Q9QBTJUFTDSUKWT828/logBlog.jpeg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/powershell-best-practices-for-intune-logging_thumbnail.jpg
 ---
 
 Whether you like it or not, the ability to write PowerShell scripts is critical for effectively managing Windows device with Microsoft Intune. I know a lot of folks have the sentiment of "wait, so now I'm a developer? Thanks a lot, Microsoft!"

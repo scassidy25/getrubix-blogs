@@ -10,7 +10,7 @@ tags:
 - intune
 - script
 - powershell
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1621278444852-UJOZ1CCD36E6ABYTBSCO/unsplash-image-djDQKdjdYss.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/get-your-apps_thumbnail.jpg
 title: Get your apps back
 ---
 

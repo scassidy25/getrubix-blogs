@@ -7,7 +7,7 @@ description: '"When deploying a custom policy, it is important to ensure the OMA
   when entering the value of the policy, use the document above to ensure you are
   configuring a supported"'
 slug: troubleshooting-profile-failure-custom-policy-syntax-hWJU7
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1612022612364-6FI57YX47U8TA8Z4JTCA/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/troubleshooting-profile-failure-custom-policy-syntax-hWJU7_thumbnail.jpg
 title: Troubleshooting Profile Failure Custom Policy Syntax
 ---
 

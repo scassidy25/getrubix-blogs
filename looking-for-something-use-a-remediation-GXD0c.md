@@ -6,7 +6,7 @@ description: '"Every now and then I either need to look for a conflicting group 
   conflicting GPO that others have blogged about – Windows Update policies. Generally
   when deploying Update Rings and Feature Updates through"'
 slug: looking-for-something-use-a-remediation-GXD0c
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1711561677169-URR2FNVHWBFY1TAIP6MN/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/looking-for-something-use-a-remediation-GXD0c_thumbnail.jpg
 title: Looking for something Use a remediation
 ---
 

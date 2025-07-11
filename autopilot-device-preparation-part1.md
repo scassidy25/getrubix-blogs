@@ -6,7 +6,7 @@ description: '"Microsoft has just released its latest flavor of Windows Autopilo
   week. Some call it Autopilot V2, some call it “half-baked”, and some have said much
   worse. But regardless, it’s here and we’ve been putting"'
 slug: autopilot-device-preparation-part1
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1717895317137-IOJQSP9LOSPCIUYH9ZMG/pilot.png
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/autopilot-device-preparation-part1_thumbnail.jpg
 title: How to configure Autopilot Device Preparation Part 1 Set it up
 ---
 

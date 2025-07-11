@@ -6,7 +6,7 @@ description: '"Alright, let’s be real—passwords are the worst. If you can, d
   you’re stuck with passwords for the time being, at least let’s make them a little
   less terrible, shall we?That’s where Microsoft Entra Password Protection comes"'
 slug: entra-password-protection-smarter-security-fewer-pop-tarts
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1738675736371-4YFG27VIF60HF58FZABZ/unsplash-image-KXOXVJxFAmg.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/entra-password-protection-smarter-security-fewer-pop-tarts_thumbnail.jpg
 title: Entra Password Protection Smarter Security Fewer Pop-Tarts
 ---
 

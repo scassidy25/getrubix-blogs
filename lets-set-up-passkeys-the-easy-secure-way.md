@@ -3,7 +3,7 @@ author: steve@getrubix.com
 date: Tue, 28 Jan 2025 18:15:54 +0000
 description: 'Hey there! Today, we''re diving into the wonderful world of passkeys. Don''t worry, this isn''t rocket science – my mission is to show you how ridiculously easy it is to get passkeys up and running in your tenant. Sure, standard MFA is a solid starting point, but let''s'
 slug: lets-set-up-passkeys-the-easy-secure-way
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1738087911635-7A0H38712VJDXDWL5EQN/unsplash-image--o90yRQoXAM.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/lets-set-up-passkeys-the-easy-secure-way_thumbnail.jpg
 title: Lets Set Up Passkeys The Easy Secure Way
 ---
 

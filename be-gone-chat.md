@@ -6,7 +6,7 @@ description: '"Windows 11 is without a doubt, my favorite version of the OS so f
   to encounter along the way. During my first experience with “11”, I was surprised
   about that built-in consumer"'
 slug: be-gone-chat
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1656332961973-77MD74JRCYSAWG8000NH/unsplash-image-mZNRsYE9Qi4.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/be-gone-chat_thumbnail.jpg
 title: Be gone chat
 ---
 

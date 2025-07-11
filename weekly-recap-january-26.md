@@ -6,7 +6,7 @@ description: '"A lot more Intune, and a lot more interacting with inanimate obje
   anyone who wants to begin learning about using the Microsoft Graph for Intune. We
   start by"'
 slug: weekly-recap-january-26
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1706308691999-F9Q1FN1GS4K8UPV2ZDTC/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/weekly-recap-january-26_thumbnail.jpg
 title: Weekly Recap January 26
 ---
 

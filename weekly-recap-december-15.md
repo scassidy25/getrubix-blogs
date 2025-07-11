@@ -13,7 +13,7 @@ tags:
 - script
 - scripting
 - intune
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1702646564633-RJBDZG9LA2P27Z7WEXNB/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/weekly-recap-december-15_thumbnail.jpg
 title: Weekly Recap December 15
 ---
 

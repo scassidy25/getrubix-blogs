@@ -6,7 +6,7 @@ description: '"Don’t worry, this isn’t another discovered issue or service a
   access controls (RBAC). I often get asked about the capabilities and how to support
   different scenarios, so I figured it would be good to list"'
 slug: backtracking-on-rbac-73bYS
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1725650851158-BO98YYLUCXTU48UGTE2X/futureJogging.jpeg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/backtracking-on-rbac-73bYS_thumbnail.jpg
 title: Backtracking on RBAC
 ---
 

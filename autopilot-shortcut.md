@@ -15,7 +15,7 @@ tags:
 - script
 - powershell
 - azure
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1583338172870-HCUH3O9LFGGXVGNTKSE8/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/autopilot-shortcut_thumbnail.jpg
 title: Autopilot Shortcut
 ---
 

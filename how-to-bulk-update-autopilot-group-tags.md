@@ -6,7 +6,7 @@ description: '"Well, I almost made it a full vacation without working. But hey- 
   the easiest way would be to update enrollment profiles for Autopilot devices, specifically
   based on the group tag."'
 slug: how-to-bulk-update-autopilot-group-tags
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1712445167721-ZD3NFD1B5SP0JNRDXILH/PXL_20240406_223019694.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/how-to-bulk-update-autopilot-group-tags_thumbnail.jpg
 title: How to Bulk Update Autopilot Group Tags
 ---
 

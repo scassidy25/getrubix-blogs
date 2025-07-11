@@ -6,7 +6,7 @@ description: '"In most cases, the hardest part of doing anything is getting star
   thwarted by what I call the “fringe case.”Don’t forget that I’m doing an exclusive
   video series to follow along with this series"'
 slug: getting-started-with-intune-part-2-dont-build-for-the-fringe
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1730222119536-GI3XDOJN3Z9Y14MB0ZIO/getting_started2.jpeg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/getting-started-with-intune-part-2-dont-build-for-the-fringe_thumbnail.jpg
 title: Getting Started with Intune Part 2 Dont Build for the Fringe
 ---
 

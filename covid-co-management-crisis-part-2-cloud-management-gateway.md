@@ -6,7 +6,7 @@ description: '"I’ll be completely honest- when I first wrote Covid Co-Manageme
   gateway. As we all were, I was hoping we’d be done with this whole mess before it
   was needed."'
 slug: covid-co-management-crisis-part-2-cloud-management-gateway
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1598966774790-98OQHIJCSW703HBGPW72/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/covid-co-management-crisis-part-2-cloud-management-gateway_thumbnail.jpg
 title: Covid Co-Management Crisis Part 2 Cloud Management Gateway
 ---
 

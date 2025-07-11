@@ -7,7 +7,7 @@ description: '"It goes without saying that building a Microsoft Endpoint Manager
   applications can be especially tricky if you''re still in the process of figuring
   out"'
 slug: intune-app-testing-and-time-travel
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1608756659589-4J74A0BBWBQFO34B4LOL/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/intune-app-testing-and-time-travel_thumbnail.jpg
 title: Intune App Testing and Time Travel
 ---
 

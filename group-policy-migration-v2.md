@@ -6,7 +6,7 @@ description: '"Wow! So first off, thanks for all of the extremely positive respo
   able to put it to use. Today I’m excited to unveil the V2 of this PowerShell script,
   complete with"'
 slug: group-policy-migration-v2
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1648692752856-9PP3YKXCP0EWFJDWIIRZ/unsplash-image-cxoR55-bels.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/group-policy-migration-v2_thumbnail.jpg
 title: Group Policy Migration V2
 ---
 

@@ -11,7 +11,7 @@ tags:
 - configuration profiles
 - security
 - script
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1706897218319-2RZARFCMM9T5VKUR4SFZ/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/delivery-optimization-just-stick-to-the-template-H4F8F_thumbnail.jpg
 title: Delivery Optimization - Just Stick to the Template
 ---
 

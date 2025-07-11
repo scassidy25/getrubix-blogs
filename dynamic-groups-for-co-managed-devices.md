@@ -6,7 +6,7 @@ description: '"Regardless of how you feel about co-management (98% of the time I
   an organization is using both co-management in addition to pure, Intune managed
   PCs. There is"'
 slug: dynamic-groups-for-co-managed-devices
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1586748659379-UF4JXLFIWQZ0DJWKQAZ6/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/dynamic-groups-for-co-managed-devices_thumbnail.jpg
 title: Dynamic groups for co-managed devices
 ---
 

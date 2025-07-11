@@ -6,7 +6,7 @@ description: '"So far, we’ve explored evaluating your environment, choosing in
   Group Policy objects into Intune.But ultimately, you’re going to realize there is
   a challenge ahead; how are you going to deal with managing your new, shiny"'
 slug: getting-started-with-intune-part-5-two-paths
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1730990778030-KZM6P0XPOC42NO4Y7I0O/twoPaths.png
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/getting-started-with-intune-part-5-two-paths_thumbnail.jpg
 title: Getting Started with Intune Part 5 Two Paths
 ---
 

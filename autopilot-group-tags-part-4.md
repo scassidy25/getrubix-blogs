@@ -6,7 +6,7 @@ description: '"Autopilot Group Tags can play a major role in application deploym
   device ends up in the appropriate group, and that group is used to assign applications
   to be deployed during initial provisioning. But"'
 slug: autopilot-group-tags-part-4
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1647306407660-079WQO170YVDMBCKTF38/unsplash-image-WCID2JWoxwE.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/autopilot-group-tags-part-4_thumbnail.jpg
 title: Autopilot Group Tags Part 4
 ---
 

@@ -4,7 +4,7 @@ slug: microsoft-graph-a-beginners-guide-to-apis-endpoints-and-urls
 date: "Sun, 08 Dec 2024 01:55:14 +0000"
 author: steve@getrubix.com
 description: ' This week, we kicked off the GetRubix YouTube series, Getting Started with Graph, where we explore… well… getting started with using the Microsoft Graph.One piece of feedback I’ve received pretty consistently is that you all seem to love the graphic breakdown of Graph calls and queries. The second'
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1733622896191-IDZ09CKX9ZVCPI7Q8TIV/graphGame.png
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/microsoft-graph-a-beginners-guide-to-apis-endpoints-and-urls_thumbnail.jpg
 ---
 
 This week, we kicked off the **GetRubix YouTube series, "**[**Getting Started with Graph,**](https://www.youtube.com/playlist?list=PLKROqDcmQsFls8cPHk3HFz2mUURHx46_O)**"** where we explore… well… getting started with using the Microsoft Graph.

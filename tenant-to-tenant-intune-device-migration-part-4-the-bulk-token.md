@@ -6,7 +6,7 @@ description: '"So, remember how I promised I would talk about the SetPrimaryUser
   to make much sense without context. Allow me to introduce you to the two components
   that make"'
 slug: tenant-to-tenant-intune-device-migration-part-4-the-bulk-token
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1690893939887-HXV972K334ST8D3S401W/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/tenant-to-tenant-intune-device-migration-part-4-the-bulk-token_thumbnail.jpg
 title: Tenant to Tenant Intune Device Migration Part 4 The Bulk Token
 ---
 

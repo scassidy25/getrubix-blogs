@@ -10,7 +10,7 @@ tags:
 - intune
 - configuration profiles
 - azure
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581036935771-CMMJGGUZ33TIR1R8Q61P/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/yes-there-are-gpos-in-intune_thumbnail.jpg
 title: Yes there are GPOs in Intune
 ---
 

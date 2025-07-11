@@ -12,7 +12,7 @@ tags:
 - powershell
 - compliance
 - script
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1744385877496-QF9I007TCTN4QHC3YMZ0/stackSoldier.png
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/powershell-best-practices-for-intune-dont-fight-the-functions_thumbnail.jpg
 title: PowerShell Best Practices for Intune Dont fight the functions
 ---
 

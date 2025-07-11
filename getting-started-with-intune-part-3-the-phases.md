@@ -6,7 +6,7 @@ description: '"If you’ve made it this far, congratulations! You have completed
   didn’t! That’s the focus of today’s post.Don’t forget to follow the video companion
   for this series on the GetRubix YouTube members channel.A Repeatable ModelTechnically,"'
 slug: getting-started-with-intune-part-3-the-phases
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1730314692431-NIZT59ZNIR0WEJ73298I/getting_started_part3.jpeg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/getting-started-with-intune-part-3-the-phases_thumbnail.jpg
 title: Getting Started with Intune Part 3 The Phases
 ---
 

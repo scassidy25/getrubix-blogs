@@ -4,7 +4,7 @@ slug: goodbye-vpn-part-1-this-is-private
 date: Tue, 28 May 2024 03:18:01 +0000
 author: steve@getrubix.com
 description: "Recently, I released a guided walkthrough of setting up Entra Private Access for cloud native PCs connecting to on-premises file shares. In addition to a tremendously positive response (thank you), I also received many requests for a written guide. It then got me thinking... could some of my videos benefit from a written companion?"
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1716866262334-JKPZ0WBC3N3G6I418I2N/privateAccess1.png
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/goodbye-vpn-part-1-this-is-private_thumbnail.jpg
 ---
 
 Recently, I released a [guided walkthrough of setting up Entra Private Access](https://youtu.be/uIjGDUhvKvY) for cloud native PCs connecting to on-premises file shares. In addition to a tremendously positive response (thank you), I also received many requests for a written guide. It then got me thinking... "could some of my videos benefit from a written companion?"

@@ -16,7 +16,7 @@ tags:
 - security
 - intune
 - flow
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1620679959162-8J1G0TONK51CF9H54A1W/unsplash-image-M5tzZtFCOfs.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/ndes-and-scep-for-intune-part-1_thumbnail.jpg
 title: NDES and SCEP for Intune Part 1
 ---
 

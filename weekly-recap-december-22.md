@@ -6,7 +6,7 @@ description: '"The holidays are here, but we’re not slowing down. Here is a ru
   to auto-update Chocolatey Apps with Intune: Part 1 For those of us using Chocolatey
   to deploy"'
 slug: weekly-recap-december-22
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1703261503423-GA3BPBLE3T74PCAKISN4/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/weekly-recap-december-22_thumbnail.jpg
 title: Weekly Recap December 22
 ---
 

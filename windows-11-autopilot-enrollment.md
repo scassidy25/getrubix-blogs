@@ -6,7 +6,7 @@ description: '"Time for something a bit different. You see, I’ve been helping 
   Autopilot. I’ve come across a few things that are particularly interesting.“You’re
   just talking about Windows again, Steve… what’s different?” Glad"'
 slug: windows-11-autopilot-enrollment
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1650591896117-MQBRNZPF0MMBXWX6ESGO/unsplash-image-8lYMNdL2u2c.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/windows-11-autopilot-enrollment_thumbnail.jpg
 title: Windows 11 Autopilot Enrollment
 ---
 

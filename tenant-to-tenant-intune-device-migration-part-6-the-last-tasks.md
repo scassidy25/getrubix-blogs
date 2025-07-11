@@ -16,7 +16,7 @@ tags:
 - powershell
 - intune
 - automation
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1691000654777-TAHPKMVHWS5AOU916234/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/tenant-to-tenant-intune-device-migration-part-6-the-last-tasks_thumbnail.jpg
 title: Tenant to Tenant Intune Device Migration Part 6 The Last Tasks
 ---
 

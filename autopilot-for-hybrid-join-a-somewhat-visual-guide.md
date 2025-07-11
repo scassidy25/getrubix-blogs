@@ -6,7 +6,7 @@ description: '"Here we go! This one has been a long time coming, so thanks for w
   a PC with Autopilot. It was meant for pure, Azure AD join only, and damnit, that’s
   the way it should"'
 slug: autopilot-for-hybrid-join-a-somewhat-visual-guide
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581105865989-ZFHBQUU97ETTG0HHFLNE/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/autopilot-for-hybrid-join-a-somewhat-visual-guide_thumbnail.jpg
 title: Autopilot for Hybrid join a somewhat visual guide
 ---
 

@@ -7,7 +7,7 @@ description: '"That title is funny. Shut up.Keeping third-party applications upd
   become a tedious process. Enter Robopack Radar, the latest feature in Robopack designed
   to detect"'
 slug: put-app-patching-on-your-radar
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1740776120665-M6M03L0RICTHPTNW7UGM/radar.png
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/put-app-patching-on-your-radar_thumbnail.jpg
 title: Put App Patching on Your Radar
 ---
 

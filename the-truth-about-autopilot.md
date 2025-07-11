@@ -15,7 +15,7 @@ tags:
 - security
 - intune
 - flow
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581036835470-ILPLWDIB3REUMLK2TDPD/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/the-truth-about-autopilot_thumbnail.jpg
 title: The truth about Autopilot
 ---
 

@@ -14,7 +14,7 @@ tags:
 - entra
 - intune
 - automation
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1731448438100-10AJ2NHFUA121CP54SDD/part6-4.png
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/getting-started-with-intune-part-7-update-rings-bandwidth-savings-and-the-road-to-windows-11_thumbnail.jpg
 title: Getting Started with Intune Part 7 Update Rings Bandwidth Savings and the Road to Windows 11
 ---
 

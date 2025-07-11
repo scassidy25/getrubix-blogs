@@ -6,7 +6,7 @@ description: '"This week, I spent a decent amount of time walking folks through 
   The response has been very positive and many organizations are eager to get started
   with a POC or implementation.There is"'
 slug: windows-365-endpoint-manager-a-deeper-look
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1631545883948-T08PMX8LQRPV6NMVUFFT/unsplash-image-yGPxCYPS8H4.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/windows-365-endpoint-manager-a-deeper-look_thumbnail.jpg
 title: Almost Autopilot Windows 365 and the Enrollment Status Page
 ---
 

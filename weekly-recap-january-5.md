@@ -6,7 +6,7 @@ description: '"First week of 2024 complete. Thanks to everyone who pushed our Yo
   Adding advertisements was a lot of fun, even if they’re fake. This is an overview
   of"'
 slug: weekly-recap-january-5
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1704460185795-GWICD2J29H5Y0H1LPA4Q/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/weekly-recap-january-5_thumbnail.jpg
 title: Weekly Recap January 5
 ---
 

@@ -12,7 +12,7 @@ tags:
 - script
 - automate
 - flow
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1581091221601-E11WWJVL37FGH9V2JN0I/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/group-tags-part-3_thumbnail.jpg
 title: Group Tags Part 3
 ---
 

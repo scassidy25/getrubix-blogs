@@ -6,7 +6,7 @@ description: '"If you read Part 2 in this series, then you know what happens now
   in this guideVerify a unique URL DNS nameCertification preparationAzure service
   integration to SCCMDeploy Cloud Management GatewayVerify resource creation in"'
 slug: covid-co-management-crisis-part-3-set-it-up
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1599501256551-0D5VYGDJX66Y3DHEYCCA/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/covid-co-management-crisis-part-3-set-it-up_thumbnail.jpg
 title: Covid Co-Management Crisis Part 3 Set it up
 ---
 

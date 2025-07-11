@@ -7,7 +7,7 @@ description: '"Time for something a bit different.&nbsp; This blog is about, wel
   you haven''t read it yet, than stop right now and get to it.&nbsp; Oliver Kieselbach
   is a Microsoft MVP and has a"'
 slug: hyped-up-hyper-v
-thumbnail: http://images.squarespace-cdn.com/content/v1/5dd365a31aa1fd743bc30b8e/1605584390170-9ARQ5OQXBLJG77Z4VWLT/image-asset.jpeg/img.jpg
+thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/hyped-up-hyper-v_thumbnail.jpg
 title: Hyped-up Hyper-V
 ---
 
