@@ -18,7 +18,7 @@ title: Get Rubix Styling Showcase
 
 This guide demonstrates how various markdown elements are rendered and styled in our blog.
 
-## Text & Headings
+## Text and Headings
 
 ---
 
@@ -31,7 +31,7 @@ This guide demonstrates how various markdown elements are rendered and styled in
 #### Heading Level 4  
 `#### Small Heading`
 
-## Paragraphs & Text
+## Paragraphs and Text
 
 This is a standard paragraph. You can use *italic*, **bold**, or even ***bold italic***.
 
