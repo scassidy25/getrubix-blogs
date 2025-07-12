@@ -1,5 +1,5 @@
 ---
-author: steve@getrubix.com
+author: GuestUser
 categories:
 - intune
 - security

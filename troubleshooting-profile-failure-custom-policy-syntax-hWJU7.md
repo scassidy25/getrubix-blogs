@@ -1,5 +1,5 @@
 ---
-author: steve@getrubix.com
+author: GuestUser
 date: Sat, 30 Jan 2021 16:03:46 +0000
 description: '"When deploying a custom policy, it is important to ensure the OMA-URI
   and Value fields are typed accurately. Refer to the Policy CSP document for correctly

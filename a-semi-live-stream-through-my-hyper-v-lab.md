@@ -15,3 +15,7 @@ In preparing to make some YouTube content detailing the tenant-to-tenant migrati
 This would mean I needed to make one. And I figured, if I’m going to go through that process anyway, why not record it? Or better yet, live-stream it? Okay, okay… I ended up just recording it. But it might just be long winded enough to feel like a stream…
 
 For the blog post with the **CreateVM** PowerShell script, go [here](https://www.getrubix.com/blog/hyped-up-hyper-v).
+
+<div class="iframe-wrapper">
+  <iframe src="https://www.youtube.com/embed/4y6u5OIn73g?feature=oembed" frameborder="0" allowfullscreen></iframe>
+</div>

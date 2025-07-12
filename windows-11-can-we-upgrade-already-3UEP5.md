@@ -1,5 +1,5 @@
 ---
-author: steve@getrubix.com
+author: GuestUser
 date: Thu, 19 Dec 2024 17:06:19 +0000
 description: '"I’m back! I’ve been quite busy the last two months getting folks up
   and running with Intune, especially in regards to planning for Windows 11.Since

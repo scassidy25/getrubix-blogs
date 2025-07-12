@@ -16,22 +16,22 @@ Read the first part here: [https://www.getrubix.com/blog/getting-started-with-mu
 
 That's where the **join** comes in.
 
-Why You Need Joins
-------------------
+## Why You Need Joins
+---
 
 In the real world, your queries will often need data that lives in different categories. For example:
 
--   You might want **hardware details** (from a hardware category) along with **compliance status** (from the **Compliance** category).
+1. You might want **hardware details** (from a hardware category) along with **compliance status** (from the **Compliance** category).
     
--   Maybe you need to see all **autopilot-enrolled devices** and check their **TPM status** (from **Tpm**).
+2. Maybe you need to see all **autopilot-enrolled devices** and check their **TPM status** (from **Tpm**).
     
--   Or you could be troubleshooting a performance issue and need to combine **OS Version** with general device info from **Device**.
+3. Or you could be troubleshooting a performance issue and need to combine **OS Version** with general device info from **Device**.
     
 
 To do this, we need to **join** multiple datasets together.
 
-The Join Operator
------------------
+## The Join Operator
+---
 
 In KQL, **join** lets you combine two datasets based on a shared value—like a **Device ID** or **Entra ID**. It works like an **inner join** in SQL, meaning it will only return rows that match in both datasets.
 
@@ -42,8 +42,8 @@ Category 1
 | join Category2
 ```
 
-Example: Finding Microsoft Devices with 8GB RAM
------------------------------------------------
+## Example: Finding Microsoft Devices with 8GB RAM
+---
 
 Let's say we want to see **Microsoft-manufactured devices** that have **exactly 8GB of RAM** and display their **Device Name, Device ID, and Entra Device ID**.
 
@@ -59,34 +59,25 @@ Device
 
 Let's break it down:
 
-**1\. Filter for Microsoft devices**
-
+**Filter for Microsoft devices** - This limits the dataset to only devices made by **Microsoft** (e.g., Surface laptops and Hyper-V virtual machines).
 ```
 Device
 | where Manufacturer == "Microsoft"
 ```
 
-This limits the dataset to only devices made by **Microsoft** (e.g., Surface laptops and Hyper-V virtual machines).
-
-**2\. Join with MemoryInfo Category**
+**Join with MemoryInfo Category** - This brings in **MemoryInfo**, which contains RAM details for each device.
 
 ```
 | join MemoryInfo
 ```
 
-This brings in **MemoryInfo**, which contains RAM details for each device.
-
-**3\. Filter devices with exactly 8GB of RAM**
+**Filter devices with exactly 8GB of RAM** - Since memory is measured in **bytes**, 8GB is **8 × 1024 × 1024 × 1024 = 8589934592 bytes**. This ensures we’re only looking at devices with **8GB of physical RAM**.
 
 ```
 | where PhysicalMemoryTotalBytes = "8589934592"
 ```
 
-Since memory is measured in **bytes**, 8GB is **8 × 1024 × 1024 × 1024 = 8589934592 bytes**.
-
-This ensures we’re only looking at devices with **8GB of physical RAM**.
-
-**4\. Select relevant columns**
+**Select relevant columns**
 
 ```
 | project DeviceName, DeviceId, EntraDeviceId
@@ -94,11 +85,11 @@ This ensures we’re only looking at devices with **8GB of physical RAM**.
 
 The final output displays:
 
--   **DeviceName**: Friendly name of the device
-    
--   **DeviceId**: Unique identifier for the device in Intune
-    
--   **EntraDeviceId**: Corresponding ID in **Microsoft Entra ID**
+>   **DeviceName**: Friendly name of the device
+>
+>   **DeviceId**: Unique identifier for the device in Intune
+>   
+>   **EntraDeviceId**: Corresponding ID in **Microsoft Entra ID**
     
 
 Like anything else, the best way to get comfortable is to start writing your own queries and experiment. Let me know what you come up with!

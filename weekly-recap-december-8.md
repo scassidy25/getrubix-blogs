@@ -16,8 +16,8 @@ Special thanks to Microsoft MVP [Andrew Taylor](https://www.linkedin.com/in/andr
 
 Thank you, Andrew.
 
-Matching Identities
--------------------
+## Matching Identities
+---
 
 As much as I prefer to stick to the devices only, I’ve had requests to solve some headaches around associating migrated devices with the correct primary user. Assuming you can work with the team that is also migrating your identities, then hopefully this can help solve for that.
 
@@ -25,8 +25,14 @@ Here is the code snippet I wrote to get an extension attribute from a user and s
 
 [https://github.com/stevecapacity/IntunePowershell/blob/main/writeExtensionAttribute.ps1](https://github.com/stevecapacity/IntunePowershell/blob/main/writeExtensionAttribute.ps1)
 
-Intune Tenant-to-Tenant Device Migration V3
--------------------------------------------
+### Watch the YouTube video here:
+
+<div class="iframe-wrapper">
+  <iframe src="https://www.youtube.com/embed/mmhisy1ApZc?feature=oembed" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+</div>
+
+## Intune Tenant-to-Tenant Device Migration V3
+---
 
 The V3 officially went live bringing a whole lot of updates you can grab here:
 
@@ -34,13 +40,13 @@ The V3 officially went live bringing a whole lot of updates you can grab here:
 
 Big thanks to everyone in our [Discord](https://discord.gg/getrubix) community for all of the testing and feedback that made this version the best yet, and hopefully will just keep getting better.
 
-GETRUBIX PODCAST- Episode 1: Windows 365
-----------------------------------------
+### Watch the YouTube video here:
 
-I’ve been wanting to do this for a very long time, and now it’s finally here. The team I work with is made up of some of the most talented and dedicated technical folks I’ve ever met, and now we’re going to start hearing what they have to say.
+<div class="iframe-wrapper">
+  <iframe src="https://www.youtube.com/embed/IGU2XY9Cxys?feature=oembed" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+</div>
 
-For the first episode, [Dustin Gullett](https://www.linkedin.com/in/dustin-gullett-83607b1ba/) (Microsoft Solutions Architect) joined me to have a conversation about Windows 365 and all of the real world perspective that comes with it.
-
-### NEXT WEEK
+## NEXT WEEK
+---
 
 There’s some cool things in store for next week, so get ready. And if you’re not already part of our community, there are just **8 spots** left to be a ‘founding member’ and get a special prize when we hit the 100 member mark. [So hop in](https://discord.gg/getrubix)!

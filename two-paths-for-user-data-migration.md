@@ -14,8 +14,14 @@ I’ll be honest- when putting together the Intune tenant to tenant device migra
 
 Well, once that part became fairly stable, it was time to address the elephant in the room that is user data.
 
-First pass
-----------
+### Watch the YouTube video here:
+
+<div class="iframe-wrapper">
+  <iframe src="https://www.youtube.com/embed/mUokZ2XB4Jg?feature=oembed" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+</div>
+
+## First pass
+---
 
 If you’ve been following my series on the solution, or even trying it out for yourself, then you’re aware we do address the user data. This is limited however. Here is what we have at the moment:
 
@@ -28,8 +34,8 @@ If you’ve been following my series on the solution, or even trying it out for 
 -   We’re not accounting for a user moving tenants and receiving a brand new PC.
     
 
-Options
--------
+## Options
+---
 
 Having options is a good thing, so we went back and looked at user migration from the perspective of two different scenarios: an **in-place** migration which occurs on the same PC, and a **hardware refresh** migration, which is when the user moves tenants and is issued a brand new PC. Let’s look at each solution.
 
@@ -56,7 +62,8 @@ Almost looks like a map to a theme park, right? Anyway, here’s the flow:
 7.  There is a third option. If there was not enough space to compress data in pre-migration, we set the variable as _NA_, and in that case do not migrate data. Organizations are free to explore alternate methods (more on that later).
     
 
-### HARDWARE REFRESH
+### Hardware Refresh
+
 
 This second method came about for two organizations I was working with while making the first series. Here, the user is migrated to a new tenant, but instead of bringing their existing PC, they are issued a new machine deployed via Autopilot. Take a look:
 
@@ -64,7 +71,7 @@ This second method came about for two organizations I was working with while mak
 
 In this model, we have two options. We can use blob storage, but only as a fail safe. We’re using the pre-migration script to create an SMB share that can be read by our new Autopilot device, allowing for peer-to-peer network sharing. Here’s how it works:
 
-1.  Pre-migration PowerShell script runs on device in Tenant A.
+1. Pre-migration PowerShell script runs on device in Tenant A.
     
 2.  SMB share is created, along with a ‘reader’ account that has permission to the share. That info is stored in an XML file to be given to the new PC later.
     
@@ -77,8 +84,8 @@ In this model, we have two options. We can use blob storage, but only as a fail 
 6.  If the PC cannot connect to the SMB share, it looks if data is stored in Azure, and can download the blob files. They are then restored to the user profile.
     
 
-Perfect, right?
----------------
+## Perfect, right?
+---
 
 Note that this is what has been effective for the organizations I work with. There are still some things that aren’t perfect, but with this newer method we have options. Over the next few weeks, I’ll be detailing every step in the process as well as updating our GitHub repo.
 

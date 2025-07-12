@@ -1,7 +1,10 @@
 ---
 author: steve@getrubix.com
 date: Tue, 07 Jan 2025 20:52:35 +0000
-description: 'Recently, I encountered a challenging issue while setting up assigned access (kiosk) devices in Intune for a customer who manages multiple devices of this type. This customer relied heavily on desktop icons for their users - despite the availability of pinned list configurations, desktop shortcuts were a part'
+description: '"Recently, I encountered a challenging issue while setting up assigned
+  access (kiosk) devices in Intune for a customer who manages multiple devices of
+  this type. This customer relied heavily on desktop icons for their users - despite
+  the availability of pinned list configurations, desktop shortcuts were a part"'
 slug: so-along-kiosk-desktop-icons
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/so-along-kiosk-desktop-icons_thumbnail.jpg
 title: So long Kiosk desktop icons

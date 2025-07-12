@@ -1,5 +1,5 @@
 ---
-author: steve@getrubix.com
+author: GuestUser
 date: Fri, 02 Oct 2020 20:34:44 +0000
 description: '"Here’s a quick (but important) follow up on the first post. After some
   additional testing on our end, Steve Weiner and I were able to come up with a solution

@@ -1,11 +1,11 @@
 ---
-author: steve@getrubix.com
+author: GuestUser
 date: Thu, 16 Jul 2020 01:46:02 +0000
 description: '"There are several settings within Azure and Intune/MEM that will dictate
   when users have administrative privileges. One of the primary options is to configure
   a setting within Autopilot – when we create an Autopilot profile, we assign it to
   devices that are registered in the tenant. One of"'
-slug: administrator-privileges-on-azure-ad-joined-machines
+slug: administrator-privileges-on-azure-ad-joined-machines-4lFva
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/administrator-privileges-on-azure-ad-joined-machines-4lFva_thumbnail.jpg
 title: Administrator Privileges on Azure AD Joined Machines
 ---

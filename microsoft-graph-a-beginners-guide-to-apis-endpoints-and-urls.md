@@ -1,13 +1,13 @@
 ---
-title: Microsoft Graph A Beginners Guide to APIs Endpoints and URLs
-slug: microsoft-graph-a-beginners-guide-to-apis-endpoints-and-urls
+title: "Microsoft Graph A Beginners Guide to APIs Endpoints and URLs"
+slug: "/blog/microsoft-graph-a-beginners-guide-to-apis-endpoints-and-urls"
 date: "Sun, 08 Dec 2024 01:55:14 +0000"
-author: steve@getrubix.com
+author: "stevew1015@gmail.com"
 description: ' This week, we kicked off the GetRubix YouTube series, Getting Started with Graph, where we explore… well… getting started with using the Microsoft Graph.One piece of feedback I’ve received pretty consistently is that you all seem to love the graphic breakdown of Graph calls and queries. The second'
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/microsoft-graph-a-beginners-guide-to-apis-endpoints-and-urls_thumbnail.jpg
 ---
 
-This week, we kicked off the **GetRubix YouTube series, "**[**Getting Started with Graph,**](https://www.youtube.com/playlist?list=PLKROqDcmQsFls8cPHk3HFz2mUURHx46_O)**"** where we explore… well… getting started with using the Microsoft Graph.
+This week, we kicked off the **GetRubix YouTube series, [Getting Started with Graph,](https://www.youtube.com/playlist?list=PLKROqDcmQsFls8cPHk3HFz2mUURHx46_O) where we explore… well… getting started with using the Microsoft Graph.
 
 One piece of feedback I’ve received pretty consistently is that you all seem to love the graphic breakdown of Graph calls and queries. The second piece of feedback? It’s a LOT to understand and can feel overwhelming—especially when trying to figure out which endpoints represent which areas of the M365 context.
 

@@ -1,5 +1,5 @@
 ---
-author: steve@getrubix.com
+author: GuestUser
 date: Tue, 05 Mar 2024 16:49:07 +0000
 description: '"I recently came across a question online regarding notification and
   Intune… specifically if the user decides to go to Settings -&gt; System -&gt; Notifications,

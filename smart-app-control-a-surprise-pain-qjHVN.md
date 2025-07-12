@@ -1,5 +1,5 @@
 ---
-author: steve@getrubix.com
+author: GuestUser
 date: Tue, 20 Aug 2024 15:13:45 +0000
 description: '"Here’s a little feature I forgot about until it, well, caused an issue.
   A current customer of mine uses a third-party AV/EDR solution. With this in mind,

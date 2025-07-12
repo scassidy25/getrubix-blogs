@@ -22,30 +22,30 @@ This guide explains what functions are and why you need to start incorporating t
 
 _\*There isn’t a corresponding video for this piece yet, that will come out Tuesday the 15th._
 
-What are PowerShell Functions?
-------------------------------
+## What are PowerShell Functions?
+---
 
 A PowerShell function is a named block of code that performs a defined task. You declare it once and call it wherever needed in your script:
-
+```pwsh
 function Get-IntuneWelcome {
-
     Write-Output "Welcome to Intune. Please update your policies."
-
 }
 
 Get-IntuneWelcome
+```
 
 Functions can also take parameters, allowing for flexible and reusable logic:
-
+```pwsh
 function Get-IntuneWelcome {
     param(\[string\]$UserName)
     Write-Output "Hello $UserName, please ensure your device is compliant."
 }
 
 Get-IntuneWelcome -UserName "Steve"
+```
 
-Why Use Functions Instead of Inline Code?
------------------------------------------
+## Why Use Functions Instead of Inline Code?
+---
 
 There are several reasons to define functions rather than writing inline code repeatedly:
 
@@ -63,7 +63,7 @@ There are several reasons to define functions rather than writing inline code re
 This block of code manually checks the compliance status of two users, “Alice” and “Bob”, using Microsoft Intune cmdlets.
 
 **Without a Function (Inline Repetition):**
-
+```pwsh
 $user = "Alice"
 Write-Output "Checking compliance for $user"
 $status = Get-IntuneManagedDevice -Filter "userPrincipalName eq '$user'"
@@ -73,9 +73,9 @@ $user = "Bob"
 Write-Output "Checking compliance for $user"
 $status = Get-IntuneManagedDevice -Filter "userPrincipalName eq '$user'"
 Write-Output "Compliance Status: $($status.ComplianceState)"
-
+```
 Now here is the same code providing the same result but structured in a function:
-
+```pwsh
 function Check-UserCompliance {
     param(\[string\]$UserName)
     Write-Output "Checking compliance for $UserName"
@@ -85,11 +85,11 @@ function Check-UserCompliance {
 
 Check-UserCompliance -UserName "Alice"
 Check-UserCompliance -UserName "Bob"
-
+```
 The function version is more concise, avoids repetition, and improves readability.
 
-Characteristics of Well-Written Functions
------------------------------------------
+## Characteristics of Well-Written Functions
+---
 
 While a function can literally be made up of whatever you want it to be, there are some general guidelines and best practices that will help structure your functions to be more useful.
 
@@ -104,8 +104,8 @@ An effective function in PowerShell should:
 -   Include basic error handling
     
 
-**Example:**
-
+### **Example:**
+```pwsh
 function Get-DeviceCompliance {
     param(\[string\]$DeviceID)
     try {
@@ -115,9 +115,10 @@ function Get-DeviceCompliance {
         Write-Warning "Device not found: $DeviceID"
     }
 }
+```
 
-Start Small and User Your Imagination
--------------------------------------
+## Start Small and User Your Imagination
+---
 
 The best way to get started with functions, is just like getting started with anything else; start doing it!
 

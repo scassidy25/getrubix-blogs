@@ -15,7 +15,8 @@ tags:
 - intune
 - automation
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/getting-started-with-intune-part-7-update-rings-bandwidth-savings-and-the-road-to-windows-11_thumbnail.jpg
-title: Getting Started with Intune Part 7 Update Rings Bandwidth Savings and the Road to Windows 11
+title: Getting Started with Intune Part 7 Update Rings Bandwidth Savings and the Road
+  to Windows 11
 ---
 
 Policy has been configured. Personas are mapped out. Apps are packaged and ready for deployment. We’re so close to getting Intune off the ground and there’s only one, tiny part left… Windows updates.

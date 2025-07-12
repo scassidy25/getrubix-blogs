@@ -15,8 +15,8 @@ If you don’t know, I just finished a six day trip to the Mall of America to pa
   
 So join me as I take you through what it was like for me heading out on this adventure.
 
-Day 1: Taking off and an Introduction to the Mall
--------------------------------------------------
+## Day 1: Taking off and an Introduction to the Mall
+---
 
 Saturday, the day before my flight, I did my usual “pack everything last minute” ritual. It’s how I run my life. I did get a chance to prepare some Rubix swag to give out (thanks to my wife for her help with chopping up the sheets of stickers).
 
@@ -34,13 +34,8 @@ It’s the little wins.
 
 ![2_WATCH_SHOES.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746900756463-BQLZFM600SF35L1IO9SS/2_WATCH_SHOES.jpg)
 
-![2_WATCH_SHOES.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746900756463-BQLZFM600SF35L1IO9SS/2_WATCH_SHOES.jpg)
-
 ![3_EWR.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746900756516-4A6PDKW43JS2B9QLVLHW/3_EWR.jpg)
 
-![3_EWR.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746900756516-4A6PDKW43JS2B9QLVLHW/3_EWR.jpg)
-
-#block-yui\_3\_17\_2\_1\_1746896687644\_77626 .sqs-gallery-block-grid .sqs-gallery-design-grid { margin-right: -7px; } #block-yui\_3\_17\_2\_1\_1746896687644\_77626 .sqs-gallery-block-grid .sqs-gallery-design-grid-slide .margin-wrapper { margin-right: 7px; margin-bottom: 7px; }
 
 The flight got in early, so that was a cool surprise. I jumped in another Uber and made my way to the Radisson Blu Hotel which was connected to the Mall of America. That trip took a whopping 8 minutes.
 
@@ -48,13 +43,7 @@ I’d never been to this mall before, so I was kind of excited to see what the h
 
 ![4_LEGO.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746900981281-1JQUEEL2CILAYFFQU3EI/4_LEGO.jpg)
 
-![4_LEGO.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746900981281-1JQUEEL2CILAYFFQU3EI/4_LEGO.jpg)
-
 ![5_LEGO_TOP.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746900981327-3AYXEGVDXOGEHNP7V13Z/5_LEGO_TOP.jpg)
-
-![5_LEGO_TOP.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746900981327-3AYXEGVDXOGEHNP7V13Z/5_LEGO_TOP.jpg)
-
-#block-yui\_3\_17\_2\_1\_1746896687644\_92997 .sqs-gallery-block-grid .sqs-gallery-design-grid { margin-right: -10px; } #block-yui\_3\_17\_2\_1\_1746896687644\_92997 .sqs-gallery-block-grid .sqs-gallery-design-grid-slide .margin-wrapper { margin-right: 10px; margin-bottom: 10px; }
 
 So far, so good. I glanced at my watch and realized it was only 10:30am. The zone shift put me an hour behind, so I felt like I had all this extra time until the 3:30pm speaker reception. Luckily, I was in a giant, 4-story mall. Off to explore!
 
@@ -90,16 +79,10 @@ I have to say, it was a real blast when the attendees showed up and we got to gr
 
 ![22_MATT.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746902354874-XGFSFHUM72MQ4TB9HFXM/22_MATT.jpg)
 
-![22_MATT.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746902354874-XGFSFHUM72MQ4TB9HFXM/22_MATT.jpg)
-
 ![MMS_LOGO.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746902353902-GBXI67H8V1S2RJ6HFB63/MMS_LOGO.jpg)
 
-![MMS_LOGO.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746902353902-GBXI67H8V1S2RJ6HFB63/MMS_LOGO.jpg)
-
-#block-yui\_3\_17\_2\_1\_1746896687644\_135709 .sqs-gallery-block-grid .sqs-gallery-design-grid { margin-right: -10px; } #block-yui\_3\_17\_2\_1\_1746896687644\_135709 .sqs-gallery-block-grid .sqs-gallery-design-grid-slide .margin-wrapper { margin-right: 10px; margin-bottom: 10px; }
-
-Day 2: Sessions start!
-----------------------
+## Day 2: Sessions start!
+---
 
 Monday morning; the first official day of MMS! I woke up to seeing my good friend and fellow MVP, Dean Ellerby for breakfast at the Firelake, which is the bar/grille in the hotel (I would come to know their menu very, very well). Then we sat in on a few sessions that morning.
 
@@ -113,25 +96,11 @@ Preparing for sessions is a bit of an odd beast. Everyone is super busy during t
 
 Now it was session time (spoiler alert: we crushed it!)
 
-[View fullsize
-
 ![10_GRAPH_FIRST.JPG](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746909837041-DPQ250P4T2MGIYRTD50D/10_GRAPH_FIRST.JPG)
-
-![10_GRAPH_FIRST.JPG](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746909837041-DPQ250P4T2MGIYRTD50D/10_GRAPH_FIRST.JPG)](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746909837041-DPQ250P4T2MGIYRTD50D/10_GRAPH_FIRST.JPG)
-
-[View fullsize
 
 ![11_GRAPH_SECOND.jpeg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746909837095-CJFU8UZTBLYM1FW22EA5/11_GRAPH_SECOND.jpeg)
 
-![11_GRAPH_SECOND.jpeg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746909837095-CJFU8UZTBLYM1FW22EA5/11_GRAPH_SECOND.jpeg)](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746909837095-CJFU8UZTBLYM1FW22EA5/11_GRAPH_SECOND.jpeg)
-
-[View fullsize
-
 ![12_GRAPH_THIRD.JPG](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746909837864-5B4CG0DDZ72V0X93E0E8/12_GRAPH_THIRD.JPG)
-
-![12_GRAPH_THIRD.JPG](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746909837864-5B4CG0DDZ72V0X93E0E8/12_GRAPH_THIRD.JPG)](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746909837864-5B4CG0DDZ72V0X93E0E8/12_GRAPH_THIRD.JPG)
-
-#block-yui\_3\_17\_2\_1\_1746896687644\_166779 .sqs-gallery-block-grid .sqs-gallery-design-grid { margin-right: -10px; } #block-yui\_3\_17\_2\_1\_1746896687644\_166779 .sqs-gallery-block-grid .sqs-gallery-design-grid-slide .margin-wrapper { margin-right: 10px; margin-bottom: 10px; }
 
 Nathan is one of the most brilliant minds when it comes to Microsoft security and that power was felt on the audience. Hailey, who is the system administrator for a little company called _Pokemon_, is a skilled, practitioner of automation and dev ops. It felt like an absolute privilege to speak with them, even if I was just the comic relief.
 
@@ -141,8 +110,8 @@ After the session, I ventured back into the mall for coffee. Luckily, I found a 
 
 Home away from home
 
-Day 3: Security and Tents
--------------------------
+## Day 3: Security and Tents
+---
 
 Time for day 2 of MMS, which is really day 3 of my trip. I spent the morning getting some work done- the world doesn’t stop just because you’re at a conference. Specifically, most of my time has been spent working on getting [Hyperpilot](https://hyperpilot.getrubix.com) out, which is the first, official app to be released by Rubix.
 
@@ -160,13 +129,7 @@ Given how much content there was, the feedback was positive. Sucheta and I had a
 
 ![15_SUCHETTE.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746917773295-3PKPPMYLQBK0RQFXNQT5/15_SUCHETTE.jpg)
 
-![15_SUCHETTE.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746917773295-3PKPPMYLQBK0RQFXNQT5/15_SUCHETTE.jpg)
-
 ![SUCHETTE_2.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746917773358-2QTXRK4WXPE9DARYZSBZ/SUCHETTE_2.jpg)
-
-![SUCHETTE_2.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746917773358-2QTXRK4WXPE9DARYZSBZ/SUCHETTE_2.jpg)
-
-#block-yui\_3\_17\_2\_1\_1746896687644\_222362 .sqs-gallery-block-grid .sqs-gallery-design-grid { margin-right: -10px; } #block-yui\_3\_17\_2\_1\_1746896687644\_222362 .sqs-gallery-block-grid .sqs-gallery-design-grid-slide .margin-wrapper { margin-right: 10px; margin-bottom: 10px; }
 
 After this session, I then had an hour of “fishing sessions” scheduled. No, I wasn’t actually fishing. The conference had set up several tents that the speakers would hang out in for a certain amount of time before or after their sessions so that attendees could have some 1x1 time to ask about their specific issues. I think this was a cool idea. It gave folks the chance to ask questions they may not have wanted to ask in front of a crowd, or a forum to discuss and whiteboard ideas. The tents had drinks, snacks, and a big computer monitor.
 
@@ -180,8 +143,8 @@ I was able to meet with 4 different attendees during my time in the tent and it 
 
 The ‘Patch-My-PC’ onesie wasn’t helping
 
-Day 4: The Intimidating Session
--------------------------------
+## Day 4: The Intimidating Session
+---
 
 Whoa- when I woke up on Wednesday morning, believe me when I tell you I was _feeling it_! The first day of a conference always seems to be fueled by adrenaline, which tends to spill into the second day. But I could feel at the start of day 3 that the excitement was wearing off and I was left with the reality: that I was over a thousand miles from home, smack dab in the middle of the week. Not only were there two days left, but today I had to deliver a session with two powerful co-presenters: [James Robinson](https://www.linkedin.com/in/skiptotheendpoint/) and [Rudy Ooms](https://www.linkedin.com/in/rudyooms/).
 
@@ -211,8 +174,8 @@ Truly surreal.
 
 Day 3 of MMS was a success.
 
-Day 5: Wrapping Up
-------------------
+## Day 5: Wrapping Up
+---
 
 If Wednesday felt like it was dragging, you should have seen me when Thursday started. I was _tired_.
 
@@ -228,25 +191,13 @@ My search for gifts led me around the mall where I made note of some strange sto
 
 ![19_BEEF_JERKEY.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746935361558-WHAINPY6O2Z6OFJGVG97/19_BEEF_JERKEY.jpg)
 
-![19_BEEF_JERKEY.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746935361558-WHAINPY6O2Z6OFJGVG97/19_BEEF_JERKEY.jpg)
-
 ![21_KILT.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746935368520-APRIKZ43B1DXXNRSUPPC/21_KILT.jpg)
-
-![21_KILT.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746935368520-APRIKZ43B1DXXNRSUPPC/21_KILT.jpg)
-
-#block-yui\_3\_17\_2\_1\_1746896687644\_283721 .sqs-gallery-block-grid .sqs-gallery-design-grid { margin-right: -10px; } #block-yui\_3\_17\_2\_1\_1746896687644\_283721 .sqs-gallery-block-grid .sqs-gallery-design-grid-slide .margin-wrapper { margin-right: 10px; margin-bottom: 10px; }
 
 To my surprise, I also came across a Toys ‘R Us- I thought they were all gone? And this life size _Lord of Cinder_ from Dark Souls 3 in the GameStop window blew me away.
 
 ![13_TOYS_R_US.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746935513651-TJXJIXVDA9CWS1L8TI54/13_TOYS_R_US.jpg)
 
-![13_TOYS_R_US.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746935513651-TJXJIXVDA9CWS1L8TI54/13_TOYS_R_US.jpg)
-
 ![9_GAMESTOP.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746935513625-THJBQU5MVC9QBJOPB5T5/9_GAMESTOP.jpg)
-
-![9_GAMESTOP.jpg](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/1746935513625-THJBQU5MVC9QBJOPB5T5/9_GAMESTOP.jpg)
-
-#block-yui\_3\_17\_2\_1\_1746896687644\_294215 .sqs-gallery-block-grid .sqs-gallery-design-grid { margin-right: -10px; } #block-yui\_3\_17\_2\_1\_1746896687644\_294215 .sqs-gallery-block-grid .sqs-gallery-design-grid-slide .margin-wrapper { margin-right: 10px; margin-bottom: 10px; }
 
 Luckily, both my kids love these _Squishmallow_ stuffed animals, so you can imagine how pumped I was when they had a whole store dedicated to them. Shopping was complete.
 
@@ -268,8 +219,8 @@ The full clip can be watched [here](https://www.youtube.com/watch?v=ONbiWO2pUzo)
 
 It says ‘4 out of 3 people struggle with math’… it’s funny
 
-Day 6: Going Home
------------------
+## Day 6: Going Home
+---
 
 On Friday I woke up at 4:30am to leave the hotel at 5am for the airport. It was time to go home.
 

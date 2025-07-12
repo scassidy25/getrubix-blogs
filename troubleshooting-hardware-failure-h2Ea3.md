@@ -1,5 +1,5 @@
 ---
-author: steve@getrubix.com
+author: GuestUser
 date: Sun, 31 Jan 2021 21:19:22 +0000
 description: '"One common policy that can encounter issues related to hardware is
   Bitlocker encryption. When looking at the per-device status for the policy, you

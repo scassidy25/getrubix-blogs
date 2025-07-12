@@ -1,5 +1,5 @@
 ---
-author: steve@getrubix.com
+author: GuestUser
 date: Thu, 24 Jun 2021 13:00:53 +0000
 description: '"Whenever you upload an intunewin package to Endpoint Manager, you can
   generally go back and modify various settings such as the install command, detection

@@ -23,26 +23,29 @@ The boring stuff
 
 To use Device Query in your tenant, make sure you have the following covered:
 
-### Licensing
+## Pre-requisites
+---
 
--   You need a license that includes Advanced Analytics, so that means one of the following:
+- ### Licensing
+
+  - You need a license that includes Advanced Analytics, so that means one of the following:
     
-    -   Intune Suite
+  -   `Intune Suite`
         
-    -   Advanced Analytics add-on
+  -   `Advanced Analytics add-on`
         
 
-### DEVICE
+- ### Device
 
--   The device must be corporate owned and Intune managed (duh)
+  -   `The device must be corporate owned and Intune managed (duh)`
     
--   Device must be enrolled in Endpoint Analytics (read [here](https://learn.microsoft.com/en-us/mem/analytics/enroll-intune) if you’re not sure how to go about that)
+  -   `Device must be enrolled in Endpoint Analytics` (read [here](https://learn.microsoft.com/en-us/mem/analytics/enroll-intune) if you’re not sure how to go about that)
     
 
 I think that covers it. Let’s go!
 
-Where is Device Query?
-----------------------
+## Where is Device Query?
+---
 
 The single device query is still located within the managed device menu for each PC. To access the tenant-wide query, log in to [https://endpoint.microsoft.com](https://endpoint.microsoft.com) and navigate to **Devices > Device query**:
 
@@ -52,8 +55,8 @@ That was easy
 
 > You’ll notice the banner on the top trying to tell me my Advanced Analytics trial has ended. I’m not too sure what this is about, since I have purchased the Intune Suite licenses and applied them to my users. Hoping this is just a hiccup, but figured I’d mention it in case you see the same. Everything has been working fine.  
 
-Device Query Layout
--------------------
+## Device Query Layout
+---
 
 Don’t worry if you’re not super familiar with KQL—it’s a pretty straightforward ‘language’ to pick up, and there are a ton of amazing resources online. One of them is [https://www.kqlsearch.com/devicequery](https://www.kqlsearch.com/devicequery) by the incredible Ugur Koc.
 
@@ -72,8 +75,8 @@ But before that, let’s go over the lay of the land, so to speak. Here is a bre
 -   E: Results from the query are shown here
     
 
-KQ-what?
---------
+## KQ-what?
+---
 
 In the above image you can see the KQL query we’re using is:
 
@@ -96,8 +99,8 @@ To make the query work, you need two elements: the `where` and `project` clauses
 
 So we want to look at the `Device` category for objects `where` `EnrollmentProfileName` contains the phrase “Default M365” (which, in my case, is “Default M365 Corp Profile”) and `project` the columns `DeviceName`, `EntraDeviceId`, `EnrollmentProfileName`, and `LastSeenDateTime`.
 
-You’ll get used to it
----------------------
+## You’ll get used to it
+---
 
 There’s more we’ll get into, but for now, if this is your first time diving into KQL, take what we’ve done here and try to build your own queries. Start simple and watch as your queries return the attributes you want. I promise you’ll get comfortable with it.
 

@@ -1,7 +1,10 @@
 ---
 author: steve@getrubix.com
 date: Fri, 13 Jun 2025 02:21:19 +0000
-description: 'I almost made a comment about not realizing we’re in the middle of June, but then I remembered I don’t like folksy sayings about how time passes. What matters is there’s a lot going on.Some folks have reached out to me and apparently didn’t see this week’s videos'
+description: '"I almost made a comment about not realizing we’re in the middle of
+  June, but then I remembered I don’t like folksy sayings about how time passes. What
+  matters is there’s a lot going on.Some folks have reached out to me and apparently
+  didn’t see this week’s videos"'
 slug: ninjas-cloud-pcs-and-security
 thumbnail: https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/thumbnails/ninjas-cloud-pcs-and-security_thumbnail.jpg
 title: Ninjas Cloud PCs and Security
@@ -18,23 +21,12 @@ Every time I talk about Windows 365, someone always seems to randomly come along
 
 This mini, cloud PC host device from Microsoft was built exclusively for running Windows 365. For a lot of folks, it offers a very convenient and secure experience. Watch as I walk through how to manage the physical hardware in Intune, and how that differs from the actual policies managing the Cloud PC.
 
-### Watch it on youtube here:
-<div class="iframe-wrapper">
-  <iframe src="https://www.youtube.com/embed/45tbMvdI3Ug?feature=oembed" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-</div>
-
 ## More Intune Security
 ---
 
 Last week I started a series about enabling some security best practices within Intune. Whether you realize it or not, Intune is a security tool and natively offers settings for firewall, antivirus, disk encryption, and a whole lot more.
 
 In this video we take a look at attack surface reduction rules and how to start implementing and monitoring them.
-
-### Watch it on youtube here:
-<div class="iframe-wrapper">
-  <iframe src="https://www.youtube.com/embed/YiNB0NwBK8c?feature=oembed" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-</div>
-
 
 ## Is that it?
 ---

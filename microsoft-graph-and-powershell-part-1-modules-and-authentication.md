@@ -33,3 +33,7 @@ In my world, we’re constantly looking for ways to automate components with Azu
 We’re going to be doing a multi-part series with everything from getting the right modules to authentication to automating tasks you would normally spend time clicking around the console.
 
 In this first part, we take you through how to import the dedicated PowerShell modules required and using that to authenticate.
+
+<div class="iframe-wrapper">
+  <iframe src="https://www.youtube.com/embed/ds7n9eexSl0?start=64feature=oembed" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+</div>

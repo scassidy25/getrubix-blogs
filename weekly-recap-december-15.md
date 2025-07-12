@@ -28,6 +28,12 @@ Head over here to grab the Intune Company Portal app for Mac to get started:
 
 [Intune Company Portal app for Mac](https://go.microsoft.com/fwlink/?linkid=853070)
 
+### Watch the YouTube video here:
+
+<div class="iframe-wrapper">
+  <iframe src="https://www.youtube.com/embed/84kwUXKdOFc?start=1feature=oembed" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+</div>
+
 How to Deploy Mac Apps with Intune
 ----------------------------------
 
@@ -46,16 +52,12 @@ Microsoft has some great examples for shell scripting to get you started if you�
 
 [Shell Intune samples for macOS](https://github.com/microsoft/shell-intune-samples/tree/master/macOS)
 
-GETRUBIX PODCAST - Episode 2: Defender for Endpoint
----------------------------------------------------
+### Watch the YouTube video here:
 
-Microsoft security is becoming a hot topic and the 365 Defender suite can be a crazy and intimidating labyrinth to navigate.
+<div class="iframe-wrapper">
+  <iframe src="https://www.youtube.com/embed/_T7SY59D7b4?feature=oembed" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+</div>
 
-So I brought on a good friend who I’m proud to have work on my team, Derrick Ferrell, who spends his days as a Microsoft Security Architect. Derrick joined us and shared his thoughts on the Microsoft Defender ecosystem as a whole and then spent some time going into the weeds of Defender for Endpoint.
-
-Read more about Derrick and bother him here:
-
-https://www.linkedin.com/in/derrick-ferrell-b2077720/
 
 Until next week…
 ----------------
