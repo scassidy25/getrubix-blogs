@@ -30,7 +30,7 @@ When scripts execute operations such as file manipulation or process management,
 -   Prevents scripts from terminating unexpectedly
     
 
-## Using `Try-Catch` Blocks
+## Using Try Catch Blocks
 ---
 
 A foundational practice in PowerShell error handling is the use of `try-catch` blocks. These allow developers to attempt an operation and gracefully handle any issues that arise:
@@ -49,7 +49,7 @@ To make this effective, the `ErrorAction` should be set to `Stop` to ensure non-
 Get-Content -Path "C:\nonexistentfile.txt" -ErrorAction Stop
 ```
 
-## Logging and `$_.Exception.Message`
+## Logging and Exception Message
 ---
 
 Effective logs are invaluable. Combining your custom messages with PowerShell’s detailed error messages provides clarity:
@@ -62,7 +62,7 @@ catch {
 
 This approach helps pinpoint what failed and why.
 
-## Boolean Checks with `$?` and Numeric Checks with `$LastExitCode`
+## Boolean Checks with ? and Numeric Checks with LastExitCode
 ---
 
 Use `$?` to determine the success of the last command. It returns `True` if the command succeeded, and `False` otherwise:
@@ -85,7 +85,7 @@ ping 256.256.256.256
 Write-Output $LastExitCode  # Should return 1
 ```
 
-## Global Error Action with `$ErrorActionPreference`
+## Global Error Action with ErrorActionPreference
 ---
 
 Setting `$ErrorActionPreference = 'SilentlyContinue'` globally ensures that all commands suppress noisy error messages, making logs cleaner:
