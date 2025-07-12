@@ -12,7 +12,7 @@ I almost made a comment about not realizing we’re in the middle of June, but t
 Some folks have reached out to me and apparently didn’t see this week’s videos when they launched. Maybe there was something weird going on with the social medias this week? Who knows. But either way, there are two things you should be checking out.
 
 ## Windows 365 Link: the hardware VS the PC
---
+---
 
 Every time I talk about Windows 365, someone always seems to randomly come along amidst the promoters to tell me how much they don’t want to pay for it or why they don’t want to use it… so if that’s you, then skip this part.
 
@@ -24,7 +24,7 @@ This mini, cloud PC host device from Microsoft was built exclusively for running
 </div>
 
 ## More Intune Security
---
+---
 
 Last week I started a series about enabling some security best practices within Intune. Whether you realize it or not, Intune is a security tool and natively offers settings for firewall, antivirus, disk encryption, and a whole lot more.
 
@@ -37,7 +37,7 @@ In this video we take a look at attack surface reduction rules and how to start 
 
 
 ## Is that it?
---
+---
 
 Tomorrow I head out to Edinburgh for Workplace Ninjas UK so I’m very pumped for that. There will also be some big Rubix news coming over the next few weeks, so make sure you stay tuned.
 
