@@ -1,5 +1,5 @@
 ---
-author: steve@getrubix.com
+author: Guest
 date: Fri, 14 Feb 2025 12:41:26 +0000
 description: '"Purview can generate a significant number of false positives from its
   built-in Sensitive Information Types. Part of my job when running datasecurity projects
@@ -12,7 +12,7 @@ title: False Positives and Where to Find Them
 
 Purview can generate a significant number of false positives from its built-in Sensitive Information Types. Part of my job when running datasecurity projects is to help resolve these and keep them from popping up again in the future. Some of this may be common sense, and some of it may be new to you...either way, let's dive in:
 
-### Analytics & Initial Assessment
+## Analytics & Initial Assessment
 
 One of the more recent options for reporting on DLP is Data Loss Prevention analytics. I highly, highly recommend you enable this if you haven't already:
 
@@ -26,7 +26,7 @@ Enabling Data Loss Prevention Analytics in Microsoft Purview
 -   Data Loss Prevention Analytics can take a few days to start showing data, so this is a good intermediate step to start getting a handle on your sensitive data.
     
 
-### Confidence-Level Triage
+## Confidence-Level Triage
 
 Each SIT has multiple confidence levels (low, medium, and high) that are essentially different levels of accuracy. Filtering your reports by Confidence Level gives you a more actionable idea of what you're dealing with.
 
@@ -37,7 +37,7 @@ Each SIT has multiple confidence levels (low, medium, and high) that are essenti
 
 Spot check a few hits under each confidence level to get an idea of what you're dealing with.
 
-### Customizing SITs and Managing Exceptions
+## Customizing SITs and Managing Exceptions
 
 If you're dealing with Low Confidence Social Security Number hits that are actually unformatted 9 digit numbers that, for example, represent your customer account numbers, you have a few options:
 
@@ -49,7 +49,7 @@ If you're dealing with Low Confidence Social Security Number hits that are actua
 
 _Of course, one of these scales better than the other, but it's worth knowing all of your options_.
 
-### DLP Policy & Rule Structure
+## DLP Policy & Rule Structure
 
 You probably won't ever get your SITs 100% accurate (_if you do, let me know. I'd love to build a case study_). One method that I use to account for this is to build (3) rules per policy:
 
