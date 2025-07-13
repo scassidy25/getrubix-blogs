@@ -36,19 +36,15 @@ This is exactly why I don’t believe in dumping an entire baseline onto devices
 There are many methods to import .json files, but for this demo I’m just going to use the Intune Portal:
 
 1. Devices>Configuration> Create> Import Policy
-
-    ![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/5d8fe554-38df-4436-a2c0-ca707801958e/blog1.png)
+  ![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/5d8fe554-38df-4436-a2c0-ca707801958e/blog1.png)
 
 2. Browse to .Json file> Assign a name for the policy>Click Save
-
-    ![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/56026f20-b176-4eae-9766-8d04852e87fe/blog2.png)
+  ![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/56026f20-b176-4eae-9766-8d04852e87fe/blog2.png)
 
 3. After creating the new policy, assign it as you normally would.
-
-    >
-    Use a UAT Form for Rollouts** – The pace depends on how fast my customers want to move, but since some settings only change 1-2 things, the impact is usually low. I’ve provided a link to an example that I use below.
-
-    [Security-Baselines/Windows Baseline 24H2/UAT Form.xlsx at master · dgulle/Security-Baselines](https://github.com/dgulle/Security-Baselines/blob/master/Windows%20Baseline%2024H2/UAT%20Form.xlsx)
+  >
+  Use a UAT Form for Rollouts** – The pace depends on how fast my customers want to move, but since some settings only change 1-2 things, the impact is usually low. I’ve provided a link to an example that I use below.
+  [Security-Baselines/Windows Baseline 24H2/UAT Form.xlsx at master · dgulle/Security-Baselines](https://github.com/dgulle/Security-Baselines/blob/master/Windows%20Baseline%2024H2/UAT%20Form.xlsx)
 
 ## In closing
 With this UAT form, I roll out settings to pilot groups. If users experience an issue, we identify that specific group and troubleshoot from there. This makes life _so much_ easier rather than debugging hundreds of settings at once, we’re only dealing with a handful at a time.
