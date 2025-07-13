@@ -12,7 +12,7 @@ title: False Positives and Where to Find Them
 
 Purview can generate a significant number of false positives from its built-in Sensitive Information Types. Part of my job when running datasecurity projects is to help resolve these and keep them from popping up again in the future. Some of this may be common sense, and some of it may be new to you...either way, let's dive in:
 
-## Analytics & Initial Assessment
+## Analytics and Initial Assessment
 
 One of the more recent options for reporting on DLP is Data Loss Prevention analytics. I highly, highly recommend you enable this if you haven't already:
 
@@ -49,7 +49,7 @@ If you're dealing with Low Confidence Social Security Number hits that are actua
 
 _Of course, one of these scales better than the other, but it's worth knowing all of your options_.
 
-## DLP Policy & Rule Structure
+## DLP Policy and Rule Structure
 
 You probably won't ever get your SITs 100% accurate (_if you do, let me know. I'd love to build a case study_). One method that I use to account for this is to build (3) rules per policy:
 
@@ -93,8 +93,8 @@ _High Confidence Rule_
 
 Maybe I'll come up with some automation for this :)
 
-What About...?
---------------
+What About?
+---
 
 ### Exact Data Match (EDM)
 
