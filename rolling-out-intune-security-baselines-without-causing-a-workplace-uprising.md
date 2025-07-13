@@ -35,11 +35,11 @@ This is exactly why I don’t believe in dumping an entire baseline onto devices
 
 There are many methods to import .json files, but for this demo I’m just going to use the Intune Portal:
 
-### `Devices>Configuration> Create> Import Policy`
+### Devices>Configuration> Create> Import Policy
 
   ![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/5d8fe554-38df-4436-a2c0-ca707801958e/blog1.png)
 
-### `Browse to .Json file> Assign a name for the policy>Click Save`
+### Browse to .Json file> Assign a name for the policy>Click Save
 
   ![](https://getrubixsitecms.blob.core.windows.net/public-assets/content/v1/5dd365a31aa1fd743bc30b8e/56026f20-b176-4eae-9766-8d04852e87fe/blog2.png)
 
